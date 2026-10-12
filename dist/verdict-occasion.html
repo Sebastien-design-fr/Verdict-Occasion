@@ -1127,8 +1127,15 @@ function bindImport(){
     rd.readAsText(file);};
 }
 function bindData(){
-  const ex=$('#exp');if(ex)ex.onclick=()=>{const blob=new Blob([store.exportJSON(G)],{type:'application/json'});
-    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`ausculto-sauvegarde-${new Date().toISOString().slice(0,10)}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Sauvegarde téléchargée');};
+  const ex=$('#exp');if(ex)ex.onclick=async()=>{
+    const filename=`ausculto-sauvegarde-${new Date().toISOString().slice(0,10)}.json`,json=store.exportJSON(G);
+    /* Dans le lecteur d'artefacts claude.ai, le téléchargement passe par la capacité « downloads ». */
+    if(window.claude&&typeof window.claude.use==='function'){
+      const dl=await window.claude.use('downloads').catch(()=>null);
+      if(dl){try{await dl.save({filename,data:json});toast('Sauvegarde enregistrée');}catch(e){toast(e&&e.code==='declined'?'Export annulé':'Export impossible ici : copiez vos données depuis un autre navigateur.');}return;}
+    }
+    const blob=new Blob([json],{type:'application/json'});
+    const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Sauvegarde téléchargée');};
   const ao=$('#add-other');if(ao)ao.addEventListener('click',()=>{A=formFrom(null);});
   const dv=$('#del-v');if(dv)dv.onclick=()=>{const v=active();if(!v)return;const x=H.describe(v);
     if(!confirm(`Retirer « ${x.title} » et son historique de ce navigateur ? Pensez à exporter avant.`))return;

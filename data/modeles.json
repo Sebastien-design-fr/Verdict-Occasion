@@ -14,27 +14,33 @@
     {
      "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
-     "libelle": "1.6 THP (GTi)",
+     "libelle": "1.6 THP GTi 200 / 208 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 204,
+     "sport": true
     },
     {
      "libelle": "1.4 / 1.6 HDi et e-HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -61,22 +67,26 @@
     {
      "libelle": "1.2 PureTech 75",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -107,27 +117,32 @@
     {
      "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.4 / 1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.4 / 1.6 HDi et e-HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -154,17 +169,20 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -195,32 +213,45 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
-     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "libelle": "1.6 THP / PureTech 205 / 225 ch (GT)",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 215
+    },
+    {
+     "libelle": "1.6 THP 250 / 270 ch (GTi)",
+     "code": "thp",
+     "carburant": "Essence",
+     "ch": 260,
+     "sport": true
     },
     {
      "libelle": "1.4 / 1.6 HDi et e-HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -247,27 +278,32 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -294,27 +330,32 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -341,22 +382,26 @@
     {
      "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.4 / 1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.4 / 1.6 HDi et e-HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -383,22 +428,26 @@
     {
      "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -425,17 +474,20 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -462,27 +514,32 @@
     {
      "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.4 / 1.6 HDi et e-HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -509,27 +566,32 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -556,22 +618,26 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -598,17 +664,20 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -639,22 +708,26 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -681,22 +754,26 @@
     {
      "libelle": "1.2 75 ch (base PureTech)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 Turbo 100 / 130 ch (base PureTech)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 Diesel (base BlueHDi)",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -727,22 +804,26 @@
     {
      "libelle": "1.2 PureTech turbo (100 à 155 ch)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.6 THP / PureTech 165 à 225 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 195
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -769,22 +850,39 @@
     {
      "libelle": "0.9 TCe 90",
      "code": "tce09",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 90
     },
     {
      "libelle": "1.2 16V / 1.0 SCe",
      "code": "r12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 TCe 120",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
+    },
+    {
+     "libelle": "1.6 TCe RS 200 ch (M5Mt)",
+     "code": "tce16",
+     "carburant": "Essence",
+     "ch": 200
+    },
+    {
+     "libelle": "1.6 TCe RS Trophy 220 ch (M5Mt)",
+     "code": "tce16",
+     "carburant": "Essence",
+     "ch": 220,
+     "sport": true
     }
    ],
    "boites": [
@@ -811,22 +909,26 @@
     {
      "libelle": "1.0 TCe / SCe",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "E-Tech hybride",
      "code": "etech",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -853,22 +955,26 @@
     {
      "libelle": "0.9 TCe 90",
      "code": "tce09",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 90
     },
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -895,22 +1001,26 @@
     {
      "libelle": "1.0 TCe / SCe",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "E-Tech hybride",
      "code": "etech",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -937,17 +1047,20 @@
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     }
    ],
    "boites": [
@@ -974,22 +1087,26 @@
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     }
    ],
    "boites": [
@@ -1016,17 +1133,20 @@
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     }
    ],
    "boites": [
@@ -1053,22 +1173,26 @@
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     }
    ],
    "boites": [
@@ -1095,17 +1219,20 @@
     {
      "libelle": "1.2 16V / 1.0 SCe",
      "code": "r12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "0.9 TCe 90",
      "code": "tce09",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 90
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -1132,17 +1259,20 @@
     {
      "libelle": "1.6 16V",
      "code": "r16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.2 TCe 125",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -1165,17 +1295,20 @@
     {
      "libelle": "1.0 TCe / SCe",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -1202,17 +1335,20 @@
     {
      "libelle": "1.2 TCe 115 à 130",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.3 TCe 130 à 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -1235,22 +1371,26 @@
     {
      "libelle": "1.2 DIG-T 115",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.3 DIG-T",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     }
    ],
    "boites": [
@@ -1277,17 +1417,20 @@
     {
      "libelle": "1.2 DIG-T 115 (2014-2019)",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.6 essence",
      "code": "nis16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -1314,17 +1457,21 @@
     {
      "libelle": "1.2 / 1.4 TSI (chaîne, EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
-     "libelle": "2.0 TSI GTI (EA888 génération 1-2)",
+     "libelle": "2.0 TSI GTI 210 / 235 ch (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 222,
+     "sport": true
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189, 2008-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -1355,32 +1502,46 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
-     "libelle": "2.0 TSI GTI / R (EA888)",
+     "libelle": "2.0 TSI GTI 220 à 265 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 242,
+     "sport": true
+    },
+    {
+     "libelle": "2.0 TSI R 300 / 310 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence",
+     "ch": 305,
+     "sport": true
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "GTE hybride rechargeable 1.4 TSI",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     },
     {
      "libelle": "e-Golf électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -1419,22 +1580,26 @@
     {
      "libelle": "1.2 TSI (2009-2014)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.0 / 1.2 TSI (2014-2017)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.2 / 1.6 TDI (2009-2014)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.4 TDI (2014-2017)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -1461,22 +1626,26 @@
     {
      "libelle": "1.2 / 1.4 TSI (2008-2014)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.0 / 1.2 TSI (2014-2017)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -1503,17 +1672,20 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -1548,27 +1720,33 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
      "libelle": "2.0 TSI RS (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220,
+     "sport": true
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "iV hybride rechargeable (2020)",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -1603,22 +1781,26 @@
     {
      "libelle": "1.2 / 1.4 TFSI (2010-2014)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.0 / 1.4 TFSI (2014-2018)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -1645,27 +1827,39 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TFSI (courroie, EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 / 1.5 TFSI COD / ACT 140 à 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 145
     },
     {
-     "libelle": "2.0 TFSI / S3 (EA888)",
+     "libelle": "2.0 TFSI 190 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 190
+    },
+    {
+     "libelle": "S3 2.0 TFSI 300 / 310 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence",
+     "ch": 305,
+     "sport": true
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "e-tron / 40 e-tron hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -1700,22 +1894,27 @@
     {
      "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 EcoBoost ST 182 / 200 ch",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 191,
+     "sport": true
     },
     {
      "libelle": "1.4 / 1.5 / 1.6 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -1746,37 +1945,45 @@
     {
      "libelle": "1.6 Ti-VCT",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 EcoBoost 150 / 182 ch (2014-2018)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "1.6 EcoBoost 150 / 182 ch (2011-2014)",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "2.0 EcoBoost ST 250 ch",
      "code": "ecoboost20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250,
+     "sport": true
     },
     {
      "libelle": "1.5 / 1.6 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 TDCi 115 à 185 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -1811,32 +2018,38 @@
     {
      "libelle": "1.6 Ti-VCT",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 EcoBoost 150 / 182 ch (2015-2019)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "1.6 EcoBoost 150 / 182 ch (2010-2015)",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "1.5 / 1.6 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 TDCi 115 à 170 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 142
     }
    ],
    "boites": [
@@ -1871,17 +2084,20 @@
     {
      "libelle": "1.5 Ti-VCT",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -1912,47 +2128,58 @@
     {
      "libelle": "114i / 116i / 118i 1.6 turbo (N13, 2011-2015)",
      "code": "n13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "116i / 118i 1.5 trois cylindres (B38, 2015-2019)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 129
     },
     {
      "libelle": "120i / 125i 2.0 (N20, 2012-2015)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 201
     },
     {
      "libelle": "120i / 125i 2.0 (B48, 2015-2019)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 201
     },
     {
      "libelle": "M135i 3.0 (N55, 2012-2016)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 320,
+     "sport": true
     },
     {
      "libelle": "M140i 3.0 (B58, 2016-2019)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 340,
+     "sport": true
     },
     {
      "libelle": "114d / 116d / 118d / 120d / 125d (N47, 2011-2015)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 155
     },
     {
      "libelle": "116d 1.5 trois cylindres (B37, 2015-2019)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "118d / 120d / 125d 2.0 (B47, 2015-2019)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     }
    ],
    "boites": [
@@ -1979,52 +2206,62 @@
     {
      "libelle": "316i 1.6 (N13, 2012-2015)",
      "code": "n13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "318i 1.5 (B38, 2015-2019)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "320i / 328i 2.0 (N20, 2012-2015)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "320i / 330i 2.0 (B48, 2015-2019)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "335i 3.0 (N55, 2012-2015)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "340i 3.0 (B58, 2015-2019)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 326
     },
     {
      "libelle": "316d / 318d / 320d (N47, 2012-2015)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "316d / 318d / 320d / 325d (B47, 2015-2019)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 167
     },
     {
      "libelle": "330d / 335d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 286
     },
     {
      "libelle": "330e hybride rechargeable (B48, 2016-2019)",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 252
     }
    ],
    "boites": [
@@ -2051,17 +2288,20 @@
     {
      "libelle": "1.2 8V 69",
      "code": "fire12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 69
     },
     {
      "libelle": "0.9 TwinAir",
      "code": "twinair",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.3 Multijet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     }
    ],
    "boites": [
@@ -2088,17 +2328,20 @@
     {
      "libelle": "1.5 Hybride",
      "code": "toyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 100
     },
     {
      "libelle": "1.0 / 1.33 / 1.5 VVT-i",
      "code": "vvti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.4 D-4D",
      "code": "d4d",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 90
     }
    ],
    "boites": [
@@ -2129,12 +2372,14 @@
     {
      "libelle": "1.5 Hybride",
      "code": "toyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 100
     },
     {
      "libelle": "1.0 / 1.33 / 1.5 VVT-i",
      "code": "vvti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     }
    ],
    "boites": [
@@ -2161,17 +2406,20 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.2 / 1.4 MPi",
      "code": "hymp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 84
     },
     {
      "libelle": "1.1 / 1.4 CRDi",
      "code": "crdi11",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 75
     }
    ],
    "boites": [
@@ -2202,22 +2450,26 @@
     {
      "libelle": "1.4 MPi",
      "code": "hymp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 84
     },
     {
      "libelle": "1.6 GDi",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2248,22 +2500,26 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.4 / 1.5 T-GDi",
      "code": "tgdi14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "1.6 CRDi hybride léger 48V",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2290,27 +2546,32 @@
     {
      "libelle": "1.6 GDi",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 T-GDi",
      "code": "tgdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 177
     },
     {
      "libelle": "1.7 CRDi",
      "code": "crdi17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 CRDi",
      "code": "crdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 185
     },
     {
      "libelle": "1.6 CRDi hybride léger 48V",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2341,27 +2602,32 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 T-GDi",
      "code": "tgdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 177
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "Hybride 1.6 GDi",
      "code": "hyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 141
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -2392,27 +2658,32 @@
     {
      "libelle": "1.6 GDi",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 T-GDi",
      "code": "tgdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 177
     },
     {
      "libelle": "1.7 CRDi",
      "code": "crdi17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 CRDi",
      "code": "crdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 185
     },
     {
      "libelle": "1.6 CRDi hybride léger 48V",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2443,22 +2714,26 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 GDi",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.4 MPi",
      "code": "hymp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 84
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2489,22 +2764,26 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.4 / 1.5 T-GDi",
      "code": "tgdi14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "1.6 CRDi hybride léger 48V",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2531,17 +2810,20 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.2 / 1.4 MPi",
      "code": "hymp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 84
     },
     {
      "libelle": "1.1 / 1.4 CRDi",
      "code": "crdi11",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 75
     }
    ],
    "boites": [
@@ -2568,17 +2850,20 @@
     {
      "libelle": "1.0 T-GDi",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.2 / 1.4 MPi",
      "code": "hymp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 84
     },
     {
      "libelle": "1.6 CRDi",
      "code": "crdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2605,17 +2890,20 @@
     {
      "libelle": "1.6 / 2.0 essence (M270)",
      "code": "m270",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "1.5 CDI / 180d (moteur Renault)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 109
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     }
    ],
    "boites": [
@@ -2642,17 +2930,20 @@
     {
      "libelle": "1.6 / 2.0 essence (M270)",
      "code": "m270",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "1.5 CDI / 180d (moteur Renault)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 109
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     }
    ],
    "boites": [
@@ -2679,17 +2970,20 @@
     {
      "libelle": "1.6 / 2.0 essence (M270)",
      "code": "m270",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "1.5 CDI / 180d (moteur Renault)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 109
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     }
    ],
    "boites": [
@@ -2716,17 +3010,20 @@
     {
      "libelle": "1.6 / 2.0 essence (M270)",
      "code": "m270",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "1.5 CDI / 180d (moteur Renault)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 109
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     }
    ],
    "boites": [
@@ -2753,12 +3050,14 @@
     {
      "libelle": "1.6 / 1.8 essence (M271)",
      "code": "m271",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -2785,17 +3084,20 @@
     {
      "libelle": "1.6 / 2.0 essence (M274)",
      "code": "m274",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 184
     },
     {
      "libelle": "2.1 CDI / 200d / 220d (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "2.0 diesel (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 194
     }
    ],
    "boites": [
@@ -2822,17 +3124,20 @@
     {
      "libelle": "1.8 Hybride",
      "code": "toyhyb18",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 122
     },
     {
      "libelle": "2.0 Hybride",
      "code": "toyhyb20",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 184
     },
     {
      "libelle": "1.2 Turbo (8NR)",
      "code": "toy12t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 116
     }
    ],
    "boites": [
@@ -2863,32 +3168,38 @@
     {
      "libelle": "1.8 Hybride",
      "code": "toyhyb18",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 122
     },
     {
      "libelle": "1.2 Turbo (8NR)",
      "code": "toy12t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 116
     },
     {
      "libelle": "1.33 / 1.6 VVT-i",
      "code": "vvti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.4 D-4D",
      "code": "d4d",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 90
     },
     {
      "libelle": "1.6 D-4D",
      "code": "d4d16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 112
     },
     {
      "libelle": "2.0 D-4D",
      "code": "d4d20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 124
     }
    ],
    "boites": [
@@ -2919,17 +3230,20 @@
     {
      "libelle": "1.8 Hybride",
      "code": "toyhyb18",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 122
     },
     {
      "libelle": "2.0 Hybride",
      "code": "toyhyb20",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 184
     },
     {
      "libelle": "1.2 Turbo (8NR)",
      "code": "toy12t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 116
     }
    ],
    "boites": [
@@ -2960,17 +3274,20 @@
     {
      "libelle": "1.0 Turbo",
      "code": "opel10t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 CDTI",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -2997,22 +3314,26 @@
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 essence",
      "code": "opel16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.6 CDTI",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "1.7 CDTI",
      "code": "cdti17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 125
     }
    ],
    "boites": [
@@ -3039,17 +3360,20 @@
     {
      "libelle": "1.0 Turbo",
      "code": "opel10t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.2 / 1.4 essence",
      "code": "opel1214",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.3 CDTI",
      "code": "cdti13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     }
    ],
    "boites": [
@@ -3076,17 +3400,20 @@
     {
      "libelle": "Cooper / Cooper S 1.6 (moteur Prince)",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 153
     },
     {
      "libelle": "Cooper D / One D 1.6 (moteur PSA)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 101
     },
     {
      "libelle": "Cooper SD 2.0 (N47)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 143
     }
    ],
    "boites": [
@@ -3113,27 +3440,33 @@
     {
      "libelle": "One / Cooper 1.2-1.5 trois cylindres (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 119
     },
     {
      "libelle": "Cooper S / JCW 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 211,
+     "sport": true
     },
     {
      "libelle": "One D / Cooper D 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "Cooper SD 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "Cooper SE électrique (2020-2024)",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 184
     }
    ],
    "boites": [
@@ -3168,17 +3501,20 @@
     {
      "libelle": "1.0 VTEC Turbo",
      "code": "honda10t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 129
     },
     {
      "libelle": "1.5 VTEC Turbo",
      "code": "honda15t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 182
     },
     {
      "libelle": "1.6 i-DTEC",
      "code": "honda16d",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -3205,7 +3541,8 @@
     {
      "libelle": "1.3 i-VTEC",
      "code": "honda13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     }
    ],
    "boites": [
@@ -3232,12 +3569,14 @@
     {
      "libelle": "1.5 VTEC Turbo",
      "code": "honda15t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 182
     },
     {
      "libelle": "2.0 Hybride i-MMD",
      "code": "hondahyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 109
     }
    ],
    "boites": [
@@ -3268,12 +3607,14 @@
     {
      "libelle": "1.5 Skyactiv-G",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 / 1.8 Skyactiv-D",
      "code": "skyd15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -3300,17 +3641,20 @@
     {
      "libelle": "1.5 / 2.0 Skyactiv-G",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 / 1.8 Skyactiv-D",
      "code": "skyd15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "2.2 Skyactiv-D",
      "code": "skyd22",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3337,12 +3681,14 @@
     {
      "libelle": "2.0 / 2.5 Skyactiv-G",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "2.2 Skyactiv-D",
      "code": "skyd22",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3369,12 +3715,14 @@
     {
      "libelle": "2.0 / 2.5 Skyactiv-G",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "2.2 Skyactiv-D",
      "code": "skyd22",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3401,12 +3749,14 @@
     {
      "libelle": "2.0 / 2.5 Skyactiv-G",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "2.2 Skyactiv-D",
      "code": "skyd22",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3433,27 +3783,32 @@
     {
      "libelle": "1.0 Boosterjet",
      "code": "k10c",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 111
     },
     {
      "libelle": "1.4 Boosterjet",
      "code": "k14c",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.4 Boosterjet hybride 48V",
      "code": "k14d",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 129
     },
     {
      "libelle": "1.6 VVT",
      "code": "m16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 DDiS",
      "code": "ddis16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -3484,17 +3839,20 @@
     {
      "libelle": "1.2 Dualjet / hybride",
      "code": "dualjet",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 90
     },
     {
      "libelle": "1.0 Boosterjet",
      "code": "k10c",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 111
     },
     {
      "libelle": "1.4 Boosterjet (Swift Sport)",
      "code": "k14c",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     }
    ],
    "boites": [
@@ -3525,17 +3883,20 @@
     {
      "libelle": "1.0 MPI",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.0 / 1.2 TSI",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 TDI",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -3562,17 +3923,20 @@
     {
      "libelle": "1.0 TSI",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 TDI",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -3599,22 +3963,26 @@
     {
      "libelle": "1.0 TSI",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "2.0 TSI",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     }
    ],
    "boites": [
@@ -3645,22 +4013,26 @@
     {
      "libelle": "1.4 TSI ACT 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.5 TSI evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "2.0 TSI",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     }
    ],
    "boites": [
@@ -3691,27 +4063,40 @@
     {
      "libelle": "1.0 TSI / eTSI",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI / eTSI evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
-     "libelle": "2.0 TSI GTI / R (EA888)",
+     "libelle": "2.0 TSI GTI 245 / 265 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 255,
+     "sport": true
+    },
+    {
+     "libelle": "2.0 TSI R 320 / 333 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence",
+     "ch": 326,
+     "sport": true
     },
     {
      "libelle": "2.0 TDI (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "eHybrid / GTE hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -3742,17 +4127,20 @@
     {
      "libelle": "0.9 TCe 90 / 95 / 110",
      "code": "tce09",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 98
     },
     {
      "libelle": "1.0 SCe",
      "code": "sce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "E-Tech électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3783,7 +4171,8 @@
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3806,7 +4195,8 @@
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -3829,17 +4219,20 @@
     {
      "libelle": "0.9 IG-T 90",
      "code": "tce09",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 90
     },
     {
      "libelle": "1.0 IG-T 100",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.5 dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -3866,27 +4259,32 @@
     {
      "libelle": "1.6 dCi",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     },
     {
      "libelle": "1.6 DIG-T",
      "code": "dig16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 163
     },
     {
      "libelle": "2.0 dCi",
      "code": "m9r",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 175
     },
     {
      "libelle": "1.7 dCi",
      "code": "r9n",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "1.3 DIG-T 160",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     }
    ],
    "boites": [
@@ -3917,17 +4315,20 @@
     {
      "libelle": "1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -3954,17 +4355,20 @@
     {
      "libelle": "1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 HDi",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -3991,17 +4395,20 @@
     {
      "libelle": "1.2 PureTech 110 / 130",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -4032,17 +4439,20 @@
     {
      "libelle": "1.2 PureTech 110 / 130",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -4073,17 +4483,20 @@
     {
      "libelle": "1.2 8V 69",
      "code": "fire12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 69
     },
     {
      "libelle": "0.9 TwinAir",
      "code": "twinair",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.3 Multijet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     }
    ],
    "boites": [
@@ -4110,22 +4523,26 @@
     {
      "libelle": "1.4 16V 95",
      "code": "fire14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 95
     },
     {
      "libelle": "1.4 T-Jet 120",
      "code": "multiair14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.3 Multijet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.6 Multijet",
      "code": "mjt16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -4152,27 +4569,32 @@
     {
      "libelle": "1.4 MultiAir 140 / 170",
      "code": "multiair14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 155
     },
     {
      "libelle": "1.0 / 1.3 T-GDi (FireFly)",
      "code": "firefly",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 Multijet",
      "code": "mjt16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 Multijet",
      "code": "mjt20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "4xe hybride rechargeable",
      "code": "phev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 190
     }
    ],
    "boites": [
@@ -4203,17 +4625,20 @@
     {
      "libelle": "2.0 D2 à D4 (Drive-E, 4 cylindres)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "1.6 D2 / 2.0 D3 / D4 (premières séries)",
      "code": "d5",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "T2 à T5 (Drive-E)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     }
    ],
    "boites": [
@@ -4240,17 +4665,20 @@
     {
      "libelle": "2.0 D2 à D4 (Drive-E, 4 cylindres)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "2.0 / 2.4 D3 à D5 (5 cylindres)",
      "code": "d5",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "T2 à T5 (Drive-E)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     }
    ],
    "boites": [
@@ -4277,12 +4705,14 @@
     {
      "libelle": "116i / 118i / 120i 1.6-2.0 (N43, injection directe)",
      "code": "n43",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 147
     },
     {
      "libelle": "116d / 118d / 120d / 123d 2.0 (N47)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     }
    ],
    "boites": [
@@ -4309,22 +4739,26 @@
     {
      "libelle": "116i / 118i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 129
     },
     {
      "libelle": "120i / 128ti / M135i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 256
     },
     {
      "libelle": "116d 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "118d / 120d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -4355,37 +4789,46 @@
     {
      "libelle": "218i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "220i / 228i 2.0 (N20, 2014-2016)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "220i / 230i 2.0 (B48, 2016-2021)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "M235i 3.0 (N55, 2014-2016)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 326,
+     "sport": true
     },
     {
      "libelle": "M240i 3.0 (B58, 2016-2021)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 340,
+     "sport": true
     },
     {
      "libelle": "218d / 220d / 225d (N47, 2014-2015)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     },
     {
      "libelle": "218d / 220d / 225d (B47, 2015-2021)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     }
    ],
    "boites": [
@@ -4412,27 +4855,32 @@
     {
      "libelle": "216i / 218i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "220i / 225i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 208
     },
     {
      "libelle": "216d 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "218d / 220d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "225xe hybride rechargeable (B38)",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 224
     }
    ],
    "boites": [
@@ -4463,22 +4911,26 @@
     {
      "libelle": "216i / 218i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "220i / M235i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 255
     },
     {
      "libelle": "216d 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "218d / 220d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -4509,22 +4961,26 @@
     {
      "libelle": "218i / 220i 1.5 (B38, microhybride)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "223i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "218d / 220d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "225e / 230e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 286
     }
    ],
    "boites": [
@@ -4547,37 +5003,44 @@
     {
      "libelle": "318i / 320i 2.0 (N46)",
      "code": "n46",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "318i / 320i 2.0 (N43, injection directe, 2007-2012)",
      "code": "n43",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "325i / 330i 3.0 (N53, injection directe)",
      "code": "n53",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 235
     },
     {
      "libelle": "335i 3.0 biturbo (N54, 2006-2010)",
      "code": "n54",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "335i 3.0 turbo (N55, 2010-2012)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "316d / 318d / 320d / 320d ED (N47, 2007-2012)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 158
     },
     {
      "libelle": "325d / 330d / 335d 3.0 (N57 et M57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 263
     }
    ],
    "boites": [
@@ -4604,27 +5067,32 @@
     {
      "libelle": "318i / 320i / 330i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 191
     },
     {
      "libelle": "M340i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 374
     },
     {
      "libelle": "318d / 320d 2.0 (B47, microhybride dès 2020)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 167
     },
     {
      "libelle": "330d / M340d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 299
     },
     {
      "libelle": "320e / 330e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 228
     }
    ],
    "boites": [
@@ -4651,42 +5119,50 @@
     {
      "libelle": "418i 1.5 (B38, Gran Coupé)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "420i / 428i 2.0 (N20, 2013-2016)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "420i / 430i 2.0 (B48, 2016-2020)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "435i 3.0 (N55, 2013-2016)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "440i 3.0 (B58, 2016-2020)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 326
     },
     {
      "libelle": "418d / 420d / 425d (N47, 2013-2015)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     },
     {
      "libelle": "418d / 420d / 425d (B47, 2015-2020)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     },
     {
      "libelle": "430d / 435d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 286
     }
    ],
    "boites": [
@@ -4713,27 +5189,32 @@
     {
      "libelle": "420i / 430i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "M440i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 374
     },
     {
      "libelle": "420d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 190
     },
     {
      "libelle": "430d / M440d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 299
     },
     {
      "libelle": "i4 électrique (Gran Coupé)",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -4760,32 +5241,38 @@
     {
      "libelle": "523i / 528i 3.0 (N53, 2010-2011)",
      "code": "n53",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 224
     },
     {
      "libelle": "520i / 528i 2.0 (N20, 2011-2016)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "535i 3.0 (N55)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "518d / 520d / 525d (N47, 2010-2014)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 186
     },
     {
      "libelle": "518d / 520d (B47, 2014-2017)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "525d / 530d / 535d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 263
     }
    ],
    "boites": [
@@ -4812,27 +5299,32 @@
     {
      "libelle": "520i / 530i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "540i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 340
     },
     {
      "libelle": "518d / 520d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "530d / 540d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 289
     },
     {
      "libelle": "530e hybride rechargeable (B48)",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 252
     }
    ],
    "boites": [
@@ -4855,17 +5347,20 @@
     {
      "libelle": "sDrive18i 2.0 (N46, 2009-2011)",
      "code": "n46",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "sDrive20i / xDrive28i 2.0 (N20, 2011-2015)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "sDrive16d / 18d / 20d / xDrive25d (N47)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -4896,27 +5391,32 @@
     {
      "libelle": "sDrive16i / 18i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "sDrive20i / xDrive25i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 208
     },
     {
      "libelle": "sDrive16d 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "sDrive18d / xDrive20d / 25d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 188
     },
     {
      "libelle": "xDrive25e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 220
     }
    ],
    "boites": [
@@ -4947,27 +5447,32 @@
     {
      "libelle": "sDrive18i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "xDrive23i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "sDrive18d / xDrive23d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "xDrive25e / 30e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 256
     },
     {
      "libelle": "iX1 électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -4994,27 +5499,32 @@
     {
      "libelle": "sDrive18i 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "sDrive20i / M35i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 245
     },
     {
      "libelle": "sDrive16d 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "sDrive18d / xDrive20d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "xDrive25e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 220
     }
    ],
    "boites": [
@@ -5045,27 +5555,32 @@
     {
      "libelle": "sDrive20i / xDrive20i / 28i 2.0 (N20)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 204
     },
     {
      "libelle": "xDrive35i 3.0 (N55)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "sDrive18d / xDrive20d (N47, 2010-2014)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "sDrive18d / xDrive20d (B47, 2014-2017)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "xDrive30d / 35d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 286
     }
    ],
    "boites": [
@@ -5092,32 +5607,38 @@
     {
      "libelle": "xDrive20i / 30i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 184
     },
     {
      "libelle": "M40i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 360
     },
     {
      "libelle": "sDrive18d / xDrive20d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "xDrive30d / M40d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 299
     },
     {
      "libelle": "xDrive30e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 292
     },
     {
      "libelle": "iX3 électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -5144,27 +5665,32 @@
     {
      "libelle": "xDrive20i / 28i 2.0 (N20)",
      "code": "n20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 214
     },
     {
      "libelle": "xDrive35i 3.0 (N55)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "xDrive20d (N47, 2014)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 190
     },
     {
      "libelle": "xDrive20d (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 190
     },
     {
      "libelle": "xDrive30d / 35d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 286
     }
    ],
    "boites": [
@@ -5187,22 +5713,26 @@
     {
      "libelle": "xDrive20i / 30i 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 184
     },
     {
      "libelle": "M40i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 360
     },
     {
      "libelle": "xDrive20d 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 190
     },
     {
      "libelle": "xDrive30d / M40d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 299
     }
    ],
    "boites": [
@@ -5225,22 +5755,26 @@
     {
      "libelle": "xDrive35i 3.0 (N55)",
      "code": "n55",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 306
     },
     {
      "libelle": "sDrive25d / xDrive25d 2.0 (N47 puis B47)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 224
     },
     {
      "libelle": "xDrive30d / 40d / M50d 3.0 (N57)",
      "code": "n57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 326
     },
     {
      "libelle": "xDrive40e hybride rechargeable (N20)",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 313
     }
    ],
    "boites": [
@@ -5263,17 +5797,20 @@
     {
      "libelle": "xDrive40i 3.0 (B58)",
      "code": "b58",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 340
     },
     {
      "libelle": "xDrive25d / 30d / 40d 3.0 (B57)",
      "code": "b57",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 274
     },
     {
      "libelle": "xDrive45e / 50e hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 442
     }
    ],
    "boites": [
@@ -5296,12 +5833,14 @@
     {
      "libelle": "i3 / i3s électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     },
     {
      "libelle": "i3 REx (prolongateur d'autonomie 647 cm³)",
      "code": "i3rex",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 170
     }
    ],
    "boites": [
@@ -5324,17 +5863,20 @@
     {
      "libelle": "One / Cooper / Cooper S / JCW 1.6 (moteur Prince)",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 155
     },
     {
      "libelle": "One D / Cooper D 1.6 (moteur PSA, 2010-2014)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 101
     },
     {
      "libelle": "Cooper D / SD 2.0 (N47, 2011-2016)",
      "code": "n47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 128
     }
    ],
    "boites": [
@@ -5361,27 +5903,33 @@
     {
      "libelle": "One / Cooper 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 119
     },
     {
      "libelle": "Cooper S / JCW 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 211,
+     "sport": true
     },
     {
      "libelle": "One D 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 102
     },
     {
      "libelle": "Cooper D / SD 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "Cooper SE ALL4 hybride rechargeable",
      "code": "bmwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 220
     }
    ],
    "boites": [
@@ -5412,22 +5960,27 @@
     {
      "libelle": "One / Cooper 1.5 (B38)",
      "code": "b38",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 119
     },
     {
      "libelle": "Cooper S / JCW 2.0 (B48)",
      "code": "b48",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 211,
+     "sport": true
     },
     {
      "libelle": "One D 1.5 (B37)",
      "code": "b37",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "Cooper D / SD 2.0 (B47)",
      "code": "b47",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -5458,27 +6011,33 @@
     {
      "libelle": "1.0 MPI 60 à 80 ch",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.0 TSI 95 / 110 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI GTI (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220,
+     "sport": true
     },
     {
      "libelle": "1.6 TDI (EA288, 2017-2021)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -5505,17 +6064,20 @@
     {
      "libelle": "1.0 MPI 60 / 75 ch",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 68
     },
     {
      "libelle": "1.0 TSI 90 / 115 ch (GTI)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     },
     {
      "libelle": "e-up! électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -5546,17 +6108,20 @@
     {
      "libelle": "1.0 TSI 95 / 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 107
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 TDI 95 ch (EA288, 2019-2021)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     }
    ],
    "boites": [
@@ -5583,12 +6148,14 @@
     {
      "libelle": "1.0 TSI 95 / 110 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     }
    ],
    "boites": [
@@ -5615,17 +6182,20 @@
     {
      "libelle": "1.4 TSI 122 ch (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -5656,32 +6226,38 @@
     {
      "libelle": "1.4 TSI 125 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.4 TSI ACT 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "GTE hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -5716,12 +6292,14 @@
     {
      "libelle": "1.2 / 1.4 TSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -5752,17 +6330,20 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -5797,17 +6378,20 @@
     {
      "libelle": "1.4 TSI 122 à 160 ch (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 141
     },
     {
      "libelle": "2.0 TSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -5838,12 +6422,14 @@
     {
      "libelle": "3.0 TDI V6 204 à 262 ch",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 233
     },
     {
      "libelle": "3.0 TSI Hybrid (rare)",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -5866,12 +6452,14 @@
     {
      "libelle": "1.2 TSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189, 2010-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -5902,12 +6490,14 @@
     {
      "libelle": "1.0 / 1.4 TSI (EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -5938,17 +6528,20 @@
     {
      "libelle": "1.5 TSI evo 114 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 114
     },
     {
      "libelle": "2.0 TDI (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "eHybrid hybride rechargeable (2024+)",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -5975,22 +6568,26 @@
     {
      "libelle": "1.4 TSI 150 ch (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TDI (EA189, 2010-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDI (EA288, 2015-2022)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -6017,22 +6614,26 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 TSI ACT 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.5 TSI evo 130 / 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -6063,22 +6664,26 @@
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 190 à 320 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 255
     },
     {
      "libelle": "2.0 TDI 150 à 240 ch (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 195
     },
     {
      "libelle": "eHybrid hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -6109,7 +6714,8 @@
     {
      "libelle": "ID.3 électrique (batterie 45 à 77 kWh)",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -6132,7 +6738,8 @@
     {
      "libelle": "ID.4 électrique (batterie 52 à 77 kWh)",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 52
     }
    ],
    "boites": [
@@ -6155,17 +6762,20 @@
     {
      "libelle": "25 / 30 TFSI 1.0 (EA211)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "35 TFSI 1.5 (EA211 evo)",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "40 TFSI 2.0 (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     }
    ],
    "boites": [
@@ -6192,17 +6802,20 @@
     {
      "libelle": "1.2 / 1.4 TFSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.6 / 2.0 TDI CR (EA189, 2009-2012)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -6233,22 +6846,33 @@
     {
      "libelle": "30 / 35 TFSI 1.0-1.5 (EA211 evo)",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
-     "libelle": "40 TFSI / S3 2.0 (EA888)",
+     "libelle": "40 TFSI 2.0 190 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 190
+    },
+    {
+     "libelle": "S3 2.0 TFSI 310 / 333 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence",
+     "ch": 322,
+     "sport": true
     },
     {
      "libelle": "30 / 35 TDI 2.0 (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "40 / 45 TFSI e hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -6279,22 +6903,26 @@
     {
      "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TFSI (EA888 génération 3, 2013-2015)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.7 / 3.0 TDI V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 245
     }
    ],
    "boites": [
@@ -6325,22 +6953,26 @@
     {
      "libelle": "1.4 TFSI 150 ch (35 TFSI)",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TFSI 190 à 265 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 228
     },
     {
      "libelle": "2.0 TDI 122 à 204 ch (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 163
     },
     {
      "libelle": "3.0 TDI V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 245
     }
    ],
    "boites": [
@@ -6371,22 +7003,26 @@
     {
      "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TFSI (EA888 génération 3, 2013-2016)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.7 / 3.0 TDI V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 245
     }
    ],
    "boites": [
@@ -6417,17 +7053,20 @@
     {
      "libelle": "2.0 TFSI 190 à 265 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 228
     },
     {
      "libelle": "2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "3.0 TDI V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 245
     }
    ],
    "boites": [
@@ -6458,27 +7097,32 @@
     {
      "libelle": "2.0 TFSI (EA888 génération 2, 2011-2014)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.8 / 2.0 TFSI (EA888 génération 3, 2014-2018)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA189, 2011-2014)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDI ultra (EA288, 2014-2018)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "3.0 TDI V6 204 à 326 ch",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 265
     }
    ],
    "boites": [
@@ -6513,22 +7157,26 @@
     {
      "libelle": "40 / 45 TFSI 2.0 (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "40 TDI 2.0 (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "45 / 50 TDI 3.0 V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 50
     },
     {
      "libelle": "50 / 55 TFSI e hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 52
     }
    ],
    "boites": [
@@ -6555,22 +7203,26 @@
     {
      "libelle": "1.0 TFSI (30 TFSI)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 / 1.5 TFSI (35 TFSI)",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TFSI / SQ2 (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -6601,32 +7253,38 @@
     {
      "libelle": "1.4 TFSI (EA111, 2011-2014)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.4 TFSI COD 150 ch (2014-2018)",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TFSI (EA888 génération 2, 2011-2014)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TFSI (EA888 génération 3, 2014-2018)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA189, 2011-2014)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDI (EA288, 2014-2018)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -6657,22 +7315,26 @@
     {
      "libelle": "35 TFSI 1.5 (EA211 evo)",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "40 / 45 TFSI 2.0 (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "35 / 40 TDI 2.0 (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "45 TFSI e hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -6703,27 +7365,32 @@
     {
      "libelle": "2.0 TFSI (EA888 génération 2, 2008-2012)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TFSI (EA888 génération 3, 2013-2017)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA189, 2008-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDI (EA288, 2015-2017)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "3.0 TDI V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 245
     }
    ],
    "boites": [
@@ -6754,22 +7421,26 @@
     {
      "libelle": "40 / 45 TFSI 2.0 (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "35 / 40 TDI 2.0 (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "50 TDI 3.0 V6",
      "code": "tdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 50
     },
     {
      "libelle": "50 / 55 TFSI e hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 52
     }
    ],
    "boites": [
@@ -6800,17 +7471,20 @@
     {
      "libelle": "1.2 HTP / 1.2 12V trois cylindres",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.2 TSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.2 / 1.6 TDI CR (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -6837,17 +7511,20 @@
     {
      "libelle": "1.0 MPI 60 à 80 ch",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.0 TSI 95 / 110 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     }
    ],
    "boites": [
@@ -6874,17 +7551,20 @@
     {
      "libelle": "1.2 / 1.4 TSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2, RS)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.6 / 2.0 TDI CR (EA189, 2009-2013)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -6915,27 +7595,33 @@
     {
      "libelle": "1.0 TSI / e-TEC",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI / e-TEC evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI RS (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220,
+     "sport": true
     },
     {
      "libelle": "2.0 TDI (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "iV hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -6966,17 +7652,20 @@
     {
      "libelle": "1.4 TSI 125 ch (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA189)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -7007,27 +7696,32 @@
     {
      "libelle": "1.4 TSI 125 / 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 138
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 190 à 280 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 235
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "iV hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -7062,22 +7756,26 @@
     {
      "libelle": "1.4 TSI 125 / 150 ch",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 138
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 180 à 245 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 212
     },
     {
      "libelle": "2.0 TDI 150 à 200 ch (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 175
     }
    ],
    "boites": [
@@ -7112,22 +7810,26 @@
     {
      "libelle": "1.0 TSI 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 112
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 190 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 190
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -7158,17 +7860,20 @@
     {
      "libelle": "1.0 TSI 95 / 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 107
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 TDI 115 ch (EA288, 2019-2021)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -7195,27 +7900,32 @@
     {
      "libelle": "1.2 / 1.4 TSI (EA111, 2009-2014)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.2 / 1.4 TSI (EA211, 2014-2017)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.8 TSI (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "2.0 TDI (EA189, 2009-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDI (EA288, 2015-2017)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -7246,17 +7956,20 @@
     {
      "libelle": "1.0 TSI 95 / 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 107
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 TDI 115 ch (EA288, 2019-2021)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -7283,27 +7996,32 @@
     {
      "libelle": "1.0 MPI / 1.2 MPI",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.2 TSI (EA111, 2012-2015)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.0 / 1.2 / 1.4 TSI (EA211, 2015-2019)",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.6 TDI (EA189, 2012-2015)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "1.4 / 1.6 TDI (EA288, 2015-2019)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -7330,22 +8048,26 @@
     {
      "libelle": "1.0 MPI 60 à 80 ch",
      "code": "vwmpi",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.0 TSI 95 / 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 107
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.6 TDI (EA288, 2017-2021)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -7372,17 +8094,20 @@
     {
      "libelle": "1.2 / 1.4 TSI (EA111)",
      "code": "ea111",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.8 / 2.0 TSI FR / Cupra (EA888 génération 1-2)",
      "code": "ea888g2",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.6 / 2.0 TDI CR (EA189, 2010-2012)",
      "code": "ea189",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -7413,27 +8138,32 @@
     {
      "libelle": "1.0 TSI / eTSI",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.5 TSI / eTSI evo",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 220
     },
     {
      "libelle": "2.0 TDI (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "e-Hybrid hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -7464,27 +8194,32 @@
     {
      "libelle": "1.0 TSI 110 / 115 ch",
      "code": "ea211",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 112
     },
     {
      "libelle": "1.4 TSI ACT 150 ch (2016-2018)",
      "code": "ea211act",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 190 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 190
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     }
    ],
    "boites": [
@@ -7515,22 +8250,26 @@
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI 190 / 245 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 218
     },
     {
      "libelle": "2.0 TDI 150 / 200 ch (EA288)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 175
     },
     {
      "libelle": "e-Hybrid hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -7557,22 +8296,26 @@
     {
      "libelle": "1.5 TSI evo 150 ch",
      "code": "ea211evo",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "2.0 TSI VZ 190 à 333 ch (EA888)",
      "code": "ea888",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 262
     },
     {
      "libelle": "2.0 TDI 150 ch (EA288 evo)",
      "code": "ea288",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "e-Hybrid hybride rechargeable",
      "code": "vwphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 204
     }
    ],
    "boites": [
@@ -7603,7 +8346,8 @@
     {
      "libelle": "1.0 / 1.2 VTi (Toyota 1KR / PureTech)",
      "code": "1kr",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     }
    ],
    "boites": [
@@ -7630,27 +8374,32 @@
     {
      "libelle": "1.4 75 ch (TU3)",
      "code": "tu",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.4 / 1.6 VTi (EP3 / EP6)",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 150 à 175 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 162
     },
     {
      "libelle": "1.4 HDi (DV4)",
      "code": "hdi14",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 70
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -7681,22 +8430,26 @@
     {
      "libelle": "1.4 / 1.6 VTi (EP3 / EP6)",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 140 à 200 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 170
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 HDi 136 à 163 ch",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -7731,22 +8484,26 @@
     {
      "libelle": "1.2 PureTech 110 / 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Hybrid 180 / 225 rechargeable",
      "code": "psaphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 202
     },
     {
      "libelle": "e-308 électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 308
     }
    ],
    "boites": [
@@ -7777,37 +8534,44 @@
     {
      "libelle": "1.6 VTi 120 ch",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 150 / 156 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 153
     },
     {
      "libelle": "1.2 PureTech 130 (2015-2016)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 HDi 150 / 163 ch",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     },
     {
      "libelle": "1.6 BlueHDi 120 (2015-2016)",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "HYbrid4 diesel hybride",
      "code": "psahyb4",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 200
     }
    ],
    "boites": [
@@ -7842,37 +8606,44 @@
     {
      "libelle": "1.6 VTi 120 ch",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 150 / 156 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 153
     },
     {
      "libelle": "1.2 PureTech 130 (2015-2017)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 HDi 150 / 163 ch",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 156
     },
     {
      "libelle": "1.6 BlueHDi 120",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi 150",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -7907,37 +8678,44 @@
     {
      "libelle": "1.6 VTi 120 ch",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 156 / 165 ch",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "1.6 HDi / e-HDi 112 / 115 ch",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 114
     },
     {
      "libelle": "2.0 / 2.2 HDi 140 à 204 ch",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 172
     },
     {
      "libelle": "1.6 BlueHDi 120",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi 150 / 180",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     },
     {
      "libelle": "HYbrid4 diesel hybride",
      "code": "psahyb4",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 200
     }
    ],
    "boites": [
@@ -7968,27 +8746,32 @@
     {
      "libelle": "1.2 PureTech 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 PureTech 180 / 225 ch (THP)",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 202
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 BlueHDi 160 / 180",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "Hybrid 225 / Hybrid4 300 rechargeable",
      "code": "psaphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 262
     }
    ],
    "boites": [
@@ -8015,17 +8798,20 @@
     {
      "libelle": "1.2 PureTech 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "Hybrid 180 / 225 rechargeable",
      "code": "psaphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 202
     },
     {
      "libelle": "e-408 électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 408
     }
    ],
    "boites": [
@@ -8052,12 +8838,14 @@
     {
      "libelle": "1.0 VTi 68 / 72 ch (Toyota 1KR)",
      "code": "1kr",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.2 PureTech 82 (2014-2018)",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 82
     }
    ],
    "boites": [
@@ -8084,17 +8872,20 @@
     {
      "libelle": "1.4 / 1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 HDi / e-HDi 90 / 110",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 100
     },
     {
      "libelle": "1.6 BlueHDi 100",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 100
     }
    ],
    "boites": [
@@ -8121,32 +8912,38 @@
     {
      "libelle": "1.4 / 1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 155",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 155
     },
     {
      "libelle": "1.2 PureTech 110 / 130 (2014-2018)",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 HDi 150",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "1.6 BlueHDi 100 / 120",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -8181,17 +8978,20 @@
     {
      "libelle": "1.2 PureTech 100 à 155 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 BlueHDi",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "ë-C4 électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -8222,22 +9022,26 @@
     {
      "libelle": "1.6 VTi 120",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 150 / 156",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 153
     },
     {
      "libelle": "1.6 HDi 110 / 112",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 111
     },
     {
      "libelle": "2.0 HDi 138 / 150",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 144
     }
    ],
    "boites": [
@@ -8272,32 +9076,38 @@
     {
      "libelle": "1.6 VTi 120",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 155 / 156",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "1.6 HDi / e-HDi 110 / 115",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 112
     },
     {
      "libelle": "2.0 / 2.2 HDi 140 à 204",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 172
     },
     {
      "libelle": "2.0 BlueHDi 150 / 180",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     },
     {
      "libelle": "3.0 HDi V6",
      "code": "hdiv6",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 240
     }
    ],
    "boites": [
@@ -8328,32 +9138,38 @@
     {
      "libelle": "1.4 / 1.6 VTi",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 155 à 208",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 182
     },
     {
      "libelle": "1.2 PureTech 82",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 82
     },
     {
      "libelle": "1.2 PureTech 110 / 130",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -8388,37 +9204,44 @@
     {
      "libelle": "1.6 VTi 120",
      "code": "vti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.6 THP 155 à 210",
      "code": "thp",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 182
     },
     {
      "libelle": "1.2 PureTech 130",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.6 HDi et e-HDi (DV6)",
      "code": "hdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 HDi 160",
      "code": "hdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     },
     {
      "libelle": "1.6 BlueHDi",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 BlueHDi",
      "code": "bluehdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -8449,22 +9272,27 @@
     {
      "libelle": "1.0 / 1.2 / 1.4 Twinport (chaîne)",
      "code": "opel1214",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.6 Turbo OPC",
      "code": "opel16t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 180,
+     "sport": true
     },
     {
      "libelle": "1.3 CDTI",
      "code": "cdti13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.7 CDTI",
      "code": "cdti17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 125
     }
    ],
    "boites": [
@@ -8495,37 +9323,45 @@
     {
      "libelle": "1.4 / 1.6 essence (Twinport, atmosphérique)",
      "code": "opel1214",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 Turbo / OPC 2.0 Turbo",
      "code": "opel16t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 180,
+     "sport": true
     },
     {
      "libelle": "1.3 CDTI",
      "code": "cdti13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.7 CDTI",
      "code": "cdti17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 125
     },
     {
      "libelle": "1.6 CDTI (2013-2015)",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "2.0 CDTI",
      "code": "cdti20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     }
    ],
    "boites": [
@@ -8552,22 +9388,26 @@
     {
      "libelle": "1.2 Turbo 110 / 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 Diesel 130 ch",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     },
     {
      "libelle": "Hybrid 180 rechargeable",
      "code": "psaphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 180
     },
     {
      "libelle": "Astra Electric",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -8598,17 +9438,20 @@
     {
      "libelle": "1.2 Turbo 100 / 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 Diesel 110 ch",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "Mokka-e électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -8639,22 +9482,26 @@
     {
      "libelle": "1.2 83 ch",
      "code": "puretech-a",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 83
     },
     {
      "libelle": "1.2 Turbo 110 / 130 ch",
      "code": "puretech-t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.5 Diesel 102 / 120 ch",
      "code": "bluehdi15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 111
     },
     {
      "libelle": "1.6 Diesel 99 / 120 ch (2017-2018)",
      "code": "bluehdi16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -8681,22 +9528,26 @@
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 Turbo",
      "code": "opel16t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 180
     },
     {
      "libelle": "1.6 CDTI",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "2.0 CDTI",
      "code": "cdti20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     }
    ],
    "boites": [
@@ -8723,27 +9574,32 @@
     {
      "libelle": "1.4 100 ch (Twinport)",
      "code": "opel1214",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.3 CDTI",
      "code": "cdti13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.6 CDTI",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     },
     {
      "libelle": "1.7 CDTI",
      "code": "cdti17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 125
     }
    ],
    "boites": [
@@ -8770,22 +9626,26 @@
     {
      "libelle": "1.4 Turbo",
      "code": "opel14t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 / 2.0 Turbo",
      "code": "opel16t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 180
     },
     {
      "libelle": "2.0 CDTI",
      "code": "cdti20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 165
     },
     {
      "libelle": "1.6 CDTI (2015-2017)",
      "code": "cdti16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -8812,32 +9672,38 @@
     {
      "libelle": "1.6 E.torQ 110 ch",
      "code": "etorq",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 110
     },
     {
      "libelle": "1.4 MultiAir 140 / 170 ch",
      "code": "multiair14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 155
     },
     {
      "libelle": "1.0 / 1.3 FireFly turbo",
      "code": "firefly",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.3 MultiJet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.6 MultiJet",
      "code": "mjt16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 MultiJet",
      "code": "mjt20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -8868,27 +9734,32 @@
     {
      "libelle": "1.4 16V 95 ch",
      "code": "fire14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 95
     },
     {
      "libelle": "0.9 TwinAir",
      "code": "twinair",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.4 T-Jet 120 ch",
      "code": "tjet",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.3 MultiJet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     },
     {
      "libelle": "1.6 MultiJet",
      "code": "mjt16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -8919,27 +9790,32 @@
     {
      "libelle": "1.2 8V 69 ch",
      "code": "fire12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 69
     },
     {
      "libelle": "1.4 8V 77 ch",
      "code": "fire14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 77
     },
     {
      "libelle": "0.9 TwinAir",
      "code": "twinair",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 85
     },
     {
      "libelle": "1.4 MultiAir",
      "code": "multiair14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.3 MultiJet",
      "code": "mjt13",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 95
     }
    ],
    "boites": [
@@ -8966,27 +9842,32 @@
     {
      "libelle": "1.4 MultiAir 140 / 170 ch",
      "code": "multiair14",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 155
     },
     {
      "libelle": "1.3 T4 / GSE turbo 130 à 150 ch",
      "code": "firefly",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.6 MultiJet 120 / 130 ch",
      "code": "mjt16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 125
     },
     {
      "libelle": "2.0 MultiJet 140 / 170 ch",
      "code": "mjt20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 155
     },
     {
      "libelle": "4xe hybride rechargeable 190 / 240 ch",
      "code": "phev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 215
     }
    ],
    "boites": [
@@ -9017,22 +9898,26 @@
     {
      "libelle": "1.2 16V 75 ch (D4F)",
      "code": "r12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 75
     },
     {
      "libelle": "1.2 TCe 100 ch (D4Ft)",
      "code": "d4ft",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.4 / 1.6 16V (K4J / K4M)",
      "code": "r16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.5 dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -9059,22 +9944,26 @@
     {
      "libelle": "1.2 8V / 16V 60 à 75 ch",
      "code": "r12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 68
     },
     {
      "libelle": "1.2 TCe 100 ch (D4Ft)",
      "code": "d4ft",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     },
     {
      "libelle": "1.6 16V RS",
      "code": "r16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.5 dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -9101,27 +9990,32 @@
     {
      "libelle": "1.2 TCe 115 / 130 (H5Ft, 2016-2018)",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 122
     },
     {
      "libelle": "1.3 TCe 115 à 160 (2018-2022)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 138
     },
     {
      "libelle": "1.5 dCi / Blue dCi 110 / 115",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 112
     },
     {
      "libelle": "1.6 dCi 130 / 160",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 145
     },
     {
      "libelle": "1.7 Blue dCi 120 / 150",
      "code": "r9n",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 135
     }
    ],
    "boites": [
@@ -9152,22 +10046,26 @@
     {
      "libelle": "1.6 16V 105 ch",
      "code": "r16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "1.2 TCe 115",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "Kangoo Z.E. électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -9202,17 +10100,20 @@
     {
      "libelle": "1.3 TCe 100 / 130",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 Blue dCi 95 / 115",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "Kangoo E-Tech électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -9243,22 +10144,26 @@
     {
      "libelle": "1.6 TCe 200 (M5Mt)",
      "code": "tce16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200
     },
     {
      "libelle": "1.8 TCe 225 (M5Pt, 2017-2022)",
      "code": "tce18",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 225
     },
     {
      "libelle": "1.6 dCi 130 / 160",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 145
     },
     {
      "libelle": "2.0 Blue dCi 160 / 200 (2019-2022)",
      "code": "m9r",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     }
    ],
    "boites": [
@@ -9281,32 +10186,38 @@
     {
      "libelle": "1.6 TCe 150 / 200 (M5Mt)",
      "code": "tce16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 175
     },
     {
      "libelle": "1.3 TCe 160 (2018-2022)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "1.8 TCe 225",
      "code": "tce18",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 225
     },
     {
      "libelle": "1.5 dCi 110",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "1.6 dCi 130 / 160",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 145
     },
     {
      "libelle": "1.7 / 2.0 Blue dCi 120 à 200",
      "code": "m9r",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -9337,17 +10248,20 @@
     {
      "libelle": "1.3 TCe 160 (2020-2022)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "1.6 dCi 130 / 1.7 Blue dCi 150",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 140
     },
     {
      "libelle": "2.0 dCi / Blue dCi 175 à 190",
      "code": "m9r",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 182
     }
    ],
    "boites": [
@@ -9374,12 +10288,14 @@
     {
      "libelle": "1.3 TCe 140 / 160 hybride léger",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "E-Tech 145 hybride (1.6)",
      "code": "etech",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 145
     }
    ],
    "boites": [
@@ -9406,17 +10322,20 @@
     {
      "libelle": "1.3 TCe 140 / 160 hybride léger",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 150
     },
     {
      "libelle": "1.2 TCe 130 hybride léger (3 cylindres)",
      "code": "hr12t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "E-Tech 200 hybride (1.2 trois cylindres)",
      "code": "etech12",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 200
     }
    ],
    "boites": [
@@ -9447,12 +10366,14 @@
     {
      "libelle": "1.0 SCe 65 / 75",
      "code": "sce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     },
     {
      "libelle": "1.0 TCe 90 / 100 / 110 et ECO-G (GPL)",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     }
    ],
    "boites": [
@@ -9479,12 +10400,14 @@
     {
      "libelle": "1.0 TCe 100 / 110 et ECO-G (GPL)",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 105
     },
     {
      "libelle": "Hybrid 140 / 155 (1.6 E-Tech)",
      "code": "etech",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 148
     }
    ],
    "boites": [
@@ -9511,22 +10434,26 @@
     {
      "libelle": "1.6 SCe 102 / 1.6 MPI",
      "code": "r16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 102
     },
     {
      "libelle": "1.2 TCe 115",
      "code": "tce12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.3 TCe 100 / 130",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 115
     },
     {
      "libelle": "1.5 dCi / Blue dCi",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     }
    ],
    "boites": [
@@ -9549,27 +10476,32 @@
     {
      "libelle": "1.6 16V 115 / 117 ch (HR16)",
      "code": "nis16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 116
     },
     {
      "libelle": "2.0 16V 140 / 141 ch (MR20)",
      "code": "mr20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 140
     },
     {
      "libelle": "1.5 dCi 103 à 110",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 106
     },
     {
      "libelle": "1.6 dCi 130 (2011-2014)",
      "code": "r9m",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 130
     },
     {
      "libelle": "2.0 dCi 150",
      "code": "m9r",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -9600,12 +10532,14 @@
     {
      "libelle": "1.3 DIG-T 140 / 158 hybride léger",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 149
     },
     {
      "libelle": "e-Power 190 hybride",
      "code": "epower",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 190
     }
    ],
    "boites": [
@@ -9636,12 +10570,14 @@
     {
      "libelle": "1.0 DIG-T 114 / 117 ch",
      "code": "tce10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 116
     },
     {
      "libelle": "Hybrid 143 (1.6 E-Tech)",
      "code": "etech",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 143
     }
    ],
    "boites": [
@@ -9672,7 +10608,8 @@
     {
      "libelle": "1.2 80 ch / 1.2 DIG-S 98 ch (HR12)",
      "code": "nis12",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 89
     }
    ],
    "boites": [
@@ -9699,7 +10636,8 @@
     {
      "libelle": "Leaf 24 / 30 kWh",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -9722,7 +10660,8 @@
     {
      "libelle": "Leaf 40 / 62 kWh (e+)",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -9745,27 +10684,32 @@
     {
      "libelle": "A 160 / A 180 / A 200 1.33 (M282, moteur Renault-Nissan)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "A 250 / A 35 AMG 2.0 (M260)",
      "code": "m260",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 265
     },
     {
      "libelle": "A 180 d 1.5 (OM608, moteur Renault)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "A 200 d / A 220 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "A 250 e hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 218
     }
    ],
    "boites": [
@@ -9796,27 +10740,32 @@
     {
      "libelle": "B 180 / B 200 1.33 (M282)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "B 250 2.0 (M260)",
      "code": "m260",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 224
     },
     {
      "libelle": "B 180 d 1.5 (OM608)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "B 200 d / B 220 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "B 250 e hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 218
     }
    ],
    "boites": [
@@ -9847,27 +10796,32 @@
     {
      "libelle": "CLA 180 / 200 1.33 (M282)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "CLA 250 / 35 AMG 2.0 (M260)",
      "code": "m260",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 265
     },
     {
      "libelle": "CLA 180 d 1.5 (OM608)",
      "code": "k9k",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "CLA 200 d / 220 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "CLA 250 e hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 218
     }
    ],
    "boites": [
@@ -9898,22 +10852,26 @@
     {
      "libelle": "GLA 180 / 200 1.33 (M282)",
      "code": "tce13",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 136
     },
     {
      "libelle": "GLA 250 / 35 AMG 2.0 (M260)",
      "code": "m260",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 265
     },
     {
      "libelle": "GLA 200 d / 220 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "GLA 250 e hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 218
     }
    ],
    "boites": [
@@ -9940,17 +10898,20 @@
     {
      "libelle": "C 180 / C 200 / C 300 1.5-2.0 hybride léger (M254)",
      "code": "m254",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 204
     },
     {
      "libelle": "C 200 d / C 220 d / C 300 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 200
     },
     {
      "libelle": "C 300 e / C 300 de hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 313
     }
    ],
    "boites": [
@@ -9973,17 +10934,20 @@
     {
      "libelle": "E 200 / E 250 1.8-2.0 (M271 / M274)",
      "code": "m274",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 184
     },
     {
      "libelle": "E 200 CDI / E 220 CDI / E 250 CDI 2.1 (OM651)",
      "code": "om651",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "E 350 CDI / E 350 BlueTEC 3.0 V6 (OM642)",
      "code": "om642",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 258
     }
    ],
    "boites": [
@@ -10014,22 +10978,26 @@
     {
      "libelle": "E 200 / E 300 2.0 (M274 puis M264)",
      "code": "m274",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 211
     },
     {
      "libelle": "E 200 d / E 220 d 2.0 (OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 194
     },
     {
      "libelle": "E 350 d / E 400 d 3.0 (OM642 puis OM656)",
      "code": "om642",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 300
     },
     {
      "libelle": "E 300 e / E 300 de hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 306
     }
    ],
    "boites": [
@@ -10052,17 +11020,20 @@
     {
      "libelle": "GLC 200 / 250 / 300 2.0 (M274 puis M264)",
      "code": "m274",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 211
     },
     {
      "libelle": "GLC 220 d / 250 d (OM651 puis OM654)",
      "code": "om654",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 194
     },
     {
      "libelle": "GLC 300 e / 350 e / 300 de hybride rechargeable",
      "code": "mbphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 320
     }
    ],
    "boites": [
@@ -10085,22 +11056,27 @@
     {
      "libelle": "1.1 Ti-VCT 70 / 75 ch",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 72
     },
     {
      "libelle": "1.0 EcoBoost 95 à 140 ch et mHEV",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 118
     },
     {
      "libelle": "1.5 EcoBoost ST 200 ch (3 cylindres)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200,
+     "sport": true
     },
     {
      "libelle": "1.5 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     }
    ],
    "boites": [
@@ -10131,27 +11107,33 @@
     {
      "libelle": "1.0 EcoBoost 100 à 155 ch et mHEV",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 128
     },
     {
      "libelle": "1.5 EcoBoost 150 / 182 ch (3 cylindres)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "2.3 EcoBoost ST 280 ch",
      "code": "ecoboost23",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 280,
+     "sport": true
     },
     {
      "libelle": "1.5 EcoBlue 95 / 120 ch",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 108
     },
     {
      "libelle": "2.0 EcoBlue 150 / 190 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     }
    ],
    "boites": [
@@ -10182,22 +11164,26 @@
     {
      "libelle": "1.5 EcoBoost 120 à 182 ch (2014-2019)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 151
     },
     {
      "libelle": "1.6 EcoBoost 150 / 182 ch (2013-2014)",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 166
     },
     {
      "libelle": "1.5 TDCi 120 ch",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 TDCi 120 à 180 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     }
    ],
    "boites": [
@@ -10228,27 +11214,32 @@
     {
      "libelle": "1.5 EcoBoost 120 / 150 ch (3 cylindres)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 135
     },
     {
      "libelle": "1.5 EcoBlue 120 ch",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "2.0 EcoBlue 150 / 190 ch et mHEV",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 170
     },
     {
      "libelle": "2.5 Hybrid 190 ch (non rechargeable)",
      "code": "fordhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 190
     },
     {
      "libelle": "2.5 PHEV 225 / 243 ch hybride rechargeable",
      "code": "fordphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 234
     }
    ],
    "boites": [
@@ -10279,22 +11270,27 @@
     {
      "libelle": "1.0 EcoBoost 95 à 155 ch et mHEV",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.5 EcoBoost ST 200 ch (3 cylindres)",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 200,
+     "sport": true
     },
     {
      "libelle": "1.5 EcoBlue 120 ch (2020-2022)",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     },
     {
      "libelle": "Puma Gen-E électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -10325,27 +11321,32 @@
     {
      "libelle": "1.6 Ti-VCT 110 / 125 ch",
      "code": "tivct",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 118
     },
     {
      "libelle": "1.6 EcoBoost 160 ch",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "2.0 EcoBoost 203 / 240 ch",
      "code": "ecoboost20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 222
     },
     {
      "libelle": "1.6 TDCi 115 ch",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     },
     {
      "libelle": "2.0 / 2.2 TDCi 115 à 200 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 158
     }
    ],
    "boites": [
@@ -10376,32 +11377,38 @@
     {
      "libelle": "1.0 EcoBoost 125 ch",
      "code": "ecoboost10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.5 EcoBoost 160 ch",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "2.0 EcoBoost 203 / 240 ch",
      "code": "ecoboost20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 222
     },
     {
      "libelle": "1.5 / 1.6 TDCi",
      "code": "tdci",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 110
     },
     {
      "libelle": "2.0 TDCi / EcoBlue 150 à 210 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "2.0 Hybrid 187 ch",
      "code": "fordhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 187
     }
    ],
    "boites": [
@@ -10436,22 +11443,26 @@
     {
      "libelle": "1.5 EcoBoost 160 ch",
      "code": "ecoboost15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "2.0 EcoBoost 240 ch",
      "code": "ecoboost20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 240
     },
     {
      "libelle": "2.0 TDCi / EcoBlue 120 à 240 ch",
      "code": "tdci20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "2.5 Hybrid 190 ch",
      "code": "fordhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 190
     }
    ],
    "boites": [
@@ -10486,7 +11497,8 @@
     {
      "libelle": "1.0 VVT-i 69 / 72 ch (1KR)",
      "code": "1kr",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 70
     }
    ],
    "boites": [
@@ -10513,12 +11525,14 @@
     {
      "libelle": "1.5 VVT-i 125 ch",
      "code": "vvti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 125
     },
     {
      "libelle": "1.5 Hybride 116 / 130 ch",
      "code": "toyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 123
     }
    ],
    "boites": [
@@ -10549,22 +11563,26 @@
     {
      "libelle": "2.0 Valvematic 151 ch",
      "code": "vvti",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 151
     },
     {
      "libelle": "2.0 D-4D 124 / 143 ch",
      "code": "d4d20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 134
     },
     {
      "libelle": "2.2 D-4D 150 ch (2013-2015)",
      "code": "d4d22",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "2.5 Hybride 197 ch (2016-2019)",
      "code": "toyhyb25",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 197
     }
    ],
    "boites": [
@@ -10599,12 +11617,14 @@
     {
      "libelle": "2.5 Hybride 218 / 222 ch",
      "code": "toyhyb25",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 220
     },
     {
      "libelle": "2.5 Hybride rechargeable 306 ch",
      "code": "toyphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 306
     }
    ],
    "boites": [
@@ -10627,22 +11647,26 @@
     {
      "libelle": "1.6 GDi 135 ch",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 135
     },
     {
      "libelle": "2.0 CVVT / GDi 163 / 166 ch",
      "code": "theta20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 164
     },
     {
      "libelle": "1.7 CRDi 115 / 116 ch",
      "code": "crdi17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "2.0 CRDi 136 à 184 ch",
      "code": "crdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -10669,22 +11693,26 @@
     {
      "libelle": "1.6 GDi 135 ch",
      "code": "gdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 135
     },
     {
      "libelle": "2.0 CVVT 163 ch",
      "code": "theta20",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 163
     },
     {
      "libelle": "1.7 CRDi 115 / 116 ch",
      "code": "crdi17",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     },
     {
      "libelle": "2.0 CRDi 136 à 184 ch",
      "code": "crdi20",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 160
     }
    ],
    "boites": [
@@ -10711,7 +11739,8 @@
     {
      "libelle": "1.0 / 1.2 MPI 66 / 87 ch (Kappa)",
      "code": "kappa",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 76
     }
    ],
    "boites": [
@@ -10738,12 +11767,14 @@
     {
      "libelle": "1.0 / 1.2 MPI 67 / 84 ch (Kappa)",
      "code": "kappa",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 76
     },
     {
      "libelle": "1.0 T-GDi 100 ch",
      "code": "tgdi10",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 100
     }
    ],
    "boites": [
@@ -10770,22 +11801,26 @@
     {
      "libelle": "1.6 T-GDi 150 / 180 ch hybride léger",
      "code": "tgdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 165
     },
     {
      "libelle": "1.6 T-GDi Hybrid 230 ch",
      "code": "hyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 230
     },
     {
      "libelle": "1.6 T-GDi Plug-in 265 ch hybride rechargeable",
      "code": "hyphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 265
     },
     {
      "libelle": "1.6 CRDi 136 ch hybride léger",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -10816,22 +11851,26 @@
     {
      "libelle": "1.6 T-GDi 150 / 180 ch hybride léger",
      "code": "tgdi16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 165
     },
     {
      "libelle": "1.6 T-GDi Hybrid 230 ch",
      "code": "hyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 230
     },
     {
      "libelle": "1.6 T-GDi Plug-in 265 ch hybride rechargeable",
      "code": "hyphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 265
     },
     {
      "libelle": "1.6 CRDi 136 ch hybride léger",
      "code": "crdi16mhev",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 136
     }
    ],
    "boites": [
@@ -10862,17 +11901,20 @@
     {
      "libelle": "1.6 GDi Hybrid 141 ch",
      "code": "hyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 141
     },
     {
      "libelle": "1.6 GDi Plug-in 141 ch hybride rechargeable",
      "code": "hyphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 141
     },
     {
      "libelle": "Ioniq Electric 28 / 38 kWh",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -10899,17 +11941,20 @@
     {
      "libelle": "1.6 GDi Hybrid 141 ch",
      "code": "hyhyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 141
     },
     {
      "libelle": "1.6 GDi Plug-in 141 ch hybride rechargeable",
      "code": "hyphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 141
     },
     {
      "libelle": "e-Niro 39 / 64 kWh",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -10936,17 +11981,20 @@
     {
      "libelle": "2.0 Skyactiv-G 120 / 150 ch",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 135
     },
     {
      "libelle": "1.5 Skyactiv-D 105 ch (2015-2018)",
      "code": "skyd15",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 105
     },
     {
      "libelle": "1.8 Skyactiv-D 115 ch (2018-2020)",
      "code": "skyd18",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 115
     }
    ],
    "boites": [
@@ -10973,17 +12021,20 @@
     {
      "libelle": "2.0 / 2.5 Skyactiv-G M Hybrid",
      "code": "skyg",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "2.0 Skyactiv-X M Hybrid 180 / 186 ch",
      "code": "skyx",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 183
     },
     {
      "libelle": "1.8 Skyactiv-D 116 ch (2019-2021)",
      "code": "skyd18",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 116
     }
    ],
    "boites": [
@@ -11010,27 +12061,32 @@
     {
      "libelle": "T3 / T4 1.6 GTDi (moteur Ford, 2010-2014)",
      "code": "ecoboost16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 160
     },
     {
      "libelle": "2.0 D2 à D4 (Drive-E, 2014-2018)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "1.6 D2 / 2.0 D3 / 2.4 D4-D5 (premières séries)",
      "code": "d5",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 180
     },
     {
      "libelle": "T3 à T6 (Drive-E, 2014-2018)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     },
     {
      "libelle": "D6 / D5 Twin Engine hybride rechargeable diesel",
      "code": "volhybd",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 230
     }
    ],
    "boites": [
@@ -11061,27 +12117,32 @@
     {
      "libelle": "T2 / T3 1.5 trois cylindres",
      "code": "vol3cyl",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 156
     },
     {
      "libelle": "T4 / T5 / B4 / B5 2.0 (Drive-E)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     },
     {
      "libelle": "D3 / D4 2.0 (Drive-E)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "T4 / T5 Recharge hybride rechargeable",
      "code": "volphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 300
     },
     {
      "libelle": "P6 / P8 Recharge électrique",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -11116,17 +12177,20 @@
     {
      "libelle": "T5 / T6 / B5 / B6 2.0 (Drive-E)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     },
     {
      "libelle": "D4 / D5 / B4 / B5 diesel 2.0 (Drive-E)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "T6 / T8 Recharge hybride rechargeable",
      "code": "volphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 300
     }
    ],
    "boites": [
@@ -11149,17 +12213,20 @@
     {
      "libelle": "T5 / T6 / B5 / B6 2.0 (Drive-E)",
      "code": "veap",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 250
     },
     {
      "libelle": "D4 / D5 / B5 diesel 2.0 (Drive-E)",
      "code": "vead",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 150
     },
     {
      "libelle": "T8 Recharge hybride rechargeable",
      "code": "volphev",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 300
     }
    ],
    "boites": [
@@ -11182,7 +12249,8 @@
     {
      "libelle": "Propulsion, Grande Autonomie, Performance",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -11205,7 +12273,8 @@
     {
      "libelle": "Propulsion, Grande Autonomie, Performance",
      "code": "ev",
-     "carburant": "Électrique"
+     "carburant": "Électrique",
+     "ch": 150
     }
    ],
    "boites": [
@@ -11228,22 +12297,26 @@
     {
      "libelle": "1.6 VVT 120 ch",
      "code": "m16",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 120
     },
     {
      "libelle": "1.0 / 1.4 Boosterjet 111 / 140 ch",
      "code": "k14c",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 126
     },
     {
      "libelle": "1.4 Boosterjet hybride léger 129 ch (2020-2021)",
      "code": "k14d",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 129
     },
     {
      "libelle": "1.6 DDiS 120 ch",
      "code": "ddis16",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [
@@ -11274,7 +12347,8 @@
     {
      "libelle": "1.5 i-MMD e:HEV hybride 109 / 122 ch",
      "code": "hondahyb",
-     "carburant": "Hybride"
+     "carburant": "Hybride",
+     "ch": 116
     }
    ],
    "boites": [
@@ -11297,17 +12371,20 @@
     {
      "libelle": "1.5 i-VTEC 130 ch",
      "code": "honda15",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 130
     },
     {
      "libelle": "1.5 VTEC Turbo 182 ch (Sport)",
      "code": "honda15t",
-     "carburant": "Essence"
+     "carburant": "Essence",
+     "ch": 182
     },
     {
      "libelle": "1.6 i-DTEC 120 ch",
      "code": "honda16d",
-     "carburant": "Diesel"
+     "carburant": "Diesel",
+     "ch": 120
     }
    ],
    "boites": [

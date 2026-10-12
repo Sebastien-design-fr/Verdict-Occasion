@@ -12,27 +12,36 @@ const MODELS=DATA.modeles, DEFECTS=DATA.defauts, PRIX=DATA.prix||{}, DC=DATA.dec
 
 /* Cote estimée : prix neuf de référence × décote selon l'âge × kilométrage × marque × défaut critique connu.
    Paramètres dans data/decote.json, calés sur des cotes de marché publiques. */
-function moteurFactor(e){
-  const M=DC.moteurs;
-  if(e.carburant==='Électrique')return M.electrique;
-  if(e.carburant==='Hybride')return M.hybride;
-  let f=e.carburant==='Diesel'?M.diesel:M.turbo_essence;
-  if(M.codes_base.includes(e.code))f=M.base;
-  if(M.codes_performance.includes(e.code))f+=M.bonus_performance;
+/* Facteur moteur : type de carburant × puissance. Le prix neuf d'une version croît avec sa puissance
+   (exposant calé sur des cotes de marché), une 440i de 326 ch ne coûte pas le prix d'une 418i de 136 ch. */
+function moteurFactor(e,ch){
+  const M=DC.moteurs,P=DC.puissance;
+  let f;
+  if(e.carburant==='Électrique')f=M.electrique;
+  else if(e.carburant==='Hybride')f=M.hybride;
+  else{f=e.carburant==='Diesel'?M.diesel:M.turbo_essence;if(M.codes_base.includes(e.code))f=M.base;}
+  const c=ch||e.ch;
+  if(P&&c&&e.carburant!=='Électrique')f*=Math.pow(c/P.reference,P.exposant*(e.carburant==='Hybride'?0.5:1));
   return f;
 }
-function estimateCote(m,e,b,year,km){
+/* Les versions puissantes perdent moins de valeur : bonus de maintien de cote au-delà de la puissance de référence. */
+function maintienPuissance(e,ch){
+  const P=DC.puissance,c=ch||e.ch;
+  if(!P||!c||e.carburant==='Électrique'||e.carburant==='Hybride')return 1;
+  return (1+P.maintien*Math.max(0,Math.log(c/P.reference)))*(e.sport?P.bonus_sportive:1);
+}
+function estimateCote(m,e,b,year,km,ch){
   const ref=PRIX[m.id];if(!DC||!ref||!year)return null;
-  const fmin=Math.min(...m.moteurs.map(moteurFactor));
+  const fmin=Math.min(...m.moteurs.map(x=>moteurFactor(x,ref.ch?Math.max(x.ch||0,ref.ch):0)));
   const auto=!['man','ev','ecvt'].includes(b.code);
-  const neuf=ref.entree*DC.finition_moyenne*moteurFactor(e)/fmin*(auto?DC.boite_auto:1);
+  const neuf=ref.entree*DC.finition_moyenne*moteurFactor(e,ch)/fmin*(auto?DC.boite_auto:1);
   const now=new Date(),a=Math.max(0.2,now.getFullYear()+now.getMonth()/12-(year+0.5));
   const C=DC.courbe;
   let D=a<1?1-(1-C.premiere_annee)*a:C.premiere_annee*Math.pow(C.annuelle_jusqu_a_5_ans,Math.min(a,5)-1)*Math.pow(C.annuelle_apres_5_ans,Math.max(0,a-5));
   if(e.carburant==='Électrique')D*=C.electrique;
   const K=Math.max(DC.km.min,Math.min(DC.km.max,1-DC.km.par_10000_km*(km-a*DC.km.moyenne_annuelle)/10000));
   const crit=DEFECTS.some(d=>d.confiance==='confirmé'&&d.gravite===3&&d.frequence===3&&!d.rappel&&(d.moteurs||[]).includes(e.code)&&(!d.annees||(year>=d.annees[0]&&year<=d.annees[1])));
-  const mid=neuf*D*K*(DC.marques[m.marque]||1)*(DC.modeles[m.id]||1)*(crit?DC.defaut_critique:1);
+  const mid=neuf*D*K*maintienPuissance(e,ch)*(DC.marques[m.marque]||1)*(DC.modeles[m.id]||1)*(crit?DC.defaut_critique:1);
   const r=x=>Math.round(x/100)*100;
   return {mid:r(mid),low:r(mid*(1-DC.fourchette)),high:r(mid*(1+DC.fourchette)),neuf:r(neuf),neufEstime:!!ref.estime,crit};
 }
@@ -72,7 +81,7 @@ function zone(km,r){
 }
 const label=m=>`${m.marque} ${m.modele} ${m.generation}`;
 
-const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,cote:0,maint:'partiel',treated:[],example:true};
+const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,cote:0,ch:0,maint:'partiel',treated:[],example:true};
 try{const s=JSON.parse(localStorage.getItem('vo-state4')||'null');if(s&&MODELS.some(m=>m.id===s.model))Object.assign(state,s);}catch(e){}
 function save(){try{localStorage.setItem('vo-state4',JSON.stringify(state));}catch(e){}}
 
@@ -105,9 +114,10 @@ function fillDeps(){
   if(state.eng>=m.moteurs.length)state.eng=0;if(state.box>=m.boites.length)state.box=0;
   if(state.year<m.annees[0]||state.year>m.annees[1])state.year=m.annees[1];
   $('#f-eng').value=state.eng;$('#f-box').value=state.box;$('#f-year').value=state.year;
+  const ce=m.moteurs[state.eng];$('#f-ch').placeholder=ce&&ce.ch?`${ce.ch} (valeur type)`:'';
 }
 function syncInputs(){
-  $('#f-km').value=state.km;$('#f-price').value=state.price||'';$('#f-cote').value=state.cote||'';
+  $('#f-km').value=state.km;$('#f-price').value=state.price||'';$('#f-cote').value=state.cote||'';$('#f-ch').value=state.ch||'';
   document.querySelectorAll('#f-maint button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===state.maint));
   $('#ex-pill').hidden=!state.example;
 }
@@ -133,7 +143,7 @@ function evaluate(){
   if(recalls.length)notes.push(`${recalls.length>1?recalls.length+' rappels officiels concernent':'Un rappel officiel concerne'} ce véhicule. Exiger la preuve qu'${recalls.length>1?'ils ont':'il a'} été fait${recalls.length>1?'s':''} : sinon, l'intervention est gratuite en concession.`);
   const mec=Math.max(5,Math.min(100,Math.round(score)));
   const exp=list.reduce((s,d)=>s+d.exp,0);
-  const est=estimateCote(m,e,b,year,km);
+  const est=estimateCote(m,e,b,year,km,Number(state.ch)||0);
   const userCote=Number(state.cote)||0;
   const coteUsed=userCote||(est?est.mid:0), coteSrc=userCote?'saisie':'estimée';
   const pr=pricing(Number(state.price)||0,coteUsed,exp);
@@ -187,7 +197,7 @@ function render(){
       <div class="pscale" aria-hidden="true"><i style="left:${pos}%"></i></div>
       <div class="pscale-l" style="position:relative;height:1em"><span style="position:absolute;left:0">−30 %</span><span style="position:absolute;left:37.5%;transform:translateX(-50%)">cote</span><span style="position:absolute;left:75%;transform:translateX(-50%)">+30 %</span><span style="position:absolute;right:0">+50 %</span></div>
       <p class="hint" style="margin-top:10px">Le prix réel ajoute au prix demandé les frais à prévoir pour les défauts connus non traités. C'est lui qu'on compare à la cote.</p>
-      ${r.est?`<p class="hint" style="margin-top:6px">Estimation Ausculto : ${eur(r.est.mid)}, fourchette ${eur(r.est.low)} à ${eur(r.est.high)}. Calcul : prix neuf de référence ${eur(r.est.neuf)}${r.est.neufEstime?' (estimé, à vérifier)':''}, décote selon l'âge, kilométrage, tenue de la marque${r.est.crit?', moteur à défaut critique connu':''}. ${r.coteSrc==='estimée'?'Une cote officielle saisie dans le formulaire la remplace.':''}</p>`:''}</div>`;
+      ${r.est?`<p class="hint" style="margin-top:6px">Estimation Ausculto : ${eur(r.est.mid)}, fourchette ${eur(r.est.low)} à ${eur(r.est.high)}. Calcul : prix neuf de référence ${eur(r.est.neuf)}${r.est.neufEstime?' (estimé, à vérifier)':''} pour ${Number(state.ch)||r.e.ch||'?'} ch, décote selon l'âge, kilométrage, tenue de la marque${r.est.crit?', moteur à défaut critique connu':''}. ${r.coteSrc==='estimée'?'Une cote officielle saisie dans le formulaire la remplace.':''}</p>`:''}</div>`;
   }
   html+=`<div class="panel"><div class="head-row"><h2>Défauts connus</h2><span class="eyebrow" style="margin:0">Gravité façon contrôle technique</span></div>`;
   if(!r.list.length)html+=`<div class="alert ok">Aucun défaut répertorié pour cette combinaison à ce stade de la base. Les contrôles génériques ci-dessous restent indispensables.</div>`;
@@ -243,7 +253,7 @@ function renderRep(){
       const where=d.moteurs?m.moteurs.filter(e=>d.moteurs.includes(e.code)).map(e=>e.libelle):d.boites?m.boites.filter(b=>d.boites.includes(b.code)).map(b=>b.libelle):d.carburant?['versions diesel']:[];
       return `<li><span class="chip c${d.gravite}">${GL[d.gravite]}</span><span>${esc(d.titre)}${where.length?` <span style="color:var(--muted)">· ${esc(where.join(', '))}</span>`:''}${d.confiance==='confirmé'?'':' <span class="conf">À confirmer</span>'}</span></li>`;}).join('')}</ul>`:`<p class="clean">Aucun défaut répertorié pour l'instant.</p>`}
     <button class="btn ghost open" data-open="${m.id}">Évaluer ce modèle</button></article>`).join(''):`<p class="empty">Aucun résultat pour cette recherche.</p>`;
-  document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{state.model=b.dataset.open;state.eng=0;state.box=0;state.treated=[];touch();fillModel();fillDeps();render();show('eval');scrollTo({top:0});});
+  document.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>{state.model=b.dataset.open;state.eng=0;state.box=0;state.ch=0;state.treated=[];touch();fillModel();fillDeps();render();show('eval');scrollTo({top:0});});
 }
 
 function show(v){
@@ -253,8 +263,9 @@ function show(v){
 
 $('#tab-eval').onclick=()=>show('eval');
 $('#tab-rep').onclick=()=>show('rep');
-$('#f-model').onchange=e=>{state.model=e.target.value;state.eng=0;state.box=0;state.treated=[];touch();fillDeps();render();};
-$('#f-eng').onchange=e=>{state.eng=+e.target.value;state.treated=[];touch();render();};
+$('#f-model').onchange=e=>{state.model=e.target.value;state.eng=0;state.box=0;state.ch=0;state.treated=[];touch();fillDeps();syncInputs();render();};
+$('#f-eng').onchange=e=>{state.eng=+e.target.value;state.ch=0;state.treated=[];touch();fillDeps();syncInputs();render();};
+$('#f-ch').oninput=e=>{state.ch=+e.target.value||0;touch();render();};
 $('#f-box').onchange=e=>{state.box=+e.target.value;touch();render();};
 $('#f-year').onchange=e=>{state.year=+e.target.value;touch();render();};
 $('#f-km').oninput=e=>{state.km=+e.target.value||0;touch();render();};

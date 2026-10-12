@@ -9,7 +9,7 @@
 - `data/prix_neufs.json` : prix catalogue d'entrée de gamme de chaque modèle (sourcé ou estimé).
 - `data/decote.json` : paramètres de la cote estimée (courbe de décote, kilométrage, marques) et cotes de marché publiques servant de contrôle.
 - `page.html` + `app.js` : l'application.
-- `tests/cote.test.js` : vérifie que la cote estimée encadre les cotes de contrôle (`node tests/cote.test.js`).
+- `tests/cote.test.js` et `tests/cote.cases.js` : vérifient que la cote estimée encadre les 36 cotes de contrôle (`node tests/cote.test.js`).
 - `build.py` : vérifie la cohérence de la base, puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
 
 ## Score
@@ -21,7 +21,7 @@ Le score final combine deux parties :
 
 ## Cote estimée
 
-Sans cote saisie, Ausculto estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La fourchette affichée est de ±15 %. Sur 11 cotes de marché publiques, l'écart va de -12 % à +12 %. 262 prix neufs sur 264 sont sourcés (L'argus, presse auto, constructeurs) ; pour les générations ajoutées en octobre 2026, c'est le prix du neuf le plus bas de la génération selon L'argus ; ceux du Peugeot Partner II et du Citroën Berlingo II restent estimés, faute de tarif 2008 retrouvé. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
+Sans cote saisie, Ausculto estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × maintien des versions puissantes × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La motorisation tient compte du carburant et de la puissance : chaque moteur porte une puissance type (`ch`), que l'utilisateur peut corriger dans le formulaire ; le prix neuf varie comme (ch / 150)^0,5 et les versions de plus de 150 ch perdent un peu moins de valeur. Les sportives compactes (GTI, GTi, RS, ST, M135i, JCW…) portent `sport: true` et un bonus de maintien de 30 %. Les hybrides ont un effet puissance réduit, les électriques aucun. La fourchette affichée est de ±15 %. Sur 36 cotes de marché publiques (autobiz), dont 25 versions premium ou sportives, l'écart va de -12 % à +13 %. 262 prix neufs sur 264 sont sourcés (L'argus, presse auto, constructeurs) ; pour les générations ajoutées en octobre 2026, c'est le prix du neuf le plus bas de la génération selon L'argus ; ceux du Peugeot Partner II et du Citroën Berlingo II restent estimés, faute de tarif 2008 retrouvé. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
 
 ## Règle de confiance
 
@@ -41,3 +41,4 @@ Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il es
 - Passe de confirmation (octobre 2026) : 29 défauts repris, forums inclus. 22 confirmés, 2 retirés car contredits ou non étayés, 1 reformulé. Total : 101 modèles, 77 défauts dont 63 confirmés.
 - Consolidation par marque (octobre 2026) : toutes les générations courantes depuis 2010 et leurs motorisations pour BMW et Mini, le groupe Volkswagen (VW, Audi, Skoda, Seat, Cupra), Stellantis (Peugeot, Citroën, DS, Opel, Fiat, Jeep), Renault, Dacia, Nissan, Mercedes, Ford, Toyota, Hyundai, Kia, Mazda, Volvo, Tesla, Suzuki et Honda. 28 défauts ajoutés (chaîne N20, rappels EGR BMW, dieselgate EA189, EA888, 3.0 TDI, S tronic DL501, Multitronic, AL4, turbo 1.6 HDi, E-Tech, 7G-Tronic, rappels 1.6 EcoBoost et Kuga PHEV…). Total : 264 générations, 105 défauts dont 87 confirmés.
 - Prochains lots : compléter 2010-2026 (Kia Niro, Hyundai Ioniq, Tesla Model 3, Peugeot 508, Citroën C4, Renault Austral et Arkana, Skoda Kodiaq, BMW X1 et Série 3 G20, Audi Q3 et A4), puis 2000-2010.
+- Correction de la cote (octobre 2026) : la cote des versions puissantes était sous-estimée (BMW 440i de 2017 estimée à 18 100 € contre environ 27 000 € sur autobiz). Ajout de la puissance par moteur, d'un champ Puissance, d'un maintien de cote pour les versions puissantes et sportives, de 25 cotes de contrôle et de corrections par modèle (X1 F48, Classe C W205, A4 B9, Classe A W176, Mini F56).

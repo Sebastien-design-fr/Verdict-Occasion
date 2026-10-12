@@ -23,7 +23,6 @@
   "diesel": 1.2,
   "hybride": 1.22,
   "electrique": 1.45,
-  "bonus_performance": 0.18,
   "codes_base": [
    "puretech-a",
    "r12",
@@ -53,45 +52,6 @@
    "kappa",
    "theta20",
    "honda15"
-  ],
-  "codes_performance": [
-   "thp",
-   "ea888",
-   "k14c",
-   "tgdi16",
-   "honda15t",
-   "n47",
-   "om651",
-   "m274",
-   "m270",
-   "b38",
-   "b47",
-   "d5",
-   "veap",
-   "n20",
-   "b48",
-   "n53",
-   "n54",
-   "n55",
-   "b58",
-   "n57",
-   "b57",
-   "ea888g2",
-   "tdiv6",
-   "hdi20",
-   "opel16t",
-   "cdti20",
-   "tce16",
-   "tce18",
-   "m9r",
-   "mjt20",
-   "hdiv6",
-   "ecoboost20",
-   "ecoboost23",
-   "tdci20",
-   "m260",
-   "om642",
-   "toyhyb25"
   ]
  },
  "marques": {
@@ -123,7 +83,12 @@
   "Tesla": 0.9
  },
  "modeles": {
-  "fiat-500": 1.35
+  "fiat-500": 1.35,
+  "bmw-x1-f48": 0.83,
+  "mercedes-classe-c-w205": 0.88,
+  "audi-a4-b9": 0.9,
+  "mercedes-classe-a-w176": 1.15,
+  "mini-f56": 1.12
  },
  "controles": [
   {
@@ -180,6 +145,138 @@
    "vehicule": "Fiat 500 1.2 70 Club, 2015, 102 000 km",
    "cote": 6700,
    "source": "https://coteauto.autobiz.fr/fiat/fiat-500-1.2-70-club-2015/cote-auto/"
+  },
+  {
+   "vehicule": "BMW Série 4 Coupé 440i 326 M Sport xDrive BVA, 2017, ~100 000 km",
+   "cote": 27000,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-serie-4-coupe-440-i-325-m-sport-xdrive-bva-2017/cote-auto/"
+  },
+  {
+   "vehicule": "BMW Série 3 Touring 320d 190 Luxury BVA, 2016, 187 000 km",
+   "cote": 13400,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-serie-3-touring-320-d-190-luxury-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "BMW Série 3 318d 150 Lounge BVA, 2016, 172 000 km",
+   "cote": 12200,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-serie-3-318-d-150-lounge-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "BMW Série 3 330d 260 M Sport BVA, 2016, 141 000 km",
+   "cote": 21000,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-serie-3-330-d-260-m-sport-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII GTI 220, 2016, 126 000 km",
+   "cote": 15900,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-2.0-tsi-220-bluemotion-gti-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII R 300 DSG, 2016, 124 000 km",
+   "cote": 23000,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-2.0-tsi-300-bluemotion-r-dsg-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII GTI Clubsport 265, 2017, 88 000 km",
+   "cote": 22900,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-2.0-tsi-265-bluemotion-gti-clubsport-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII GTI 220 DSG, 2016, 127 000 km",
+   "cote": 17100,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-2.0-tsi-220-gti-dsg-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes Classe C Coupé 220d 170 Executive, 2015, 143 000 km",
+   "cote": 12700,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-c-coupe-220-d-170-executive-2015/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes Classe A 180d 110 Business, 2016, 142 000 km",
+   "cote": 12200,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-a-180-d-110-business-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes Classe A 200 156 Fascination, 2016, 113 000 km",
+   "cote": 15500,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-a-200-160-fascination-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes GLA 180d 110 Inspiration, 2016, 144 000 km",
+   "cote": 12900,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-gla-180-d-110-inspiration-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Audi A4 2.0 TDI 150 Ultra S line, 2016, 161 000 km",
+   "cote": 13500,
+   "source": "https://coteauto.autobiz.fr/audi/audi-a4-2.0-tdi-150-ultra-s-line-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Audi A4 Avant 2.0 TDI 150 S tronic, 2016, 172 000 km",
+   "cote": 13200,
+   "source": "https://coteauto.autobiz.fr/audi/audi-a4-avant-2.0-tdi-150-s-tronic-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Audi A4 2.0 TDI 150 Ambition Luxe, 2014, 145 000 km",
+   "cote": 13700,
+   "source": "https://coteauto.autobiz.fr/audi/audi-a4-2.0-tdi-150-ambition-luxe-2014/cote-auto/"
+  },
+  {
+   "vehicule": "BMW X1 xDrive18d 150 xLine, 2017, 155 000 km",
+   "cote": 15100,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-x1-1.8-d-150-x-line-xdrive-2017/cote-auto/"
+  },
+  {
+   "vehicule": "BMW X1 sDrive18d 150 xLine, 2016, 165 000 km",
+   "cote": 13300,
+   "source": "https://coteauto.autobiz.fr/bmw/bmw-x1-1.8-d-150-x-line-sdrive-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Peugeot 308 GTi 270, 2017, 98 000 km",
+   "cote": 17300,
+   "source": "https://coteauto.autobiz.fr/peugeot/peugeot-308-1.6-thp-270-gti-start-stop-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Peugeot 308 GTi 270, 2015, 120 000 km",
+   "cote": 15100,
+   "source": "https://coteauto.autobiz.fr/peugeot/peugeot-308-1.6-thp-270-gti-start-stop-2015/cote-auto/"
+  },
+  {
+   "vehicule": "Mini Cooper D 116 BVA, 2017, 117 000 km",
+   "cote": 12800,
+   "source": "https://coteauto.autobiz.fr/mini/mini-mini-1.5-d-115-cooper-bva-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Mini Cooper D 116 Pack Chili, 2015, 149 000 km",
+   "cote": 8100,
+   "source": "https://coteauto.autobiz.fr/mini/mini-mini-1.5-d-115-cooper-pack-chili-2015/cote-auto/"
+  },
+  {
+   "vehicule": "Renault Clio IV RS 200 EDC, 2016, 106 000 km",
+   "cote": 13900,
+   "source": "https://coteauto.autobiz.fr/renault/renault-clio-1.6-200-energy-rs-edc-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Renault Clio IV RS Trophy 220 EDC, 2016, 99 000 km",
+   "cote": 17500,
+   "source": "https://coteauto.autobiz.fr/renault/renault-clio-1.6-220-rs-trophy-edc-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes GLC 350 e 4Matic Fascination, 2017",
+   "cote": 23900,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-glc-350-e-210-fascination-4matic-bva-320h-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Mercedes GLC 250 d 4Matic Fascination, 2017",
+   "cote": 23600,
+   "source": "https://coteauto.autobiz.fr/mercedes/mercedes-classe-glc-250-d-205-fascination-4matic-bva-2017/cote-auto/"
   }
- ]
+ ],
+ "puissance": {
+  "reference": 150,
+  "exposant": 0.5,
+  "maintien": 0.1,
+  "bonus_sportive": 1.3,
+  "note": "Facteur moteur × (ch / 150)^exposant ; maintien de cote × (1 + maintien × ln(ch / 150)) au-delà de 150 ch ; × bonus_sportive pour les sportives compactes (GTI, RS, ST, M135i…)."
+ }
 }

@@ -464,7 +464,8 @@
   "bmw-serie4-f32": {
    "entree": 37950,
    "source": "https://www.largus.fr/Bmw_Serie-4-Coupe_I-F32.html",
-   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2020, Coupé)"
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2020, Coupé) ; ce minimum correspond au Coupé, dont la plus petite version fait 184 ch (la 418i 136 ch n'existe qu'en Gran Coupé)",
+   "ch": 184
   },
   "bmw-serie4-g22": {
    "entree": 48000,

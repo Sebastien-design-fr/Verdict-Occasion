@@ -2954,6 +2954,414 @@
      "type": "forum"
     }
    ]
+  },
+  {
+   "id": "n20-chaine",
+   "titre": "Guides de chaîne de distribution en plastique qui cassent (N20)",
+   "moteurs": [
+    "n20"
+   ],
+   "modeles": [
+    "bmw-serie1-f20",
+    "bmw-serie2-f22",
+    "bmw-serie3-f30",
+    "bmw-serie4-f32",
+    "bmw-serie5-f10",
+    "bmw-x1-e84",
+    "bmw-x3-f25",
+    "bmw-x4-f26"
+   ],
+   "annees": [
+    2011,
+    2015
+   ],
+   "km": [
+    60000,
+    180000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Cliquetis ou sifflement métallique côté distribution, surtout au démarrage à froid, puis ralenti irrégulier et voyant moteur. Le guide casse, la chaîne saute : moteur détruit.",
+   "controle": "Écouter le moteur à froid. Vérifier la date de fabrication (moteurs d'avant mi-2015 concernés) et demander la facture d'un remplacement chaîne, guides et tendeur par les pièces révisées.",
+   "solution": "Remplacement préventif de la chaîne, des guides et du tendeur par les pièces modifiées en 2015. Aux États-Unis, un accord collectif de 2021 a étendu la garantie sur ces pièces.",
+   "cout": [
+    6000,
+    12000
+   ],
+   "preventif": 2500,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "CarComplaints : action collective sur les chaînes des moteurs N20 et N26",
+     "url": "https://www.carcomplaints.com/news/2017/bmw-n20-n26-engine-lawsuit-blames-timing-chains.shtml",
+     "type": "article"
+    },
+    {
+     "titre": "Autodoc : défaillance des guides de chaîne du N20 (F30 320i, 328i)",
+     "url": "https://www.autodoc.co.uk/info/bmw-f30-n20-engine-timing-chain-guide-failures",
+     "type": "article"
+    },
+    {
+     "titre": "The Autopian : le N20 et sa chaîne de distribution, pièces révisées en 2015",
+     "url": "https://theautopian.com/how-bmw-replaced-one-of-its-best-engines-with-one-of-its-worst-engines",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "bmw-egr-rappel",
+   "titre": "Refroidisseur EGR qui fuit : risque d'incendie (rappel)",
+   "moteurs": [
+    "n47",
+    "b37",
+    "b47",
+    "n57",
+    "b57"
+   ],
+   "modeles": [
+    "bmw-serie1-f20",
+    "bmw-serie2-f22",
+    "bmw-serie3-f30",
+    "bmw-serie4-f32",
+    "bmw-serie5-f10",
+    "bmw-serie5-g30",
+    "bmw-x1-e84",
+    "bmw-x3-f25",
+    "bmw-x3-g01",
+    "bmw-x4-f26",
+    "bmw-x4-g02",
+    "bmw-x5-f15"
+   ],
+   "annees": [
+    2010,
+    2020
+   ],
+   "km": [
+    0,
+    250000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Du liquide de refroidissement fuit du refroidisseur EGR et se dépose dans le circuit d'admission. Mélangé à la suie chaude, il peut s'enflammer : odeur de brûlé, fumée sous le capot, voire incendie.",
+   "controle": "Vérifier avec le numéro de série (VIN) sur le site de rappel BMW que la campagne EGR a été faite, et demander la preuve au vendeur. Surveiller une baisse du niveau de liquide de refroidissement.",
+   "solution": "Rappels BMW de 2018 (diesels 2010-2017), étendu en 2019, puis nouvelle campagne lancée en 2023 (Série 5 G30, X3 G01, X4 G02 notamment) : remplacement gratuit du refroidisseur EGR.",
+   "cout": [
+    1500,
+    3000
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Which? : BMW rappelle 268 000 diesels au Royaume-Uni pour risque d'incendie (liste des modèles)",
+     "url": "https://www.which.co.uk/news/2018/10/bmw-recalls-268000-uk-cars-due-to-fire-risk",
+     "type": "article"
+    },
+    {
+     "titre": "L'Automobile Magazine : le rappel EGR BMW toujours en cours, liste des modèles",
+     "url": "https://www.automobile-magazine.fr/rappels-constructeur/article/51780-informations-lautomobile-magazine-chez-bmw-un-important-rappel-pour-risque-dincendie-se-poursuit-depuis-bientot-trois-ans",
+     "type": "article"
+    },
+    {
+     "titre": "BMW Belgique : campagne technique radiateur EGR",
+     "url": "https://www.bmw.be/be/s/article/Campagnes-techniques-Action-de-rappel-Syst%C3%A8me-de-recyclage-des-gaz-d%C3%A9chappement-radiateur-EGR-Contr%C3%B4le-PJn37?language=fr_BE",
+     "type": "officiel"
+    },
+    {
+     "titre": "MA-BMW.com : rappel EGR sur moteurs 18d à 35d",
+     "url": "https://www.ma-bmw.com/forum/viewtopic.php?t=64573&start=240",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "bmw-phev-batterie-rappel",
+   "titre": "Batterie haute tension contaminée : risque d'incendie (rappel 2020)",
+   "moteurs": [
+    "bmwphev"
+   ],
+   "annees": [
+    2020,
+    2020
+   ],
+   "km": [
+    0,
+    100000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Des poussières dans certaines cellules de la batterie peuvent provoquer un court-circuit, surtout batterie pleine, avec un risque d'incendie.",
+   "controle": "Pour un hybride rechargeable fabriqué entre le 20 janvier et le 18 septembre 2020, vérifier avec le VIN que le rappel a été effectué.",
+   "solution": "Rappel BMW et Mini : contrôle et remplacement des modules concernés, en atelier centralisé.",
+   "cout": [
+    8000,
+    15000
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : BMW et Mini, 2 000 hybrides rechargeables rappelés en France",
+     "url": "https://www.largus.fr/actualite-automobile/bmw-et-mini-2-000-hybrides-rechargeables-rappeles-en-france-10486399.html",
+     "type": "article"
+    },
+    {
+     "titre": "Automobile Propre : les hybrides rechargeables BMW rappelés pour risque d'incendie",
+     "url": "https://www.automobile-propre.com/breves/les-hybrides-rechargeables-de-bmw-au-rappel-pour-risque-dincendie/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "n55-pompe-eau",
+   "titre": "Pompe à eau électrique qui lâche sans prévenir",
+   "moteurs": [
+    "n20",
+    "n53",
+    "n54",
+    "n55"
+   ],
+   "annees": [
+    2006,
+    2017
+   ],
+   "km": [
+    100000,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Voyant de température, passage en mode dégradé, ventilateur à fond. Continuer à rouler expose à une surchauffe et à une culasse endommagée.",
+   "controle": "Demander si la pompe à eau et le thermostat ont été remplacés (pièces souvent changées ensemble). Au-delà de 120 000 km sans remplacement, prévoir la dépense.",
+   "solution": "Remplacement de la pompe et du thermostat.",
+   "cout": [
+    800,
+    1400
+   ],
+   "preventif": 900,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "STR Performance : moteurs N54 et N55, fiabilité et pannes récurrentes",
+     "url": "https://strperformance.com/fr/blog/guides/moteurs-bmw-n54-n55-guide-complet-fiabilite-pannes-recurrentes-et-conseils-d-entretien",
+     "type": "article"
+    },
+    {
+     "titre": "WeAreBargain : fiabilité du moteur BMW N55",
+     "url": "https://www.wearebargain.com/blog/fiabilite-auto/fiabilite-moteur-bmw-n55",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "n55-fuites-huile",
+   "titre": "Fuites d'huile au support de filtre et au couvre-culasse",
+   "moteurs": [
+    "n54",
+    "n55"
+   ],
+   "annees": [
+    2006,
+    2018
+   ],
+   "km": [
+    90000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Odeur d'huile brûlée, fumée sous le capot, traces d'huile sur le bloc et sous la voiture. Une fuite au support de filtre peut abîmer la courroie d'accessoires.",
+   "controle": "Inspecter le côté gauche du bloc (support de filtre à huile) et le pourtour du couvre-culasse, et regarder sous le moteur.",
+   "solution": "Remplacement des joints du support de filtre à huile, du couvre-culasse et, si besoin, du carter.",
+   "cout": [
+    400,
+    1500
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "WeAreBargain : fiabilité du moteur BMW N55",
+     "url": "https://www.wearebargain.com/blog/fiabilite-auto/fiabilite-moteur-bmw-n55",
+     "type": "article"
+    },
+    {
+     "titre": "STR Performance : moteurs N54 et N55, fiabilité et pannes récurrentes",
+     "url": "https://strperformance.com/fr/blog/guides/moteurs-bmw-n54-n55-guide-complet-fiabilite-pannes-recurrentes-et-conseils-d-entretien",
+     "type": "article"
+    },
+    {
+     "titre": "Reddit r/BmwTech : fuite du support de filtre à huile N55",
+     "url": "https://www.reddit.com/r/BmwTech/comments/1neejzu/bmw_n55_oil_filter_housing_leak/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "n54-pompe-hp",
+   "titre": "Pompe haute pression, injecteurs et wastegates fragiles (N54)",
+   "moteurs": [
+    "n54"
+   ],
+   "annees": [
+    2006,
+    2010
+   ],
+   "km": [
+    60000,
+    160000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Démarrages longs, trous à l'accélération, mode dégradé (pompe haute pression). Ratés et fumée (injecteurs qui fuient). Claquement métallique du turbo à la décélération (wastegates).",
+   "controle": "Lire la mémoire de défauts, vérifier le relevé des pressions de carburant et demander les factures de pompe et d'injecteurs (BMW a revu ces pièces).",
+   "solution": "Remplacement de la pompe haute pression et des injecteurs par les dernières références. Les wastegates imposent souvent de déposer les turbos.",
+   "cout": [
+    1000,
+    4000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Auto Moto Passion : le moteur BMW N54 est-il si mauvais",
+     "url": "https://auto-moto-passion.com/auto/moteur-bmw-n54-est-il-si-mauvais/",
+     "type": "article"
+    },
+    {
+     "titre": "Forum Caradisiac : enquête 35i N54",
+     "url": "https://forum-auto.caradisiac.com/topic/161446-enqu%C3%AAte-35i-n54/",
+     "type": "forum"
+    },
+    {
+     "titre": "STR Performance : moteurs N54 et N55, fiabilité et pannes récurrentes",
+     "url": "https://strperformance.com/fr/blog/guides/moteurs-bmw-n54-n55-guide-complet-fiabilite-pannes-recurrentes-et-conseils-d-entretien",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "n43-injecteurs",
+   "titre": "Injecteurs piézo et bobines qui provoquent des ratés (N43, N53)",
+   "moteurs": [
+    "n43",
+    "n53"
+   ],
+   "annees": [
+    2007,
+    2012
+   ],
+   "km": [
+    70000,
+    180000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Ratés, ralenti instable, perte de puissance soudaine, voyant moteur. Un injecteur qui fuit peut diluer l'huile.",
+   "controle": "Lire la mémoire de défauts (ratés par cylindre) et demander les factures d'injecteurs, de bobines et de sonde NOx. Écouter le ralenti moteur chaud.",
+   "solution": "Remplacement des injecteurs fautifs (dernier indice) et des bobines. Un jeu complet d'injecteurs coûte cher.",
+   "cout": [
+    600,
+    2800
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Bmw-one.com : soucis sur 120i N43",
+     "url": "https://www.bmw-one.com/phpbb3/viewtopic.php?f=34&t=8064",
+     "type": "forum"
+    },
+    {
+     "titre": "Forum Caradisiac : litige avec BMW sur les injecteurs du N43 (118i E81)",
+     "url": "https://forum-auto.caradisiac.com/topic/170754-help-litige-avec-bmw-sur-les-injecteurs-de-moteur-n43-%E2%80%93-bmw-118i-e81-2008/",
+     "type": "forum"
+    },
+    {
+     "titre": "Bmw-serie3.com : ratés moteur à bas régime sur N53",
+     "url": "https://www.bmw-serie3.com/phpbb3/viewtopic.php?t=31226",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "n46-huile",
+   "titre": "Consommation d'huile et fuites (N46)",
+   "moteurs": [
+    "n46"
+   ],
+   "annees": [
+    2004,
+    2011
+   ],
+   "km": [
+    100000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Consommation d'huile élevée (joints de queue de soupape, segmentation), fuites au couvre-culasse, bruit de chaîne si l'huile n'a pas été changée assez souvent.",
+   "controle": "Vérifier le niveau d'huile et les traces autour du couvre-culasse. Demander la fréquence des vidanges et l'historique de la chaîne.",
+   "solution": "Joints de couvre-culasse et de queue de soupape, voire chaîne de distribution.",
+   "cout": [
+    400,
+    2000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Reddit r/e46 : le moteur N46 de la 318i restylée, retours de propriétaires",
+     "url": "https://www.reddit.com/r/e46/comments/1lyvakp/is_the_facelift_318i_engine_n46n42_really_that_bad/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "i3-compresseur-clim",
+   "titre": "Compresseur de climatisation électrique qui casse (i3)",
+   "moteurs": [
+    "ev",
+    "i3rex"
+   ],
+   "modeles": [
+    "bmw-i3"
+   ],
+   "annees": [
+    2013,
+    2022
+   ],
+   "km": [
+    40000,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Plus de froid, défaut de climatisation. Le compresseur sert aussi à refroidir la batterie : une casse peut envoyer des débris dans le circuit.",
+   "controle": "Tester la climatisation et lire la mémoire de défauts. Pour un i3 REx, faire tourner le prolongateur et demander l'historique d'entretien.",
+   "solution": "Remplacement du compresseur, et rinçage du circuit s'il y a des débris.",
+   "cout": [
+    2000,
+    4000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "au7o : problèmes connus de la BMW i3",
+     "url": "https://au7o.io/fr/known-issues/bmw-i3",
+     "type": "article"
+    }
+   ]
   }
  ]
 }

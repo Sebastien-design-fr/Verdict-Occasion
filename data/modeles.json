@@ -1795,29 +1795,54 @@
    "id": "bmw-serie1-f20",
    "marque": "BMW",
    "modele": "Série 1",
-   "generation": "F20",
+   "generation": "F20 / F21",
    "annees": [
     2011,
     2019
    ],
    "moteurs": [
     {
-     "libelle": "116i / 118i 1.6 (N13)",
+     "libelle": "114i / 116i / 118i 1.6 turbo (N13, 2011-2015)",
      "code": "n13",
      "carburant": "Essence"
     },
     {
-     "libelle": "116d / 118d / 120d (N47, 2011-2014)",
-     "code": "n47",
-     "carburant": "Diesel"
-    },
-    {
-     "libelle": "Essence (2015-2019)",
+     "libelle": "116i / 118i 1.5 trois cylindres (B38, 2015-2019)",
      "code": "b38",
      "carburant": "Essence"
     },
     {
-     "libelle": "Diesel (B47, 2015-2019)",
+     "libelle": "120i / 125i 2.0 (N20, 2012-2015)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "120i / 125i 2.0 (B48, 2015-2019)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M135i 3.0 (N55, 2012-2016)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M140i 3.0 (B58, 2016-2019)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "114d / 116d / 118d / 120d / 125d (N47, 2011-2015)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "116d 1.5 trois cylindres (B37, 2015-2019)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "118d / 120d / 125d 2.0 (B47, 2015-2019)",
      "code": "b47",
      "carburant": "Diesel"
     }
@@ -1828,7 +1853,7 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique 8 rapports",
+     "libelle": "Automatique 8 rapports (ZF)",
      "code": "zf8"
     }
    ]
@@ -1837,31 +1862,61 @@
    "id": "bmw-serie3-f30",
    "marque": "BMW",
    "modele": "Série 3",
-   "generation": "F30",
+   "generation": "F30 / F31 / F34",
    "annees": [
     2012,
     2019
    ],
    "moteurs": [
     {
-     "libelle": "316i 1.6 (N13)",
+     "libelle": "316i 1.6 (N13, 2012-2015)",
      "code": "n13",
      "carburant": "Essence"
     },
     {
-     "libelle": "316d / 318d / 320d (N47, 2012-2014)",
-     "code": "n47",
-     "carburant": "Diesel"
-    },
-    {
-     "libelle": "Essence (2015-2019)",
+     "libelle": "318i 1.5 (B38, 2015-2019)",
      "code": "b38",
      "carburant": "Essence"
     },
     {
-     "libelle": "Diesel (B47, 2015-2019)",
+     "libelle": "320i / 328i 2.0 (N20, 2012-2015)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "320i / 330i 2.0 (B48, 2015-2019)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "335i 3.0 (N55, 2012-2015)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "340i 3.0 (B58, 2015-2019)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "316d / 318d / 320d (N47, 2012-2015)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "316d / 318d / 320d / 325d (B47, 2015-2019)",
      "code": "b47",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "330d / 335d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "330e hybride rechargeable (B48, 2016-2019)",
+     "code": "bmwphev",
+     "carburant": "Hybride"
     }
    ],
    "boites": [
@@ -1870,7 +1925,7 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique 8 rapports",
+     "libelle": "Automatique 8 rapports (ZF)",
      "code": "zf8"
     }
    ]
@@ -2940,22 +2995,37 @@
   {
    "id": "mini-f56",
    "marque": "Mini",
-   "modele": "Mini 3 et 5 portes",
-   "generation": "F55 / F56",
+   "modele": "Mini 3 et 5 portes / Cabriolet",
+   "generation": "F55 / F56 / F57",
    "annees": [
     2014,
     2024
    ],
    "moteurs": [
     {
-     "libelle": "Cooper / Cooper S (B38, B48)",
+     "libelle": "One / Cooper 1.2-1.5 trois cylindres (B38)",
      "code": "b38",
      "carburant": "Essence"
     },
     {
-     "libelle": "Cooper D / SD (B37, B47)",
+     "libelle": "Cooper S / JCW 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "One D / Cooper D 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper SD 2.0 (B47)",
      "code": "b47",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper SE électrique (2020-2024)",
+     "code": "ev",
+     "carburant": "Électrique"
     }
    ],
    "boites": [
@@ -2964,8 +3034,16 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique",
-     "code": "auto"
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
     }
    ]
   },
@@ -4065,6 +4143,1187 @@
     {
      "libelle": "Automatique Geartronic",
      "code": "aw"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie1-e87",
+   "marque": "BMW",
+   "modele": "Série 1",
+   "generation": "E81 / E87",
+   "annees": [
+    2004,
+    2011
+   ],
+   "moteurs": [
+    {
+     "libelle": "116i / 118i / 120i 1.6-2.0 (N43, injection directe)",
+     "code": "n43",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "116d / 118d / 120d / 123d 2.0 (N47)",
+     "code": "n47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 6 rapports (ZF)",
+     "code": "zf6"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie1-f40",
+   "marque": "BMW",
+   "modele": "Série 1",
+   "generation": "F40",
+   "annees": [
+    2019,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "116i / 118i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "120i / 128ti / M135i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "116d 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "118d / 120d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie2-f22",
+   "marque": "BMW",
+   "modele": "Série 2 Coupé / Cabriolet",
+   "generation": "F22 / F23",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "218i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "220i / 228i 2.0 (N20, 2014-2016)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "220i / 230i 2.0 (B48, 2016-2021)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M235i 3.0 (N55, 2014-2016)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M240i 3.0 (B58, 2016-2021)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "218d / 220d / 225d (N47, 2014-2015)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "218d / 220d / 225d (B47, 2015-2021)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie2-at-f45",
+   "marque": "BMW",
+   "modele": "Série 2 Active Tourer / Gran Tourer",
+   "generation": "F45 / F46",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "216i / 218i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "220i / 225i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "216d 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "218d / 220d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "225xe hybride rechargeable (B38)",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie2-gc-f44",
+   "marque": "BMW",
+   "modele": "Série 2 Gran Coupé",
+   "generation": "F44",
+   "annees": [
+    2020,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "216i / 218i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "220i / M235i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "216d 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "218d / 220d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie2-at-u06",
+   "marque": "BMW",
+   "modele": "Série 2 Active Tourer",
+   "generation": "U06",
+   "annees": [
+    2022,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "218i / 220i 1.5 (B38, microhybride)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "223i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "218d / 220d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "225e / 230e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie3-e90",
+   "marque": "BMW",
+   "modele": "Série 3",
+   "generation": "E90 / E91 / E92 / E93",
+   "annees": [
+    2005,
+    2012
+   ],
+   "moteurs": [
+    {
+     "libelle": "318i / 320i 2.0 (N46)",
+     "code": "n46",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "318i / 320i 2.0 (N43, injection directe, 2007-2012)",
+     "code": "n43",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "325i / 330i 3.0 (N53, injection directe)",
+     "code": "n53",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "335i 3.0 biturbo (N54, 2006-2010)",
+     "code": "n54",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "335i 3.0 turbo (N55, 2010-2012)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "316d / 318d / 320d / 320d ED (N47, 2007-2012)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "325d / 330d / 335d 3.0 (N57 et M57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 6 rapports (ZF)",
+     "code": "zf6"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie3-g20",
+   "marque": "BMW",
+   "modele": "Série 3",
+   "generation": "G20 / G21",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "318i / 320i / 330i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M340i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "318d / 320d 2.0 (B47, microhybride dès 2020)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "330d / M340d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "320e / 330e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie4-f32",
+   "marque": "BMW",
+   "modele": "Série 4 Coupé / Cabriolet / Gran Coupé",
+   "generation": "F32 / F33 / F36",
+   "annees": [
+    2013,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "418i 1.5 (B38, Gran Coupé)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "420i / 428i 2.0 (N20, 2013-2016)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "420i / 430i 2.0 (B48, 2016-2020)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "435i 3.0 (N55, 2013-2016)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "440i 3.0 (B58, 2016-2020)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "418d / 420d / 425d (N47, 2013-2015)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "418d / 420d / 425d (B47, 2015-2020)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "430d / 435d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie4-g22",
+   "marque": "BMW",
+   "modele": "Série 4 Coupé / Cabriolet / Gran Coupé",
+   "generation": "G22 / G23 / G26",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "420i / 430i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M440i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "420d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "430d / M440d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "i4 électrique (Gran Coupé)",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie5-f10",
+   "marque": "BMW",
+   "modele": "Série 5",
+   "generation": "F10 / F11",
+   "annees": [
+    2010,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "523i / 528i 3.0 (N53, 2010-2011)",
+     "code": "n53",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "520i / 528i 2.0 (N20, 2011-2016)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "535i 3.0 (N55)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "518d / 520d / 525d (N47, 2010-2014)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "518d / 520d (B47, 2014-2017)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "525d / 530d / 535d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie5-g30",
+   "marque": "BMW",
+   "modele": "Série 5",
+   "generation": "G30 / G31",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "520i / 530i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "540i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "518d / 520d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "530d / 540d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "530e hybride rechargeable (B48)",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x1-e84",
+   "marque": "BMW",
+   "modele": "X1",
+   "generation": "E84",
+   "annees": [
+    2009,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "sDrive18i 2.0 (N46, 2009-2011)",
+     "code": "n46",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive20i / xDrive28i 2.0 (N20, 2011-2015)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive16d / 18d / 20d / xDrive25d (N47)",
+     "code": "n47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 6 rapports (ZF)",
+     "code": "zf6"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x1-f48",
+   "marque": "BMW",
+   "modele": "X1",
+   "generation": "F48",
+   "annees": [
+    2015,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "sDrive16i / 18i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive20i / xDrive25i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive16d 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "sDrive18d / xDrive20d / 25d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive25e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x1-u11",
+   "marque": "BMW",
+   "modele": "X1",
+   "generation": "U11",
+   "annees": [
+    2022,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "sDrive18i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive23i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive18d / xDrive23d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive25e / 30e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "iX1 électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x2-f39",
+   "marque": "BMW",
+   "modele": "X2",
+   "generation": "F39",
+   "annees": [
+    2018,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "sDrive18i 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive20i / M35i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive16d 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "sDrive18d / xDrive20d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive25e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x3-f25",
+   "marque": "BMW",
+   "modele": "X3",
+   "generation": "F25",
+   "annees": [
+    2010,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "sDrive20i / xDrive20i / 28i 2.0 (N20)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive35i 3.0 (N55)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive18d / xDrive20d (N47, 2010-2014)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "sDrive18d / xDrive20d (B47, 2014-2017)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30d / 35d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x3-g01",
+   "marque": "BMW",
+   "modele": "X3",
+   "generation": "G01",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "xDrive20i / 30i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M40i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive18d / xDrive20d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30d / M40d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "iX3 électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x4-f26",
+   "marque": "BMW",
+   "modele": "X4",
+   "generation": "F26",
+   "annees": [
+    2014,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "xDrive20i / 28i 2.0 (N20)",
+     "code": "n20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive35i 3.0 (N55)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive20d (N47, 2014)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive20d (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30d / 35d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x4-g02",
+   "marque": "BMW",
+   "modele": "X4",
+   "generation": "G02",
+   "annees": [
+    2018,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "xDrive20i / 30i 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "M40i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive20d 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30d / M40d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x5-f15",
+   "marque": "BMW",
+   "modele": "X5",
+   "generation": "F15",
+   "annees": [
+    2013,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "xDrive35i 3.0 (N55)",
+     "code": "n55",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "sDrive25d / xDrive25d 2.0 (N47 puis B47)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive30d / 40d / M50d 3.0 (N57)",
+     "code": "n57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive40e hybride rechargeable (N20)",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-x5-g05",
+   "marque": "BMW",
+   "modele": "X5",
+   "generation": "G05",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "xDrive40i 3.0 (B58)",
+     "code": "b58",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "xDrive25d / 30d / 40d 3.0 (B57)",
+     "code": "b57",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "xDrive45e / 50e hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique 8 rapports (ZF)",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-i3",
+   "marque": "BMW",
+   "modele": "i3",
+   "generation": "I01",
+   "annees": [
+    2013,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "i3 / i3s électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    },
+    {
+     "libelle": "i3 REx (prolongateur d'autonomie 647 cm³)",
+     "code": "i3rex",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "mini-r60",
+   "marque": "Mini",
+   "modele": "Countryman",
+   "generation": "R60",
+   "annees": [
+    2010,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "One / Cooper / Cooper S / JCW 1.6 (moteur Prince)",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "One D / Cooper D 1.6 (moteur PSA, 2010-2014)",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper D / SD 2.0 (N47, 2011-2016)",
+     "code": "n47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 6 rapports",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mini-f60",
+   "marque": "Mini",
+   "modele": "Countryman",
+   "generation": "F60",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "One / Cooper 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Cooper S / JCW 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "One D 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper D / SD 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper SE ALL4 hybride rechargeable",
+     "code": "bmwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "mini-f54",
+   "marque": "Mini",
+   "modele": "Clubman",
+   "generation": "F54",
+   "annees": [
+    2015,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "One / Cooper 1.5 (B38)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Cooper S / JCW 2.0 (B48)",
+     "code": "b48",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "One D 1.5 (B37)",
+     "code": "b37",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper D / SD 2.0 (B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Steptronic 6 / 8 rapports (Aisin)",
+     "code": "aisin"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
+     "code": "bmwdct7"
     }
    ]
   }

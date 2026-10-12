@@ -228,12 +228,14 @@
    "source": "https://www.largus.fr/actualite-automobile/ford-ecosport-une-finition-trend-plus-accessible-5865384.html"
   },
   "bmw-serie1-f20": {
-   "entree": 25450,
-   "source": "https://www.motorlegend.com/actualite-automobile/tarifs-bmw-serie-1-2011/5466.html"
+   "entree": 18150,
+   "source": "https://www.largus.fr/Bmw_Serie-1_Ii-F21-F20.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2019, 114i)"
   },
   "bmw-serie3-f30": {
-   "entree": 35600,
-   "source": "https://www.autoplus.fr/bmw/serie-3/bmw-serie-3-f30-a-partir-de-35-600-euros-249889.html"
+   "entree": 25900,
+   "source": "https://www.largus.fr/Bmw_Serie-3_Vi-F30.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2019)"
   },
   "mini-r56": {
    "entree": 15450,
@@ -418,6 +420,136 @@
    "entree": 35000,
    "source": "https://www.largus.fr/actualite-automobile/volvo-xc-60-138852.html",
    "note": "estimation L'argus avant lancement"
+  },
+  "bmw-serie1-e87": {
+   "entree": 19900,
+   "source": "https://www.largus.fr/Bmw_Serie-1_I-E81-E87.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2004-2011)"
+  },
+  "bmw-serie1-f40": {
+   "entree": 24850,
+   "source": "https://www.largus.fr/Bmw_Serie-1_Iii-F40.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2019-2024)"
+  },
+  "bmw-serie2-f22": {
+   "entree": 29990,
+   "source": "https://www.largus.fr/Bmw_Serie-2-Coupe_I-F22.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2021)"
+  },
+  "bmw-serie2-at-f45": {
+   "entree": 24990,
+   "source": "https://www.largus.fr/Bmw_Serie-2-Activetourer_I-F45.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2021)"
+  },
+  "bmw-serie2-gc-f44": {
+   "entree": 31150,
+   "source": "https://www.largus.fr/Bmw_Serie-2-Gran-Coupe_I-F44.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2019-2024)"
+  },
+  "bmw-serie2-at-u06": {
+   "entree": 34200,
+   "source": "https://www.largus.fr/Bmw_Serie-2-Activetourer_Ii-U06.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "bmw-serie3-e90": {
+   "entree": 23900,
+   "source": "https://www.largus.fr/Bmw_Serie-3_V-E90.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2005-2012)"
+  },
+  "bmw-serie3-g20": {
+   "entree": 37700,
+   "source": "https://www.largus.fr/Bmw_Serie-3_Vii-G20.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "bmw-serie4-f32": {
+   "entree": 37950,
+   "source": "https://www.largus.fr/Bmw_Serie-4-Coupe_I-F32.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2020, Coupé)"
+  },
+  "bmw-serie4-g22": {
+   "entree": 48000,
+   "source": "https://www.largus.fr/Bmw_Serie-4-Coupe_Ii-G22.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020, Coupé)"
+  },
+  "bmw-serie5-f10": {
+   "entree": 32640,
+   "source": "https://www.largus.fr/Bmw_Serie-5_V-F10.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2016)"
+  },
+  "bmw-serie5-g30": {
+   "entree": 45850,
+   "source": "https://www.largus.fr/Bmw_Serie-5_Vi-G30.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2023)"
+  },
+  "bmw-x1-e84": {
+   "entree": 24450,
+   "source": "https://www.largus.fr/Bmw_X1_I-E84.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2015)"
+  },
+  "bmw-x1-f48": {
+   "entree": 31800,
+   "source": "https://www.largus.fr/Bmw_X1_Ii-F48.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
+  },
+  "bmw-x1-u11": {
+   "entree": 39900,
+   "source": "https://www.largus.fr/Bmw_X1_Iii-U11.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2022)"
+  },
+  "bmw-x2-f39": {
+   "entree": 32450,
+   "source": "https://www.largus.fr/Bmw_X2_I-F39.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2023)"
+  },
+  "bmw-x3-f25": {
+   "entree": 32450,
+   "source": "https://www.largus.fr/Bmw_X3_Ii-F25.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2017)"
+  },
+  "bmw-x3-g01": {
+   "entree": 41900,
+   "source": "https://www.largus.fr/Bmw_X3_Iii-G01.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2024)"
+  },
+  "bmw-x4-f26": {
+   "entree": 49800,
+   "source": "https://www.largus.fr/Bmw_X4_I-F26.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2018)"
+  },
+  "bmw-x4-g02": {
+   "entree": 50700,
+   "source": "https://www.largus.fr/Bmw_X4_Ii-G02.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2018-2026)"
+  },
+  "bmw-x5-f15": {
+   "entree": 52900,
+   "source": "https://www.largus.fr/Bmw_X5_Iii-F15.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2020)"
+  },
+  "bmw-x5-g05": {
+   "entree": 65900,
+   "source": "https://www.largus.fr/Bmw_X5_Iv-G05.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "bmw-i3": {
+   "entree": 34990,
+   "source": "https://www.largus.fr/Bmw_I3_I-I01.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2022)"
+  },
+  "mini-r60": {
+   "entree": 19950,
+   "source": "https://www.largus.fr/Mini_Countryman_I-R60.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2016)"
+  },
+  "mini-f60": {
+   "entree": 25300,
+   "source": "https://www.largus.fr/Mini_Countryman_Ii-F60.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2024)"
+  },
+  "mini-f54": {
+   "entree": 22900,
+   "source": "https://www.largus.fr/Mini_Clubman_Ii-F54.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2024)"
   }
  }
 }

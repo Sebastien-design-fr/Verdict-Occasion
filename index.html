@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ausculto</title>
-<meta name="description" content="Ausculto : votre assistant personnel de santé mécanique automobile. Défauts documentés de votre motorisation, analyse de devis, prises en charge constructeur recensées.">
+<title>MecaVeya</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2713%27 cy=%2713%27 r=%279.5%27 fill=%27none%27 stroke=%27%2320BFA9%27 stroke-width=%273%27/%3E%3Cpath d=%27M20 20l7.5 7.5%27 stroke=%27%2320BFA9%27 stroke-width=%273.6%27 stroke-linecap=%27round%27/%3E%3Ccircle cx=%2713%27 cy=%2713%27 r=%274.5%27 fill=%27%2314243A%27/%3E%3C/svg%3E">
+<meta name="description" content="MecaVeya : comprenez votre voiture, anticipez ses problèmes. Défauts documentés de votre motorisation, analyse de devis, prises en charge constructeur recensées.">
 <meta name="theme-color" content="#14243A">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Montserrat:wght@800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
 body{margin:0}
 /* Mise en page : une colonne d'application (600 px), un tableau de bord en deux colonnes sur ordinateur.
@@ -53,6 +54,10 @@ h1,h2,h3{margin:0;text-wrap:balance}
 .top-in{max-width:1080px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
 .brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--night);font:700 22px/1 var(--f-display);letter-spacing:.06em;text-transform:uppercase}
 .brand svg{flex:none}
+.wm{font:800 23px/1 'Montserrat',var(--f-body);letter-spacing:-.01em;text-transform:none}
+.wm-a{color:var(--night)}.wm-b{color:var(--teal)}
+.logo-card{background:#fff;border-radius:var(--r-lg);padding:14px;display:flex;justify-content:center;border:1px solid var(--line)}
+.logo-card img{width:100%;max-width:340px;height:auto;display:block}
 .nav{margin-left:auto;display:flex;gap:2px}
 .nav button{border:0;background:none;padding:8px 10px;border-radius:var(--r-sm);font-weight:600;font-size:14px;color:var(--muted);cursor:pointer;display:flex;align-items:center;gap:6px}
 .nav button[aria-current="page"]{color:var(--ink);background:var(--surface);box-shadow:inset 0 -3px 0 var(--tech)}
@@ -354,9 +359,9 @@ textarea.letter{min-height:320px;font-size:14px;margin-top:8px}
 <body>
 <div class="wrap">
 <header class="top"><div class="top-in">
-  <a class="brand" href="#vehicule" aria-label="Ausculto, mon véhicule">
-    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M5 14h4l2-5 3.5 9 2-4H21" fill="none" stroke="var(--accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-    Ausculto</a>
+  <a class="brand" href="#vehicule" aria-label="MecaVeya, mon véhicule">
+    <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="13" r="9.5" fill="none" stroke="var(--teal)" stroke-width="3"/><path d="M20 20l7.5 7.5" stroke="var(--teal)" stroke-width="3.6" stroke-linecap="round"/><g fill="var(--night)"><circle cx="13" cy="13" r="4.2"/><rect x="11.6" y="6.3" width="2.8" height="3" rx=".6"/><rect x="11.6" y="16.7" width="2.8" height="3" rx=".6"/><rect x="6.3" y="11.6" width="3" height="2.8" rx=".6"/><rect x="16.7" y="11.6" width="3" height="2.8" rx=".6"/></g><circle cx="13" cy="13" r="1.7" fill="var(--surface)"/></svg>
+    <span class="wm"><span class="wm-a">Meca</span><span class="wm-b">Veya</span></span></a>
   <nav class="nav" aria-label="Sections principales">
     <button data-nav="vehicule" data-go="vehicule"><span class="lab">Mon véhicule</span></button>
     <button data-nav="anticiper" data-go="anticiper"><span class="lab">Anticiper</span></button>
@@ -378,7 +383,7 @@ textarea.letter{min-height:320px;font-size:14px;margin-top:8px}
   <button data-nav="agir" data-go="agir"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>Agir</button>
 </nav>
 <main id="app"></main>
-<footer class="foot"><span id="stats"></span><span>Ausculto informe à partir de défauts documentés ; il ne remplace pas un diagnostic mécanique.</span></footer>
+<footer class="foot"><span id="stats"></span><span>MecaVeya informe à partir de défauts documentés ; il ne remplace pas un diagnostic mécanique.</span></footer>
 <div class="toast" id="toast" role="status" hidden></div>
 </div>
 <script src="engine.js"></script>

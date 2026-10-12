@@ -1,4 +1,4 @@
-// Ausculto V2 : véhicule du propriétaire, vigilance, devis, prises en charge, stockage. Usage : node tests/health.test.js
+// MecaVeya V2 : véhicule du propriétaire, vigilance, devis, prises en charge, stockage. Usage : node tests/health.test.js
 const fs=require('fs');
 const path=require('path');
 const read=f=>JSON.parse(fs.readFileSync(path.join(__dirname,'..','data',f)));

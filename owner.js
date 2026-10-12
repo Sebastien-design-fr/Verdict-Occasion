@@ -1,4 +1,4 @@
-/* Ausculto V2 — écrans du propriétaire : Mon véhicule, Anticiper, Décider, Agir.
+/* MecaVeya V2 — écrans du propriétaire : Mon véhicule, Anticiper, Décider, Agir.
    ownerViews(ctx) renvoie les vues à brancher dans le routeur de ui.js.
    La logique est dans health.js, le stockage dans store.js. */
 function ownerViews(ctx){
@@ -18,7 +18,7 @@ const LV={red:{l:'Vérification prioritaire',cls:'lv-red'},orange:{l:'Point à s
 const dot=code=>`<i class="lvdot ${LV[code].cls}" aria-hidden="true"></i>`;
 const fmtDate=H.fmtDate;
 const val=x=>x==null||x===''?`<span class="na">${NA}</span>`:esc(x);
-const disclaimer='<p class="hint">Ausculto présente des défauts documentés pour une motorisation, pas l\'état réel de votre véhicule. Il ne remplace pas un diagnostic mécanique.</p>';
+const disclaimer='<p class="hint">MecaVeya présente des défauts documentés pour une motorisation, pas l\'état réel de votre véhicule. Il ne remplace pas un diagnostic mécanique.</p>';
 
 function vehicleHead(v,actions=true){
   const x=H.describe(v);
@@ -38,7 +38,7 @@ function bindCommon(){
 }
 function noVehicle(title){
   app.innerHTML=`<section class="view"><div class="col"><h1 class="h1">${esc(title)}</h1>
-    <div class="empty"><p>Ajoutez d'abord votre véhicule : Ausculto en a besoin pour retrouver les défauts documentés de sa motorisation.</p>
+    <div class="empty"><p>Ajoutez d'abord votre véhicule : MecaVeya en a besoin pour retrouver les défauts documentés de sa motorisation.</p>
     <button class="btn primary" data-go="ajout">+ Ajouter mon véhicule</button></div></div></section>`;
 }
 
@@ -49,9 +49,9 @@ function viewVehicule(){
   const v=active();
   if(!v){
     app.innerHTML=`<section class="view"><div class="col welcome">
-      <div class="hero"><span class="h2">Bienvenue sur Ausculto</span>
-        <h1 class="h1">Votre assistant personnel de santé mécanique automobile.</h1>
-        <p class="lede">Connaître les faiblesses de son véhicule, anticiper les problèmes mécaniques et prendre les bonnes décisions avant de dépenser.</p></div>
+      <div class="logo-card"><img src="${ctx.LOGO}" alt="MecaVeya — Comprenez votre voiture. Anticipez ses problèmes." width="560" height="397"></div>
+      <div class="hero"><h1 class="h1">Bienvenue sur MecaVeya</h1>
+        <p class="lede"><b style="color:var(--ink)">Votre assistant personnel de santé mécanique automobile.</b> Connaître les faiblesses de son véhicule, anticiper les problèmes mécaniques et prendre les bonnes décisions avant de dépenser.</p></div>
       <button class="btn primary" data-go="ajout" id="add-first">+ Ajouter mon véhicule</button>
       <button class="btn block" data-go="accueil">Analyser une voiture avant achat</button>
       <div class="pillars">
@@ -59,7 +59,7 @@ function viewVehicule(){
         <div class="pillar"><b>Décider</b><span>Un devis important comparé à la valeur du véhicule, avec trois scénarios.</span></div>
         <div class="pillar"><b>Agir</b><span>Les prises en charge constructeur recensées, les justificatifs et un courrier type.</span></div>
       </div>
-      <p class="hint">Aucun compte, aucun serveur : vos données restent dans ce navigateur. Ausculto n'affiche ni score de fiabilité ni probabilité de panne.</p>
+      <p class="hint">Aucun compte, aucun serveur : vos données restent dans ce navigateur. MecaVeya n'affiche ni score de fiabilité ni probabilité de panne.</p>
       ${importBlock()}
     </div></section>`;
     A=formFrom(null);bindImport();return;
@@ -90,7 +90,7 @@ function viewVehicule(){
             <div><dt>Génération</dt><dd>${esc(x.generation)} (${esc(x.period)})</dd></div>
             <div><dt>Année</dt><dd>${v.year}${v.mec?' · 1re mise en circulation '+fmtDate(v.mec):''}</dd></div>
             <div><dt>Motorisation</dt><dd>${esc(x.engine)} · ${esc(x.fuel)}${x.power?' · environ '+x.power+' ch':''}</dd></div>
-            <div><dt>Famille moteur (base Ausculto)</dt><dd class="mono">${val(x.engineCode)}</dd></div>
+            <div><dt>Famille moteur (base MecaVeya)</dt><dd class="mono">${val(x.engineCode)}</dd></div>
             <div><dt>Boîte</dt><dd>${esc(x.gearbox)}</dd></div>
             <div><dt>Kilométrage enregistré</dt><dd><span class="num">${nf.format(v.km)} km</span>${v.kmDate?` <span class="muted">au ${fmtDate(v.kmDate)}</span>`:''}</dd></div>
           </dl>
@@ -191,7 +191,7 @@ function bindImport(){
 }
 function bindData(){
   const ex=$('#exp');if(ex)ex.onclick=async()=>{
-    const filename=`ausculto-sauvegarde-${new Date().toISOString().slice(0,10)}.json`,json=store.exportJSON(G);
+    const filename=`mecaveya-sauvegarde-${new Date().toISOString().slice(0,10)}.json`,json=store.exportJSON(G);
     /* Dans le lecteur d'artefacts claude.ai, le téléchargement passe par la capacité « downloads ». */
     if(window.claude&&typeof window.claude.use==='function'){
       const dl=await window.claude.use('downloads').catch(()=>null);
@@ -393,7 +393,7 @@ function viewDecider(){
         <div><label class="l" for="q-km">Kilométrage actuel</label><input class="inp num" id="q-km" type="number" inputmode="numeric" min="0" step="100" value="${v.km}"></div></div>
       <div><label class="l" for="q-repair">Réparation proposée</label><input class="inp" id="q-repair" value="${esc(Q.repair)}" placeholder="Ex. : remplacement courroie, pompe à huile et crépine"></div>
       <div><label class="l" for="q-value">Valeur du véhicule selon une estimation indépendante (€)</label><input class="inp num" id="q-value" type="number" inputmode="numeric" min="0" step="100" value="${esc(Q.userValue)}" placeholder="Facultatif">
-        <p class="hint">${est.source==='estimation'?`Sans saisie, Ausculto utilise son estimation : ${eur(est.mid)} (de ${eur(est.low)} à ${eur(est.high)}), peu calibrée. Une cote La Centrale ou L'argus, ou une offre de reprise, est plus fiable.`:esc(est.note)}</p></div>
+        <p class="hint">${est.source==='estimation'?`Sans saisie, MecaVeya utilise son estimation : ${eur(est.mid)} (de ${eur(est.low)} à ${eur(est.high)}), peu calibrée. Une cote La Centrale ou L'argus, ou une offre de reprise, est plus fiable.`:esc(est.note)}</p></div>
       <button class="btn primary" type="submit">Analyser le devis</button>
     </form>
     <div id="q-res">${r?quoteResult(r,v):''}</div>
@@ -414,7 +414,7 @@ function quoteResult(r,v){
   const val=r.value,ratio=r.ratio;
   const pct=ratio?Math.min(100,ratio.mid):0;
   return `<section class="stack printable" aria-label="Résultat de l'analyse">
-    <div class="print-only"><h2>Ausculto · Analyse de devis</h2><p>${esc(H.describe(v).title)} · ${esc(H.describe(v).engine)} · ${v.year} · ${nf.format(v.km)} km · ${new Date().toLocaleDateString('fr-FR')}</p></div>
+    <div class="print-only"><h2>MecaVeya · Analyse de devis</h2><p>${esc(H.describe(v).title)} · ${esc(H.describe(v).engine)} · ${v.year} · ${nf.format(v.km)} km · ${new Date().toLocaleDateString('fr-FR')}</p></div>
     <h2 class="h2">1. Identification de la panne</h2>
     ${r.matches.length?r.matches.map(i=>`<div class="card"><div class="dc-top">${dot(i.level.code)}<b>${esc(i.d.titre)}</b></div>
       <p style="margin:6px 0 0">${esc(i.d.symptomes)}</p><p class="hint">${esc(i.evidence.label)} · ${esc(i.cost.txt)}</p></div>`).join('')
@@ -462,14 +462,14 @@ function viewAgir(){
   app.innerHTML=`<section class="view"><div class="col">
     ${switcher()}
     <h1 class="h1">Mes recours et prises en charge</h1>
-    <p class="lede">Identifier les démarches possibles face à une panne connue. Ausculto informe ; il ne donne pas de conclusion juridique et ne garantit aucune indemnisation.</p>
+    <p class="lede">Identifier les démarches possibles face à une panne connue. MecaVeya informe ; il ne donne pas de conclusion juridique et ne garantit aucune indemnisation.</p>
     <div class="card"><label class="l" for="ag-def">1. Panne concernée</label>
       ${defs.length?`<select class="inp" id="ag-def"><option value="">Choisir parmi les défauts documentés…</option>${defs.map(i=>`<option value="${esc(i.d.id)}" ${i.d.id===AG.defect?'selected':''}>${esc(i.d.titre)}${i.policies.length?' — prise en charge recensée':''}</option>`).join('')}</select>
       <p class="hint">${withPol.length?`${withPol.length} défaut${withPol.length>1?'s':''} de votre motorisation ${withPol.length>1?'ont':'a'} une politique recensée.`:'Aucune politique constructeur recensée pour les défauts de votre motorisation.'}</p>`
       :`<div class="alert info">Aucun défaut documenté pour cette motorisation. Les garanties légales et la garantie du constructeur ci-dessous restent valables.</div>`}
     </div>
     <section class="printable stack">
-    <div class="print-only"><h2>Ausculto · Récapitulatif des démarches</h2><p>${esc(H.describe(v).title)} · ${esc(H.describe(v).engine)} · ${v.year} · ${nf.format(v.km)} km · ${new Date().toLocaleDateString('fr-FR')}</p>${sel?`<p>Panne : ${esc(sel.d.titre)}</p>`:''}</div>
+    <div class="print-only"><h2>MecaVeya · Récapitulatif des démarches</h2><p>${esc(H.describe(v).title)} · ${esc(H.describe(v).engine)} · ${v.year} · ${nf.format(v.km)} km · ${new Date().toLocaleDateString('fr-FR')}</p>${sel?`<p>Panne : ${esc(sel.d.titre)}</p>`:''}</div>
     <h2 class="h2">2. Politique constructeur</h2>
     <div class="status st-${res.status.code}"><b>${esc(res.status.label)}</b>${res.status.why?`<span>${esc(res.status.why)}</span>`:''}</div>
     ${pol.map(it=>policyCard(it)).join('')}

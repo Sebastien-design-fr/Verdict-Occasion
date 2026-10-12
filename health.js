@@ -1,4 +1,4 @@
-/* Ausculto V2 — santé mécanique d'un véhicule de propriétaire, sans interface.
+/* MecaVeya V2 — santé mécanique d'un véhicule de propriétaire, sans interface.
    createHealth({E, politiques, organes, today}) s'appuie sur le moteur existant (engine.js) :
    catalogue, défauts, applies(), estimateCote(). Rien n'est recalculé en probabilité :
    les niveaux de vigilance sont des règles explicites, décrites dans levelOf(). */
@@ -136,7 +136,7 @@ function matchPanne(v,text){
     return {x,score:hits.length,hits};
   }).filter(r=>r.score>0).sort((a,b)=>b.score-a.score).slice(0,5);
 }
-/* Valeur du véhicule : saisie indépendante prioritaire, sinon estimation Ausculto avec sa fourchette. */
+/* Valeur du véhicule : saisie indépendante prioritaire, sinon estimation MecaVeya avec sa fourchette. */
 function valueOf(v,userValue){
   const u=Number(userValue)||0;
   if(u>0)return {source:'utilisateur',mid:u,low:u,high:u,note:'Valeur saisie par vous (cote La Centrale, L\'argus ou offre de reprise).'};
@@ -144,7 +144,7 @@ function valueOf(v,userValue){
   const est=E.estimateCote(x.m,x.e,x.b,v.year,v.km,0);
   if(!est)return {source:'indisponible',note:'Estimation impossible pour ce modèle : saisissez une valeur indépendante.'};
   return {source:'estimation',mid:est.mid,low:est.low,high:est.high,
-    note:`Estimation Ausculto, peu calibrée : fourchette de ${eur(est.low)} à ${eur(est.high)} (±15 %), contrôlée sur 36 cotes de marché seulement. Une cote indépendante est préférable.`};
+    note:`Estimation MecaVeya, peu calibrée : fourchette de ${eur(est.low)} à ${eur(est.high)} (±15 %), contrôlée sur 36 cotes de marché seulement. Une cote indépendante est préférable.`};
 }
 function analyzeQuote(q){
   const v=q.v,x=describe(v);
@@ -193,7 +193,7 @@ function analyzeQuote(q){
         anyPol?'Une prise en charge possible serait perdue si le véhicule est vendu sans démarche.':null].filter(Boolean)}
   ];
   if(!out.scenarios[2].pour.length)out.scenarios[2].pour.push('Aucun élément de cette analyse ne pousse en ce sens à ce stade.');
-  out.verdict=out.incomplete.length?'Informations insuffisantes pour comparer le devis à la valeur du véhicule.':'Ausculto ne tranche pas à votre place : ces éléments sont indicatifs et ne remplacent pas un diagnostic.';
+  out.verdict=out.incomplete.length?'Informations insuffisantes pour comparer le devis à la valeur du véhicule.':'MecaVeya ne tranche pas à votre place : ces éléments sont indicatifs et ne remplacent pas un diagnostic.';
   return out;
 }
 

@@ -1,4 +1,4 @@
-/* Ausculto — moteur d'évaluation, sans interface.
+/* MecaVeya — moteur d'évaluation, sans interface.
    createEngine(DATA) reçoit {modeles, defauts, prix, decote, version} et renvoie les fonctions de calcul.
    Utilisé par ui.js dans le navigateur et par tests/*.test.js sous Node. */
 function createEngine(DATA){

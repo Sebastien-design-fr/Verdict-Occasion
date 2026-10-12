@@ -1,4 +1,4 @@
-/* Ausculto — interface. Cœur V2 : « Mon véhicule » et les modules Anticiper, Décider, Agir (owner.js).
+/* MecaVeya — interface. Cœur V2 : « Mon véhicule » et les modules Anticiper, Décider, Agir (owner.js).
    Rubrique secondaire « Avant d'acheter » : accueil (trouver le véhicule) → annonce → verdict,
    puis détails, mode visite, comparaison et répertoire. Le calcul est dans engine.js et health.js. */
 (async function(){
@@ -213,7 +213,7 @@ function viewAnnonce(){
     <button class="btn primary" id="to-verdict" type="button">Voir le verdict</button>
   </div></section>`;
   const upd=()=>{save();const r=E.evaluate(c);const h=$('#cote-hint');
-    h.innerHTML=r.est?`Estimation Ausculto : <b class="num">${eur(r.est.mid)}</b> (de ${eur(r.est.low)} à ${eur(r.est.high)}). Laissez la cote vide pour l'utiliser, ou saisissez celle de <a href="https://www.lacentrale.fr/cote-voiture-occasion" target="_blank" rel="noopener">La Centrale</a> ou de <a href="https://www.largus.fr/cote-voiture-occasion.html" target="_blank" rel="noopener">L'argus</a>.`:'';};
+    h.innerHTML=r.est?`Estimation MecaVeya : <b class="num">${eur(r.est.mid)}</b> (de ${eur(r.est.low)} à ${eur(r.est.high)}). Laissez la cote vide pour l'utiliser, ou saisissez celle de <a href="https://www.lacentrale.fr/cote-voiture-occasion" target="_blank" rel="noopener">La Centrale</a> ou de <a href="https://www.largus.fr/cote-voiture-occasion.html" target="_blank" rel="noopener">L'argus</a>.`:'';};
   const num=(id,k)=>$(id).oninput=ev=>{c[k]=Math.max(0,+ev.target.value||0);c.example=false;upd();};
   num('#f-km','km');num('#f-price','price');num('#f-cote','cote');num('#f-ch','ch');
   $('#f-year').onchange=ev=>{c.year=+ev.target.value;upd();};
@@ -264,7 +264,7 @@ function viewVerdict(){
       <div>
         <h2 class="h2">Pourquoi</h2>
         <div class="reasons">${why.map(w=>`<div class="reason">${tagHtml(w.tone,w.tag)}<span>${esc(w.t)}</span></div>`).join('')}</div>
-        <p class="hint">${r.list.length} défaut${r.list.length>1?'s':''} connu${r.list.length>1?'s':''} pour cette version${r.list.filter(d=>d.done).length?', dont '+r.list.filter(d=>d.done).length+' traité(s)':''}. Cote ${r.coteSrc==='estimée'?'estimée par Ausculto':'saisie'} : ${r.cote?eur(r.cote):'non disponible'}. Frais à prévoir (estimation éditoriale) : ${eur(r.exp)}.</p>
+        <p class="hint">${r.list.length} défaut${r.list.length>1?'s':''} connu${r.list.length>1?'s':''} pour cette version${r.list.filter(d=>d.done).length?', dont '+r.list.filter(d=>d.done).length+' traité(s)':''}. Cote ${r.coteSrc==='estimée'?'estimée par MecaVeya':'saisie'} : ${r.cote?eur(r.cote):'non disponible'}. Frais à prévoir (estimation éditoriale) : ${eur(r.exp)}.</p>
       </div>
     </div>
   </div></section>`;
@@ -273,7 +273,7 @@ function viewVerdict(){
   $('#cmp-add').onclick=()=>{if(S.compare.length>=3)S.compare.shift();S.compare.push(JSON.parse(JSON.stringify(c)));remember();save();toast('Ajoutée à la comparaison');render();};
 }
 function summary(r,why){
-  return `Ausculto · ${label(r.m)} ${shortEngine(r.e)}, ${r.year}, ${nf.format(r.km)} km${r.price?', '+eur(r.price):''}
+  return `MecaVeya · ${label(r.m)} ${shortEngine(r.e)}, ${r.year}, ${nf.format(r.km)} km${r.price?', '+eur(r.price):''}
 Verdict : ${r.v.l} (score ${r.score}/100)
 ${r.price&&r.target<r.price?'Prix à proposer : '+eur(r.target)+'\n':''}Pourquoi :
 ${why.map(w=>'- '+w.t).join('\n')}`;
@@ -321,7 +321,7 @@ function viewDetails(){
       <div class="pscale" aria-hidden="true"><i style="left:${pos}%"></i></div>
       <div class="pscale-l" aria-hidden="true"><span style="left:0;transform:none">−30 %</span><span style="left:37.5%">cote</span><span style="left:56.25%">+15 %</span><span style="left:100%;transform:translateX(-100%)">+50 %</span></div>
       <p class="hint" style="margin:0">Le prix réel ajoute au prix demandé les frais à prévoir pour les défauts connus non traités. C'est lui qu'on compare à la cote.</p></div>`:''}
-    ${r.est?`<p class="hint">Estimation Ausculto : ${eur(r.est.mid)}, fourchette ${eur(r.est.low)} à ${eur(r.est.high)}. Calcul : prix neuf de référence ${eur(r.est.neuf)}${r.est.neufEstime?' (estimé, à vérifier)':''} pour ${r.ch||'?'} ch, décote selon l'âge, kilométrage, tenue de la marque${r.est.crit?', moteur à défaut critique connu':''}.${r.coteSrc==='estimée'?' Une cote saisie dans l\'annonce la remplace.':''}</p>`:''}`;
+    ${r.est?`<p class="hint">Estimation MecaVeya : ${eur(r.est.mid)}, fourchette ${eur(r.est.low)} à ${eur(r.est.high)}. Calcul : prix neuf de référence ${eur(r.est.neuf)}${r.est.neufEstime?' (estimé, à vérifier)':''} pour ${r.ch||'?'} ch, décote selon l'âge, kilométrage, tenue de la marque${r.est.crit?', moteur à défaut critique connu':''}.${r.coteSrc==='estimée'?' Une cote saisie dans l\'annonce la remplace.':''}</p>`:''}`;
   }else{
     const a=E.argument(r);
     body=a?`<pre class="arg" id="arg">${esc(a)}</pre><button class="btn primary" id="copy-arg">Copier l'argumentaire</button><p class="hint">Message prêt à envoyer au vendeur. Il cite la cote et les défauts connus sans facture de traitement.</p>`
@@ -504,7 +504,7 @@ function renderRep(){
   document.querySelectorAll('[data-rep]').forEach(b=>b.onclick=()=>{const m=MODELS.find(x=>x.id===b.dataset.rep);S.cur=blank(m,0,defaultYear(m));save();go('annonce');});
 }
 
-const OWNER=ownerViews({E,H:HL,store:STORE,app,$,esc,go,toast,copy,tagHtml,ICON,DATA,render,backBtn,isFresh:()=>fresh});
+const OWNER=ownerViews({LOGO:window.MV_LOGO||'assets/logo.png',E,H:HL,store:STORE,app,$,esc,go,toast,copy,tagHtml,ICON,DATA,render,backBtn,isFresh:()=>fresh});
 const VIEWS={...OWNER.views,accueil:viewAccueil,annonce:viewAnnonce,verdict:viewVerdict,details:viewDetails,visite:viewVisite,comparer:viewComparer,repertoire:viewRepertoire};
 $('#stats').textContent=`${MODELS.length} générations · ${DEFECTS.length} défauts sourcés · base du ${fmtDate(DATA.version)}`;
 render();

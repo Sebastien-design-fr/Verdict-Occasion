@@ -3,7 +3,7 @@
 - dist/verdict-occasion.html : version autonome, données intégrées
 Usage : python3 build.py
 """
-import json, pathlib
+import base64, json, pathlib
 root = pathlib.Path(__file__).parent
 page = (root / 'page.html').read_text(encoding='utf-8')
 engine = (root / 'engine.js').read_text(encoding='utf-8')
@@ -68,5 +68,6 @@ doc_head = '<!doctype html>\n<html lang="fr">\n<head>\n<meta charset="utf-8">\n<
 (root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + ''.join(f'<script src="{f}"></script>\n' for f in SCRIPTS) + '</body>\n</html>\n', encoding='utf-8')
 data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version'], 'prix': prx['prix'], 'decote': dec, 'politiques': pol, 'organes': org}
 (root / 'dist').mkdir(exist_ok=True)
-(root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n' + ''.join(f'<script>\n{code[f]}</script>\n' for f in SCRIPTS), encoding='utf-8')
+logo = 'data:image/png;base64,' + base64.b64encode((root / 'assets/logo.png').read_bytes()).decode()
+(root / 'dist/verdict-occasion.html').write_text(page + f'<script>window.MV_LOGO="{logo}";</script>\n' + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n' + ''.join(f'<script>\n{code[f]}</script>\n' for f in SCRIPTS), encoding='utf-8')
 print(f"OK : {len(mod['modeles'])} modèles, {len(dfx['defauts'])} défauts, {len(pol['politiques'])} politiques constructeur")

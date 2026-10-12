@@ -1,6 +1,10 @@
-# Ausculto
+# MecaVeya
 
-Assistant personnel de santé mécanique automobile : connaître les faiblesses de son véhicule, anticiper les problèmes mécaniques et prendre les bonnes décisions avant de dépenser. L'analyse d'une voiture avant achat reste disponible dans la rubrique « Avant d'acheter ».
+*Comprenez votre voiture. Anticipez ses problèmes.*
+
+![MecaVeya](assets/logo.png)
+
+Anciennement Ausculto (les clés de stockage `ausculto-*` sont conservées pour ne pas perdre les données déjà enregistrées). Assistant personnel de santé mécanique automobile : connaître les faiblesses de son véhicule, anticiper les problèmes mécaniques et prendre les bonnes décisions avant de dépenser. L'analyse d'une voiture avant achat reste disponible dans la rubrique « Avant d'acheter ».
 
 ## V2 : le propriétaire au centre
 
@@ -35,7 +39,7 @@ Le score final combine deux parties :
 
 ## Cote estimée
 
-Sans cote saisie, Ausculto estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × maintien des versions puissantes × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La motorisation tient compte du carburant et de la puissance : chaque moteur porte une puissance type (`ch`), que l'utilisateur peut corriger dans le formulaire ; le prix neuf varie comme (ch / 150)^0,5 et les versions de plus de 150 ch perdent un peu moins de valeur. Les sportives compactes (GTI, GTi, RS, ST, M135i, JCW…) portent `sport: true` et un bonus de maintien de 30 %. Les hybrides ont un effet puissance réduit, les électriques aucun. La fourchette affichée est de ±15 %. Sur 36 cotes de marché publiques (autobiz), dont 25 versions premium ou sportives, l'écart va de -12 % à +13 %. 262 prix neufs sur 264 sont sourcés (L'argus, presse auto, constructeurs) ; pour les générations ajoutées en octobre 2026, c'est le prix du neuf le plus bas de la génération selon L'argus ; ceux du Peugeot Partner II et du Citroën Berlingo II restent estimés, faute de tarif 2008 retrouvé. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
+Sans cote saisie, MecaVeya estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × maintien des versions puissantes × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La motorisation tient compte du carburant et de la puissance : chaque moteur porte une puissance type (`ch`), que l'utilisateur peut corriger dans le formulaire ; le prix neuf varie comme (ch / 150)^0,5 et les versions de plus de 150 ch perdent un peu moins de valeur. Les sportives compactes (GTI, GTi, RS, ST, M135i, JCW…) portent `sport: true` et un bonus de maintien de 30 %. Les hybrides ont un effet puissance réduit, les électriques aucun. La fourchette affichée est de ±15 %. Sur 36 cotes de marché publiques (autobiz), dont 25 versions premium ou sportives, l'écart va de -12 % à +13 %. 262 prix neufs sur 264 sont sourcés (L'argus, presse auto, constructeurs) ; pour les générations ajoutées en octobre 2026, c'est le prix du neuf le plus bas de la génération selon L'argus ; ceux du Peugeot Partner II et du Citroën Berlingo II restent estimés, faute de tarif 2008 retrouvé. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
 
 ## Règle de confiance
 

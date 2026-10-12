@@ -1,6 +1,7 @@
-/* Ausculto V2 — stockage local des véhicules du propriétaire, export et import JSON.
+/* MecaVeya V2 — stockage local des véhicules du propriétaire, export et import JSON.
    Aucune donnée ne quitte l'appareil. L'état de l'analyse avant achat (clé ausculto-v1) n'est pas touché. */
 function createStore(opts){
+/* Clés et schéma hérités du nom Ausculto, conservés pour ne perdre aucune donnée déjà enregistrée. */
 const KEY='ausculto-v2-garage';
 const SCHEMA='ausculto-garage';
 const storage=opts&&opts.storage;
@@ -11,7 +12,7 @@ const empty=()=>({schema:SCHEMA,version:1,vehicles:[],activeId:null});
 function validate(raw){
   const errors=[],warnings=[];
   if(!raw||typeof raw!=='object')return {ok:false,errors:['Fichier illisible : ce n\'est pas un objet JSON.']};
-  if(raw.schema!==SCHEMA)return {ok:false,errors:['Ce fichier n\'est pas une sauvegarde Ausculto.']};
+  if(raw.schema!==SCHEMA)return {ok:false,errors:['Ce fichier n\'est pas une sauvegarde MecaVeya.']};
   if(!Array.isArray(raw.vehicles))return {ok:false,errors:['Sauvegarde incomplète : liste de véhicules absente.']};
   const vehicles=[];
   raw.vehicles.forEach((v,i)=>{
@@ -39,7 +40,7 @@ function save(state){
   try{storage.setItem(KEY,JSON.stringify(state));return true;}catch(e){return false;}
 }
 function exportJSON(state){
-  return JSON.stringify({...state,exportedAt:new Date().toISOString(),app:'Ausculto'},null,2);
+  return JSON.stringify({...state,exportedAt:new Date().toISOString(),app:'MecaVeya'},null,2);
 }
 function importJSON(text){
   let raw;try{raw=JSON.parse(text);}catch(e){return {ok:false,errors:['Fichier illisible : JSON invalide.']};}

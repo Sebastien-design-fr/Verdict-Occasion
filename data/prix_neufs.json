@@ -800,6 +800,246 @@
    "entree": 33050,
    "source": "https://www.largus.fr/Cupra_Formentor_I.html",
    "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "peugeot-108": {
+   "entree": 10150,
+   "source": "https://www.largus.fr/Peugeot_108_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2022)"
+  },
+  "peugeot-207": {
+   "entree": 12000,
+   "source": "https://www.largus.fr/Peugeot_207_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2006-2012)"
+  },
+  "peugeot-308-1": {
+   "entree": 16500,
+   "source": "https://www.largus.fr/Peugeot_308_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2013)"
+  },
+  "peugeot-308-3": {
+   "entree": 24800,
+   "source": "https://www.largus.fr/Peugeot_308_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "peugeot-3008-1": {
+   "entree": 21350,
+   "source": "https://www.largus.fr/Peugeot_3008_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2016)"
+  },
+  "peugeot-5008-1": {
+   "entree": 21850,
+   "source": "https://www.largus.fr/Peugeot_5008_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2017)"
+  },
+  "peugeot-508-1": {
+   "entree": 22900,
+   "source": "https://www.largus.fr/Peugeot_508_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2018)"
+  },
+  "peugeot-508-2": {
+   "entree": 32300,
+   "source": "https://www.largus.fr/Peugeot_508_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2018-2025)"
+  },
+  "peugeot-408": {
+   "entree": 37000,
+   "source": "https://www.largus.fr/Peugeot_408_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2022)"
+  },
+  "citroen-c1-2": {
+   "entree": 9950,
+   "source": "https://www.largus.fr/Citroen_C1_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2022)"
+  },
+  "citroen-c3-picasso": {
+   "entree": 14950,
+   "source": "https://www.largus.fr/Citroen_C3-Picasso_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2017)"
+  },
+  "citroen-c4-2": {
+   "entree": 16990,
+   "source": "https://www.largus.fr/Citroen_C4_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2018)"
+  },
+  "citroen-c4-3": {
+   "entree": 20900,
+   "source": "https://www.largus.fr/Citroen_C4_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "citroen-c4-picasso-1": {
+   "entree": 19900,
+   "source": "https://www.largus.fr/Citroen_C4-Picasso_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2013)"
+  },
+  "citroen-c5-2": {
+   "entree": 21500,
+   "source": "https://www.largus.fr/Citroen_C5_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2018)"
+  },
+  "citroen-ds3": {
+   "entree": 15400,
+   "source": "https://www.largus.fr/Citroen_Ds3_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2015)"
+  },
+  "citroen-ds4": {
+   "entree": 21300,
+   "source": "https://www.largus.fr/Citroen_Ds4_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2015)"
+  },
+  "opel-corsa-d": {
+   "entree": 8490,
+   "source": "https://www.largus.fr/Opel_Corsa_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2006-2014)"
+  },
+  "opel-astra-j": {
+   "entree": 16700,
+   "source": "https://www.largus.fr/Opel_Astra_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2015)"
+  },
+  "opel-astra-l": {
+   "entree": 23150,
+   "source": "https://www.largus.fr/Opel_Astra_Vi.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "opel-mokka-b": {
+   "entree": 21300,
+   "source": "https://www.largus.fr/Opel_Mokka_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "opel-crossland-x": {
+   "entree": 18300,
+   "source": "https://www.largus.fr/Opel_Crossland-X_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2020)"
+  },
+  "opel-zafira-c": {
+   "entree": 23100,
+   "source": "https://www.largus.fr/Opel_Zafira-Tourer_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2016)"
+  },
+  "opel-meriva-b": {
+   "entree": 15400,
+   "source": "https://www.largus.fr/Opel_Meriva_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2017)"
+  },
+  "opel-insignia-a": {
+   "entree": 21600,
+   "source": "https://www.largus.fr/Opel_Insignia_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2017)"
+  },
+  "fiat-500x": {
+   "entree": 15990,
+   "source": "https://www.largus.fr/Fiat_500x_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2024)"
+  },
+  "fiat-500l": {
+   "entree": 15550,
+   "source": "https://www.largus.fr/Fiat_500l_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2012-2022)"
+  },
+  "fiat-punto-3": {
+   "entree": 10990,
+   "source": "https://www.largus.fr/Fiat_Punto_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2012-2019)"
+  },
+  "jeep-compass-2": {
+   "entree": 24950,
+   "source": "https://www.largus.fr/Jeep_Compass_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2025)"
+  },
+  "renault-clio-3": {
+   "entree": 9990,
+   "source": "https://www.largus.fr/Renault_Clio_Iii-B-C85.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2005-2014)"
+  },
+  "renault-twingo-2": {
+   "entree": 7290,
+   "source": "https://www.largus.fr/Renault_Twingo_Ii-C44.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2014)"
+  },
+  "renault-scenic-4": {
+   "entree": 19990,
+   "source": "https://www.largus.fr/Renault_Scenic_Iv-Jfa.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2022)"
+  },
+  "renault-kangoo-2": {
+   "entree": 11999,
+   "source": "https://www.largus.fr/Renault_Kangoo_Ii-K61.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2021)"
+  },
+  "renault-kangoo-3": {
+   "entree": 24900,
+   "source": "https://www.largus.fr/Renault_Kangoo_Iii-Kfk.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "renault-espace-5": {
+   "entree": 34200,
+   "source": "https://www.largus.fr/Renault_Espace_V-Jfc.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
+  },
+  "renault-talisman": {
+   "entree": 27900,
+   "source": "https://www.largus.fr/Renault_Talisman_I-Lfd.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
+  },
+  "renault-koleos-2": {
+   "entree": 29900,
+   "source": "https://www.largus.fr/Renault_Koleos_Ii-Xzg.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2022)"
+  },
+  "renault-arkana": {
+   "entree": 29700,
+   "source": "https://www.largus.fr/Renault_Arkana_I-Ljl.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "renault-austral": {
+   "entree": 33400,
+   "source": "https://www.largus.fr/Renault_Austral_I-Hhn.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2022)"
+  },
+  "dacia-sandero-3": {
+   "entree": 8690,
+   "source": "https://www.largus.fr/Dacia_Sandero_Iii-Bji.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "dacia-jogger": {
+   "entree": 14990,
+   "source": "https://www.largus.fr/Dacia_Jogger_I-Rji.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "dacia-dokker": {
+   "entree": 9400,
+   "source": "https://www.largus.fr/Dacia_Dokker_I-K67.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2012-2020)"
+  },
+  "nissan-qashqai-1": {
+   "entree": 18900,
+   "source": "https://www.largus.fr/Nissan_Qashqai_I-J10.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2014)"
+  },
+  "nissan-qashqai-3": {
+   "entree": 25990,
+   "source": "https://www.largus.fr/Nissan_Qashqai_Iii-J12.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "nissan-juke-2": {
+   "entree": 19990,
+   "source": "https://www.largus.fr/Nissan_Juke_Ii-F16.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "nissan-micra-4": {
+   "entree": 10490,
+   "source": "https://www.largus.fr/Nissan_Micra_Iv-K13.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2018)"
+  },
+  "nissan-leaf-1": {
+   "entree": 23390,
+   "source": "https://www.largus.fr/Nissan_Leaf_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2018, hors bonus)"
+  },
+  "nissan-leaf-2": {
+   "entree": 32900,
+   "source": "https://www.largus.fr/Nissan_Leaf_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2025, hors bonus)"
   }
  }
 }

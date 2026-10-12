@@ -3742,6 +3742,299 @@
      "type": "article"
     }
    ]
+  },
+  {
+   "id": "al4-boite",
+   "titre": "Boîte automatique AL4 / DP0 : électrovannes et mode dégradé",
+   "boites": [
+    "al4"
+   ],
+   "annees": [
+    2000,
+    2014
+   ],
+   "km": [
+    80000,
+    180000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Passages de rapports brutaux, boîte bloquée en 3e (mode dégradé), voyant « Sport » et « Neige » qui clignotent, surtout à chaud.",
+   "controle": "Essai prolongé jusqu'à ce que la boîte soit chaude. Lire la mémoire de défauts (pression d'huile, électrovannes) et demander les factures de vidange de boîte.",
+   "solution": "Remplacement de l'électrovanne de pression ou du bloc hydraulique, vidange avec l'huile préconisée, mise à jour du calculateur. Échange standard si la boîte est usée.",
+   "cout": [
+    400,
+    2500
+   ],
+   "preventif": 250,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Forum Caradisiac : C4, changement des électrovannes de la boîte AL4",
+     "url": "https://forum-auto.caradisiac.com/topic/330198-c4-coupe-changement-des-%C3%A9lectrovannes-de-la-bo%C3%AEte-al4/",
+     "type": "forum"
+    },
+    {
+     "titre": "Pièces et Pneus : pression d'huile des boîtes auto Peugeot AL4 et DP0",
+     "url": "https://blog.piecesetpneus.com/diagnostic-des-problemes-de-pression-dhuile-sur-boite-automatique-peugeot/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "hdi16-turbo",
+   "titre": "Casse du turbo par manque de lubrification (1.6 HDi)",
+   "moteurs": [
+    "hdi16"
+   ],
+   "annees": [
+    2004,
+    2014
+   ],
+   "km": [
+    100000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Perte de puissance, fumée bleue ou noire, sifflement. La crépine de la tuyauterie d'huile du turbo se colmate (calamine), le turbo n'est plus lubrifié et casse, parfois à répétition.",
+   "controle": "Demander les factures de vidange (huile conforme, intervalles courts) et de turbo. En cas de turbo remplacé, vérifier que la crépine et la tuyauterie ont été changées aussi.",
+   "solution": "Remplacement du turbo avec la tuyauterie et la crépine d'huile, nettoyage du circuit et vidange.",
+   "cout": [
+    900,
+    2000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Autorigin : fiabilité du 1.6 HDi 90, crépine et turbo",
+     "url": "https://autorigin.com/blog/entretien-vehicule/fiabilite-moteur-1-6-hdi-90",
+     "type": "article"
+    },
+    {
+     "titre": "Auto Platinium : fiabilité et durée de vie du 1.6 HDi",
+     "url": "https://www.auto-platinium.com/blogs/377-fiabilite-1-6-hdi",
+     "type": "article"
+    },
+    {
+     "titre": "Forum Caradisiac : deuxième casse turbo sur 308 1.6 HDi 110",
+     "url": "https://forum-auto.caradisiac.com/topic/331459-deuxi%C3%A8me-casse-turbo-308-16-hdi-110/",
+     "type": "forum"
+    },
+    {
+     "titre": "Forum Que Choisir : casse turbo 307 1.6 HDi",
+     "url": "https://forum.quechoisir.org/casse-turbo-307-1-6-hdi-t737-10.html",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "c4p-suspension-pneumatique",
+   "titre": "Suspension pneumatique arrière qui s'affaisse (Grand C4 Picasso)",
+   "modeles": [
+    "citroen-c4-picasso-1"
+   ],
+   "annees": [
+    2006,
+    2013
+   ],
+   "km": [
+    50000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "L'arrière s'affaisse à l'arrêt, message de défaut de suspension, compresseur qui tourne longtemps ou ne fonctionne plus. Concerne surtout le Grand C4 Picasso.",
+   "controle": "Vérifier la hauteur de caisse après une nuit à l'arrêt et l'absence de message. Écouter le compresseur au démarrage.",
+   "solution": "Remplacement des coussins d'air poreux, du compresseur ou de l'électrovanne. Des kits de conversion en ressorts existent.",
+   "cout": [
+    400,
+    1500
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Forum Caradisiac : problème de suspension pneumatique Grand C4 Picasso",
+     "url": "https://forum-auto.caradisiac.com/topic/30798-probleme-suspension-pneumatique-grand-c4-picasso/",
+     "type": "forum"
+    },
+    {
+     "titre": "Forum L'argus : suspension pneumatique Grand Picasso",
+     "url": "https://www.largus.fr/forum-auto/panne-auto-mecanique-et-entretien/citroen/c4-picasso/suspension-pneumatique-grand-picasso/296713-571-amortisseur.html",
+     "type": "forum"
+    },
+    {
+     "titre": "Planète Citroën : compresseur de suspension pneumatique en défaut",
+     "url": "https://www.planete-citroen.com/topic/126877-panne-compresseur-de-suspension-pneumatique-se-met-en-d%C3%A9faut/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "c5-hydractive",
+   "titre": "Suspension Hydractive III+ : sphères, fuites et pompe (C5 II)",
+   "modeles": [
+    "citroen-c5-2"
+   ],
+   "annees": [
+    2008,
+    2017
+   ],
+   "km": [
+    80000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Confort qui se dégrade (sphères usées), voiture qui s'affaisse, message de défaut de suspension, fuite de liquide vert.",
+   "controle": "Vérifier que la voiture remonte à la mise en route et garde sa hauteur. Rouler sur route dégradée. Demander si les sphères ont été changées. Les versions à ressorts ne sont pas concernées.",
+   "solution": "Remplacement des sphères, des joints ou du bloc hydro-électronique (BHI).",
+   "cout": [
+    300,
+    2000
+   ],
+   "preventif": 400,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Forum Caradisiac : panne de suspension sur C5 2009 Hydractive",
+     "url": "https://forum-auto.caradisiac.com/topic/89006-panne-de-suspension-sur-citroen-c5-2009-hydractive/",
+     "type": "forum"
+    },
+    {
+     "titre": "Planète Citroën : problème de suspension sur C5 Hydractive",
+     "url": "https://www.planete-citroen.com/topic/155989-probl%C3%A8me-de-suspension-sur-c5-hydractive/",
+     "type": "forum"
+    },
+    {
+     "titre": "EU Autopièces : problème de suspension hydraulique C5",
+     "url": "https://www.euautopieces.fr/blog/probleme-suspension-hydraulique-c5-causes-solutions-et-conseils/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "etg-boite",
+   "titre": "Boîte pilotée ETG / BMP : à-coups et actionneur",
+   "boites": [
+    "etg"
+   ],
+   "annees": [
+    2009,
+    2018
+   ],
+   "km": [
+    40000,
+    150000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "À-coups et temps morts entre les rapports, message « défaut boîte », embrayage qui patine, fuite à l'actionneur sur les premières séries.",
+   "controle": "Essai en ville et en manœuvre. Demander si l'embrayage et l'actionneur ont été remplacés et si l'apprentissage du point de patinage a été fait.",
+   "solution": "Réapprentissage à la valise, remplacement de l'embrayage ou de l'actionneur.",
+   "cout": [
+    300,
+    1500
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Forum Caradisiac : problèmes de boîte BMP6 sur C4 Picasso",
+     "url": "https://forum-auto.caradisiac.com/topic/26912-probl%C3%A8mes-sur-boite-de-vitesse-bmp6-sur-c4-picasso/",
+     "type": "forum"
+    },
+    {
+     "titre": "Planète Citroën : BMP6, pannes et à-coups",
+     "url": "https://www.planete-citroen.com/topic/57831-bmp6-pannes-a-coups-message-quotd%C3%A9faut-boite-de-vitesses-d%C3%A9faillantequot/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "etech-moteur-huile",
+   "titre": "Fuite d'huile dans le moteur électrique (E-Tech 1.6 hybride)",
+   "moteurs": [
+    "etech"
+   ],
+   "modeles": [
+    "renault-clio-5",
+    "renault-captur-2",
+    "renault-arkana"
+   ],
+   "annees": [
+    2019,
+    2024
+   ],
+   "km": [
+    20000,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Alerte « surchauffe moteur électrique » ou perte de traction au démarrage nécessitant parfois un dépannage. Un joint laisse passer l'huile de boîte dans le moteur électrique.",
+   "controle": "Lire la mémoire de défauts et demander si l'opération technique de Renault (OTS de mai 2024) a été réalisée. Concerne les modèles produits entre fin août 2019 et début février 2024.",
+   "solution": "Prise en charge par Renault jusqu'à 7 ans et 150 000 km : remplacement du joint et nettoyage du moteur, ou de la boîte complète en cas de perte de traction.",
+   "cout": [
+    800,
+    6000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : Renault 1.6 hybride, des problèmes de boîte sur Clio, Captur, Mégane et Arkana",
+     "url": "https://www.largus.fr/actualite-automobile/fiabilite-renault-1-6-hybride-des-problemes-de-boite-sur-les-clio-captur-megane-et-arkana-30035505.html",
+     "type": "article"
+    },
+    {
+     "titre": "Communauté Renault E-Tech : panne moteur électrique sur Arkana",
+     "url": "https://communaute-etech.renault.fr/forum/RENAULT/ARKANA-E-TECH-FULL-HYBRID/PANNE-MOTEUR-ELECTRIQUE/5634527/594907",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "opel-twinport-chaine",
+   "titre": "Chaîne de distribution qui s'allonge (1.0 / 1.2 / 1.4 Opel)",
+   "moteurs": [
+    "opel1214"
+   ],
+   "annees": [
+    2006,
+    2015
+   ],
+   "km": [
+    80000,
+    180000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Bruit de chaîne au démarrage à froid qui s'intensifie, voyant moteur. Une glissière qui casse peut endommager le moteur.",
+   "controle": "Écouter le démarrage à froid et demander si la chaîne, les patins et le tendeur ont été remplacés.",
+   "solution": "Remplacement du kit chaîne (chaîne, patins, tendeur).",
+   "cout": [
+    600,
+    1200
+   ],
+   "preventif": 700,
+   "rappel": false,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Forum L'argus : bruit dans la distribution Opel Corsa D 1.2",
+     "url": "https://www.largus.fr/forum-auto/panne-auto-mecanique-et-entretien/opel/corsa/bruit-compartiment-moteur-opel-corsa-d-1-2-essence/336269-1024-moteur.html",
+     "type": "forum"
+    }
+   ]
   }
  ]
 }

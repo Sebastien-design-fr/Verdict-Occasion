@@ -1,0 +1,568 @@
+{
+ "version": "2026-10-12",
+ "note": "Politiques de prise en charge constructeur. Chaque fiche reprend uniquement ce que disent les fiches défauts et leurs sources ; rien n'est déduit. Un champ inconnu vaut null et s'affiche « Information non disponible ». Une politique sans date de vérification, ou vérifiée il y a plus de 12 mois, est affichée « à actualiser ».",
+ "regles": {
+  "nature": "extension_garantie = engagement écrit du constructeur avec limites d'âge ou de kilométrage ; garantie_contractuelle = garantie commerciale du constructeur ; geste_commercial = participation au cas par cas, sans engagement ; position_constructeur = position publique du constructeur, y compris un refus ; hors_france = dispositif constaté dans un autre pays seulement",
+  "statut": "calculé par l'application à partir de la date de vérification et des critères connus",
+  "derniere_verification": "date à laquelle la politique a été recoupée avec ses sources ; null si elle n'a jamais été vérifiée spécifiquement"
+ },
+ "politiques": [
+  {
+   "id": "stellantis-puretech-courroie",
+   "constructeur": "Stellantis",
+   "marques": [
+    "Peugeot",
+    "Citroën",
+    "DS",
+    "Opel",
+    "Fiat",
+    "Jeep"
+   ],
+   "defauts": [
+    "puretech-courroie-turbo"
+   ],
+   "moteurs": [
+    "puretech-t"
+   ],
+   "nature": "extension_garantie",
+   "resume": "Extension de la prise en charge à 10 ans ou 175 000 km, sous condition d'entretien conforme.",
+   "conditions": "Entretien conforme aux préconisations du constructeur. Selon UFC-Que Choisir, le diagnostic et la réparation doivent être faits dans le réseau agréé pour être remboursés par la plateforme de réclamation.",
+   "age_max_ans": 10,
+   "km_max": 175000,
+   "exigences_entretien": "Factures d'entretien conformes au plan constructeur, huile à la norme constructeur.",
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": "Plateforme de réclamation Stellantis : dépenses engagées entre le 01/01/2022 et le 18/03/2024 (selon UFC-Que Choisir, janvier 2025).",
+   "procedure": "Vérifier l'éligibilité avec le numéro VIN auprès du réseau agréé, avant toute réparation. Faire établir le diagnostic dans le réseau.",
+   "sources": [
+    {
+     "titre": "UFC-Que Choisir : moteurs PureTech, Stellantis prend a minima ses responsabilités (18/01/2025, mis à jour 07/02/2025)",
+     "url": "https://www.quechoisir.org/actualite-moteurs-puretech-stellantis-prend-a-minima-ses-responsabilites-n148604/",
+     "type": "article"
+    },
+    {
+     "titre": "Aramisauto : les garanties Stellantis sur les moteurs PureTech",
+     "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/",
+     "type": "article"
+    },
+    {
+     "titre": "Caradisiac : le moteur PureTech profite d'une extension de garantie",
+     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": "2026-10-12"
+  },
+  {
+   "id": "stellantis-puretech-huile",
+   "constructeur": "Stellantis",
+   "marques": [
+    "Peugeot",
+    "Citroën",
+    "DS",
+    "Opel",
+    "Fiat",
+    "Jeep"
+   ],
+   "defauts": [
+    "puretech-huile-turbo"
+   ],
+   "moteurs": [
+    "puretech-t"
+   ],
+   "nature": "extension_garantie",
+   "resume": "Consommation d'huile couverte par la même extension Stellantis de 10 ans ou 175 000 km.",
+   "conditions": "Entretien conforme aux préconisations du constructeur. Les véhicules produits à partir de 2023 ne sont plus concernés par le défaut.",
+   "age_max_ans": 10,
+   "km_max": 175000,
+   "exigences_entretien": "Factures d'entretien conformes au plan constructeur.",
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": "Plateforme de réclamation Stellantis : dépenses engagées entre le 01/01/2022 et le 18/03/2024 (selon UFC-Que Choisir, janvier 2025).",
+   "procedure": "Faire constater la consommation d'huile dans le réseau agréé (test de consommation) avant toute réparation.",
+   "sources": [
+    {
+     "titre": "UFC-Que Choisir : moteurs PureTech, Stellantis prend a minima ses responsabilités (18/01/2025, mis à jour 07/02/2025)",
+     "url": "https://www.quechoisir.org/actualite-moteurs-puretech-stellantis-prend-a-minima-ses-responsabilites-n148604/",
+     "type": "article"
+    },
+    {
+     "titre": "Caradisiac : extension de garantie PureTech",
+     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": "2026-10-12"
+  },
+  {
+   "id": "renault-etech-moteur-electrique",
+   "constructeur": "Renault",
+   "marques": [
+    "Renault"
+   ],
+   "defauts": [
+    "etech-moteur-huile"
+   ],
+   "moteurs": [
+    "etech"
+   ],
+   "nature": "extension_garantie",
+   "resume": "Prise en charge jusqu'à 7 ans et 150 000 km : remplacement du joint et nettoyage du moteur électrique, ou de la boîte complète en cas de perte de traction.",
+   "conditions": "Modèles produits entre fin août 2019 et début février 2024. Opération technique Renault (OTS) de mai 2024.",
+   "age_max_ans": 7,
+   "km_max": 150000,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demander au réseau Renault si l'opération technique de mai 2024 a été réalisée, avec le numéro VIN.",
+   "sources": [
+    {
+     "titre": "L'argus : Renault 1.6 hybride, des problèmes de boîte sur Clio, Captur, Mégane et Arkana",
+     "url": "https://www.largus.fr/actualite-automobile/fiabilite-renault-1-6-hybride-des-problemes-de-boite-sur-les-clio-captur-megane-et-arkana-30035505.html",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "dacia-spring-anticorrosion",
+   "constructeur": "Dacia",
+   "marques": [
+    "Dacia"
+   ],
+   "defauts": [
+    "spring-rouille"
+   ],
+   "moteurs": [
+    "ev"
+   ],
+   "nature": "garantie_contractuelle",
+   "resume": "Traitement ou remplacement des pièces corrodées sous la garantie anticorrosion de 6 ans.",
+   "conditions": null,
+   "age_max_ans": 6,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Faire constater la corrosion dans le réseau Dacia.",
+   "sources": [
+    {
+     "titre": "L'argus : la Dacia Spring rencontre des problèmes de rouille",
+     "url": "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "kia-dct7-garantie",
+   "constructeur": "Kia",
+   "marques": [
+    "Kia"
+   ],
+   "defauts": [
+    "dct7-vibrations"
+   ],
+   "moteurs": [],
+   "nature": "garantie_contractuelle",
+   "resume": "Prise en charge possible dans le cadre de la garantie Kia de 7 ans.",
+   "conditions": null,
+   "age_max_ans": 7,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Faire contrôler la boîte en mode diagnostic dédié dans le réseau Kia.",
+   "sources": [
+    {
+     "titre": "L'argus : Kia, vibrations avec la boîte DCT-7",
+     "url": "https://www.largus.fr/actualite-automobile/kia-problemes-de-vibrations-avec-la-boite-double-embrayage-dct-7-10641403.html",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "volvo-vea-egr-extension",
+   "constructeur": "Volvo",
+   "marques": [
+    "Volvo"
+   ],
+   "defauts": [
+    "volvo-vea-egr"
+   ],
+   "moteurs": [
+    "vead"
+   ],
+   "nature": "extension_garantie",
+   "resume": "Selon Car Verif, Volvo France a étendu la garantie de la vanne EGR en novembre 2020.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": "2020-11",
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Vérifier auprès du réseau Volvo si l'extension s'applique au véhicule.",
+   "sources": [
+    {
+     "titre": "Car Verif : Volvo XC60 I D4 181",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "ford-powershift-extension",
+   "constructeur": "Ford",
+   "marques": [
+    "Ford"
+   ],
+   "defauts": [
+    "powershift"
+   ],
+   "moteurs": [],
+   "nature": "extension_garantie",
+   "resume": "Ford a étendu la garantie de la boîte Powershift dans plusieurs pays. Application en France non précisée par les sources.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Vérifier auprès du réseau Ford.",
+   "sources": [
+    {
+     "titre": "GoAuto : PowerShift DCT issues under control, says Ford",
+     "url": "https://www.goauto.com.au/news/ford/powershift-dct-issues-under-control-ford/2015-09-03/20501.html",
+     "type": "article"
+    },
+    {
+     "titre": "The Drive : Ford sued over PowerShift transmissions again",
+     "url": "https://www.thedrive.com/news/fords-getting-sued-over-powershift-transmissions-again",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "renault-tce12-cas-par-cas",
+   "constructeur": "Renault",
+   "marques": [
+    "Renault",
+    "Dacia",
+    "Nissan"
+   ],
+   "defauts": [
+    "tce12-huile"
+   ],
+   "moteurs": [
+    "tce12"
+   ],
+   "nature": "geste_commercial",
+   "resume": "Prise en charge au cas par cas par Renault, Dacia et Nissan, sous condition d'entretien conforme. Pas de rappel officiel.",
+   "conditions": "Entretien conforme.",
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": "Factures d'entretien conformes.",
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demande auprès du réseau de la marque, puis du service client constructeur.",
+   "sources": [
+    {
+     "titre": "Fiches-auto : problèmes en série sur les moteurs 1.2 TCe",
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php",
+     "type": "article"
+    },
+    {
+     "titre": "UFC-Que Choisir : moteur 1.2 Renault, 400 000 voitures en danger",
+     "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "renault-k9k-courroie-cas-par-cas",
+   "constructeur": "Renault",
+   "marques": [
+    "Renault",
+    "Dacia",
+    "Nissan"
+   ],
+   "defauts": [
+    "k9k-courroie"
+   ],
+   "moteurs": [
+    "k9k"
+   ],
+   "nature": "geste_commercial",
+   "resume": "Prise en charge Renault au cas par cas, sous condition d'entretien.",
+   "conditions": "Entretien conforme, distribution remplacée selon le plan (tous les 5 ans ou 120 000 km).",
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": "Facture de remplacement de la distribution.",
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demande auprès du réseau Renault.",
+   "sources": [
+    {
+     "titre": "Planète Renault : le moteur 1.5 dCi",
+     "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/",
+     "type": "article"
+    },
+    {
+     "titre": "L'argus : courroie de distribution, des ennuis à la chaîne",
+     "url": "https://www.largus.fr/actualite-automobile/courroie-de-distribution-des-ennuis-a-la-chaine-3823379_p_2.html",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "renault-r9m-carter-cas-par-cas",
+   "constructeur": "Renault",
+   "marques": [
+    "Renault",
+    "Dacia",
+    "Nissan"
+   ],
+   "defauts": [
+    "r9m-carter-fuite"
+   ],
+   "moteurs": [
+    "r9m"
+   ],
+   "nature": "geste_commercial",
+   "resume": "Participation de Renault de 60 à 90 % hors garantie, selon des témoignages de propriétaires.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demande auprès du réseau Renault.",
+   "sources": [
+    {
+     "titre": "Planète Renault (forum) : fuite d'huile carter de distribution",
+     "url": "https://www.planeterenault.com/forum/kadjar-fuite-d-huile-carter-de-distribution-t49895.html?amp=1",
+     "type": "forum"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "vw-ea111-chaine-geste",
+   "constructeur": "Volkswagen",
+   "marques": [
+    "Volkswagen",
+    "Audi",
+    "Skoda",
+    "Seat"
+   ],
+   "defauts": [
+    "ea111-chaine"
+   ],
+   "moteurs": [
+    "ea111"
+   ],
+   "nature": "geste_commercial",
+   "resume": "Volkswagen a participé aux frais par geste commercial, de moins en moins sur les véhicules âgés.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demande auprès du réseau de la marque.",
+   "sources": [
+    {
+     "titre": "Auto Bild : VW Steuerketten-Kulanz",
+     "url": "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "volvo-vea-huile-geste",
+   "constructeur": "Volvo",
+   "marques": [
+    "Volvo"
+   ],
+   "defauts": [
+    "volvo-vea-huile"
+   ],
+   "moteurs": [
+    "vead"
+   ],
+   "nature": "geste_commercial",
+   "resume": "Gestes commerciaux Volvo au cas par cas.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Demande auprès du réseau Volvo.",
+   "sources": [
+    {
+     "titre": "Car Verif : Volvo XC60 I D4 181",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "kia-gdi16-huile-position",
+   "constructeur": "Kia",
+   "marques": [
+    "Kia",
+    "Hyundai"
+   ],
+   "defauts": [
+    "gdi16-huile"
+   ],
+   "moteurs": [
+    "gdi16",
+    "tgdi16"
+   ],
+   "nature": "position_constructeur",
+   "resume": "Kia considère jusqu'à 1 litre pour 1 000 km comme dans les tolérances : pas de prise en charge en deçà.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Faire mesurer la consommation d'huile dans le réseau.",
+   "sources": [
+    {
+     "titre": "Fiches-auto : fiabilité Hyundai Tucson",
+     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "honda-15t-amerique-nord",
+   "constructeur": "Honda",
+   "marques": [
+    "Honda"
+   ],
+   "defauts": [
+    "honda15t-dilution"
+   ],
+   "moteurs": [
+    "honda15t"
+   ],
+   "nature": "hors_france",
+   "resume": "Extension de garantie constatée en Amérique du Nord. Les sources ne disent rien de la France : se renseigner auprès de Honda France.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Se renseigner auprès de Honda France.",
+   "sources": [
+    {
+     "titre": "WardsAuto : Honda étend la garantie pour la dilution d'huile du 1.5L",
+     "url": "https://www.wardsauto.com/news/archive-wards-honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem/793295/",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  },
+  {
+   "id": "bmw-n20-etats-unis",
+   "constructeur": "BMW",
+   "marques": [
+    "BMW"
+   ],
+   "defauts": [
+    "n20-chaine"
+   ],
+   "moteurs": [
+    "n20"
+   ],
+   "nature": "hors_france",
+   "resume": "Aux États-Unis, un accord collectif de 2021 a étendu la garantie sur les pièces de distribution. Aucun dispositif français relevé dans les sources.",
+   "conditions": null,
+   "age_max_ans": null,
+   "km_max": null,
+   "exigences_entretien": null,
+   "validite": {
+    "debut": null,
+    "fin": null
+   },
+   "remboursement_retroactif": null,
+   "procedure": "Se renseigner auprès du réseau BMW.",
+   "sources": [
+    {
+     "titre": "CarComplaints : action collective sur les chaînes des moteurs N20 et N26",
+     "url": "https://www.carcomplaints.com/news/2017/bmw-n20-n26-engine-lawsuit-blames-timing-chains.shtml",
+     "type": "article"
+    }
+   ],
+   "source_officielle": false,
+   "derniere_verification": null
+  }
+ ]
+}

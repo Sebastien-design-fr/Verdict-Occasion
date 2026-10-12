@@ -9,6 +9,8 @@ page = (root / 'page.html').read_text(encoding='utf-8')
 app = (root / 'app.js').read_text(encoding='utf-8')
 mod = json.loads((root / 'data/modeles.json').read_text(encoding='utf-8'))
 dfx = json.loads((root / 'data/defauts.json').read_text(encoding='utf-8'))
+prx = json.loads((root / 'data/prix_neufs.json').read_text(encoding='utf-8'))
+dec = json.loads((root / 'data/decote.json').read_text(encoding='utf-8'))
 
 # Contrôles de cohérence de la base
 codes_m = {e['code'] for m in mod['modeles'] for e in m['moteurs']}
@@ -33,12 +35,16 @@ for d in dfx['defauts']:
     if d['confiance'] == 'confirmé' and not d.get('rappel') and len(d['sources']) < 2:
         errors.append(f"{d['id']} : « confirmé » sans rappel ni deux sources")
     if d['km'][0] > d['km'][1] or d['cout'][0] > d['cout'][1]: errors.append(f"{d['id']} : plage incohérente")
+for mid in ids_mod:
+    if mid not in prx['prix']: errors.append(f"{mid} : pas de prix neuf de référence")
+for mq in {m['marque'] for m in mod['modeles']}:
+    if mq not in dec['marques']: errors.append(f"{mq} : pas de coefficient de marque")
 if errors:
     raise SystemExit('Base invalide :\n- ' + '\n- '.join(errors))
 
 doc_head = '<!doctype html>\n<html lang="fr">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
 (root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + '<script src="app.js"></script>\n</body>\n</html>\n', encoding='utf-8')
-data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version']}
+data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version'], 'prix': prx['prix'], 'decote': dec}
 (root / 'dist').mkdir(exist_ok=True)
 (root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n<script>\n' + app + '</script>\n', encoding='utf-8')
 print(f"OK : {len(mod['modeles'])} modèles, {len(dfx['defauts'])} défauts")

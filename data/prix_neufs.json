@@ -1,0 +1,410 @@
+{
+ "version": "2026-10-12",
+ "note": "Prix catalogue d'entrée de gamme TTC pendant la commercialisation du modèle. Les entrées sans source sont des estimations à vérifier.",
+ "prix": {
+  "peugeot-208-1": {
+   "entree": 12550,
+   "source": "https://www.largus.fr/actualite-automobile/que-vaut-la-peugeot-208-access-10-vti-68-premier-prix-2279367.html"
+  },
+  "peugeot-208-2": {
+   "entree": 15500,
+   "source": "https://www.caradisiac.com/nouvelle-peugeot-208-prix-a-partir-de-15-500-eur-176843.htm"
+  },
+  "peugeot-2008-1": {
+   "entree": 15200,
+   "source": "https://www.largus.fr/actualite-automobile/a-partir-de-15-200-e-sans-climatisation-2535369.html"
+  },
+  "peugeot-2008-2": {
+   "entree": 21500,
+   "source": "https://www.largus.fr/actualite-automobile/peugeot-20082020-les-prix-deja-en-hausse-10332404.html"
+  },
+  "peugeot-308-2": {
+   "entree": 17800,
+   "source": "https://www.turbo.fr/peugeot/308/actualites-auto/peugeot-308-2013-les-tarifs-101095"
+  },
+  "peugeot-3008-2": {
+   "entree": 25900,
+   "source": "https://www.largus.fr/mondial/prix-nouveau-peugeot-3008-2016-le-suv-a-partir-de-25-900-euros-7958390.html"
+  },
+  "peugeot-5008-2": {
+   "entree": 26400,
+   "source": "https://www.largus.fr/actualite-automobile/tarifs-peugeot-5008-2017-prix-equipements-et-fiches-techniques-8276384.html"
+  },
+  "citroen-c3-2": {
+   "entree": 12900,
+   "estime": true
+  },
+  "citroen-c3-3": {
+   "entree": 12950,
+   "source": "https://www.largus.fr/mondial/prix-citroen-c3-2016-les-tarifs-de-la-nouvelle-c3-devoiles-8053391.html"
+  },
+  "citroen-c3-aircross": {
+   "entree": 15950,
+   "source": "https://www.caradisiac.com/citroen-c3-aircross-a-partir-de-15-950-eur-161228.htm"
+  },
+  "citroen-c4-cactus": {
+   "entree": 13950,
+   "source": "https://www.largus.fr/geneve/2014/citroen-c4-cactus-2014-des-prix-a-partir-de-14500-e-3688379.html"
+  },
+  "citroen-c4-picasso-2": {
+   "entree": 22900,
+   "estime": true
+  },
+  "citroen-c5-aircross": {
+   "entree": 24700,
+   "source": "https://www.caradisiac.com/citroen-c5-aircross-prix-a-partir-de-24-700-eur-170659.htm"
+  },
+  "ds-3-crossback": {
+   "entree": 23500,
+   "source": "https://fr.motor1.com/news/268144/ds-3-crossback-prix-moteurs-tarif/"
+  },
+  "ds-7": {
+   "entree": 29900,
+   "estime": true
+  },
+  "opel-corsa-f": {
+   "entree": 14600,
+   "source": "https://www.caradisiac.com/opel-corsa-2019-la-concurrence-le-bilan-global-tous-les-tarifs-180080.htm"
+  },
+  "opel-grandland-x": {
+   "entree": 24900,
+   "estime": true
+  },
+  "opel-astra-k": {
+   "entree": 18800,
+   "estime": true
+  },
+  "opel-mokka-1": {
+   "entree": 19700,
+   "estime": true
+  },
+  "opel-corsa-e": {
+   "entree": 12900,
+   "estime": true
+  },
+  "renault-clio-4": {
+   "entree": 13700,
+   "source": "https://www.largus.fr/actualite-automobile/renault-clio-4-a-partir-de-13-700-e-1771372.html"
+  },
+  "renault-clio-5": {
+   "entree": 14100,
+   "source": "https://www.largus.fr/actualite-automobile/tarifs-renault-clio-5-prix-moteurs-equipements-options-9709399.html"
+  },
+  "renault-captur-1": {
+   "entree": 16300,
+   "source": "https://www.largus.fr/actualite-automobile/prix-renault-captur-2015-a-partir-de-16-300-e-6114390.html"
+  },
+  "renault-captur-2": {
+   "entree": 18900,
+   "estime": true
+  },
+  "renault-megane-3": {
+   "entree": 17500,
+   "estime": true
+  },
+  "renault-megane-4": {
+   "entree": 18200,
+   "source": "https://www.largus.fr/actualite-automobile/prix-renault-megane-4-les-tarifs-officiels-de-la-megane-2016-6731384.html"
+  },
+  "renault-scenic-3": {
+   "entree": 21500,
+   "estime": true
+  },
+  "renault-kadjar": {
+   "entree": 21800,
+   "estime": true
+  },
+  "renault-twingo-3": {
+   "entree": 10600,
+   "estime": true
+  },
+  "renault-zoe": {
+   "entree": 25900,
+   "estime": true
+  },
+  "dacia-sandero-2": {
+   "entree": 7900,
+   "source": "https://www.tout-sur-lauto.fr/fiche-technique/dacia/sandero/2012"
+  },
+  "dacia-duster-1": {
+   "entree": 11900,
+   "estime": true
+  },
+  "dacia-duster-2": {
+   "entree": 11990,
+   "estime": true
+  },
+  "dacia-lodgy": {
+   "entree": 10900,
+   "estime": true
+  },
+  "dacia-spring": {
+   "entree": 16990,
+   "estime": true
+  },
+  "nissan-qashqai-2": {
+   "entree": 20000,
+   "estime": true
+  },
+  "nissan-juke-1": {
+   "entree": 15990,
+   "estime": true
+  },
+  "nissan-micra-5": {
+   "entree": 14000,
+   "estime": true
+  },
+  "nissan-xtrail-3": {
+   "entree": 28000,
+   "estime": true
+  },
+  "vw-golf-6": {
+   "entree": 17500,
+   "estime": true
+  },
+  "vw-golf-7": {
+   "entree": 18900,
+   "estime": true
+  },
+  "vw-polo-5": {
+   "entree": 12900,
+   "estime": true
+  },
+  "seat-ibiza-4": {
+   "entree": 12000,
+   "estime": true
+  },
+  "seat-leon-3": {
+   "entree": 16800,
+   "estime": true
+  },
+  "skoda-octavia-3": {
+   "entree": 19500,
+   "estime": true
+  },
+  "audi-a1-8x": {
+   "entree": 16900,
+   "estime": true
+  },
+  "audi-a3-8v": {
+   "entree": 23500,
+   "estime": true
+  },
+  "vw-t-roc": {
+   "entree": 23900,
+   "estime": true
+  },
+  "vw-tiguan-2": {
+   "entree": 28950,
+   "estime": true
+  },
+  "vw-golf-8": {
+   "entree": 25000,
+   "estime": true
+  },
+  "skoda-fabia-3": {
+   "entree": 12500,
+   "estime": true
+  },
+  "seat-arona": {
+   "entree": 16500,
+   "estime": true
+  },
+  "ford-fiesta-7": {
+   "entree": 12900,
+   "estime": true
+  },
+  "ford-focus-3": {
+   "entree": 17900,
+   "estime": true
+  },
+  "ford-cmax-2": {
+   "entree": 21000,
+   "estime": true
+  },
+  "ford-ecosport": {
+   "entree": 16500,
+   "estime": true
+  },
+  "bmw-serie1-f20": {
+   "entree": 24000,
+   "estime": true
+  },
+  "bmw-serie3-f30": {
+   "entree": 32000,
+   "estime": true
+  },
+  "mini-r56": {
+   "entree": 17000,
+   "estime": true
+  },
+  "mini-f56": {
+   "entree": 19500,
+   "estime": true
+  },
+  "fiat-500": {
+   "entree": 10900,
+   "estime": true
+  },
+  "fiat-panda-3": {
+   "entree": 9990,
+   "estime": true
+  },
+  "fiat-tipo-2": {
+   "entree": 13990,
+   "estime": true
+  },
+  "toyota-yaris-3": {
+   "entree": 13500,
+   "estime": true
+  },
+  "toyota-yaris-4": {
+   "entree": 17500,
+   "estime": true
+  },
+  "toyota-chr-1": {
+   "entree": 23900,
+   "estime": true
+  },
+  "toyota-auris-2": {
+   "entree": 19000,
+   "estime": true
+  },
+  "toyota-corolla-12": {
+   "entree": 25900,
+   "estime": true
+  },
+  "hyundai-i20-2": {
+   "entree": 12900,
+   "estime": true
+  },
+  "hyundai-i30-2": {
+   "entree": 17500,
+   "estime": true
+  },
+  "hyundai-i30-3": {
+   "entree": 19500,
+   "estime": true
+  },
+  "hyundai-tucson-3": {
+   "entree": 23900,
+   "estime": true
+  },
+  "hyundai-kona-1": {
+   "entree": 18900,
+   "estime": true
+  },
+  "kia-sportage-4": {
+   "entree": 23900,
+   "estime": true
+  },
+  "kia-ceed-2": {
+   "entree": 16500,
+   "estime": true
+  },
+  "kia-ceed-3": {
+   "entree": 20000,
+   "estime": true
+  },
+  "kia-rio-4": {
+   "entree": 13900,
+   "estime": true
+  },
+  "kia-stonic": {
+   "entree": 15990,
+   "estime": true
+  },
+  "mercedes-classe-a-w176": {
+   "entree": 25800,
+   "estime": true
+  },
+  "mercedes-classe-b-w246": {
+   "entree": 27500,
+   "estime": true
+  },
+  "mercedes-cla-c117": {
+   "entree": 31000,
+   "estime": true
+  },
+  "mercedes-gla-x156": {
+   "entree": 30900,
+   "estime": true
+  },
+  "mercedes-classe-c-w204": {
+   "entree": 33000,
+   "estime": true
+  },
+  "mercedes-classe-c-w205": {
+   "entree": 37000,
+   "estime": true
+  },
+  "honda-civic-10": {
+   "entree": 21900,
+   "estime": true
+  },
+  "honda-jazz-3": {
+   "entree": 15990,
+   "estime": true
+  },
+  "honda-crv-5": {
+   "entree": 31000,
+   "estime": true
+  },
+  "mazda-2-3": {
+   "entree": 13990,
+   "estime": true
+  },
+  "mazda-3-3": {
+   "entree": 19990,
+   "estime": true
+  },
+  "mazda-6-3": {
+   "entree": 27500,
+   "estime": true
+  },
+  "mazda-cx5-1": {
+   "entree": 26900,
+   "estime": true
+  },
+  "mazda-cx5-2": {
+   "entree": 29500,
+   "estime": true
+  },
+  "suzuki-vitara-4": {
+   "entree": 17990,
+   "estime": true
+  },
+  "suzuki-swift-5": {
+   "entree": 12990,
+   "estime": true
+  },
+  "peugeot-partner-2": {
+   "entree": 17500,
+   "estime": true
+  },
+  "peugeot-rifter": {
+   "entree": 21500,
+   "estime": true
+  },
+  "citroen-berlingo-2": {
+   "entree": 17000,
+   "estime": true
+  },
+  "citroen-berlingo-3": {
+   "entree": 20500,
+   "estime": true
+  },
+  "jeep-renegade": {
+   "entree": 19900,
+   "estime": true
+  },
+  "volvo-v40-2": {
+   "entree": 23900,
+   "estime": true
+  },
+  "volvo-xc60-1": {
+   "entree": 38000,
+   "estime": true
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "version": "2026-10-12",
+ "note": "Paramètres de la cote estimée. Calés sur 8 cotes de marché publiques (écart moyen 5 %), vérifiés sur 3 autres (écarts de -12 % à +13 %). Fourchette affichée : ±15 %.",
+ "finition_moyenne": 1.25,
+ "boite_auto": 1.07,
+ "courbe": {
+  "premiere_annee": 0.82,
+  "annuelle_jusqu_a_5_ans": 0.9,
+  "annuelle_apres_5_ans": 0.93,
+  "electrique": 0.85
+ },
+ "km": {
+  "moyenne_annuelle": 13500,
+  "par_10000_km": 0.018,
+  "min": 0.7,
+  "max": 1.15
+ },
+ "defaut_critique": 0.95,
+ "fourchette": 0.15,
+ "moteurs": {
+  "base": 1.0,
+  "turbo_essence": 1.1,
+  "diesel": 1.2,
+  "hybride": 1.22,
+  "electrique": 1.45,
+  "bonus_performance": 0.18,
+  "codes_base": [
+   "puretech-a",
+   "r12",
+   "r16",
+   "sce10",
+   "fire12",
+   "vvti",
+   "hymp",
+   "m16",
+   "honda13",
+   "vwmpi",
+   "tivct",
+   "opel1214",
+   "opel16",
+   "vti",
+   "fire14",
+   "nis16",
+   "duratec"
+  ],
+  "codes_performance": [
+   "thp",
+   "ea888",
+   "k14c",
+   "tgdi16",
+   "honda15t",
+   "n47",
+   "om651",
+   "m274",
+   "m270",
+   "b38",
+   "b47",
+   "d5",
+   "veap"
+  ]
+ },
+ "marques": {
+  "Toyota": 1.3,
+  "Dacia": 1.4,
+  "Suzuki": 1.05,
+  "Mazda": 1.03,
+  "Honda": 1.03,
+  "Volkswagen": 1.0,
+  "Audi": 1.0,
+  "Skoda": 1.0,
+  "Seat": 0.97,
+  "BMW": 0.95,
+  "Mercedes": 0.95,
+  "Mini": 1.0,
+  "Peugeot": 0.9,
+  "Citroën": 0.8,
+  "DS": 0.85,
+  "Renault": 1.05,
+  "Opel": 0.9,
+  "Fiat": 0.92,
+  "Ford": 0.9,
+  "Nissan": 1.0,
+  "Hyundai": 0.97,
+  "Kia": 0.98,
+  "Jeep": 0.88,
+  "Volvo": 0.97
+ },
+ "modeles": {
+  "fiat-500": 1.35
+ },
+ "controles": [
+  {
+   "vehicule": "Peugeot 308 II 1.2 PureTech 110 Allure, 2017, 107 000 km",
+   "cote": 7400,
+   "source": "https://coteauto.autobiz.fr/peugeot/peugeot-308-1.2-110-puretech-allure-start-stop-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Renault Clio IV 0.9 TCe 90 Trend, 2016, 113 000 km",
+   "cote": 7600,
+   "source": "https://coteauto.autobiz.fr/renault/renault-clio-0.9-tce-90-trend-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Renault Clio IV 1.2 TCe 120 GT EDC, 2016, 108 000 km",
+   "cote": 8800,
+   "source": "https://coteauto.autobiz.fr/renault/renault-clio-1.2-tce-120-gt-edc-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Toyota Yaris III 1.5 hybride 100h, 2016, 105 000 km",
+   "cote": 11400,
+   "source": "https://coteauto.autobiz.fr/toyota/toyota-yaris-1.5-hybrid-100h-75-france-bva-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII 1.6 TDI 105 Trend Line, 2015, 153 000 km",
+   "cote": 9100,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-1.6-tdi-105-trend-line-2015/cote-auto/"
+  },
+  {
+   "vehicule": "Dacia Sandero II 0.9 TCe 90 Ambiance, 2017, 101 000 km",
+   "cote": 6800,
+   "source": "https://coteauto.autobiz.fr/dacia/dacia-sandero-0.9-tce-90-ambiance-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Volkswagen Golf VII 1.2 TSI 105 Confort Line, 2012, 167 000 km",
+   "cote": 6600,
+   "source": "https://coteauto.autobiz.fr/volkswagen/volkswagen-golf-1.2-tsi-105-bluemotion-confort-line-2012/cote-auto/"
+  },
+  {
+   "vehicule": "Citroën C3 II 1.2 PureTech 80 Attraction, 2016, 106 000 km",
+   "cote": 5000,
+   "source": "https://coteauto.autobiz.fr/citroen/citroen-c3-1.2-80-puretech-attraction-2016/cote-auto/"
+  },
+  {
+   "vehicule": "Nissan Qashqai II 1.5 dCi 110 N-Connecta, 2017, 137 000 km",
+   "cote": 11000,
+   "source": "https://coteauto.autobiz.fr/nissan/nissan-qashqai-1.5-dci-110-n-connecta-2wd-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Peugeot 3008 II 1.6 BlueHDi 120 Active, 2017, 153 000 km",
+   "cote": 10600,
+   "source": "https://coteauto.autobiz.fr/peugeot/peugeot-3008-nouveau-suv-1.6-bluehdi-120-active-start-stop-2017/cote-auto/"
+  },
+  {
+   "vehicule": "Fiat 500 1.2 70 Club, 2015, 102 000 km",
+   "cote": 6700,
+   "source": "https://coteauto.autobiz.fr/fiat/fiat-500-1.2-70-club-2015/cote-auto/"
+  }
+ ]
+}

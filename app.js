@@ -4,11 +4,38 @@ const $=s=>document.querySelector(s);
 let DATA=window.VO_DATA;
 if(!DATA){
   try{
-    const [m,d]=await Promise.all([fetch('data/modeles.json').then(r=>r.json()),fetch('data/defauts.json').then(r=>r.json())]);
-    DATA={modeles:m.modeles,defauts:d.defauts,version:d.version};
+    const [m,d,p,c]=await Promise.all(['modeles','defauts','prix_neufs','decote'].map(f=>fetch(`data/${f}.json`).then(r=>r.json())));
+    DATA={modeles:m.modeles,defauts:d.defauts,version:d.version,prix:p.prix,decote:c};
   }catch(e){$('#report').innerHTML='<div class="alert warn">Impossible de charger la base de défauts (dossier data/).</div>';return;}
 }
-const MODELS=DATA.modeles, DEFECTS=DATA.defauts;
+const MODELS=DATA.modeles, DEFECTS=DATA.defauts, PRIX=DATA.prix||{}, DC=DATA.decote;
+
+/* Cote estimée : prix neuf de référence × décote selon l'âge × kilométrage × marque × défaut critique connu.
+   Paramètres dans data/decote.json, calés sur des cotes de marché publiques. */
+function moteurFactor(e){
+  const M=DC.moteurs;
+  if(e.carburant==='Électrique')return M.electrique;
+  if(e.carburant==='Hybride')return M.hybride;
+  let f=e.carburant==='Diesel'?M.diesel:M.turbo_essence;
+  if(M.codes_base.includes(e.code))f=M.base;
+  if(M.codes_performance.includes(e.code))f+=M.bonus_performance;
+  return f;
+}
+function estimateCote(m,e,b,year,km){
+  const ref=PRIX[m.id];if(!DC||!ref||!year)return null;
+  const fmin=Math.min(...m.moteurs.map(moteurFactor));
+  const auto=!['man','ev','ecvt'].includes(b.code);
+  const neuf=ref.entree*DC.finition_moyenne*moteurFactor(e)/fmin*(auto?DC.boite_auto:1);
+  const now=new Date(),a=Math.max(0.2,now.getFullYear()+now.getMonth()/12-(year+0.5));
+  const C=DC.courbe;
+  let D=a<1?1-(1-C.premiere_annee)*a:C.premiere_annee*Math.pow(C.annuelle_jusqu_a_5_ans,Math.min(a,5)-1)*Math.pow(C.annuelle_apres_5_ans,Math.max(0,a-5));
+  if(e.carburant==='Électrique')D*=C.electrique;
+  const K=Math.max(DC.km.min,Math.min(DC.km.max,1-DC.km.par_10000_km*(km-a*DC.km.moyenne_annuelle)/10000));
+  const crit=DEFECTS.some(d=>d.confiance==='confirmé'&&d.gravite===3&&d.frequence===3&&!d.rappel&&(d.moteurs||[]).includes(e.code)&&(!d.annees||(year>=d.annees[0]&&year<=d.annees[1])));
+  const mid=neuf*D*K*(DC.marques[m.marque]||1)*(DC.modeles[m.id]||1)*(crit?DC.defaut_critique:1);
+  const r=x=>Math.round(x/100)*100;
+  return {mid:r(mid),low:r(mid*(1-DC.fourchette)),high:r(mid*(1+DC.fourchette)),neuf:r(neuf),neufEstime:!!ref.estime,crit};
+}
 
 const GENERIC=[
  'Contrôle technique de moins de 6 mois remis par le vendeur (obligatoire pour un véhicule de plus de 4 ans)',
@@ -45,9 +72,9 @@ function zone(km,r){
 }
 const label=m=>`${m.marque} ${m.modele} ${m.generation}`;
 
-const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,cote:10800,maint:'partiel',treated:[],example:true};
-try{const s=JSON.parse(localStorage.getItem('vo-state3')||'null');if(s&&MODELS.some(m=>m.id===s.model))Object.assign(state,s);}catch(e){}
-function save(){try{localStorage.setItem('vo-state3',JSON.stringify(state));}catch(e){}}
+const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,cote:0,maint:'partiel',treated:[],example:true};
+try{const s=JSON.parse(localStorage.getItem('vo-state4')||'null');if(s&&MODELS.some(m=>m.id===s.model))Object.assign(state,s);}catch(e){}
+function save(){try{localStorage.setItem('vo-state4',JSON.stringify(state));}catch(e){}}
 
 /* Analyse du prix : on compare le « prix réel » (prix demandé + coût de risque mécanique) à la cote.
    Un prix délirant plafonne le score, quel que soit l'état mécanique. */
@@ -106,14 +133,16 @@ function evaluate(){
   if(recalls.length)notes.push(`${recalls.length>1?recalls.length+' rappels officiels concernent':'Un rappel officiel concerne'} ce véhicule. Exiger la preuve qu'${recalls.length>1?'ils ont':'il a'} été fait${recalls.length>1?'s':''} : sinon, l'intervention est gratuite en concession.`);
   const mec=Math.max(5,Math.min(100,Math.round(score)));
   const exp=list.reduce((s,d)=>s+d.exp,0);
-  const pr=pricing(Number(state.price)||0,Number(state.cote)||0,exp);
+  const est=estimateCote(m,e,b,year,km);
+  const userCote=Number(state.cote)||0;
+  const coteUsed=userCote||(est?est.mid:0), coteSrc=userCote?'saisie':'estimée';
+  const pr=pricing(Number(state.price)||0,coteUsed,exp);
   let fin=mec;
   if(pr){fin=Math.min(100,mec+pr.pts);if(pr.cap!=null)fin=Math.min(fin,pr.cap);if(pr.note)notes.unshift(pr.note);}
-  else if(state.price)notes.push('Indiquez la cote du marché pour que le prix entre dans le score.');
   fin=Math.max(5,Math.round(fin));
   let v=fin>=70?{l:'Bon achat',c:'v-ok'}:fin>=45?{l:'À négocier',c:'v-warn'}:{l:'Risqué',c:'v-crit'};
   if(pr&&pr.label==='Prix délirant')v={l:'Trop cher',c:'v-crit'};
-  return {m,e,b,km,year,list,score:fin,mec,pr,exp,v,notes};
+  return {m,e,b,km,year,list,score:fin,mec,pr,exp,v,notes,est,coteUsed,coteSrc};
 }
 
 function costCell(d){
@@ -123,7 +152,9 @@ function costCell(d){
 }
 
 function render(){
-  const r=evaluate();const price=Number(state.price)||0,cote=Number(state.cote)||0;
+  const r=evaluate();const price=Number(state.price)||0,cote=r.coteUsed;
+  const ce=document.querySelector('#cote-est');
+  if(ce)ce.textContent=r.est?`Cote estimée par Ausculto : ${eur(r.est.mid)} (de ${eur(r.est.low)} à ${eur(r.est.high)}). Laissez vide pour l'utiliser, ou saisissez une cote officielle.`:'';
   const base=cote?Math.min(price,cote):price;
   const target=price?Math.max(0,Math.round((base-r.exp)/50)*50):0;
   const pct=x=>(x>0?'+':'')+Math.round(x*100)+' %';
@@ -149,13 +180,14 @@ function render(){
     html+=`<div class="panel price"><div class="head-row"><h2>Analyse du prix</h2><span class="chip ${r.pr.cls}">${r.pr.label}</span></div>
       <div class="price-grid">
         <div><span>Prix demandé</span><b>${eur(price)}</b></div>
-        <div><span>Cote du marché</span><b>${eur(cote)}</b></div>
+        <div><span>${r.coteSrc==='estimée'?'Cote estimée':'Cote saisie'}</span><b>${eur(cote)}</b></div>
         <div><span>Frais à prévoir</span><b>${eur(r.exp)}</b></div>
         <div><span>Prix réel vs cote</span><b>${eur(r.pr.real)} · ${pct(r.pr.e)}</b></div>
       </div>
       <div class="pscale" aria-hidden="true"><i style="left:${pos}%"></i></div>
       <div class="pscale-l" style="position:relative;height:1em"><span style="position:absolute;left:0">−30 %</span><span style="position:absolute;left:37.5%;transform:translateX(-50%)">cote</span><span style="position:absolute;left:75%;transform:translateX(-50%)">+30 %</span><span style="position:absolute;right:0">+50 %</span></div>
-      <p class="hint" style="margin-top:10px">Le prix réel ajoute au prix demandé les frais à prévoir pour les défauts connus non traités. C'est lui qu'on compare à la cote.</p></div>`;
+      <p class="hint" style="margin-top:10px">Le prix réel ajoute au prix demandé les frais à prévoir pour les défauts connus non traités. C'est lui qu'on compare à la cote.</p>
+      ${r.est?`<p class="hint" style="margin-top:6px">Estimation Ausculto : ${eur(r.est.mid)}, fourchette ${eur(r.est.low)} à ${eur(r.est.high)}. Calcul : prix neuf de référence ${eur(r.est.neuf)}${r.est.neufEstime?' (estimé, à vérifier)':''}, décote selon l'âge, kilométrage, tenue de la marque${r.est.crit?', moteur à défaut critique connu':''}. ${r.coteSrc==='estimée'?'Une cote officielle saisie dans le formulaire la remplace.':''}</p>`:''}</div>`;
   }
   html+=`<div class="panel"><div class="head-row"><h2>Défauts connus</h2><span class="eyebrow" style="margin:0">Gravité façon contrôle technique</span></div>`;
   if(!r.list.length)html+=`<div class="alert ok">Aucun défaut répertorié pour cette combinaison à ce stade de la base. Les contrôles génériques ci-dessous restent indispensables.</div>`;

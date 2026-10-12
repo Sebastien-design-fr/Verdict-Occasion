@@ -475,7 +475,7 @@ function viewAgir(){
     <div class="card"><b>Coordonnées et liens officiels</b>
       <p style="margin:6px 0 0">${pol.some(i=>i.policy.source_officielle)?'Voir les sources officielles ci-dessus.':`${NA} dans la base : aucune page officielle du constructeur n'est encore enregistrée. Adressez-vous au réseau agréé ${esc(H.describe(v).m.marque)} ou au service relations clientèle indiqué dans le carnet de garantie.`}</p></div>
     <div class="card noprint-pad"><div class="bar"><b>Modèle de courrier factuel</b><button class="btn small noprint" id="ag-copy">Copier</button></div>
-      <textarea class="inp letter" id="ag-letter" rows="16" aria-label="Modèle de courrier">${esc(letter)}</textarea>
+      <textarea class="inp letter noprint" id="ag-letter" rows="16" aria-label="Modèle de courrier">${esc(letter)}</textarea><pre class="print-only letter-print" id="ag-letter-print">${esc(letter)}</pre>
       <p class="hint">Complétez les passages entre crochets. Le courrier décrit des faits et demande un examen : il n'affirme aucun droit.</p></div>
     </section>
     <div class="inline wrap noprint"><button class="btn primary-s" id="ag-print">Imprimer le récapitulatif</button><button class="btn" data-go="decider">Analyser un devis</button></div>
@@ -484,6 +484,7 @@ function viewAgir(){
   bindCommon();
   const sd=$('#ag-def');if(sd)sd.onchange=e=>{AG.defect=e.target.value||null;viewAgir();};
   $('#ag-copy').onclick=()=>copy($('#ag-letter').value,'Courrier copié');
+  $('#ag-letter').oninput=e=>{$('#ag-letter-print').textContent=e.target.value;};
   $('#ag-print').onclick=()=>print();
 }
 function policyCard(it){
@@ -503,6 +504,7 @@ function policyCard(it){
     </dl>
     <details class="srcbox"><summary class="linkbtn">Sources (${p.sources.length})${p.source_officielle?'':' · aucune source officielle'}</summary>
       <ul class="srcs">${p.sources.map(s=>`<li>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a>`:esc(s.titre)}${s.type==='forum'?' '+tagHtml('muted','Témoignages'):''}</li>`).join('')}</ul></details>
+    <ul class="srcs print-only">${p.sources.map(s=>`<li>${esc(s.titre)}${s.url?' — '+esc(s.url):''}</li>`).join('')}</ul>
     <p class="hint" style="margin:0">Une politique constructeur peut évoluer ou expirer : faites confirmer l'éligibilité par le réseau, avec le numéro VIN, avant toute réparation.</p>
   </article>`;
 }

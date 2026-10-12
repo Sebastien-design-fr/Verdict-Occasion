@@ -1,6 +1,18 @@
 # Ausculto
 
-Évaluation d'un achat de voiture d'occasion à partir d'une base de défauts connus, sourcée et recoupée.
+Assistant personnel de santé mécanique automobile : connaître les faiblesses de son véhicule, anticiper les problèmes mécaniques et prendre les bonnes décisions avant de dépenser. L'analyse d'une voiture avant achat reste disponible dans la rubrique « Avant d'acheter ».
+
+## V2 : le propriétaire au centre
+
+- **Mon véhicule** : ajout en quelques secondes (recherche libre ou marque → modèle → motorisation), tableau de bord (identification, état des connaissances mécaniques, points de vigilance), historique des interventions, export et import JSON. Aucun compte, aucun serveur : tout reste dans le navigateur (`store.js`, clé `ausculto-v2-garage`).
+- **Anticiper** : une carte par défaut documenté (organe, symptômes, kilométrage indicatif, gravité, contrôles, prévention, coût en fourchette, niveau de preuve, sources). Trois niveaux : rouge si l'utilisateur signale un symptôme ou si un rappel n'est pas marqué fait ; orange pour un défaut majeur ou critique dont la plage documentée approche, est atteinte ou dépassée sans intervention enregistrée ; vert sinon. Ce ne sont pas des probabilités.
+- **Décider** : analyse d'un devis. Défauts correspondants (jamais présentés comme un diagnostic), part du devis dans la valeur du véhicule (valeur saisie prioritaire sur l'estimation, fourchette affichée), autres points listés sans addition de coûts, trois scénarios avec arguments pour et contre, synthèse imprimable.
+- **Agir** : politiques constructeur recensées (`data/politiques.json`), statut (documentée / à actualiser / aucune / informations insuffisantes), critères confrontés au véhicule, garanties légales distinguées des dispositifs commerciaux, documents, questions au garage, courrier type factuel, récapitulatif imprimable.
+- Fonctions potentiellement payantes repérées dans `health.js` (`TIERS`, `isUnlocked()`), toutes ouvertes pendant les tests.
+
+Fichiers V2 : `health.js` (logique, sans interface, testable sous Node), `store.js` (stockage local), `owner.js` (écrans propriétaire), `data/politiques.json` (15 politiques tirées des fiches défauts, sans invention ; champs inconnus à `null`), `data/organes.json` (organe de chaque défaut, généré par `tools/make_organes.py` puis relu). `defauts.json` et `modeles.json` ne sont pas modifiés.
+
+Tests : `node tests/health.test.js` (véhicule, vigilance, devis, politiques, stockage), `python3 tests/ui_smoke.py` (parcours complet dans Chromium, téléphone, tablette et ordinateur).
 
 ## Contenu
 
@@ -12,7 +24,7 @@
 - `page.html` + `ui.js` : l'interface. Parcours en trois étapes (trouver le véhicule, décrire l'annonce, verdict), puis détails, mode visite, comparaison de deux ou trois annonces et répertoire. Les données saisies restent dans le navigateur.
 - `tests/cote.test.js` et `tests/cote.cases.js` : vérifient que la cote estimée encadre les 36 cotes de contrôle (`node tests/cote.test.js`).
 - `tests/engine.test.js` : recherche, lecture d'annonce et évaluation (`node tests/engine.test.js`).
-- `build.py` : vérifie la cohérence de la base, puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
+- `build.py` : vérifie la cohérence de la base (y compris politiques et organes), puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
 
 ## Score
 

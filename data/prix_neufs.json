@@ -550,6 +550,256 @@
    "entree": 22900,
    "source": "https://www.largus.fr/Mini_Clubman_Ii-F54.html",
    "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2024)"
+  },
+  "vw-polo-6": {
+   "entree": 14430,
+   "source": "https://www.largus.fr/Volkswagen_Polo_Vi.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "vw-up": {
+   "entree": 9490,
+   "source": "https://www.largus.fr/Volkswagen_Up_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2011)"
+  },
+  "vw-t-cross": {
+   "entree": 19820,
+   "source": "https://www.largus.fr/Volkswagen_T-Cross_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "vw-taigo": {
+   "entree": 23380,
+   "source": "https://www.largus.fr/Volkswagen_Taigo_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "vw-passat-7": {
+   "entree": 23900,
+   "source": "https://www.largus.fr/Volkswagen_Passat_Vii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2014)"
+  },
+  "vw-passat-8": {
+   "entree": 25350,
+   "source": "https://www.largus.fr/Volkswagen_Passat_Viii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2022)"
+  },
+  "vw-touran-2": {
+   "entree": 20950,
+   "source": "https://www.largus.fr/Volkswagen_Touran_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2015)"
+  },
+  "vw-touran-3": {
+   "entree": 24270,
+   "source": "https://www.largus.fr/Volkswagen_Touran_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2015)"
+  },
+  "vw-tiguan-1": {
+   "entree": 23990,
+   "source": "https://www.largus.fr/Volkswagen_Tiguan_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2016)"
+  },
+  "vw-touareg-2": {
+   "entree": 52590,
+   "source": "https://www.largus.fr/Volkswagen_Touareg_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2018)"
+  },
+  "vw-caddy-3": {
+   "entree": 13990,
+   "source": "https://www.largus.fr/Volkswagen_Caddy_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2004-2015)"
+  },
+  "vw-caddy-4": {
+   "entree": 16280,
+   "source": "https://www.largus.fr/Volkswagen_Caddy_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2020)"
+  },
+  "vw-caddy-5": {
+   "entree": 26350,
+   "source": "https://www.largus.fr/Volkswagen_Caddy_V.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "vw-sharan-2": {
+   "entree": 30990,
+   "source": "https://www.largus.fr/Volkswagen_Sharan_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2021)"
+  },
+  "vw-golf-sportsvan": {
+   "entree": 20490,
+   "source": "https://www.largus.fr/Volkswagen_Golf-Sportsvan_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2020)"
+  },
+  "vw-arteon": {
+   "entree": 37800,
+   "source": "https://www.largus.fr/Volkswagen_Arteon_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "vw-id3": {
+   "entree": 33890,
+   "source": "https://www.largus.fr/Volkswagen_Id3_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "vw-id4": {
+   "entree": 39370,
+   "source": "https://www.largus.fr/Volkswagen_Id4_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "audi-a1-gb": {
+   "entree": 20000,
+   "source": "https://www.largus.fr/Audi_A1-Sportback_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "audi-a3-8p": {
+   "entree": 22360,
+   "source": "https://www.largus.fr/Audi_A3-Sportback_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2004-2012, Sportback)"
+  },
+  "audi-a3-8y": {
+   "entree": 28200,
+   "source": "https://www.largus.fr/Audi_A3-Sportback_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020, Sportback)"
+  },
+  "audi-a4-b8": {
+   "entree": 27290,
+   "source": "https://www.fiches-auto.fr/essai-a4/test-195-828-tarifs-du-neuf.php",
+   "note": "A4 berline Attraction essence 120 ch ; le minimum affiché par L'argus (16 185 €) paraît aberrant"
+  },
+  "audi-a4-b9": {
+   "entree": 30850,
+   "source": "https://www.largus.fr/Audi_A4_V-B9.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2024)"
+  },
+  "audi-a5-1": {
+   "entree": 32100,
+   "source": "https://www.largus.fr/Audi_A5_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2016)"
+  },
+  "audi-a5-2": {
+   "entree": 39130,
+   "source": "https://www.largus.fr/Audi_A5_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2024)"
+  },
+  "audi-a6-c7": {
+   "entree": 39340,
+   "source": "https://www.largus.fr/Audi_A6_Iv-C7.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2019)"
+  },
+  "audi-a6-c8": {
+   "entree": 47880,
+   "source": "https://www.largus.fr/Audi_A6_V-C8.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2018-2025)"
+  },
+  "audi-q2": {
+   "entree": 24900,
+   "source": "https://www.largus.fr/Audi_Q2_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2016)"
+  },
+  "audi-q3-1": {
+   "entree": 29650,
+   "source": "https://www.largus.fr/Audi_Q3_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2011-2019)"
+  },
+  "audi-q3-2": {
+   "entree": 33670,
+   "source": "https://www.largus.fr/Audi_Q3_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2018-2025)"
+  },
+  "audi-q5-1": {
+   "entree": 36700,
+   "source": "https://www.largus.fr/Audi_Q5_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2016)"
+  },
+  "audi-q5-2": {
+   "entree": 40750,
+   "source": "https://www.largus.fr/Audi_Q5_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2025)"
+  },
+  "skoda-fabia-2": {
+   "entree": 10260,
+   "source": "https://www.largus.fr/Skoda_Fabia_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2014)"
+  },
+  "skoda-fabia-4": {
+   "entree": 16730,
+   "source": "https://www.largus.fr/Skoda_Fabia_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "skoda-octavia-2": {
+   "entree": 16500,
+   "source": "https://www.largus.fr/Skoda_Octavia_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2004-2013)"
+  },
+  "skoda-octavia-4": {
+   "entree": 22640,
+   "source": "https://www.largus.fr/Skoda_Octavia_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "skoda-superb-2": {
+   "entree": 21600,
+   "source": "https://www.largus.fr/Skoda_Superb_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2008-2015)"
+  },
+  "skoda-superb-3": {
+   "entree": 23790,
+   "source": "https://www.largus.fr/Skoda_Superb_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2023)"
+  },
+  "skoda-kodiaq": {
+   "entree": 24950,
+   "source": "https://www.largus.fr/Skoda_Kodiaq_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2024)"
+  },
+  "skoda-karoq": {
+   "entree": 22490,
+   "source": "https://www.largus.fr/Skoda_Karoq_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "skoda-kamiq": {
+   "entree": 19500,
+   "source": "https://www.largus.fr/Skoda_Kamiq_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "skoda-yeti": {
+   "entree": 18890,
+   "source": "https://www.largus.fr/Skoda_Yeti_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2009-2018)"
+  },
+  "skoda-scala": {
+   "entree": 19460,
+   "source": "https://www.largus.fr/Skoda_Scala_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "skoda-rapid": {
+   "entree": 16465,
+   "source": "https://www.largus.fr/Skoda_Rapid-Spaceback_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2019, Spaceback)"
+  },
+  "seat-ibiza-5": {
+   "entree": 13860,
+   "source": "https://www.largus.fr/Seat_Ibiza_V.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "seat-leon-2": {
+   "entree": 16090,
+   "source": "https://www.largus.fr/Seat_Leon_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2005-2012)"
+  },
+  "seat-leon-4": {
+   "entree": 21370,
+   "source": "https://www.largus.fr/Seat_Leon_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "seat-ateca": {
+   "entree": 21990,
+   "source": "https://www.largus.fr/Seat_Ateca_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2026)"
+  },
+  "seat-tarraco": {
+   "entree": 32890,
+   "source": "https://www.largus.fr/Seat_Tarraco_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2019-2024)"
+  },
+  "cupra-formentor": {
+   "entree": 33050,
+   "source": "https://www.largus.fr/Cupra_Formentor_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
   }
  }
 }

@@ -1317,7 +1317,12 @@
      "carburant": "Essence"
     },
     {
-     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "libelle": "2.0 TSI GTI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189, 2008-2015)",
      "code": "ea189",
      "carburant": "Diesel"
     }
@@ -1328,11 +1333,11 @@
      "code": "man"
     },
     {
-     "libelle": "DSG7 à embrayage sec",
+     "libelle": "DSG7 à embrayage sec (DQ200)",
      "code": "dq200"
     },
     {
-     "libelle": "DSG à bain d'huile",
+     "libelle": "DSG6 à bain d'huile (DQ250)",
      "code": "dsgw"
     }
    ]
@@ -1358,9 +1363,24 @@
      "carburant": "Essence"
     },
     {
+     "libelle": "2.0 TSI GTI / R (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "GTE hybride rechargeable 1.4 TSI",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "e-Golf électrique",
+     "code": "ev",
+     "carburant": "Électrique"
     }
    ],
    "boites": [
@@ -1369,16 +1389,20 @@
      "code": "man"
     },
     {
-     "libelle": "DSG7 à embrayage sec",
+     "libelle": "DSG7 à embrayage sec (DQ200)",
      "code": "dq200"
     },
     {
-     "libelle": "DSG à bain d'huile",
+     "libelle": "DSG6 à bain d'huile (DQ250)",
      "code": "dsgw"
     },
     {
      "libelle": "DSG7 à bain d'huile (DQ381)",
      "code": "dq381"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
     }
    ]
   },
@@ -1532,9 +1556,19 @@
      "carburant": "Essence"
     },
     {
+     "libelle": "2.0 TSI RS (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "iV hybride rechargeable (2020)",
+     "code": "vwphev",
+     "carburant": "Hybride"
     }
    ],
    "boites": [
@@ -1543,11 +1577,11 @@
      "code": "man"
     },
     {
-     "libelle": "DSG7 à embrayage sec",
+     "libelle": "DSG7 à embrayage sec (DQ200)",
      "code": "dq200"
     },
     {
-     "libelle": "DSG à bain d'huile",
+     "libelle": "DSG6 à bain d'huile (DQ250)",
      "code": "dsgw"
     },
     {
@@ -1609,19 +1643,29 @@
    ],
    "moteurs": [
     {
-     "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
+     "libelle": "1.0 / 1.2 / 1.4 TFSI (courroie, EA211)",
      "code": "ea211",
      "carburant": "Essence"
     },
     {
-     "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
+     "libelle": "1.4 / 1.5 TFSI COD / ACT 140 à 150 ch",
      "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI / S3 (EA888)",
+     "code": "ea888",
      "carburant": "Essence"
     },
     {
      "libelle": "1.6 / 2.0 TDI (EA288)",
      "code": "ea288",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "e-tron / 40 e-tron hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
     }
    ],
    "boites": [
@@ -1630,11 +1674,11 @@
      "code": "man"
     },
     {
-     "libelle": "DSG7 à embrayage sec",
+     "libelle": "DSG7 à embrayage sec (DQ200)",
      "code": "dq200"
     },
     {
-     "libelle": "DSG à bain d'huile",
+     "libelle": "DSG6 à bain d'huile (DQ250)",
      "code": "dsgw"
     },
     {
@@ -3586,14 +3630,24 @@
      "carburant": "Essence"
     },
     {
-     "libelle": "1.5 TSI evo",
+     "libelle": "1.5 TSI / eTSI evo",
      "code": "ea211evo",
      "carburant": "Essence"
     },
     {
-     "libelle": "2.0 TDI",
+     "libelle": "2.0 TSI GTI / R (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288 evo)",
      "code": "ea288",
      "carburant": "Diesel"
+    },
+    {
+     "libelle": "eHybrid / GTE hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
     }
    ],
    "boites": [
@@ -3602,7 +3656,7 @@
      "code": "man"
     },
     {
-     "libelle": "DSG7 à embrayage sec",
+     "libelle": "DSG7 à embrayage sec (DQ200)",
      "code": "dq200"
     },
     {
@@ -5324,6 +5378,2151 @@
     {
      "libelle": "Double embrayage 7 rapports (Steptronic DCT)",
      "code": "bmwdct7"
+    }
+   ]
+  },
+  {
+   "id": "vw-polo-6",
+   "marque": "Volkswagen",
+   "modele": "Polo",
+   "generation": "VI",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI 60 à 80 ch",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 TSI 95 / 110 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI GTI (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI (EA288, 2017-2021)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "vw-up",
+   "marque": "Volkswagen",
+   "modele": "up!",
+   "generation": "I",
+   "annees": [
+    2011,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI 60 / 75 ch",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 TSI 90 / 115 ch (GTI)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "e-up! électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée ASG",
+     "code": "asg"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "vw-t-cross",
+   "marque": "Volkswagen",
+   "modele": "T-Cross",
+   "generation": "I",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 95 / 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI 95 ch (EA288, 2019-2021)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "vw-taigo",
+   "marque": "Volkswagen",
+   "modele": "Taigo",
+   "generation": "I",
+   "annees": [
+    2021,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 95 / 110 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "vw-passat-7",
+   "marque": "Volkswagen",
+   "modele": "Passat",
+   "generation": "B7",
+   "annees": [
+    2010,
+    2014
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 122 ch (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "vw-passat-8",
+   "marque": "Volkswagen",
+   "modele": "Passat",
+   "generation": "B8",
+   "annees": [
+    2014,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 125 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 TSI ACT 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "GTE hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "vw-touran-2",
+   "marque": "Volkswagen",
+   "modele": "Touran",
+   "generation": "II",
+   "annees": [
+    2010,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-touran-3",
+   "marque": "Volkswagen",
+   "modele": "Touran",
+   "generation": "III",
+   "annees": [
+    2015,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "vw-tiguan-1",
+   "marque": "Volkswagen",
+   "modele": "Tiguan",
+   "generation": "I",
+   "annees": [
+    2007,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 122 à 160 ch (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "Automatique Tiptronic 6 rapports (Aisin)",
+     "code": "aisin"
+    }
+   ]
+  },
+  {
+   "id": "vw-touareg-2",
+   "marque": "Volkswagen",
+   "modele": "Touareg",
+   "generation": "II",
+   "annees": [
+    2010,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "3.0 TDI V6 204 à 262 ch",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "3.0 TSI Hybrid (rare)",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "vw-caddy-3",
+   "marque": "Volkswagen",
+   "modele": "Caddy",
+   "generation": "III",
+   "annees": [
+    2004,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189, 2010-2015)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-caddy-4",
+   "marque": "Volkswagen",
+   "modele": "Caddy",
+   "generation": "IV",
+   "annees": [
+    2015,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.4 TSI (EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-caddy-5",
+   "marque": "Volkswagen",
+   "modele": "Caddy",
+   "generation": "V",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 TSI evo 114 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "eHybrid hybride rechargeable (2024+)",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG 7 rapports",
+     "code": "dsg"
+    }
+   ]
+  },
+  {
+   "id": "vw-sharan-2",
+   "marque": "Volkswagen",
+   "modele": "Sharan",
+   "generation": "II",
+   "annees": [
+    2010,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 150 ch (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189, 2010-2015)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDI (EA288, 2015-2022)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-golf-sportsvan",
+   "marque": "Volkswagen",
+   "modele": "Golf Sportsvan",
+   "generation": "I",
+   "annees": [
+    2014,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 TSI ACT 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 130 / 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-arteon",
+   "marque": "Volkswagen",
+   "modele": "Arteon",
+   "generation": "I",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 190 à 320 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI 150 à 240 ch (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "eHybrid hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "vw-id3",
+   "marque": "Volkswagen",
+   "modele": "ID.3",
+   "generation": "I",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "ID.3 électrique (batterie 45 à 77 kWh)",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "vw-id4",
+   "marque": "Volkswagen",
+   "modele": "ID.4",
+   "generation": "I",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "ID.4 électrique (batterie 52 à 77 kWh)",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "audi-a1-gb",
+   "marque": "Audi",
+   "modele": "A1 Sportback",
+   "generation": "GB",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "25 / 30 TFSI 1.0 (EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "35 TFSI 1.5 (EA211 evo)",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "40 TFSI 2.0 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "audi-a3-8p",
+   "marque": "Audi",
+   "modele": "A3",
+   "generation": "8P",
+   "annees": [
+    2003,
+    2012
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TFSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI CR (EA189, 2009-2012)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "audi-a3-8y",
+   "marque": "Audi",
+   "modele": "A3",
+   "generation": "8Y",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "30 / 35 TFSI 1.0-1.5 (EA211 evo)",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "40 TFSI / S3 2.0 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "30 / 35 TDI 2.0 (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "40 / 45 TFSI e hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "audi-a4-b8",
+   "marque": "Audi",
+   "modele": "A4",
+   "generation": "B8",
+   "annees": [
+    2008,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI (EA888 génération 3, 2013-2015)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.7 / 3.0 TDI V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Multitronic (CVT)",
+     "code": "multitronic"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL501, 2008-2016)",
+     "code": "dl501"
+    }
+   ]
+  },
+  {
+   "id": "audi-a4-b9",
+   "marque": "Audi",
+   "modele": "A4",
+   "generation": "B9",
+   "annees": [
+    2015,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TFSI 150 ch (35 TFSI)",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI 190 à 265 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI 122 à 204 ch (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "3.0 TDI V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL382, depuis 2015)",
+     "code": "dl382"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "audi-a5-1",
+   "marque": "Audi",
+   "modele": "A5 Coupé / Sportback / Cabriolet",
+   "generation": "8T",
+   "annees": [
+    2007,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.8 / 2.0 TFSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI (EA888 génération 3, 2013-2016)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.7 / 3.0 TDI V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Multitronic (CVT)",
+     "code": "multitronic"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL501, 2008-2016)",
+     "code": "dl501"
+    }
+   ]
+  },
+  {
+   "id": "audi-a5-2",
+   "marque": "Audi",
+   "modele": "A5 Coupé / Sportback / Cabriolet",
+   "generation": "F5",
+   "annees": [
+    2016,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 TFSI 190 à 265 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "3.0 TDI V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL382, depuis 2015)",
+     "code": "dl382"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "audi-a6-c7",
+   "marque": "Audi",
+   "modele": "A6",
+   "generation": "C7",
+   "annees": [
+    2011,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 TFSI (EA888 génération 2, 2011-2014)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TFSI (EA888 génération 3, 2014-2018)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189, 2011-2014)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDI ultra (EA288, 2014-2018)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "3.0 TDI V6 204 à 326 ch",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Multitronic (CVT)",
+     "code": "multitronic"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL501, 2008-2016)",
+     "code": "dl501"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "audi-a6-c8",
+   "marque": "Audi",
+   "modele": "A6",
+   "generation": "C8",
+   "annees": [
+    2018,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "40 / 45 TFSI 2.0 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "40 TDI 2.0 (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "45 / 50 TDI 3.0 V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "50 / 55 TFSI e hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "S tronic 7 longitudinale (DL382, depuis 2015)",
+     "code": "dl382"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "audi-q2",
+   "marque": "Audi",
+   "modele": "Q2",
+   "generation": "GA",
+   "annees": [
+    2016,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TFSI (30 TFSI)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 TFSI (35 TFSI)",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI / SQ2 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "audi-q3-1",
+   "marque": "Audi",
+   "modele": "Q3",
+   "generation": "8U",
+   "annees": [
+    2011,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TFSI (EA111, 2011-2014)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 TFSI COD 150 ch (2014-2018)",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI (EA888 génération 2, 2011-2014)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI (EA888 génération 3, 2014-2018)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189, 2011-2014)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDI (EA288, 2014-2018)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "audi-q3-2",
+   "marque": "Audi",
+   "modele": "Q3 / Q3 Sportback",
+   "generation": "F3",
+   "annees": [
+    2018,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "35 TFSI 1.5 (EA211 evo)",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "40 / 45 TFSI 2.0 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "35 / 40 TDI 2.0 (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "45 TFSI e hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "audi-q5-1",
+   "marque": "Audi",
+   "modele": "Q5",
+   "generation": "8R",
+   "annees": [
+    2008,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 TFSI (EA888 génération 2, 2008-2012)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TFSI (EA888 génération 3, 2013-2017)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189, 2008-2015)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDI (EA288, 2015-2017)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "3.0 TDI V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL501, 2008-2016)",
+     "code": "dl501"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "audi-q5-2",
+   "marque": "Audi",
+   "modele": "Q5 / Q5 Sportback",
+   "generation": "FY",
+   "annees": [
+    2016,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "40 / 45 TFSI 2.0 (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "35 / 40 TDI 2.0 (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "50 TDI 3.0 V6",
+     "code": "tdiv6",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "50 / 55 TFSI e hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "S tronic 7 longitudinale (DL382, depuis 2015)",
+     "code": "dl382"
+    },
+    {
+     "libelle": "Automatique Tiptronic 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "skoda-fabia-2",
+   "marque": "Skoda",
+   "modele": "Fabia",
+   "generation": "II",
+   "annees": [
+    2007,
+    2014
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 HTP / 1.2 12V trois cylindres",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 TSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.6 TDI CR (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "skoda-fabia-4",
+   "marque": "Skoda",
+   "modele": "Fabia",
+   "generation": "IV",
+   "annees": [
+    2021,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI 60 à 80 ch",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 TSI 95 / 110 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "skoda-octavia-2",
+   "marque": "Skoda",
+   "modele": "Octavia",
+   "generation": "II",
+   "annees": [
+    2004,
+    2013
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2, RS)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI CR (EA189, 2009-2013)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "skoda-octavia-4",
+   "marque": "Skoda",
+   "modele": "Octavia",
+   "generation": "IV",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI / e-TEC",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI / e-TEC evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI RS (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "iV hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "skoda-superb-2",
+   "marque": "Skoda",
+   "modele": "Superb",
+   "generation": "II",
+   "annees": [
+    2008,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 125 ch (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "skoda-superb-3",
+   "marque": "Skoda",
+   "modele": "Superb",
+   "generation": "III",
+   "annees": [
+    2015,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 125 / 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 190 à 280 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "iV hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "skoda-kodiaq",
+   "marque": "Skoda",
+   "modele": "Kodiaq",
+   "generation": "I",
+   "annees": [
+    2016,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI 125 / 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 180 à 245 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI 150 à 200 ch (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "skoda-karoq",
+   "marque": "Skoda",
+   "modele": "Karoq",
+   "generation": "I",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 190 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "skoda-kamiq",
+   "marque": "Skoda",
+   "modele": "Kamiq",
+   "generation": "I",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 95 / 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI 115 ch (EA288, 2019-2021)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "skoda-yeti",
+   "marque": "Skoda",
+   "modele": "Yeti",
+   "generation": "I",
+   "annees": [
+    2009,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (EA111, 2009-2014)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.4 TSI (EA211, 2014-2017)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 TSI (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA189, 2009-2015)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDI (EA288, 2015-2017)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "skoda-scala",
+   "marque": "Skoda",
+   "modele": "Scala",
+   "generation": "I",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 95 / 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI 115 ch (EA288, 2019-2021)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "skoda-rapid",
+   "marque": "Skoda",
+   "modele": "Rapid / Rapid Spaceback",
+   "generation": "I",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI / 1.2 MPI",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 TSI (EA111, 2012-2015)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (EA211, 2015-2019)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI (EA189, 2012-2015)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.4 / 1.6 TDI (EA288, 2015-2019)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "seat-ibiza-5",
+   "marque": "Seat",
+   "modele": "Ibiza",
+   "generation": "V",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI 60 à 80 ch",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 TSI 95 / 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI (EA288, 2017-2021)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "seat-leon-2",
+   "marque": "Seat",
+   "modele": "Leon",
+   "generation": "II",
+   "annees": [
+    2005,
+    2012
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 / 2.0 TSI FR / Cupra (EA888 génération 1-2)",
+     "code": "ea888g2",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI CR (EA189, 2010-2012)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile (DQ250)",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "seat-leon-4",
+   "marque": "Seat",
+   "modele": "Leon",
+   "generation": "IV",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI / eTSI",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI / eTSI evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "e-Hybrid hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "seat-ateca",
+   "marque": "Seat",
+   "modele": "Ateca",
+   "generation": "I",
+   "annees": [
+    2016,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI 110 / 115 ch",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 TSI ACT 150 ch (2016-2018)",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 190 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "seat-tarraco",
+   "marque": "Seat",
+   "modele": "Tarraco",
+   "generation": "I",
+   "annees": [
+    2019,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI 190 / 245 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI 150 / 200 ch (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "e-Hybrid hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "cupra-formentor",
+   "marque": "Cupra",
+   "modele": "Formentor",
+   "generation": "I",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 TSI evo 150 ch",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TSI VZ 190 à 333 ch (EA888)",
+     "code": "ea888",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI 150 ch (EA288 evo)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "e-Hybrid hybride rechargeable",
+     "code": "vwphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec (DQ200)",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   }

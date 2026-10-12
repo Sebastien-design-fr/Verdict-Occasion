@@ -3362,6 +3362,386 @@
      "type": "article"
     }
    ]
+  },
+  {
+   "id": "ea189-dieselgate",
+   "titre": "Mise à jour antipollution du « dieselgate » (rappel)",
+   "moteurs": [
+    "ea189"
+   ],
+   "annees": [
+    2008,
+    2015
+   ],
+   "km": [
+    0,
+    300000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Le logiciel d'origine faussait les mesures d'émissions. Le rappel installe un nouveau logiciel (et un tranquilliseur d'air sur le 1.6 TDI).",
+   "controle": "Vérifier avec le numéro de série (VIN) auprès du réseau ou sur le site du constructeur que la mesure a été appliquée : une voiture non mise à jour peut poser problème au contrôle technique et à la revente.",
+   "solution": "Mise à jour gratuite dans le réseau du groupe Volkswagen.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'Usine Nouvelle : dieselgate, comment expliquer les pannes des Volkswagen modifiées",
+     "url": "https://www.usinenouvelle.com/article/dieselgate-comment-expliquer-les-pannes-des-volkswagen-modifiees.N581803",
+     "type": "article"
+    },
+    {
+     "titre": "Motor1 : des pannes après la mise à jour du logiciel",
+     "url": "https://fr.motor1.com/news/178774/dieselgate-pannes-mise-a-jour-logiciel/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "ea189-egr-apres-maj",
+   "titre": "Vanne EGR, injecteurs et FAP fragilisés après la mise à jour dieselgate",
+   "moteurs": [
+    "ea189"
+   ],
+   "annees": [
+    2008,
+    2015
+   ],
+   "km": [
+    100000,
+    250000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "À-coups, ralenti instable, fumée, voyant moteur ou FAP, consommation en hausse. La vanne EGR, plus sollicitée après la mise à jour, s'encrasse.",
+   "controle": "Demander les factures de vanne EGR, d'injecteurs ou de FAP et lire la mémoire de défauts. Un usage surtout urbain aggrave le problème.",
+   "solution": "Nettoyage ou remplacement de la vanne EGR, régénération ou remplacement du FAP, injecteurs si besoin.",
+   "cout": [
+    400,
+    2500
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Motor1 : des pannes après la mise à jour du logiciel",
+     "url": "https://fr.motor1.com/news/178774/dieselgate-pannes-mise-a-jour-logiciel/",
+     "type": "article"
+    },
+    {
+     "titre": "L'Usine Nouvelle : dieselgate, comment expliquer les pannes des Volkswagen modifiées",
+     "url": "https://www.usinenouvelle.com/article/dieselgate-comment-expliquer-les-pannes-des-volkswagen-modifiees.N581803",
+     "type": "article"
+    },
+    {
+     "titre": "Forum Caradisiac : témoignages après la mesure EA189",
+     "url": "https://forum-auto.caradisiac.com/topic/660722-t%C3%A9moignages-mises-%C3%A0-jour-impos%C3%A9es-par-le-groupe-vwmesure-ea189-dieselgate/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "ea888g2-huile",
+   "titre": "Consommation d'huile excessive (segments de piston, EA888 génération 2)",
+   "moteurs": [
+    "ea888g2"
+   ],
+   "annees": [
+    2008,
+    2012
+   ],
+   "km": [
+    60000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 3,
+   "symptomes": "Le moteur brûle de l'huile, parfois plus d'un litre aux 1 000 km : appoints fréquents, voyant de niveau, bougies encrassées, fumée bleue.",
+   "controle": "Demander au vendeur la fréquence des appoints et les factures. Vérifier si les pistons et segments ont été remplacés par les pièces révisées (intervention Audi en deux étapes : mesure puis réparation).",
+   "solution": "Remplacement des pistons et segments par des pièces modifiées, souvent avec le séparateur d'huile (PCV).",
+   "cout": [
+    2500,
+    5000
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Gulf Euro Clinic : consommation d'huile Audi, moteurs concernés et correctifs",
+     "url": "https://gulfeuroclinic.com/audi-oil-consumption-problem/",
+     "type": "article"
+    },
+    {
+     "titre": "Reddit r/Audi : suivi de consommation d'huile sur EA888.2",
+     "url": "https://www.reddit.com/r/Audi/comments/16chdbw/ive_been_tracking_how_often_ive_needed_to_fill_up/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "ea888g2-chaine",
+   "titre": "Tendeur de chaîne de distribution défaillant (EA888 génération 1-2)",
+   "moteurs": [
+    "ea888g2"
+   ],
+   "annees": [
+    2007,
+    2013
+   ],
+   "km": [
+    60000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Claquement de chaîne quelques secondes au démarrage à froid, puis voyant moteur (calage de distribution). Un tendeur qui lâche fait sauter la chaîne : soupapes tordues, moteur détruit.",
+   "controle": "Écouter le démarrage à froid et demander la facture d'un kit chaîne avec le tendeur révisé (pièces modifiées à partir de 2012-2013).",
+   "solution": "Remplacement préventif du tendeur (et souvent de la chaîne et des guides) par les pièces révisées. Aux États-Unis, un accord de 2018 a remboursé ces réparations.",
+   "cout": [
+    5000,
+    10000
+   ],
+   "preventif": 1500,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Kessler Topaz : accord Volkswagen Timing Chain (moteurs EA888, 2008-2014)",
+     "url": "https://ktmc.com/settled-cases/volkswagen-timing-chain-i",
+     "type": "article"
+    },
+    {
+     "titre": "CarComplaints : action collective sur les tendeurs de chaîne EA888",
+     "url": "https://m.carcomplaints.com/news/2016/volkswagen-timing-chain-tensioner-lawsuit.shtml",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "tdiv6-chaine",
+   "titre": "Chaînes de distribution et tendeurs fatigués (3.0 TDI V6)",
+   "moteurs": [
+    "tdiv6"
+   ],
+   "annees": [
+    2004,
+    2018
+   ],
+   "km": [
+    150000,
+    250000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Cliquetis de chaîne à froid (chaînes situées à l'arrière du moteur), puis voyant moteur. Sans intervention, risque de saut de chaîne.",
+   "controle": "Écouter le moteur au démarrage à froid et demander l'historique : le remplacement impose souvent de déposer le moteur.",
+   "solution": "Remplacement des chaînes, guides et tendeurs, moteur déposé.",
+   "cout": [
+    3000,
+    6000
+   ],
+   "preventif": 3000,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Vag Perf : moteur 3.0 TDI V6, fiabilité et problèmes",
+     "url": "https://vag-perf.fr/news-nouveautes/moteur-3-0-tdi-v6-guide-complet-fiabilite-problemes-et-preparation/",
+     "type": "article"
+    },
+    {
+     "titre": "Euro Racing Parts : guide fiabilité Audi A6 C6 (3.0 TDI)",
+     "url": "https://www.euroracingparts.fr/blogs/guide-dachat-pour-audi/acheter-une-audi-a6-c6-doccasion-notre-guide-fiabilite",
+     "type": "article"
+    },
+    {
+     "titre": "Conseil Auto Moto : Audi Q5 3.0 TDI, problèmes fréquents",
+     "url": "https://conseil-auto-moto.fr/auto/audi-q5-3-0-tdi-problemes-fiabilite/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "dl501-mecatronique",
+   "titre": "Mécatronique et embrayages de la S tronic 7 DL501",
+   "boites": [
+    "dl501"
+   ],
+   "annees": [
+    2008,
+    2016
+   ],
+   "km": [
+    80000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "À-coups au démarrage et aux changements de rapport, voyant boîte clignotant, passage en mode secours ou perte de certains rapports.",
+   "controle": "Essai à froid puis à chaud, en ville et en manœuvre. Demander les factures de vidange de boîte (tous les 60 000 km environ) et lire la mémoire de défauts.",
+   "solution": "Réparation ou échange de la mécatronique, remplacement de l'embrayage double.",
+   "cout": [
+    2000,
+    6000
+   ],
+   "preventif": 400,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Forum-audi.com : les problèmes de boîte S tronic sur Audi Q5",
+     "url": "https://www.forum-audi.com/topic-3330-les-problemes-de-boite-s-tronic-sur-audi-q5.html",
+     "type": "forum"
+    },
+    {
+     "titre": "AudiPassion : problème S tronic DL501",
+     "url": "https://forums.audipassion.com/topic/241672-probl%C3%A8me-s-tronic-dl501/",
+     "type": "forum"
+    },
+    {
+     "titre": "Docteur BVA : la boîte DL501 / DSG7 longitudinale Audi",
+     "url": "https://docteur-bva.com/dl501-dsg7-boite-dsg-7-rapports-pour-gros-moteurs-longitudinaux-audi/",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "multitronic-panne",
+   "titre": "Boîte Multitronic : calculateur et chaîne fragiles",
+   "boites": [
+    "multitronic"
+   ],
+   "annees": [
+    2004,
+    2015
+   ],
+   "km": [
+    100000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "À-coups au démarrage, patinage, voyant boîte (PRNDS clignotant), mode secours. La carte électronique intégrée finit souvent par lâcher.",
+   "controle": "Essai prolongé avec démarrages en côte. Demander les factures de vidange de boîte et lire la mémoire de défauts.",
+   "solution": "Réparation du calculateur de boîte ou échange standard de la boîte.",
+   "cout": [
+    1500,
+    5000
+   ],
+   "preventif": 300,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "AudiPassion : fiabilité de la boîte Multitronic",
+     "url": "https://forums.audipassion.com/topic/180456-fiabilit%C3%A9-de-la-boite-multitronic/",
+     "type": "forum"
+    },
+    {
+     "titre": "Forum-audi.com : problèmes de boîte Multitronic",
+     "url": "https://www.forum-audi.com/topic-5117-les-problemes-de-boite-multitronic-sur-audi-a4-b6.html",
+     "type": "forum"
+    },
+    {
+     "titre": "Fiches-auto.fr : la Multitronic d'Audi",
+     "url": "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1030-multitronic-d-audi.php",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "ea288-pompe-eau",
+   "titre": "Pompe à eau qui fuit ou se grippe (TDI EA288)",
+   "moteurs": [
+    "ea288"
+   ],
+   "annees": [
+    2012,
+    2020
+   ],
+   "km": [
+    30000,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Baisse du niveau de liquide de refroidissement, voyant de température, surchauffe. Ignorée, une surchauffe peut endommager la culasse.",
+   "controle": "Vérifier le niveau et la couleur du liquide de refroidissement et demander si la pompe à eau a été remplacée.",
+   "solution": "Remplacement de la pompe à eau (souvent avec la courroie de distribution) et purge du circuit.",
+   "cout": [
+    500,
+    1200
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Forum Golf 7 : surchauffe moteur TDI 1.6 et 2.0",
+     "url": "https://www.forumgolf7.fr/forum/viewtopic.php?t=12610&start=40",
+     "type": "forum"
+    },
+    {
+     "titre": "Reddit : VW EA288 2.0 TDI, à savoir avant d'acheter",
+     "url": "https://www.reddit.com/r/CartalkHungary/comments/1l3fp56/vw_ea288_20_tdi_tudnival%C3%B3k_v%C3%A1s%C3%A1lr%C3%A1s_el%C5%91tt/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "id3-logiciel",
+   "titre": "Bugs logiciels et batterie 12 V (premières ID.3)",
+   "moteurs": [
+    "ev"
+   ],
+   "modeles": [
+    "vw-id3",
+    "vw-id4"
+   ],
+   "annees": [
+    2020,
+    2021
+   ],
+   "km": [
+    0,
+    80000
+   ],
+   "gravite": 1,
+   "frequence": 3,
+   "symptomes": "Écrans figés, fonctions qui ne répondent pas, batterie 12 V déchargée qui immobilise la voiture.",
+   "controle": "Vérifier que la voiture a reçu les dernières mises à jour logicielles (version affichée dans les réglages) et demander l'historique.",
+   "solution": "Mise à jour logicielle en atelier ou à distance, remplacement de la batterie 12 V si besoin.",
+   "cout": [
+    100,
+    400
+   ],
+   "preventif": 0,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'Auto-Journal : Volkswagen ID.3, les pannes à surveiller",
+     "url": "https://www.autojournal.fr/pratique/volkswagen-id-3-defaillances-pannes-fiabilite-pratique-surveiller-319625.html",
+     "type": "article"
+    },
+    {
+     "titre": "Autodoc : problèmes connus de la VW ID.3",
+     "url": "https://www.auto-doc.fr/info/problemes-avec-le-vw-id3",
+     "type": "article"
+    },
+    {
+     "titre": "Mon Occas Garantie : VW ID.3 d'occasion, les problèmes sont-ils résolus",
+     "url": "https://www.monoccasgarantie.fr/guides/volkswagen-id3-occasion-avis-fiabilite",
+     "type": "article"
+    }
+   ]
   }
  ]
 }

@@ -4035,6 +4035,141 @@
      "type": "forum"
     }
    ]
+  },
+  {
+   "id": "ecoboost16-surchauffe",
+   "titre": "Surchauffe du 1.6 EcoBoost : risque d'incendie (rappel)",
+   "moteurs": [
+    "ecoboost16"
+   ],
+   "annees": [
+    2010,
+    2015
+   ],
+   "km": [
+    0,
+    250000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Un défaut de circulation du liquide de refroidissement peut faire surchauffer le moteur, fissurer la culasse et provoquer une fuite d'huile qui peut s'enflammer.",
+   "controle": "Vérifier avec le VIN que le rappel Ford (sonde de température, logiciel et durite) a été fait. Contrôler le niveau de liquide de refroidissement.",
+   "solution": "Rappel Ford : capteur de température de liquide, mise à jour logicielle et remplacement de pièces du circuit de refroidissement.",
+   "cout": [
+    0,
+    4000
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "BBC : Ford rembourse des clients EcoBoost, rappel du 1.6 (Focus, Kuga, C-Max, Fiesta ST, 2010-2015)",
+     "url": "https://www.bbc.com/news/uk-england-45628325",
+     "type": "article"
+    },
+    {
+     "titre": "Delaware Online : rappel Ford pour risque d'incendie, 1.6 EcoBoost 2010-2015",
+     "url": "https://www.delawareonline.com/story/news/2017/03/29/ford-recall-440k-vehicles-fire-risk/99777738/",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto.fr : rappels Ford",
+     "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-404-rappels-ford.php",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "kuga-phev-batterie",
+   "titre": "Batterie haute tension du Kuga hybride rechargeable : risque d'incendie (rappels)",
+   "moteurs": [
+    "fordphev"
+   ],
+   "modeles": [
+    "ford-kuga-3"
+   ],
+   "annees": [
+    2020,
+    2024
+   ],
+   "km": [
+    0,
+    150000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Des cellules de batterie peuvent surchauffer ou entrer en court-circuit. Ford a successivement demandé de ne pas recharger, remplacé des batteries (2020-2021), puis limité la charge par logiciel.",
+   "controle": "Vérifier avec le VIN que les rappels (dont 20S61, 24S79 et 25SC4) ont été faits et demander la preuve. La mise à jour de 2025 réduit l'autonomie électrique.",
+   "solution": "Remplacement de la batterie ou mise à jour logicielle dans le réseau Ford, selon la campagne.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Ford Suisse : rappel de sécurité 25SC4 Kuga PHEV, batterie haute tension",
+     "url": "https://www.fr.ford.ch/support/instructions/campagnes-de-rappel/rappels-et-faq/fsa-25sc4-kuga-phev-rappel-de-securite-mise-a-jour-logicielle-pour-le-degazage-thermique-de-la-batterie-haute-tension",
+     "type": "officiel"
+    },
+    {
+     "titre": "Autonext : Ford garde la batterie du Kuga PHEV et lui retire 12 % d'autonomie",
+     "url": "https://www.autonext.co/fr/news/ford-kuga-phev-rappel-25sc4-12-pour-cent-autonomie-proprietaires-20",
+     "type": "article"
+    },
+    {
+     "titre": "Hybrid Life : Ford Kuga PHEV, rappel batterie 24S79",
+     "url": "https://hybridlife.org/threads/ford-kuga-phev-rappel-batterie-24s79.10521/",
+     "type": "forum"
+    }
+   ]
+  },
+  {
+   "id": "7gtronic-plaque",
+   "titre": "Boîte 7G-Tronic : plaque conductrice et capteurs (mode secours)",
+   "boites": [
+    "7gt"
+   ],
+   "annees": [
+    2004,
+    2016
+   ],
+   "km": [
+    80000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Boîte bloquée en 2e ou 3e (mode secours), passages brutaux, voyant moteur. Souvent dû aux capteurs de vitesse intégrés à la plaque conductrice.",
+   "controle": "Essai à froid puis à chaud, lecture de la mémoire de défauts (capteurs Y3/8n1, Y3/8n2) et factures de vidange de boîte.",
+   "solution": "Remplacement et codage de la plaque conductrice ou du calculateur, vidange avec l'huile préconisée.",
+   "cout": [
+    800,
+    2000
+   ],
+   "preventif": 350,
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "UAP Pièces : 7G-Tronic 722.9 bloquée en 2e ou 3e",
+     "url": "https://www.uap-pieces-detachees.fr/blog/transmission/boite-de-vitesses-mercedes-benz-722-9-7g-tronic-boite-bloquee-en-2eme-ou-3eme-quelle-solution.html",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto.fr : la 7G-Tronic de Mercedes",
+     "url": "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1035-7g-tronic-de-mercedes.php",
+     "type": "article"
+    },
+    {
+     "titre": "Forum-mercedes.com : problème de passage de rapports boîte 7G",
+     "url": "https://www.forum-mercedes.com/topic-59847-probleme-regime-moteur-et-regime-passage-rapport-boite-7g.html",
+     "type": "forum"
+    }
+   ]
   }
  ]
 }

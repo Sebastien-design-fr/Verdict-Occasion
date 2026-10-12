@@ -1040,6 +1040,201 @@
    "entree": 32900,
    "source": "https://www.largus.fr/Nissan_Leaf_Ii.html",
    "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2025, hors bonus)"
+  },
+  "mercedes-classe-a-w177": {
+   "entree": 27650,
+   "source": "https://www.largus.fr/Mercedes-Benz_Classe-A_Iv-W177.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "mercedes-classe-b-w247": {
+   "entree": 31550,
+   "source": "https://www.largus.fr/Mercedes-Benz_Classe-B_Iii-W247.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "mercedes-cla-c118": {
+   "entree": 35250,
+   "source": "https://www.largus.fr/Mercedes-Benz_Cla_Ii-C118.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2019-2025)"
+  },
+  "mercedes-gla-h247": {
+   "entree": 41900,
+   "source": "https://www.largus.fr/Mercedes-Benz_Gla_Ii-H247.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "mercedes-classe-c-w206": {
+   "entree": 48750,
+   "source": "https://www.largus.fr/Mercedes-Benz_Classe-C_V-W206.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "mercedes-classe-e-w212": {
+   "entree": 40600,
+   "source": "https://www.fiches-auto.fr/essai-classe-e/test-335-774-les-tarifs-au-crible.php",
+   "note": "E 200 CDI berline, tarif après restylage ; le minimum affiché par L'argus (6 820 €) est aberrant"
+  },
+  "mercedes-classe-e-w213": {
+   "entree": 44750,
+   "source": "https://www.largus.fr/Mercedes-Benz_Classe-E_V-W213.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2023)"
+  },
+  "mercedes-glc-x253": {
+   "entree": 44000,
+   "source": "https://www.largus.fr/Mercedes-Benz_Glc_I-X253.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
+  },
+  "ford-fiesta-8": {
+   "entree": 12900,
+   "source": "https://www.largus.fr/Ford_Fiesta_V.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2017-2024)"
+  },
+  "ford-focus-4": {
+   "entree": 19550,
+   "source": "https://www.largus.fr/Ford_Focus_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "ford-kuga-2": {
+   "entree": 22650,
+   "source": "https://www.largus.fr/Ford_Kuga_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2012-2019)"
+  },
+  "ford-kuga-3": {
+   "entree": 26600,
+   "source": "https://www.largus.fr/Ford_Kuga_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "ford-puma": {
+   "entree": 22200,
+   "source": "https://www.largus.fr/Ford_Puma_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "ford-mondeo-3": {
+   "entree": 20400,
+   "source": "https://www.largus.fr/Ford_Mondeo_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2007-2014)"
+  },
+  "ford-mondeo-4": {
+   "entree": 26500,
+   "source": "https://www.largus.fr/Ford_Mondeo_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2022)"
+  },
+  "ford-s-max-2": {
+   "entree": 33600,
+   "source": "https://www.largus.fr/Ford_S-Max_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2024)"
+  },
+  "toyota-aygo-2": {
+   "entree": 10500,
+   "source": "https://www.largus.fr/Toyota_Aygo_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2022)"
+  },
+  "toyota-yaris-cross": {
+   "entree": 25500,
+   "source": "https://www.largus.fr/Toyota_Yaris-Cross_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "toyota-rav4-4": {
+   "entree": 26590,
+   "source": "https://www.largus.fr/Toyota_Rav4_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2019)"
+  },
+  "toyota-rav4-5": {
+   "entree": 34950,
+   "source": "https://www.largus.fr/Toyota_Rav4_V.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "hyundai-ix35": {
+   "entree": 21950,
+   "source": "https://www.largus.fr/Hyundai_Ix35_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2016)"
+  },
+  "kia-sportage-3": {
+   "entree": 20890,
+   "source": "https://www.largus.fr/Kia_Sportage_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2016)"
+  },
+  "hyundai-i10-2": {
+   "entree": 9950,
+   "source": "https://www.largus.fr/Hyundai_I10_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2020)"
+  },
+  "kia-picanto-3": {
+   "entree": 10900,
+   "source": "https://www.largus.fr/Kia_Picanto_Iii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "hyundai-tucson-4": {
+   "entree": 29900,
+   "source": "https://www.largus.fr/Hyundai_Tucson_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "kia-sportage-5": {
+   "entree": 29990,
+   "source": "https://www.largus.fr/Kia_Sportage_V.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2021)"
+  },
+  "hyundai-ioniq": {
+   "entree": 26100,
+   "source": "https://www.largus.fr/Hyundai_Ioniq_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2022)"
+  },
+  "kia-niro-1": {
+   "entree": 26990,
+   "source": "https://www.largus.fr/Kia_Niro_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2016-2022)"
+  },
+  "mazda-cx3": {
+   "entree": 20650,
+   "source": "https://www.largus.fr/Mazda_Cx-3_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
+  },
+  "mazda-cx30": {
+   "entree": 26500,
+   "source": "https://www.largus.fr/Mazda_Cx-30_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2019)"
+  },
+  "volvo-v60-1": {
+   "entree": 28900,
+   "source": "https://www.largus.fr/Volvo_V60_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2010-2018)"
+  },
+  "volvo-xc40": {
+   "entree": 29950,
+   "source": "https://www.largus.fr/Volvo_Xc40_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2018)"
+  },
+  "volvo-xc60-2": {
+   "entree": 41910,
+   "source": "https://www.largus.fr/Volvo_Xc60_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017)"
+  },
+  "volvo-xc90-2": {
+   "entree": 49900,
+   "source": "https://www.largus.fr/Volvo_Xc90_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2014-2024)"
+  },
+  "tesla-model-3": {
+   "entree": 36990,
+   "source": "https://www.largus.fr/Tesla_Model-3_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2017, hors bonus)"
+  },
+  "tesla-model-y": {
+   "entree": 39990,
+   "source": "https://www.largus.fr/Tesla_Model-Y_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020, hors bonus)"
+  },
+  "suzuki-s-cross": {
+   "entree": 18990,
+   "source": "https://www.largus.fr/Suzuki_Sx4-S-Cross_I.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2013-2016)"
+  },
+  "honda-jazz-4": {
+   "entree": 21990,
+   "source": "https://www.largus.fr/Honda_Jazz_Iv.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (depuis 2020)"
+  },
+  "honda-hrv-2": {
+   "entree": 21000,
+   "source": "https://www.largus.fr/Honda_Hr-V_Ii.html",
+   "note": "prix du neuf le plus bas de la génération selon L'argus (2015-2022)"
   }
  }
 }

@@ -49,7 +49,10 @@
    "1kr",
    "nis12",
    "mr20",
-   "etorq"
+   "etorq",
+   "kappa",
+   "theta20",
+   "honda15"
   ],
   "codes_performance": [
    "thp",
@@ -82,7 +85,13 @@
    "tce18",
    "m9r",
    "mjt20",
-   "hdiv6"
+   "hdiv6",
+   "ecoboost20",
+   "ecoboost23",
+   "tdci20",
+   "m260",
+   "om642",
+   "toyhyb25"
   ]
  },
  "marques": {
@@ -110,7 +119,8 @@
   "Kia": 0.98,
   "Jeep": 0.88,
   "Volvo": 0.97,
-  "Cupra": 0.97
+  "Cupra": 0.97,
+  "Tesla": 0.9
  },
  "modeles": {
   "fiat-500": 1.35

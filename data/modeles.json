@@ -1691,24 +1691,29 @@
    "id": "ford-fiesta-7",
    "marque": "Ford",
    "modele": "Fiesta",
-   "generation": "VII",
+   "generation": "VI (mk7)",
    "annees": [
     2008,
     2017
    ],
    "moteurs": [
     {
-     "libelle": "1.0 EcoBoost",
-     "code": "ecoboost10",
-     "carburant": "Essence"
-    },
-    {
      "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
      "code": "tivct",
      "carburant": "Essence"
     },
     {
-     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 EcoBoost ST 182 / 200 ch",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 / 1.6 TDCi",
      "code": "tdci",
      "carburant": "Diesel"
     }
@@ -1719,8 +1724,12 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique Powershift",
+     "libelle": "Powershift à embrayage sec",
      "code": "powershift"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
     }
    ]
   },
@@ -1735,18 +1744,38 @@
    ],
    "moteurs": [
     {
-     "libelle": "1.0 EcoBoost",
-     "code": "ecoboost10",
-     "carburant": "Essence"
-    },
-    {
-     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "libelle": "1.6 Ti-VCT",
      "code": "tivct",
      "carburant": "Essence"
     },
     {
-     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost 150 / 182 ch (2014-2018)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 EcoBoost 150 / 182 ch (2011-2014)",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 EcoBoost ST 250 ch",
+     "code": "ecoboost20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 TDCi",
      "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDCi 115 à 185 ch",
+     "code": "tdci20",
      "carburant": "Diesel"
     }
    ],
@@ -1756,8 +1785,16 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique Powershift",
+     "libelle": "Powershift à embrayage sec",
      "code": "powershift"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
     }
    ]
   },
@@ -1772,18 +1809,33 @@
    ],
    "moteurs": [
     {
-     "libelle": "1.0 EcoBoost",
-     "code": "ecoboost10",
-     "carburant": "Essence"
-    },
-    {
-     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "libelle": "1.6 Ti-VCT",
      "code": "tivct",
      "carburant": "Essence"
     },
     {
-     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost 150 / 182 ch (2015-2019)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 EcoBoost 150 / 182 ch (2010-2015)",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 TDCi",
      "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDCi 115 à 170 ch",
+     "code": "tdci20",
      "carburant": "Diesel"
     }
    ],
@@ -1793,8 +1845,16 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique Powershift",
+     "libelle": "Powershift à embrayage sec",
      "code": "powershift"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
     }
    ]
   },
@@ -1802,24 +1862,24 @@
    "id": "ford-ecosport",
    "marque": "Ford",
    "modele": "EcoSport",
-   "generation": "I",
+   "generation": "II",
    "annees": [
     2013,
     2022
    ],
    "moteurs": [
     {
-     "libelle": "1.0 EcoBoost",
-     "code": "ecoboost10",
-     "carburant": "Essence"
-    },
-    {
-     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "libelle": "1.5 Ti-VCT",
      "code": "tivct",
      "carburant": "Essence"
     },
     {
-     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "libelle": "1.0 EcoBoost (et mHEV hybride léger)",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TDCi",
      "code": "tdci",
      "carburant": "Diesel"
     }
@@ -1830,8 +1890,12 @@
      "code": "man"
     },
     {
-     "libelle": "Automatique Powershift",
+     "libelle": "Powershift à embrayage sec",
      "code": "powershift"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
     }
    ]
   },
@@ -9665,6 +9729,1595 @@
     {
      "libelle": "Automatique (réducteur électrique)",
      "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-a-w177",
+   "marque": "Mercedes",
+   "modele": "Classe A",
+   "generation": "W177",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "A 160 / A 180 / A 200 1.33 (M282, moteur Renault-Nissan)",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "A 250 / A 35 AMG 2.0 (M260)",
+     "code": "m260",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "A 180 d 1.5 (OM608, moteur Renault)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "A 200 d / A 220 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "A 250 e hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "7G-DCT (double embrayage)",
+     "code": "7gdct"
+    },
+    {
+     "libelle": "8G-DCT (double embrayage)",
+     "code": "dct8mb"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-b-w247",
+   "marque": "Mercedes",
+   "modele": "Classe B",
+   "generation": "W247",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "B 180 / B 200 1.33 (M282)",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "B 250 2.0 (M260)",
+     "code": "m260",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "B 180 d 1.5 (OM608)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "B 200 d / B 220 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "B 250 e hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "7G-DCT (double embrayage)",
+     "code": "7gdct"
+    },
+    {
+     "libelle": "8G-DCT (double embrayage)",
+     "code": "dct8mb"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-cla-c118",
+   "marque": "Mercedes",
+   "modele": "CLA / CLA Shooting Brake",
+   "generation": "C118",
+   "annees": [
+    2019,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "CLA 180 / 200 1.33 (M282)",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "CLA 250 / 35 AMG 2.0 (M260)",
+     "code": "m260",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "CLA 180 d 1.5 (OM608)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "CLA 200 d / 220 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "CLA 250 e hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "7G-DCT (double embrayage)",
+     "code": "7gdct"
+    },
+    {
+     "libelle": "8G-DCT (double embrayage)",
+     "code": "dct8mb"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-gla-h247",
+   "marque": "Mercedes",
+   "modele": "GLA",
+   "generation": "H247",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "GLA 180 / 200 1.33 (M282)",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "GLA 250 / 35 AMG 2.0 (M260)",
+     "code": "m260",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "GLA 200 d / 220 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "GLA 250 e hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "7G-DCT (double embrayage)",
+     "code": "7gdct"
+    },
+    {
+     "libelle": "8G-DCT (double embrayage)",
+     "code": "dct8mb"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-c-w206",
+   "marque": "Mercedes",
+   "modele": "Classe C",
+   "generation": "W206",
+   "annees": [
+    2021,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "C 180 / C 200 / C 300 1.5-2.0 hybride léger (M254)",
+     "code": "m254",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "C 200 d / C 220 d / C 300 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "C 300 e / C 300 de hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "9G-Tronic (convertisseur)",
+     "code": "9gt"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-e-w212",
+   "marque": "Mercedes",
+   "modele": "Classe E",
+   "generation": "W212",
+   "annees": [
+    2009,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "E 200 / E 250 1.8-2.0 (M271 / M274)",
+     "code": "m274",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "E 200 CDI / E 220 CDI / E 250 CDI 2.1 (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "E 350 CDI / E 350 BlueTEC 3.0 V6 (OM642)",
+     "code": "om642",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "7G-Tronic (convertisseur)",
+     "code": "7gt"
+    },
+    {
+     "libelle": "9G-Tronic (convertisseur)",
+     "code": "9gt"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-e-w213",
+   "marque": "Mercedes",
+   "modele": "Classe E",
+   "generation": "W213",
+   "annees": [
+    2016,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "E 200 / E 300 2.0 (M274 puis M264)",
+     "code": "m274",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "E 200 d / E 220 d 2.0 (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "E 350 d / E 400 d 3.0 (OM642 puis OM656)",
+     "code": "om642",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "E 300 e / E 300 de hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "9G-Tronic (convertisseur)",
+     "code": "9gt"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-glc-x253",
+   "marque": "Mercedes",
+   "modele": "GLC / GLC Coupé",
+   "generation": "X253",
+   "annees": [
+    2015,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "GLC 200 / 250 / 300 2.0 (M274 puis M264)",
+     "code": "m274",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "GLC 220 d / 250 d (OM651 puis OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "GLC 300 e / 350 e / 300 de hybride rechargeable",
+     "code": "mbphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "9G-Tronic (convertisseur)",
+     "code": "9gt"
+    }
+   ]
+  },
+  {
+   "id": "ford-fiesta-8",
+   "marque": "Ford",
+   "modele": "Fiesta",
+   "generation": "VII (mk8)",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.1 Ti-VCT 70 / 75 ch",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 EcoBoost 95 à 140 ch et mHEV",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost ST 200 ch (3 cylindres)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports",
+     "code": "ford7dct"
+    }
+   ]
+  },
+  {
+   "id": "ford-focus-4",
+   "marque": "Ford",
+   "modele": "Focus",
+   "generation": "IV",
+   "annees": [
+    2018,
+    2025
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost 100 à 155 ch et mHEV",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost 150 / 182 ch (3 cylindres)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.3 EcoBoost ST 280 ch",
+     "code": "ecoboost23",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBlue 95 / 120 ch",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 EcoBlue 150 / 190 ch",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports",
+     "code": "ford7dct"
+    }
+   ]
+  },
+  {
+   "id": "ford-kuga-2",
+   "marque": "Ford",
+   "modele": "Kuga",
+   "generation": "II",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 EcoBoost 120 à 182 ch (2014-2019)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 EcoBoost 150 / 182 ch (2013-2014)",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TDCi 120 ch",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDCi 120 à 180 ch",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    }
+   ]
+  },
+  {
+   "id": "ford-kuga-3",
+   "marque": "Ford",
+   "modele": "Kuga",
+   "generation": "III",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 EcoBoost 120 / 150 ch (3 cylindres)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBlue 120 ch",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 EcoBlue 150 / 190 ch et mHEV",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.5 Hybrid 190 ch (non rechargeable)",
+     "code": "fordhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "2.5 PHEV 225 / 243 ch hybride rechargeable",
+     "code": "fordphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "ford-puma",
+   "marque": "Ford",
+   "modele": "Puma",
+   "generation": "II",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost 95 à 155 ch et mHEV",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost ST 200 ch (3 cylindres)",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBlue 120 ch (2020-2022)",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Puma Gen-E électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports",
+     "code": "ford7dct"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "ford-mondeo-3",
+   "marque": "Ford",
+   "modele": "Mondeo",
+   "generation": "III",
+   "annees": [
+    2007,
+    2014
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 Ti-VCT 110 / 125 ch",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 EcoBoost 160 ch",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 EcoBoost 203 / 240 ch",
+     "code": "ecoboost20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDCi 115 ch",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 / 2.2 TDCi 115 à 200 ch",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "ford-mondeo-4",
+   "marque": "Ford",
+   "modele": "Mondeo",
+   "generation": "IV",
+   "annees": [
+    2014,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost 125 ch",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 EcoBoost 160 ch",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 EcoBoost 203 / 240 ch",
+     "code": "ecoboost20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TDCi / EcoBlue 150 à 210 ch",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 Hybrid 187 ch",
+     "code": "fordhyb",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "ford-s-max-2",
+   "marque": "Ford",
+   "modele": "S-Max / Galaxy",
+   "generation": "II",
+   "annees": [
+    2015,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 EcoBoost 160 ch",
+     "code": "ecoboost15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 EcoBoost 240 ch",
+     "code": "ecoboost20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDCi / EcoBlue 120 à 240 ch",
+     "code": "tdci20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.5 Hybrid 190 ch",
+     "code": "fordhyb",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "toyota-aygo-2",
+   "marque": "Toyota",
+   "modele": "Aygo",
+   "generation": "II",
+   "annees": [
+    2014,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 VVT-i 69 / 72 ch (1KR)",
+     "code": "1kr",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée x-shift",
+     "code": "xshift"
+    }
+   ]
+  },
+  {
+   "id": "toyota-yaris-cross",
+   "marque": "Toyota",
+   "modele": "Yaris Cross",
+   "generation": "I",
+   "annees": [
+    2021,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 VVT-i 125 ch",
+     "code": "vvti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 Hybride 116 / 130 ch",
+     "code": "toyhyb",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "CVT",
+     "code": "cvt"
+    },
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "toyota-rav4-4",
+   "marque": "Toyota",
+   "modele": "RAV4",
+   "generation": "IV",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 Valvematic 151 ch",
+     "code": "vvti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 D-4D 124 / 143 ch",
+     "code": "d4d20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.2 D-4D 150 ch (2013-2015)",
+     "code": "d4d22",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.5 Hybride 197 ch (2016-2019)",
+     "code": "toyhyb25",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "CVT",
+     "code": "cvt"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "toyota-rav4-5",
+   "marque": "Toyota",
+   "modele": "RAV4",
+   "generation": "V",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.5 Hybride 218 / 222 ch",
+     "code": "toyhyb25",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "2.5 Hybride rechargeable 306 ch",
+     "code": "toyphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-ix35",
+   "marque": "Hyundai",
+   "modele": "ix35",
+   "generation": "LM",
+   "annees": [
+    2010,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi 135 ch",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 CVVT / GDi 163 / 166 ch",
+     "code": "theta20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.7 CRDi 115 / 116 ch",
+     "code": "crdi17",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 CRDi 136 à 184 ch",
+     "code": "crdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "kia-sportage-3",
+   "marque": "Kia",
+   "modele": "Sportage",
+   "generation": "III",
+   "annees": [
+    2010,
+    2015
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi 135 ch",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 CVVT 163 ch",
+     "code": "theta20",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.7 CRDi 115 / 116 ch",
+     "code": "crdi17",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 CRDi 136 à 184 ch",
+     "code": "crdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-i10-2",
+   "marque": "Hyundai",
+   "modele": "i10",
+   "generation": "II",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 MPI 66 / 87 ch (Kappa)",
+     "code": "kappa",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "kia-picanto-3",
+   "marque": "Kia",
+   "modele": "Picanto",
+   "generation": "III",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 MPI 67 / 84 ch (Kappa)",
+     "code": "kappa",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 T-GDi 100 ch",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-tucson-4",
+   "marque": "Hyundai",
+   "modele": "Tucson",
+   "generation": "IV",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 T-GDi 150 / 180 ch hybride léger",
+     "code": "tgdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 T-GDi Hybrid 230 ch",
+     "code": "hyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 T-GDi Plug-in 265 ch hybride rechargeable",
+     "code": "hyphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 CRDi 136 ch hybride léger",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Double embrayage DCT 6 / 7 rapports",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "kia-sportage-5",
+   "marque": "Kia",
+   "modele": "Sportage",
+   "generation": "V",
+   "annees": [
+    2022,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 T-GDi 150 / 180 ch hybride léger",
+     "code": "tgdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 T-GDi Hybrid 230 ch",
+     "code": "hyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 T-GDi Plug-in 265 ch hybride rechargeable",
+     "code": "hyphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 CRDi 136 ch hybride léger",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Double embrayage DCT 6 / 7 rapports",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-ioniq",
+   "marque": "Hyundai",
+   "modele": "Ioniq",
+   "generation": "AE",
+   "annees": [
+    2016,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi Hybrid 141 ch",
+     "code": "hyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 GDi Plug-in 141 ch hybride rechargeable",
+     "code": "hyphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "Ioniq Electric 28 / 38 kWh",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Double embrayage 6 rapports (hybride)",
+     "code": "dct6hyb"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "kia-niro-1",
+   "marque": "Kia",
+   "modele": "Niro / e-Niro",
+   "generation": "DE",
+   "annees": [
+    2016,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi Hybrid 141 ch",
+     "code": "hyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 GDi Plug-in 141 ch hybride rechargeable",
+     "code": "hyphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "e-Niro 39 / 64 kWh",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Double embrayage 6 rapports (hybride)",
+     "code": "dct6hyb"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "mazda-cx3",
+   "marque": "Mazda",
+   "modele": "CX-3",
+   "generation": "DK",
+   "annees": [
+    2015,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 Skyactiv-G 120 / 150 ch",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 Skyactiv-D 105 ch (2015-2018)",
+     "code": "skyd15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.8 Skyactiv-D 115 ch (2018-2020)",
+     "code": "skyd18",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mazda-cx30",
+   "marque": "Mazda",
+   "modele": "CX-30",
+   "generation": "DM",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 / 2.5 Skyactiv-G M Hybrid",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 Skyactiv-X M Hybrid 180 / 186 ch",
+     "code": "skyx",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.8 Skyactiv-D 116 ch (2019-2021)",
+     "code": "skyd18",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "volvo-v60-1",
+   "marque": "Volvo",
+   "modele": "V60",
+   "generation": "I",
+   "annees": [
+    2010,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "T3 / T4 1.6 GTDi (moteur Ford, 2010-2014)",
+     "code": "ecoboost16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 D2 à D4 (Drive-E, 2014-2018)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 D2 / 2.0 D3 / 2.4 D4-D5 (premières séries)",
+     "code": "d5",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T3 à T6 (Drive-E, 2014-2018)",
+     "code": "veap",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "D6 / D5 Twin Engine hybride rechargeable diesel",
+     "code": "volhybd",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Powershift à bain d'huile",
+     "code": "powershiftw"
+    },
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    }
+   ]
+  },
+  {
+   "id": "volvo-xc40",
+   "marque": "Volvo",
+   "modele": "XC40 / EX40",
+   "generation": "I",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "T2 / T3 1.5 trois cylindres",
+     "code": "vol3cyl",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "T4 / T5 / B4 / B5 2.0 (Drive-E)",
+     "code": "veap",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "D3 / D4 2.0 (Drive-E)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T4 / T5 Recharge hybride rechargeable",
+     "code": "volphev",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "P6 / P8 Recharge électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    },
+    {
+     "libelle": "Double embrayage 7 rapports",
+     "code": "voldct"
+    },
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "volvo-xc60-2",
+   "marque": "Volvo",
+   "modele": "XC60",
+   "generation": "II",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "T5 / T6 / B5 / B6 2.0 (Drive-E)",
+     "code": "veap",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "D4 / D5 / B4 / B5 diesel 2.0 (Drive-E)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T6 / T8 Recharge hybride rechargeable",
+     "code": "volphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    }
+   ]
+  },
+  {
+   "id": "volvo-xc90-2",
+   "marque": "Volvo",
+   "modele": "XC90",
+   "generation": "II",
+   "annees": [
+    2015,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "T5 / T6 / B5 / B6 2.0 (Drive-E)",
+     "code": "veap",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "D4 / D5 / B5 diesel 2.0 (Drive-E)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T8 Recharge hybride rechargeable",
+     "code": "volphev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    }
+   ]
+  },
+  {
+   "id": "tesla-model-3",
+   "marque": "Tesla",
+   "modele": "Model 3",
+   "generation": "I",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "Propulsion, Grande Autonomie, Performance",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "tesla-model-y",
+   "marque": "Tesla",
+   "modele": "Model Y",
+   "generation": "I",
+   "annees": [
+    2022,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "Propulsion, Grande Autonomie, Performance",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique (réducteur électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "suzuki-s-cross",
+   "marque": "Suzuki",
+   "modele": "SX4 S-Cross",
+   "generation": "I",
+   "annees": [
+    2013,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 VVT 120 ch",
+     "code": "m16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.4 Boosterjet 111 / 140 ch",
+     "code": "k14c",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 Boosterjet hybride léger 129 ch (2020-2021)",
+     "code": "k14d",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 DDiS 120 ch",
+     "code": "ddis16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Double embrayage TCSS",
+     "code": "tcss"
+    }
+   ]
+  },
+  {
+   "id": "honda-jazz-4",
+   "marque": "Honda",
+   "modele": "Jazz",
+   "generation": "IV",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 i-MMD e:HEV hybride 109 / 122 ch",
+     "code": "hondahyb",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Automatique e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "honda-hrv-2",
+   "marque": "Honda",
+   "modele": "HR-V",
+   "generation": "II",
+   "annees": [
+    2015,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 i-VTEC 130 ch",
+     "code": "honda15",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 VTEC Turbo 182 ch (Sport)",
+     "code": "honda15t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 i-DTEC 120 ch",
+     "code": "honda16d",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "CVT",
+     "code": "cvt"
     }
    ]
   }

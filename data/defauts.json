@@ -1,0 +1,560 @@
+{
+  "version": "2026-10-12",
+  "perimetre": "Lot 1 : véhicules 2010 à 2026, familles de moteurs et de boîtes les plus courantes en France",
+  "regles": {
+    "gravite": "1 mineure, 2 majeure, 3 critique (vocabulaire du contrôle technique)",
+    "frequence": "1 rare, 2 courante, 3 très répandue",
+    "km": "Plage de kilométrage où le défaut apparaît le plus souvent",
+    "cout": "Coût de réparation si le défaut survient, en euros, pièces et main-d'œuvre",
+    "preventif": "Coût d'une intervention préventive à prévoir sans facture (0 si prise en charge par un rappel)",
+    "confiance": "confirmé = rappel officiel ou au moins deux sources indépendantes ; à confirmer = une seule source ou sources de même origine"
+  },
+  "defauts": [
+    {
+      "id": "puretech-courroie-turbo",
+      "titre": "Courroie de distribution « humide » qui se désagrège",
+      "moteurs": ["puretech-t"],
+      "annees": [2013, 2022],
+      "km": [50000, 160000],
+      "gravite": 3, "frequence": 3,
+      "symptomes": "La courroie baigne dans l'huile et se dégrade. Ses débris bouchent la crépine de la pompe à huile : voyant de pression d'huile, perte de puissance, jusqu'à la casse moteur.",
+      "controle": "Exiger la facture du dernier remplacement de courroie (date et kilométrage) et les factures de vidange avec une huile à la norme constructeur.",
+      "solution": "Nouvelle courroie montée en usine à partir de mi-2022. Stellantis a étendu la prise en charge à 10 ans ou 175 000 km sous condition d'entretien conforme : vérifier l'éligibilité avec le VIN auprès du réseau.",
+      "cout": [4000, 8000], "preventif": 1100,
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Aramisauto : les garanties Stellantis sur les moteurs PureTech", "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/"},
+        {"titre": "Caradisiac : le moteur PureTech profite d'une extension de garantie", "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm"},
+        {"titre": "L'argus : plate-forme d'indemnisation PureTech et AdBlue", "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"}
+      ]
+    },
+    {
+      "id": "puretech-huile-turbo",
+      "titre": "Consommation d'huile excessive",
+      "moteurs": ["puretech-t"],
+      "annees": [2013, 2022],
+      "km": [40000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Appoints d'huile fréquents, voyant d'huile. Le seuil jugé anormal est d'environ 0,3 litre pour 1 000 km.",
+      "controle": "Niveau d'huile à froid sur sol plat, demander la fréquence des appoints, fumée bleue au démarrage.",
+      "solution": "Couverte par l'extension de garantie Stellantis 10 ans ou 175 000 km. Les véhicules produits à partir de 2023 ne sont plus concernés.",
+      "cout": [300, 4500],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Caradisiac : extension de garantie PureTech", "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm"},
+        {"titre": "Aramisauto : garanties Stellantis PureTech", "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/"}
+      ]
+    },
+    {
+      "id": "puretech-pompe-vide",
+      "titre": "Assistance de freinage dégradée (pompe à vide)",
+      "moteurs": ["puretech-t"],
+      "annees": [2013, 2017],
+      "km": [30000, 160000],
+      "gravite": 3, "frequence": 2,
+      "symptomes": "Les débris de courroie privent de lubrification la pompe à vide, qui alimente l'assistance de freinage : pédale de frein très dure.",
+      "controle": "Vérifier avec le VIN que le rappel de novembre 2020 a été effectué. Moteur coupé, pomper la pédale puis démarrer : elle doit s'enfoncer légèrement.",
+      "solution": "Rappel officiel : contrôle de la courroie, remplacement systématique de la pompe à vide, de la pompe à huile si sa crépine est bouchée, et mise à jour du calculateur. La version 82 ch n'est pas concernée.",
+      "cout": [300, 1200], "preventif": 0,
+      "rappel": true, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : rappel des 1.2 PureTech 110 et 130 ch", "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-2398-rappel-des-12-puretech.php"}
+      ]
+    },
+    {
+      "id": "puretech-courroie-atmo",
+      "titre": "Courroie de distribution humide (versions atmosphériques)",
+      "moteurs": ["puretech-a"],
+      "annees": [2012, 2022],
+      "km": [60000, 180000],
+      "gravite": 3, "frequence": 1,
+      "symptomes": "Même conception de courroie que les versions turbo, mais beaucoup moins de cas signalés.",
+      "controle": "Facture de remplacement de la courroie et huile à la norme constructeur.",
+      "solution": "Remplacement de la courroie à l'intervalle constructeur. Les versions atmosphériques ne sont pas éligibles à la plate-forme d'indemnisation Stellantis.",
+      "cout": [3000, 6000], "preventif": 900,
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "L'argus : plate-forme d'indemnisation PureTech", "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"}
+      ]
+    },
+    {
+      "id": "thp-chaine",
+      "titre": "Chaîne de distribution et tendeur (1.6 THP)",
+      "moteurs": ["thp"],
+      "annees": [2007, 2016],
+      "km": [60000, 200000],
+      "gravite": 3, "frequence": 3,
+      "symptomes": "Bruit de crécelle les premières secondes après un démarrage à froid, chaîne qui saute, ratés d'allumage, perte de puissance. Période la plus touchée : 2009 à 2012.",
+      "controle": "Demander un moteur froid lors de la visite et écouter le démarrage. Demander la facture du kit chaîne et vérifier les campagnes effectuées.",
+      "solution": "Kit chaîne avec tendeur de dernière évolution.",
+      "cout": [1000, 2500],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : essais et avis 1.6 THP", "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php"},
+        {"titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP", "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"}
+      ]
+    },
+    {
+      "id": "thp-huile",
+      "titre": "Consommation d'huile (1.6 THP)",
+      "moteurs": ["thp"],
+      "annees": [2007, 2016],
+      "km": [60000, 200000],
+      "gravite": 2, "frequence": 3,
+      "symptomes": "Segmentation fragile, consommation pouvant approcher 1 litre pour 1 000 km.",
+      "controle": "Niveau d'huile, fumée bleue, factures de vidange rapprochées.",
+      "solution": "Appoints réguliers, ou réfection de la segmentation si la consommation devient excessive.",
+      "cout": [400, 5000],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : essais et avis 1.6 THP", "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php"},
+        {"titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP", "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"}
+      ]
+    },
+    {
+      "id": "bluehdi-adblue",
+      "titre": "Réservoir et système AdBlue défaillants",
+      "moteurs": ["bluehdi15", "bluehdi16", "bluehdi20"],
+      "annees": [2014, 2021],
+      "km": [30000, 200000],
+      "gravite": 2, "frequence": 3,
+      "symptomes": "Message « Défaut antipollution » puis compte à rebours en kilomètres avant interdiction de démarrer. Injecteur d'urée et sonde NOx également fragiles.",
+      "controle": "Aucun message moteur tournant. Demander si le réservoir AdBlue a déjà été remplacé.",
+      "solution": "Remplacement du réservoir complet. Stellantis présente le problème comme traité et des prises en charge existent : se renseigner auprès du réseau.",
+      "cout": [800, 1800],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "L'argus : plate-forme d'indemnisation PureTech et AdBlue", "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"},
+        {"titre": "Car Verif : fiabilité Peugeot 308 II 1.6 BlueHDi 120", "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120"}
+      ]
+    },
+    {
+      "id": "bluehdi15-chaine",
+      "titre": "Chaîne de distribution de 7 mm qui s'use (1.5 BlueHDi)",
+      "moteurs": ["bluehdi15"],
+      "annees": [2017, 2023],
+      "km": [0, 250000],
+      "gravite": 3, "frequence": 2,
+      "symptomes": "Usure prématurée de la chaîne d'arbre à cames. La rupture provoque un arrêt brutal du moteur, sans signe avant-coureur fiable.",
+      "controle": "Vérifier avec le VIN que le rappel a été fait (remplacement par une chaîne de 8 mm).",
+      "solution": "Rappel officiel : remplacement par une chaîne renforcée de 8 mm, pris en charge.",
+      "cout": [5000, 9000], "preventif": 0,
+      "rappel": true, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : rappel du 1.5 BlueHDi lié à la chaîne de distribution", "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php"}
+      ]
+    },
+    {
+      "id": "hdi16-injecteurs",
+      "titre": "Fuite des joints d'injecteurs et calamine (1.6 HDi)",
+      "moteurs": ["hdi16"],
+      "annees": [2004, 2014],
+      "km": [80000, 250000],
+      "gravite": 2, "frequence": 3,
+      "symptomes": "La fuite au joint d'injecteur produit de la calamine qui passe dans l'huile, bouche la crépine et peut priver le turbo de lubrification.",
+      "controle": "Odeur de gaz d'échappement côté moteur, dépôts noirs autour des injecteurs, factures de remplacement des joints.",
+      "solution": "Remplacement des joints ou des injecteurs, nettoyage de la crépine.",
+      "cout": [400, 2500],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité du 1.6 HDi", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php"},
+        {"titre": "AutoCopilot : 1.6 HDi / BlueHDi (DV6)", "url": "https://autocopilot.fr/motorisations/1-6-hdi"}
+      ]
+    },
+    {
+      "id": "diesel-egr-fap",
+      "titre": "Encrassement de la vanne EGR et du filtre à particules",
+      "carburant": "Diesel",
+      "km": [80000, 300000],
+      "gravite": 1, "frequence": 2,
+      "symptomes": "Perte de puissance, mode dégradé, voyant moteur, régénérations fréquentes. Nettement aggravé par un usage urbain.",
+      "controle": "Essai sur voie rapide avec montée en régime. Demander l'usage du précédent propriétaire.",
+      "solution": "Nettoyage ou remplacement de la vanne EGR, régénération forcée ou remplacement du FAP.",
+      "cout": [300, 2000],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité du 1.6 HDi", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php"},
+        {"titre": "AutoCopilot : 1.6 HDi / BlueHDi (DV6)", "url": "https://autocopilot.fr/motorisations/1-6-hdi"},
+        {"titre": "Car Verif : fiabilité Peugeot 308 II 1.6 BlueHDi 120", "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120"}
+      ]
+    },
+    {
+      "id": "tce12-huile",
+      "titre": "Consommation d'huile et casse moteur (1.2 TCe / DIG-T H5Ft)",
+      "moteurs": ["tce12"],
+      "annees": [2012, 2016],
+      "km": [40000, 160000],
+      "gravite": 3, "frequence": 3,
+      "symptomes": "L'huile remonte dans les cylindres : consommation pouvant dépasser 1 litre pour 1 000 km, calamine sur les soupapes, puis perte de compression, bruit de chaîne et casse. Production d'octobre 2012 à juillet 2016.",
+      "controle": "Niveau d'huile (beaucoup de modèles n'ont pas de jauge électronique), fumée bleue, historique des appoints, bruit de distribution.",
+      "solution": "Pas de rappel officiel. Prise en charge au cas par cas par Renault, Dacia et Nissan, sous condition d'entretien conforme.",
+      "cout": [600, 10000],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : problèmes en série sur les moteurs 1.2 TCe", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php"},
+        {"titre": "UFC-Que Choisir : moteur 1.2 Renault, 400 000 voitures en danger", "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"}
+      ]
+    },
+    {
+      "id": "tce13-injection",
+      "titre": "Alerte « risque casse moteur » et injecteurs (1.3 TCe)",
+      "moteurs": ["tce13"],
+      "annees": [2018, 2026],
+      "km": [20000, 150000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Gestion de l'injection imparfaite : message « risque casse moteur », injecteurs remplacés, niveau d'huile qui monte par dilution d'essence.",
+      "controle": "Aucun message à l'essai, factures de reprogrammation ou d'injecteurs.",
+      "solution": "Reprogrammation du calculateur, remplacement des seuls injecteurs défaillants.",
+      "cout": [150, 1500],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité des 1.3 TCe", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php"}
+      ]
+    },
+    {
+      "id": "tce13-fuite",
+      "titre": "Fuite d'huile au carter de distribution (1.3 TCe)",
+      "moteurs": ["tce13"],
+      "annees": [2018, 2026],
+      "km": [40000, 200000],
+      "gravite": 1, "frequence": 2,
+      "symptomes": "Traces d'huile à l'avant du moteur, souvent confondues avec une consommation d'huile.",
+      "controle": "Traces d'huile sur le carter de distribution et au sol.",
+      "solution": "Refaire l'étanchéité du carter.",
+      "cout": [200, 800],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité des 1.3 TCe", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php"}
+      ]
+    },
+    {
+      "id": "k9k-injecteurs",
+      "titre": "Injecteurs fragiles (1.5 dCi jusqu'en 2011)",
+      "moteurs": ["k9k"],
+      "annees": [2005, 2011],
+      "km": [80000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Démarrages difficiles, ralenti irrégulier, fumée à l'accélération.",
+      "controle": "Démarrage à froid, ralenti stable, aucune fumée noire.",
+      "solution": "Remplacement des injecteurs défaillants.",
+      "cout": [600, 1200],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Planète Renault : le moteur 1.5 dCi", "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/"},
+        {"titre": "Autoscore : 1.5 dCi K9K", "url": "https://autoscore.pro/engine/1.5-dci-k9k"}
+      ]
+    },
+    {
+      "id": "k9k-courroie",
+      "titre": "Courroie de distribution et galets (1.5 dCi 2009-2011)",
+      "moteurs": ["k9k"],
+      "annees": [2009, 2011],
+      "km": [60000, 160000],
+      "gravite": 3, "frequence": 1,
+      "symptomes": "Casses de courroie ou de galets signalées sur cette période.",
+      "controle": "Facture de remplacement de la distribution (tous les 5 ans ou 120 000 km).",
+      "solution": "Remplacement préventif du kit de distribution.",
+      "cout": [2500, 5000], "preventif": 600,
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Planète Renault : le moteur 1.5 dCi", "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/"}
+      ]
+    },
+    {
+      "id": "edc-sec",
+      "titre": "Boîte EDC à embrayage sec : à-coups et usure d'embrayage",
+      "boites": ["edc"],
+      "annees": [2012, 2017],
+      "km": [30000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "À-coups, passage au point mort en forte charge ou en surchauffe, embrayages bruyants à froid, usure prématurée, fuite au joint spi.",
+      "controle": "Manœuvres lentes, démarrages en côte, aucun message de boîte pendant l'essai.",
+      "solution": "Reprogrammation du calculateur, remplacement d'embrayage ou de la boîte. Moins de plaintes après 2017.",
+      "cout": [1200, 4000],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité de la boîte EDC", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2277-fiabilite-de-la-boite-edc-renault.php"}
+      ]
+    },
+    {
+      "id": "ea111-chaine",
+      "titre": "Allongement de la chaîne de distribution (1.2 et 1.4 TSI EA111)",
+      "moteurs": ["ea111"],
+      "annees": [2006, 2014],
+      "km": [40000, 150000],
+      "gravite": 3, "frequence": 3,
+      "symptomes": "Cliquetis de quelques secondes au démarrage à froid. Si la chaîne saute, les soupapes cassent et le moteur est perdu.",
+      "controle": "Démarrage à froid obligatoire pendant la visite. Demander si la chaîne a été remplacée.",
+      "solution": "Kit chaîne et tendeur de dernière évolution. Volkswagen a participé aux frais par geste commercial, de moins en moins sur les véhicules âgés.",
+      "cout": [3000, 6000], "preventif": 1800,
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Auto Bild : VW Steuerketten-Kulanz", "url": "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html"},
+        {"titre": "AutoCopilot : 1.4 TSI EA111", "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111"}
+      ]
+    },
+    {
+      "id": "ea111-huile",
+      "titre": "Consommation d'huile par les segments (1.4 TSI EA111)",
+      "moteurs": ["ea111"],
+      "annees": [2006, 2014],
+      "km": [60000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Consommation pouvant atteindre 1 litre pour 1 000 km.",
+      "controle": "Niveau d'huile et historique des appoints.",
+      "solution": "Réfection de la segmentation ou des pistons.",
+      "cout": [1500, 3500],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "AutoCopilot : 1.4 TSI EA111", "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111"}
+      ]
+    },
+    {
+      "id": "ea211-refroidissement",
+      "titre": "Fuite du module pompe à eau et thermostat (TSI EA211)",
+      "moteurs": ["ea211", "ea211act"],
+      "annees": [2012, 2026],
+      "km": [100000, 250000],
+      "gravite": 1, "frequence": 3,
+      "symptomes": "Baisse du niveau de liquide de refroidissement, voyant de niveau, odeur sucrée, traces blanchâtres sur le module.",
+      "controle": "Niveau du vase d'expansion, traces sur le module côté boîte.",
+      "solution": "Remplacement du module complet, idéalement avec la courroie de distribution au-delà de 120 000 km.",
+      "cout": [500, 800],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "AutoCopilot : 1.4 TFSI EA211", "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211"}
+      ]
+    },
+    {
+      "id": "ea211-act",
+      "titre": "Désactivation de cylindres (ACT) : vibrations",
+      "moteurs": ["ea211act"],
+      "annees": [2012, 2026],
+      "km": [60000, 200000],
+      "gravite": 1, "frequence": 2,
+      "symptomes": "Vibrations ou à-coups entre 1 600 et 2 000 tr/min.",
+      "controle": "Rouler à allure stabilisée vers 1 800 tr/min et ressentir les vibrations.",
+      "solution": "Remplacement des actionneurs.",
+      "cout": [600, 900],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "AutoCopilot : 1.4 TFSI EA211", "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211"}
+      ]
+    },
+    {
+      "id": "dq200-mecatronique",
+      "titre": "DSG7 à sec (DQ200) : mécatronique",
+      "boites": ["dq200"],
+      "annees": [2008, 2026],
+      "km": [40000, 180000],
+      "gravite": 2, "frequence": 3,
+      "symptomes": "À-coups à basse vitesse, rapports perdus, voyant de boîte clignotant, mode secours. Période la plus touchée : 2008 à 2015.",
+      "controle": "Démarrages en côte, passages 1-2-3 en ville, enchaînement marche avant et arrière. Factures de vidange de boîte.",
+      "solution": "Reprogrammation, réparation ou remplacement de la mécatronique.",
+      "cout": [1200, 2500],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "AutoCopilot : DSG7 DQ200", "url": "https://autocopilot.fr/motorisations/dsg7-dq200"},
+        {"titre": "ECU Testing : défaut P0841 de la mécatronique DQ200", "url": "https://www.ecutesting.com/common-faults/volkswagen/p0841-vw-dsg7-dq200/"},
+        {"titre": "L'argus : campagne Volkswagen sur la DSG7 (2013)", "url": "https://www.largus.fr/actualite-automobile/rappel-historique-chez-volkswagen-3326377.html"}
+      ]
+    },
+    {
+      "id": "dq200-embrayage",
+      "titre": "DSG7 à sec (DQ200) : usure du double embrayage",
+      "boites": ["dq200"],
+      "annees": [2008, 2026],
+      "km": [120000, 180000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Patinage, tremblements au démarrage, surtout après un usage urbain intensif.",
+      "controle": "Démarrages répétés en ville, en côte.",
+      "solution": "Remplacement du kit d'embrayage.",
+      "cout": [1000, 1800],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "AutoCopilot : DSG7 DQ200", "url": "https://autocopilot.fr/motorisations/dsg7-dq200"}
+      ]
+    },
+    {
+      "id": "ecoboost-durite",
+      "titre": "Durite de refroidissement qui fissure (1.0 EcoBoost)",
+      "moteurs": ["ecoboost10"],
+      "annees": [2011, 2013],
+      "km": [20000, 150000],
+      "gravite": 3, "frequence": 2,
+      "symptomes": "Perte de liquide de refroidissement, surchauffe, pouvant aller jusqu'à la casse moteur. La version 125 ch est la plus touchée.",
+      "controle": "Niveau de liquide au repère, aucune trace de fuite, durite de remplacement sur facture.",
+      "solution": "Remplacement de la durite.",
+      "cout": [200, 6000],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité du 1.0 EcoBoost", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"},
+        {"titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés", "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"}
+      ]
+    },
+    {
+      "id": "ecoboost-courroie",
+      "titre": "Courroie de distribution humide (1.0 EcoBoost)",
+      "moteurs": ["ecoboost10"],
+      "annees": [2012, 2019],
+      "km": [80000, 200000],
+      "gravite": 3, "frequence": 2,
+      "symptomes": "La courroie s'oxyde et s'effrite dans l'huile, bouche la crépine et peut gripper le moteur. Ford cite surtout les moteurs de 2016 à 2019.",
+      "controle": "Facture de remplacement de la courroie et huile à la norme Ford.",
+      "solution": "Remplacement préventif de la courroie. Passage à une chaîne en 2019-2020.",
+      "cout": [3000, 6000], "preventif": 1000,
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité du 1.0 EcoBoost", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"},
+        {"titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés", "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"}
+      ]
+    },
+    {
+      "id": "ecoboost-tendeur-pompe-huile",
+      "titre": "Tendeur de courroie de pompe à huile (1.0 EcoBoost)",
+      "moteurs": ["ecoboost10"],
+      "annees": [2016, 2022],
+      "km": [0, 250000],
+      "gravite": 3, "frequence": 2,
+      "symptomes": "Le bras du tendeur peut casser : perte de lubrification, pouvant entraîner la perte d'assistance de freinage et de direction.",
+      "controle": "Vérifier avec le VIN que le rappel Ford a été effectué.",
+      "solution": "Rappel officiel Ford (campagnes 2021 et 2023), pris en charge.",
+      "cout": [3000, 6000], "preventif": 0,
+      "rappel": true, "confiance": "confirmé",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité du 1.0 EcoBoost", "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"},
+        {"titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés", "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"}
+      ]
+    },
+    {
+      "id": "powershift",
+      "titre": "Boîte Powershift à embrayage sec : tremblements",
+      "boites": ["powershift"],
+      "annees": [2010, 2019],
+      "km": [30000, 180000],
+      "gravite": 2, "frequence": 3,
+      "symptomes": "Tremblements et à-coups au démarrage, hésitations entre rapports, fuites au joint d'arbre, refus d'engager la première. Les réparations ne règlent pas toujours le problème.",
+      "controle": "Essai en ville avec démarrages répétés, aucun message de boîte.",
+      "solution": "Embrayage, joints et calculateur de boîte selon le diagnostic. Ford a étendu la garantie dans plusieurs pays : vérifier auprès du réseau.",
+      "cout": [1500, 3000],
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "GoAuto : PowerShift DCT issues under control, says Ford", "url": "https://www.goauto.com.au/news/ford/powershift-dct-issues-under-control-ford/2015-09-03/20501.html"},
+        {"titre": "The Drive : Ford sued over PowerShift transmissions again", "url": "https://www.thedrive.com/news/fords-getting-sued-over-powershift-transmissions-again"}
+      ]
+    },
+    {
+      "id": "n47-chaine",
+      "titre": "Chaîne de distribution côté boîte (2.0d N47)",
+      "moteurs": ["n47"],
+      "annees": [2007, 2013],
+      "km": [80000, 250000],
+      "gravite": 3, "frequence": 3,
+      "symptomes": "Bruit de frottement audible à chaud vers 1 200 à 1 500 tr/min, vibrations au démarrage, perte de puissance. La chaîne peut sauter ou casser.",
+      "controle": "Écouter moteur chaud au ralenti et vers 1 500 tr/min. Exiger la facture d'intervention sur la distribution.",
+      "solution": "Remplacement des tendeurs, patins et chaînes selon le kilométrage (méthode BMW depuis 2017). Campagne BMW pour certains véhicules produits de février 2007 à décembre 2008.",
+      "cout": [6000, 8500], "preventif": 1200,
+      "rappel": false, "confiance": "confirmé",
+      "sources": [
+        {"titre": "L'argus : BMW/Mini 2.0d N47, le point sur les soucis de distribution", "url": "https://www.largus.fr/actualite-automobile/bmwmini-20d-n47-le-point-sur-les-soucis-de-distribution-9330391.html"},
+        {"titre": "Car Verif : BMW Série 1 E87, fiabilité", "url": "https://carverif.fr/pages/modele-occasion/bmw-serie-1-e87-2004-2011"}
+      ]
+    },
+    {
+      "id": "n13-calamine",
+      "titre": "Calaminage des soupapes d'admission (1.6 N13)",
+      "moteurs": ["n13"],
+      "annees": [2011, 2016],
+      "km": [60000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Injection directe : dépôts sur les soupapes, aggravés par les trajets courts. Ratés et perte de puissance.",
+      "controle": "Ralenti stable, aucun voyant, accélérations franches.",
+      "solution": "Décalaminage des soupapes, vidanges plus rapprochées.",
+      "cout": [400, 900],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Unixnerd : BMW N13 and N18 Prince engines", "url": "https://www.unixnerd.co.uk/n13.html"}
+      ]
+    },
+    {
+      "id": "dualogic",
+      "titre": "Boîte robotisée Dualogic : rapports refusés",
+      "boites": ["dualogic"],
+      "annees": [2007, 2024],
+      "km": [40000, 180000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "La boîte passe au neutre ou refuse certains rapports. Roulements internes qui prennent du jeu, grondement.",
+      "controle": "Passer tous les rapports à l'arrêt et en roulant, écouter les grondements.",
+      "solution": "Remplacement de la pompe, de l'actionneur ou des roulements selon le diagnostic.",
+      "cout": [800, 2000],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité Fiat 500 (2007)", "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"}
+      ]
+    },
+    {
+      "id": "twinair-uniair",
+      "titre": "Module MultiAir / UniAir (0.9 TwinAir)",
+      "moteurs": ["twinair"],
+      "annees": [2010, 2024],
+      "km": [60000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "À-coups, ralenti instable, voyant moteur.",
+      "controle": "Ralenti stable, accélérations franches, aucun voyant.",
+      "solution": "Remplacement du module, huile à la norme constructeur.",
+      "cout": [600, 1200],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité Fiat 500 (2007)", "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"}
+      ]
+    },
+    {
+      "id": "fire12-refroidissement",
+      "titre": "Boîtier thermostat et pompe à eau (1.2 8V Fiat)",
+      "moteurs": ["fire12"],
+      "annees": [2007, 2024],
+      "km": [60000, 200000],
+      "gravite": 1, "frequence": 2,
+      "symptomes": "Fuites de liquide de refroidissement, surchauffe si elles ne sont pas traitées.",
+      "controle": "Niveau du vase d'expansion, traces de liquide.",
+      "solution": "Remplacement du boîtier thermostat ou de la pompe à eau.",
+      "cout": [150, 450],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité Fiat 500 (2007)", "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"}
+      ]
+    },
+    {
+      "id": "mjt13-fap",
+      "titre": "Dilution du gazole dans l'huile (1.3 Multijet)",
+      "moteurs": ["mjt13"],
+      "annees": [2007, 2024],
+      "km": [60000, 200000],
+      "gravite": 2, "frequence": 2,
+      "symptomes": "Les régénérations du FAP interrompues font monter le niveau d'huile, ce qui peut aller jusqu'à la casse moteur.",
+      "controle": "Niveau d'huile qui ne dépasse pas le maximum, odeur de gazole sur la jauge.",
+      "solution": "Vidanges rapprochées, trajets réguliers sur voie rapide.",
+      "cout": [300, 5000],
+      "rappel": false, "confiance": "à confirmer",
+      "sources": [
+        {"titre": "Fiches-auto : fiabilité Fiat 500 (2007)", "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"}
+      ]
+    },
+    {
+      "id": "yaris4-hybride-rappel",
+      "titre": "Système hybride qui peut se couper en roulant",
+      "modeles": ["toyota-yaris-4"],
+      "annees": [2020, 2020],
+      "km": [0, 400000],
+      "gravite": 3, "frequence": 1,
+      "symptomes": "Coupure inopinée du système hybride, sans mode de secours. Véhicules produits du 7 juillet au 13 novembre 2020.",
+      "controle": "Vérifier avec le VIN que la reprogrammation du rappel a été faite.",
+      "solution": "Rappel officiel : reprogrammation gratuite en concession.",
+      "cout": [0, 0], "preventif": 0,
+      "rappel": true, "confiance": "confirmé",
+      "sources": [
+        {"titre": "L'argus : rappel Toyota Yaris 2020, systèmes hybrides à reprogrammer", "url": "https://www.largus.fr/actualite-automobile/rappel-toyota-yaris-2020-des-systemes-hybrides-a-reprogrammer-30022925.html"}
+      ]
+    }
+  ]
+}

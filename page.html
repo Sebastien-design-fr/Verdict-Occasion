@@ -1,0 +1,165 @@
+<title>Verdict Occasion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: atelier-style two-column sheet — vehicle form on the left, expertise report on the right; stacks on phones */
+:root{
+  --bg:#EEF2F5; --surface:#FFFFFF; --sunk:#F6F8FA; --ink:#15202C; --muted:#586777; --line:#D3DBE3;
+  --accent:#1D4E89; --accent-soft:#E2EBF5; --on-accent:#FFFFFF;
+  --ok:#23744A; --ok-soft:#E1F1E7; --warn:#9A6212; --warn-soft:#F8EDD9; --crit:#B3342A; --crit-soft:#F8E1DE;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E141B; --surface:#161F29; --sunk:#111922; --ink:#E4EAF0; --muted:#94A3B3; --line:#2A3746;
+  --accent:#78A9E6; --accent-soft:#1B2B3F; --on-accent:#0E141B;
+  --ok:#62C08A; --ok-soft:#15291F; --warn:#E3AA52; --warn-soft:#2E2414; --crit:#F0766A; --crit-soft:#331A18; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E141B; --surface:#161F29; --sunk:#111922; --ink:#E4EAF0; --muted:#94A3B3; --line:#2A3746;
+  --accent:#78A9E6; --accent-soft:#1B2B3F; --on-accent:#0E141B;
+  --ok:#62C08A; --ok-soft:#15291F; --warn:#E3AA52; --warn-soft:#2E2414; --crit:#F0766A; --crit-soft:#331A18; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:16px;padding-block:20px 48px}
+header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:16px}
+.brand h1{font-family:var(--f-display);font-weight:700;font-size:2.4rem;line-height:1;margin:0;letter-spacing:.01em;text-transform:uppercase}
+.brand p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
+.tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:3px}
+.tabs button{font:600 .9rem var(--f-body);border:0;background:transparent;color:var(--muted);padding:7px 14px;border-radius:6px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent);color:var(--on-accent)}
+button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:20px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px}
+.eyebrow{font:600 .72rem var(--f-body);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.form{display:flex;flex-direction:column;gap:12px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:.82rem;font-weight:600}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+select,input[type=number],input[type=search]{font:inherit;color:var(--ink);background:var(--sunk);border:1px solid var(--line);border-radius:6px;padding:8px 10px;width:100%;min-width:0}
+input[type=number]{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{flex:1;font:500 .85rem var(--f-body);border:0;background:var(--sunk);color:var(--muted);padding:8px 4px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.note{font-size:.8rem;color:var(--muted);background:var(--sunk);border-radius:6px;padding:8px 10px}
+.pill{display:inline-block;font:600 .7rem var(--f-body);letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.report{display:flex;flex-direction:column;gap:16px;min-width:0}
+.verdict{display:grid;grid-template-columns:auto minmax(0,1fr);gap:18px;align-items:center}
+@media (max-width:520px){.verdict{grid-template-columns:minmax(0,1fr)}}
+.plate{border:3px solid currentColor;border-radius:8px;padding:10px 16px;text-align:center;min-width:170px}
+.plate .lab{font:700 2rem/1 var(--f-display);text-transform:uppercase;letter-spacing:.02em}
+.plate .sc{font:500 .85rem var(--f-mono);margin-top:4px}
+.v-ok{color:var(--ok)} .v-warn{color:var(--warn)} .v-crit{color:var(--crit)}
+.vehicle{font:600 1.15rem var(--f-body);margin:0 0 4px;text-wrap:balance}
+.meter{height:10px;border-radius:5px;background:linear-gradient(90deg,var(--crit) 0 45%,var(--warn) 45% 70%,var(--ok) 70% 100%);position:relative;opacity:.9;margin-top:10px}
+.meter i{position:absolute;top:-5px;width:4px;height:20px;border-radius:2px;background:var(--ink);transform:translateX(-2px)}
+.meter-scale{display:flex;justify-content:space-between;font:500 .7rem var(--f-mono);color:var(--muted);margin-top:4px}
+.figs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:620px){.figs{grid-template-columns:minmax(0,1fr)}}
+.fig{border-top:2px solid var(--ink);padding-top:8px}
+.fig b{display:block;font:700 1.7rem/1.1 var(--f-display);font-variant-numeric:tabular-nums}
+.fig span{font-size:.8rem;color:var(--muted)}
+.def{border:1px solid var(--line);border-left-width:4px;border-radius:8px;background:var(--surface)}
+.def.g3{border-left-color:var(--crit)} .def.g2{border-left-color:var(--warn)} .def.g1{border-left-color:var(--muted)}
+.def.done{opacity:.62}
+.def summary{list-style:none;cursor:pointer;padding:12px 14px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px}
+.def summary::-webkit-details-marker{display:none}
+.def h3{margin:0;font-size:.98rem;font-weight:600}
+.def .meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.78rem;color:var(--muted)}
+.def .cost{font:500 .85rem var(--f-mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.chip{font:600 .68rem var(--f-body);letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px}
+.c3{background:var(--crit-soft);color:var(--crit)} .c2{background:var(--warn-soft);color:var(--warn)} .c1{background:var(--sunk);color:var(--muted);border:1px solid var(--line)}
+.zone{font-weight:600}
+.z-in{color:var(--crit)} .z-soon{color:var(--warn)} .z-later,.z-past{color:var(--muted)}
+.def .body{padding:0 14px 14px;display:grid;gap:10px;font-size:.88rem}
+.def .body dt{font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.def .body dd{margin:2px 0 0}
+.treat{display:flex;gap:8px;align-items:center;font-size:.85rem;font-weight:600;background:var(--sunk);border-radius:6px;padding:8px 10px;cursor:pointer}
+.list{display:flex;flex-direction:column;gap:8px}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:.88rem}
+.checks label{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
+.checks input{margin-top:3px}
+.alert{border-radius:8px;padding:10px 12px;font-size:.88rem}
+.alert.warn{background:var(--warn-soft);color:var(--ink);border:1px solid var(--warn)}
+.alert.ok{background:var(--ok-soft);border:1px solid var(--ok)}
+.argument{white-space:pre-wrap;font-size:.88rem;background:var(--sunk);border:1px solid var(--line);border-radius:8px;padding:12px;margin:0}
+.btn{font:600 .85rem var(--f-body);border:1px solid var(--accent);background:var(--accent);color:var(--on-accent);padding:7px 14px;border-radius:6px;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--accent)}
+.head-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.head-row h2{margin:0;font:700 1.35rem var(--f-display);text-transform:uppercase;letter-spacing:.02em}
+.empty{color:var(--muted);font-size:.9rem}
+/* Répertoire */
+.rep-tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.rep-tools input{flex:1 1 240px}
+.rep-tools select{flex:0 1 200px}
+.rep{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:14px}
+.model h3{margin:0;font:700 1.3rem var(--f-display);text-transform:uppercase}
+.model .yrs{font:500 .8rem var(--f-mono);color:var(--muted)}
+.model ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px}
+.model li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:baseline;font-size:.86rem}
+.model .clean{font-size:.86rem;color:var(--ok);margin-top:10px}
+.model .open{margin-top:12px}
+footer{margin-top:28px;color:var(--muted);font-size:.8rem;max-width:72ch}
+.stats{font:500 .78rem var(--f-mono);color:var(--muted);margin-top:6px}
+.conf{font:600 .66rem var(--f-body);letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px;border:1px solid var(--line);color:var(--muted)}
+.conf.ok{border-color:var(--ok);color:var(--ok)}
+.rap{font:600 .66rem var(--f-body);letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--accent-soft);color:var(--accent)}
+.srcs{margin:4px 0 0;padding-left:18px;font-size:.82rem}
+.srcs a{color:var(--accent);word-break:break-word}
+.rep-tools label{display:flex;gap:6px;align-items:center;font-size:.85rem;font-weight:500}
+@media (prefers-reduced-motion:no-preference){.meter i{transition:left .4s ease}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Verdict Occasion</h1>
+      <p>Défauts connus par modèle et motorisation, et évaluation d'un achat d'occasion.</p>
+      <p class="stats" id="stats"></p>
+    </div>
+    <div class="tabs" role="tablist">
+      <button role="tab" id="tab-eval" aria-selected="true" aria-controls="view-eval">Évaluer un véhicule</button>
+      <button role="tab" id="tab-rep" aria-selected="false" aria-controls="view-rep">Répertoire des défauts</button>
+    </div>
+  </header>
+
+  <section id="view-eval" role="tabpanel">
+    <div class="grid">
+      <aside class="panel">
+        <p class="eyebrow">Le véhicule <span class="pill" id="ex-pill">Exemple</span></p>
+        <div class="form">
+          <div class="field"><label for="f-model">Modèle</label><select id="f-model"></select></div>
+          <div class="field"><label for="f-eng">Motorisation</label><select id="f-eng"></select></div>
+          <div class="field"><label for="f-box">Boîte de vitesses</label><select id="f-box"></select></div>
+          <div class="row2">
+            <div class="field"><label for="f-year">Année</label><select id="f-year"></select></div>
+            <div class="field"><label for="f-km">Kilométrage</label><input id="f-km" type="number" min="0" step="1000" inputmode="numeric"></div>
+          </div>
+          <div class="field"><label for="f-price">Prix demandé (€)</label><input id="f-price" type="number" min="0" step="100" inputmode="numeric"></div>
+          <div class="field"><label id="l-maint">Historique d'entretien</label>
+            <div class="seg" id="f-maint" role="group" aria-labelledby="l-maint">
+              <button data-v="complet">Complet</button><button data-v="partiel">Partiel</button><button data-v="aucun">Aucun</button>
+            </div>
+          </div>
+          <p class="note">Cochez « Traité » sur un défaut quand le vendeur présente une facture de réparation. Le score et le prix cible se recalculent.</p>
+        </div>
+      </aside>
+      <div class="report" id="report"></div>
+    </div>
+  </section>
+
+  <section id="view-rep" role="tabpanel" hidden>
+    <div class="rep-tools">
+      <input type="search" id="r-q" placeholder="Rechercher un modèle, un moteur, un défaut…" aria-label="Rechercher">
+      <select id="r-brand" aria-label="Marque"></select>
+      <label><input type="checkbox" id="r-conf"> Défauts confirmés uniquement</label>
+    </div>
+    <div class="rep" id="rep"></div>
+  </section>
+
+  <footer>Base en construction (lot 1 : véhicules 2010 à 2026). Chaque défaut indique ses sources et son niveau de confiance : « confirmé » signifie rappel officiel ou au moins deux sources indépendantes. Les kilométrages et coûts (pièces et main-d'œuvre, France) sont des ordres de grandeur. Vérifiez toujours les rappels avec le numéro VIN et l'historique sur HistoVec, le service officiel gratuit.</footer>
+</div>
+

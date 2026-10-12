@@ -1,0 +1,1973 @@
+{
+ "version": "2026-10-12",
+ "modeles": [
+  {
+   "id": "peugeot-208-1",
+   "marque": "Peugeot",
+   "modele": "208",
+   "generation": "I",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP (GTi)",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 HDi et e-HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-208-2",
+   "marque": "Peugeot",
+   "modele": "208",
+   "generation": "II",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech 75",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-2008-1",
+   "marque": "Peugeot",
+   "modele": "2008",
+   "generation": "I",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 VTi",
+     "code": "vti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 HDi et e-HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-2008-2",
+   "marque": "Peugeot",
+   "modele": "2008",
+   "generation": "II",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-308-2",
+   "marque": "Peugeot",
+   "modele": "308",
+   "generation": "II",
+   "annees": [
+    2013,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 HDi et e-HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-3008-2",
+   "marque": "Peugeot",
+   "modele": "3008",
+   "generation": "II",
+   "annees": [
+    2016,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-5008-2",
+   "marque": "Peugeot",
+   "modele": "5008",
+   "generation": "II",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c3-2",
+   "marque": "Citroën",
+   "modele": "C3",
+   "generation": "II",
+   "annees": [
+    2009,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 VTi",
+     "code": "vti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 HDi et e-HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c3-3",
+   "marque": "Citroën",
+   "modele": "C3",
+   "generation": "III",
+   "annees": [
+    2016,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c3-aircross",
+   "marque": "Citroën",
+   "modele": "C3 Aircross",
+   "generation": "I",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c4-cactus",
+   "marque": "Citroën",
+   "modele": "C4 Cactus",
+   "generation": "I",
+   "annees": [
+    2014,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 PureTech atmo (68 à 82 ch)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.6 HDi et e-HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c4-picasso-2",
+   "marque": "Citroën",
+   "modele": "C4 Picasso / SpaceTourer",
+   "generation": "II",
+   "annees": [
+    2013,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "citroen-c5-aircross",
+   "marque": "Citroën",
+   "modele": "C5 Aircross",
+   "generation": "I",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "ds-3-crossback",
+   "marque": "DS",
+   "modele": "DS 3 Crossback",
+   "generation": "I",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "ds-7",
+   "marque": "DS",
+   "modele": "DS 7",
+   "generation": "I",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "opel-corsa-f",
+   "marque": "Opel",
+   "modele": "Corsa",
+   "generation": "F",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 75 ch (base PureTech)",
+     "code": "puretech-a",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 Turbo 100 / 130 ch (base PureTech)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 Diesel (base BlueHDi)",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "opel-grandland-x",
+   "marque": "Opel",
+   "modele": "Grandland X",
+   "generation": "I",
+   "annees": [
+    2017,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech turbo (100 à 155 ch)",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 THP / PureTech 165 à 225 ch",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 BlueHDi",
+     "code": "bluehdi20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT6 / EAT8",
+     "code": "eat"
+    }
+   ]
+  },
+  {
+   "id": "renault-clio-4",
+   "marque": "Renault",
+   "modele": "Clio",
+   "generation": "IV",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "0.9 TCe 90",
+     "code": "tce09",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 16V / 1.0 SCe",
+     "code": "r12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 TCe 120",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-clio-5",
+   "marque": "Renault",
+   "modele": "Clio",
+   "generation": "V",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TCe / SCe",
+     "code": "tce10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "E-Tech hybride",
+     "code": "etech",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "renault-captur-1",
+   "marque": "Renault",
+   "modele": "Captur",
+   "generation": "I",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "0.9 TCe 90",
+     "code": "tce09",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-captur-2",
+   "marque": "Renault",
+   "modele": "Captur",
+   "generation": "II",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TCe / SCe",
+     "code": "tce10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "E-Tech hybride",
+     "code": "etech",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-megane-3",
+   "marque": "Renault",
+   "modele": "Mégane",
+   "generation": "III",
+   "annees": [
+    2008,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-megane-4",
+   "marque": "Renault",
+   "modele": "Mégane",
+   "generation": "IV",
+   "annees": [
+    2016,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-scenic-3",
+   "marque": "Renault",
+   "modele": "Scénic / Grand Scénic",
+   "generation": "III",
+   "annees": [
+    2009,
+    2016
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "renault-kadjar",
+   "marque": "Renault",
+   "modele": "Kadjar",
+   "generation": "I",
+   "annees": [
+    2015,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "dacia-sandero-2",
+   "marque": "Dacia",
+   "modele": "Sandero",
+   "generation": "II",
+   "annees": [
+    2012,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 16V / 1.0 SCe",
+     "code": "r12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "0.9 TCe 90",
+     "code": "tce09",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée Easy-R",
+     "code": "easyr"
+    }
+   ]
+  },
+  {
+   "id": "dacia-duster-1",
+   "marque": "Dacia",
+   "modele": "Duster",
+   "generation": "I",
+   "annees": [
+    2010,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 16V",
+     "code": "r16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 TCe 125",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    }
+   ]
+  },
+  {
+   "id": "dacia-duster-2",
+   "marque": "Dacia",
+   "modele": "Duster",
+   "generation": "II",
+   "annees": [
+    2018,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TCe / SCe",
+     "code": "tce10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    }
+   ]
+  },
+  {
+   "id": "dacia-lodgy",
+   "marque": "Dacia",
+   "modele": "Lodgy",
+   "generation": "I",
+   "annees": [
+    2012,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TCe 115 à 130",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 TCe 130 à 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    }
+   ]
+  },
+  {
+   "id": "nissan-qashqai-2",
+   "marque": "Nissan",
+   "modele": "Qashqai",
+   "generation": "II",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 DIG-T 115",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 DIG-T",
+     "code": "tce13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT Xtronic",
+     "code": "xtronic"
+    }
+   ]
+  },
+  {
+   "id": "nissan-juke-1",
+   "marque": "Nissan",
+   "modele": "Juke",
+   "generation": "I",
+   "annees": [
+    2010,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 DIG-T 115 (2014-2019)",
+     "code": "tce12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 essence",
+     "code": "nis16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi / Blue dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "vw-golf-6",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "generation": "VI",
+   "annees": [
+    2008,
+    2012
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (chaîne, EA111)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-golf-7",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "generation": "VII",
+   "annees": [
+    2012,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-polo-5",
+   "marque": "Volkswagen",
+   "modele": "Polo",
+   "generation": "V",
+   "annees": [
+    2009,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 TSI (2009-2014)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.2 TSI (2014-2017)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.6 TDI (2009-2014)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.4 TDI (2014-2017)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "seat-ibiza-4",
+   "marque": "Seat",
+   "modele": "Ibiza",
+   "generation": "IV",
+   "annees": [
+    2008,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TSI (2008-2014)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.2 TSI (2014-2017)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "seat-leon-3",
+   "marque": "Seat",
+   "modele": "Leon",
+   "generation": "III",
+   "annees": [
+    2012,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "skoda-octavia-3",
+   "marque": "Skoda",
+   "modele": "Octavia",
+   "generation": "III",
+   "annees": [
+    2013,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "audi-a1-8x",
+   "marque": "Audi",
+   "modele": "A1",
+   "generation": "8X",
+   "annees": [
+    2010,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 / 1.4 TFSI (2010-2014)",
+     "code": "ea111",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.4 TFSI (2014-2018)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA189)",
+     "code": "ea189",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "audi-a3-8v",
+   "marque": "Audi",
+   "modele": "A3",
+   "generation": "8V",
+   "annees": [
+    2012,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 / 1.2 / 1.4 TSI (courroie, EA211)",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 TSI ACT 140 à 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "ford-fiesta-7",
+   "marque": "Ford",
+   "modele": "Fiesta",
+   "generation": "VII",
+   "annees": [
+    2008,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Powershift",
+     "code": "powershift"
+    }
+   ]
+  },
+  {
+   "id": "ford-focus-3",
+   "marque": "Ford",
+   "modele": "Focus",
+   "generation": "III",
+   "annees": [
+    2011,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Powershift",
+     "code": "powershift"
+    }
+   ]
+  },
+  {
+   "id": "ford-cmax-2",
+   "marque": "Ford",
+   "modele": "C-Max / Grand C-Max",
+   "generation": "II",
+   "annees": [
+    2010,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Powershift",
+     "code": "powershift"
+    }
+   ]
+  },
+  {
+   "id": "ford-ecosport",
+   "marque": "Ford",
+   "modele": "EcoSport",
+   "generation": "I",
+   "annees": [
+    2013,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 EcoBoost",
+     "code": "ecoboost10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.25 / 1.4 / 1.6 Ti-VCT",
+     "code": "tivct",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.6 / 2.0 TDCi",
+     "code": "tdci",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Powershift",
+     "code": "powershift"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie1-f20",
+   "marque": "BMW",
+   "modele": "Série 1",
+   "generation": "F20",
+   "annees": [
+    2011,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "116i / 118i 1.6 (N13)",
+     "code": "n13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "116d / 118d / 120d (N47, 2011-2014)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Essence (2015-2019)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Diesel (B47, 2015-2019)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "bmw-serie3-f30",
+   "marque": "BMW",
+   "modele": "Série 3",
+   "generation": "F30",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "316i 1.6 (N13)",
+     "code": "n13",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "316d / 318d / 320d (N47, 2012-2014)",
+     "code": "n47",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Essence (2015-2019)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Diesel (B47, 2015-2019)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 8 rapports",
+     "code": "zf8"
+    }
+   ]
+  },
+  {
+   "id": "fiat-500",
+   "marque": "Fiat",
+   "modele": "500",
+   "generation": "(312)",
+   "annees": [
+    2007,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 8V 69",
+     "code": "fire12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "0.9 TwinAir",
+     "code": "twinair",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 Multijet",
+     "code": "mjt13",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée Dualogic",
+     "code": "dualogic"
+    }
+   ]
+  },
+  {
+   "id": "toyota-yaris-3",
+   "marque": "Toyota",
+   "modele": "Yaris",
+   "generation": "III",
+   "annees": [
+    2011,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 Hybride",
+     "code": "toyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.0 / 1.33 / 1.5 VVT-i",
+     "code": "vvti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 D-4D",
+     "code": "d4d",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    },
+    {
+     "libelle": "Automatique Multidrive",
+     "code": "mdrive"
+    }
+   ]
+  },
+  {
+   "id": "toyota-yaris-4",
+   "marque": "Toyota",
+   "modele": "Yaris",
+   "generation": "IV",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 Hybride",
+     "code": "toyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.0 / 1.33 / 1.5 VVT-i",
+     "code": "vvti",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  }
+ ]
+}

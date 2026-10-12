@@ -24,6 +24,11 @@ for d in dfx['defauts']:
         if c not in codes_b: errors.append(f"{d['id']} : boîte inconnue {c}")
     for c in d.get('modeles', []):
         if c not in ids_mod: errors.append(f"{d['id']} : modèle inconnu {c}")
+    if d.get('modeles') and d.get('moteurs'):
+        for mid in d['modeles']:
+            mm = next((m for m in mod['modeles'] if m['id'] == mid), None)
+            if mm and not any(e['code'] in d['moteurs'] for e in mm['moteurs']):
+                errors.append(f"{d['id']} : le modèle {mid} n'a aucun des moteurs visés")
     if not d.get('sources'): errors.append(f"{d['id']} : aucune source")
     if d['confiance'] == 'confirmé' and not d.get('rappel') and len(d['sources']) < 2:
         errors.append(f"{d['id']} : « confirmé » sans rappel ni deux sources")

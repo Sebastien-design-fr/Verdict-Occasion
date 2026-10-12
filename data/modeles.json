@@ -1968,6 +1968,805 @@
      "code": "ecvt"
     }
    ]
+  },
+  {
+   "id": "hyundai-i20-2",
+   "marque": "Hyundai",
+   "modele": "i20",
+   "generation": "II",
+   "annees": [
+    2014,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.4 MPi",
+     "code": "hymp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.1 / 1.4 CRDi",
+     "code": "crdi11",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique à convertisseur",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-i30-2",
+   "marque": "Hyundai",
+   "modele": "i30",
+   "generation": "II",
+   "annees": [
+    2012,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 MPi",
+     "code": "hymp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 GDi",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique à convertisseur",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-i30-3",
+   "marque": "Hyundai",
+   "modele": "i30",
+   "generation": "III",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 T-GDi",
+     "code": "tgdi14",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 CRDi hybride léger 48V",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-tucson-3",
+   "marque": "Hyundai",
+   "modele": "Tucson",
+   "generation": "III (TL)",
+   "annees": [
+    2015,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 T-GDi",
+     "code": "tgdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.7 CRDi",
+     "code": "crdi17",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 CRDi",
+     "code": "crdi20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 CRDi hybride léger 48V",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique à convertisseur",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "hyundai-kona-1",
+   "marque": "Hyundai",
+   "modele": "Kona",
+   "generation": "I",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 T-GDi",
+     "code": "tgdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Hybride 1.6 GDi",
+     "code": "hyhyb",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "kia-sportage-4",
+   "marque": "Kia",
+   "modele": "Sportage",
+   "generation": "IV",
+   "annees": [
+    2016,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 GDi",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 T-GDi",
+     "code": "tgdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.7 CRDi",
+     "code": "crdi17",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 CRDi",
+     "code": "crdi20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 CRDi hybride léger 48V",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique à convertisseur",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "kia-ceed-2",
+   "marque": "Kia",
+   "modele": "Ceed",
+   "generation": "II (JD)",
+   "annees": [
+    2012,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 GDi",
+     "code": "gdi16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 MPi",
+     "code": "hymp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    },
+    {
+     "libelle": "Automatique à convertisseur",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "kia-ceed-3",
+   "marque": "Kia",
+   "modele": "Ceed",
+   "generation": "III",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 / 1.5 T-GDi",
+     "code": "tgdi14",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 CRDi hybride léger 48V",
+     "code": "crdi16mhev",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    }
+   ]
+  },
+  {
+   "id": "kia-rio-4",
+   "marque": "Kia",
+   "modele": "Rio",
+   "generation": "IV",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.4 MPi",
+     "code": "hymp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.1 / 1.4 CRDi",
+     "code": "crdi11",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    }
+   ]
+  },
+  {
+   "id": "kia-stonic",
+   "marque": "Kia",
+   "modele": "Stonic",
+   "generation": "I",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 T-GDi",
+     "code": "tgdi10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.4 MPi",
+     "code": "hymp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CRDi",
+     "code": "crdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique DCT-7 (double embrayage)",
+     "code": "dct7"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-a-w176",
+   "marque": "Mercedes",
+   "modele": "Classe A",
+   "generation": "W176",
+   "annees": [
+    2012,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 2.0 essence (M270)",
+     "code": "m270",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 CDI / 180d (moteur Renault)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G-DCT (double embrayage)",
+     "code": "7gdct"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-b-w246",
+   "marque": "Mercedes",
+   "modele": "Classe B",
+   "generation": "W246",
+   "annees": [
+    2011,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 2.0 essence (M270)",
+     "code": "m270",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 CDI / 180d (moteur Renault)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G-DCT (double embrayage)",
+     "code": "7gdct"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-cla-c117",
+   "marque": "Mercedes",
+   "modele": "CLA",
+   "generation": "C117",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 2.0 essence (M270)",
+     "code": "m270",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 CDI / 180d (moteur Renault)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G-DCT (double embrayage)",
+     "code": "7gdct"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-gla-x156",
+   "marque": "Mercedes",
+   "modele": "GLA",
+   "generation": "X156",
+   "annees": [
+    2014,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 2.0 essence (M270)",
+     "code": "m270",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 CDI / 180d (moteur Renault)",
+     "code": "k9k",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G-DCT (double embrayage)",
+     "code": "7gdct"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-c-w204",
+   "marque": "Mercedes",
+   "modele": "Classe C",
+   "generation": "W204",
+   "annees": [
+    2007,
+    2014
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 1.8 essence (M271)",
+     "code": "m271",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G / 9G-Tronic",
+     "code": "7gt"
+    }
+   ]
+  },
+  {
+   "id": "mercedes-classe-c-w205",
+   "marque": "Mercedes",
+   "modele": "Classe C",
+   "generation": "W205",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 / 2.0 essence (M274)",
+     "code": "m274",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.1 CDI / 200d / 220d (OM651)",
+     "code": "om651",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 diesel (OM654)",
+     "code": "om654",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique 7G / 9G-Tronic",
+     "code": "7gt"
+    }
+   ]
+  },
+  {
+   "id": "toyota-chr-1",
+   "marque": "Toyota",
+   "modele": "C-HR",
+   "generation": "I",
+   "annees": [
+    2016,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.8 Hybride",
+     "code": "toyhyb18",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "2.0 Hybride",
+     "code": "toyhyb20",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.2 Turbo (8NR)",
+     "code": "toy12t",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "toyota-auris-2",
+   "marque": "Toyota",
+   "modele": "Auris",
+   "generation": "II",
+   "annees": [
+    2012,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.8 Hybride",
+     "code": "toyhyb18",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.2 Turbo (8NR)",
+     "code": "toy12t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.33 / 1.6 VVT-i",
+     "code": "vvti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 D-4D",
+     "code": "d4d",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 D-4D",
+     "code": "d4d16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 D-4D",
+     "code": "d4d20",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    },
+    {
+     "libelle": "Automatique Multidrive",
+     "code": "mdrive"
+    }
+   ]
+  },
+  {
+   "id": "toyota-corolla-12",
+   "marque": "Toyota",
+   "modele": "Corolla",
+   "generation": "XII",
+   "annees": [
+    2019,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.8 Hybride",
+     "code": "toyhyb18",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "2.0 Hybride",
+     "code": "toyhyb20",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.2 Turbo (8NR)",
+     "code": "toy12t",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
   }
  ]
 }

@@ -28,9 +28,14 @@ const NOW=new Date().getFullYear();
 
 $('#stats').textContent=`${MODELS.length} modèles · ${DEFECTS.length} défauts répertoriés, dont ${DEFECTS.filter(d=>d.confiance==='confirmé').length} confirmés`;
 
+/* Un défaut vise des moteurs, des boîtes ou un carburant. S'il liste aussi des modèles,
+   il ne concerne que ces modèles (ex. rappel propre au C-HR hybride). */
 function applies(d,model,eng,box){
-  return (d.moteurs&&eng&&d.moteurs.includes(eng.code))||(d.carburant&&eng&&d.carburant===eng.carburant)
-    ||(d.boites&&box&&d.boites.includes(box.code))||(d.modeles&&d.modeles.includes(model.id));
+  const tech=d.moteurs||d.boites||d.carburant;
+  const techOK=(d.moteurs&&eng&&d.moteurs.includes(eng.code))||(d.carburant&&eng&&d.carburant===eng.carburant)
+    ||(d.boites&&box&&d.boites.includes(box.code));
+  const modOK=d.modeles?d.modeles.includes(model.id):true;
+  return tech?(!!techOK&&modOK):(!!d.modeles&&modOK);
 }
 function zone(km,r){
   if(km<r[0]*0.6) return {f:.35,cls:'z-later',l:'Risque à venir'};
@@ -154,7 +159,7 @@ function renderRep(){
   const q=$('#r-q').value.trim().toLowerCase(),br=$('#r-brand').value,onlyConf=$('#r-conf').checked;
   const out=MODELS.filter(m=>!br||m.marque===br).map(m=>{
     const defs=DEFECTS.filter(d=>(!onlyConf||d.confiance==='confirmé')
-      &&(m.moteurs.some(e=>applies(d,m,e,null))||m.boites.some(b=>applies(d,m,null,b))||(d.modeles&&d.modeles.includes(m.id)))
+      &&(m.moteurs.some(e=>applies(d,m,e,null))||m.boites.some(b=>applies(d,m,null,b))||applies(d,m,null,null))
       &&(!d.annees||(d.annees[1]>=m.annees[0]&&d.annees[0]<=m.annees[1])));
     const hay=(label(m)+' '+m.moteurs.map(e=>e.libelle).join(' ')+' '+defs.map(d=>d.titre).join(' ')).toLowerCase();
     return {m,defs,ok:!q||hay.includes(q)};

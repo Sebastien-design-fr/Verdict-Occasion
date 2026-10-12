@@ -5,7 +5,7 @@
 ## Contenu
 
 - `data/modeles.json` : catalogue des modèles, avec leurs motorisations et boîtes (codes moteur partagés entre modèles).
-- `data/defauts.json` : base des défauts. Chaque défaut est rattaché à des codes moteur, des codes boîte, des modèles ou un carburant, avec ses années, sa plage de kilométrage, sa gravité, sa fréquence, ses coûts, ses sources et son niveau de confiance.
+- `data/defauts.json` : base des défauts. Chaque défaut est rattaché à des codes moteur, des codes boîte ou un carburant (et peut être limité à certains modèles, par exemple pour un rappel propre à un modèle), avec ses années, sa plage de kilométrage, sa gravité, sa fréquence, ses coûts, ses sources et son niveau de confiance.
 - `page.html` + `app.js` : l'application.
 - `build.py` : vérifie la cohérence de la base, puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
 
@@ -21,4 +21,5 @@ Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il es
 ## Avancement
 
 - Lot 1 (octobre 2026) : 48 modèles 2010-2026, 33 défauts.
-- Prochains lots : Hyundai, Kia, Mercedes, Opel hors Stellantis, Skoda Fabia, Toyota C-HR et Auris, puis 2000-2010.
+- Lot 2 (octobre 2026) : Hyundai, Kia, Mercedes, Toyota C-HR, Auris et Corolla ; recoupement de défauts du lot 1. Total : 67 modèles, 50 défauts dont 32 confirmés.
+- Prochains lots : Opel hors Stellantis, Skoda Fabia, Seat Arona, VW T-Roc et Tiguan, Mini, Honda, Mazda, Suzuki, puis 2000-2010.

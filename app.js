@@ -1,4 +1,4 @@
-/* Verdict Occasion — moteur d'évaluation. Les données viennent de data/modeles.json et data/defauts.json. */
+/* Ausculto — moteur d'évaluation. Les données viennent de data/modeles.json et data/defauts.json. */
 (async function(){
 const $=s=>document.querySelector(s);
 let DATA=window.VO_DATA;

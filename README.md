@@ -23,4 +23,5 @@ Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il es
 - Lot 1 (octobre 2026) : 48 modèles 2010-2026, 33 défauts.
 - Lot 2 (octobre 2026) : Hyundai, Kia, Mercedes, Toyota C-HR, Auris et Corolla ; recoupement de défauts du lot 1. Total : 67 modèles, 50 défauts dont 32 confirmés.
 - Lot 3 (octobre 2026) : Opel Astra K, Mokka, Corsa E, Mini, Honda, Mazda, Suzuki, Skoda Fabia, Seat Arona, VW T-Roc, Tiguan et Golf VIII ; boîte DSG DQ381. Total : 87 modèles, 61 défauts dont 39 confirmés.
-- Prochains lots : Nissan Micra et X-Trail, Dacia Spring, Renault Twingo III et Zoé, Citroën Berlingo, Peugeot Partner et Rifter, Fiat Panda et Tipo, Jeep Renegade, Volvo, puis 2000-2010.
+- Lot 4 (octobre 2026) : Renault Twingo III et Zoé, Dacia Spring, Nissan Micra et X-Trail, Citroën Berlingo, Peugeot Partner et Rifter, Fiat Panda et Tipo, Jeep Renegade, Volvo V40 et XC60. Total : 101 modèles, 76 défauts dont 47 confirmés.
+- Prochains lots : compléter 2010-2026 (Kia Niro, Hyundai Ioniq, Tesla Model 3, Peugeot 508, Citroën C4, Renault Austral et Arkana, Skoda Kodiaq, BMW X1 et Série 3 G20, Audi Q3 et A4), puis 2000-2010.

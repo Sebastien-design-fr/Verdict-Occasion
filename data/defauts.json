@@ -1,6 +1,6 @@
 {
  "version": "2026-10-12",
- "perimetre": "Lots 1 à 3 : véhicules 2010 à 2026",
+ "perimetre": "Lots 1 à 4 : véhicules 2010 à 2026",
  "regles": {
   "gravite": "1 mineure, 2 majeure, 3 critique (vocabulaire du contrôle technique)",
   "frequence": "1 rare, 2 courante, 3 très répandue",
@@ -2150,6 +2150,544 @@
     {
      "titre": "Carwiki : problèmes des boîtes DSG",
      "url": "https://carwiki.de/vw-DSG-probleme/"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "twingo-tce09-turbo",
+   "titre": "Actionneur de turbo corrodé (Twingo III 0.9 TCe)",
+   "modeles": [
+    "renault-twingo-3"
+   ],
+   "moteurs": [
+    "tce09"
+   ],
+   "annees": [
+    2014,
+    2020
+   ],
+   "km": [
+    30000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Perte de puissance, à-coups, voyant d'injection, code P0299 (suralimentation insuffisante).",
+   "controle": "Accélérations franches pendant l'essai, lecture des codes défaut.",
+   "solution": "Remplacement de l'actionneur ou du turbo selon le diagnostic.",
+   "cout": [
+    300,
+    1500
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : avis et fiabilité Renault Twingo III",
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Renault Twingo 3",
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "twingo-edc-rappel",
+   "titre": "Démarrage possible en position Drive (Twingo III EDC)",
+   "modeles": [
+    "renault-twingo-3"
+   ],
+   "boites": [
+    "edc"
+   ],
+   "annees": [
+    2014,
+    2015
+   ],
+   "km": [
+    0,
+    300000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Le moteur pouvait démarrer levier sur D. Rappel de fin 2015 sur 944 véhicules.",
+   "controle": "Vérifier avec le VIN que la reprogrammation a été faite ; le moteur ne doit démarrer qu'en P ou N.",
+   "solution": "Rappel officiel : reprogrammation du calculateur.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : avis et fiabilité Renault Twingo III",
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Renault Twingo 3",
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+    }
+   ]
+  },
+  {
+   "id": "twingo-sce-acoups",
+   "titre": "À-coups et ratés (Twingo III 1.0 SCe)",
+   "modeles": [
+    "renault-twingo-3"
+   ],
+   "moteurs": [
+    "sce10"
+   ],
+   "annees": [
+    2014,
+    2016
+   ],
+   "km": [
+    10000,
+    150000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "Vibrations, à-coups en ville, ratés d'allumage (bobines), régime instable, parfois refus de démarrer.",
+   "controle": "Ralenti stable, aucun raté en ville, aucun voyant.",
+   "solution": "Remplacement des bobines ou des sondes selon le diagnostic.",
+   "cout": [
+    150,
+    600
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : avis et fiabilité Renault Twingo III",
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Renault Twingo 3",
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "twingo-ev-charge",
+   "titre": "Charge interrompue ou impossible (Twingo E-Tech électrique)",
+   "modeles": [
+    "renault-twingo-3"
+   ],
+   "moteurs": [
+    "ev"
+   ],
+   "annees": [
+    2020,
+    2024
+   ],
+   "km": [
+    0,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 1,
+   "symptomes": "Charge impossible ou interrompue (calculateur de batterie, câblage du chargeur), batterie 12 V pouvant empêcher le démarrage.",
+   "controle": "Tester une charge complète pendant la visite.",
+   "solution": "Réparation du câblage ou du calculateur selon le diagnostic.",
+   "cout": [
+    200,
+    2000
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "L'argus : avis et fiabilité Renault Twingo III",
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "zoe-chargeur",
+   "titre": "Chargeur embarqué défaillant (Renault Zoé)",
+   "modeles": [
+    "renault-zoe"
+   ],
+   "moteurs": [
+    "ev"
+   ],
+   "annees": [
+    2012,
+    2024
+   ],
+   "km": [
+    0,
+    250000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Messages d'erreur, charge qui s'arrête ou impossible, parfois court-circuit. Problème d'interférences du chargeur « Caméléon », surtout sur la Zoé de première génération.",
+   "controle": "Tester une charge sur borne pendant la visite, climatisation fonctionnelle (son défaut aggrave la surchauffe du chargeur).",
+   "solution": "Réparation ou remplacement du système de charge. Pas de rappel officiel.",
+   "cout": [
+    2000,
+    8000
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Presse-citron : la Renault Zoé a un grave problème de charge",
+     "url": "https://www.presse-citron.net/la-renault-zoe-a-un-grave-probleme-de-charge-coutant-8-000-euros-de-reparation/"
+    },
+    {
+     "titre": "Fiches-auto : les voitures électriques les moins fiables",
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-electrique/s-3378-les-voitures-electriques-les-moins-fiables.php"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "spring-rouille",
+   "titre": "Corrosion du soubassement et fuite de batterie 12 V (Dacia Spring)",
+   "modeles": [
+    "dacia-spring"
+   ],
+   "moteurs": [
+    "ev"
+   ],
+   "annees": [
+    2021,
+    2024
+   ],
+   "km": [
+    0,
+    200000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "Rouille sur les supports d'essieu arrière, la traverse et le carter de batterie, jantes qui rouillent ou se fissurent. Fuite d'acide de la batterie 12 V qui attaque le longeron avant droit.",
+   "controle": "Inspecter le dessous de caisse, le bac de batterie 12 V et les jantes.",
+   "solution": "Traitement ou remplacement des pièces sous garantie anticorrosion de 6 ans. Pas de rappel.",
+   "cout": [
+    200,
+    1500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "L'argus : la Dacia Spring rencontre des problèmes de rouille",
+     "url": "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "spring-chargeur-rappel",
+   "titre": "Chargeur embarqué (Dacia Spring)",
+   "modeles": [
+    "dacia-spring"
+   ],
+   "moteurs": [
+    "ev"
+   ],
+   "annees": [
+    2021,
+    2023
+   ],
+   "km": [
+    0,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 1,
+   "symptomes": "Charge impossible, parfois démarrage impossible. Rappel en 2023 sur près de 6 000 véhicules.",
+   "controle": "Vérifier avec le VIN que le rappel a été fait, tester une charge, vérifier le déverrouillage du câble.",
+   "solution": "Rappel officiel : reprogrammation et remplacement de pièces si besoin.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Automobile Propre : Dacia Spring d'occasion, ce qu'il faut savoir",
+     "url": "https://www.automobile-propre.com/articles/dacia-spring-doccasion-tout-ce-quil-faut-savoir-avant-dacheter/"
+    }
+   ]
+  },
+  {
+   "id": "r9m-turbo",
+   "titre": "Turbo (1.6 dCi 130)",
+   "moteurs": [
+    "r9m"
+   ],
+   "annees": [
+    2011,
+    2019
+   ],
+   "km": [
+    40000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Casse de turbo signalée parfois dès 40 000 km, perte de puissance, sifflement.",
+   "controle": "Sifflement de turbo, fumée, montée en régime franche.",
+   "solution": "Remplacement du turbo, vidanges régulières.",
+   "cout": [
+    1200,
+    2500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Car Verif : Nissan X-Trail III T32",
+     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "xtronic",
+   "titre": "Boîte CVT Xtronic : vibrations et à-coups",
+   "boites": [
+    "xtronic"
+   ],
+   "annees": [
+    2014,
+    2021
+   ],
+   "km": [
+    40000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Vibrations, à-coups, hésitations, bruits.",
+   "controle": "Accélérations progressives puis franches, écouter les bruits.",
+   "solution": "Reprogrammation ou remplacement de la boîte.",
+   "cout": [
+    300,
+    4500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Car Verif : Nissan X-Trail III T32",
+     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "multiair14-module",
+   "titre": "Module MultiAir (1.4 MultiAir)",
+   "moteurs": [
+    "multiair14"
+   ],
+   "annees": [
+    2010,
+    2020
+   ],
+   "km": [
+    60000,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Ralenti instable, ratés, perte de puissance, voyant moteur (codes P0014, P1014).",
+   "controle": "Ralenti stable, accélérations franches, aucun voyant ; factures de vidange avec l'huile prescrite.",
+   "solution": "Remplacement du bloc actionneur MultiAir.",
+   "cout": [
+    800,
+    2300
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Car Verif : Jeep Renegade I 2014-2024",
+     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024"
+    },
+    {
+     "titre": "Au7o : problèmes connus de la Fiat 500",
+     "url": "https://au7o.io/fr/known-issues/fiat-500"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "renegade-9at",
+   "titre": "Boîte automatique 9 rapports : passages hésitants",
+   "modeles": [
+    "jeep-renegade"
+   ],
+   "boites": [
+    "zf9"
+   ],
+   "annees": [
+    2014,
+    2016
+   ],
+   "km": [
+    0,
+    200000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "La boîte cherche son rapport et réagit lentement sur les premières séries.",
+   "controle": "Essai en ville et sur route, mises à jour logicielles effectuées.",
+   "solution": "Mise à jour de la programmation de la boîte.",
+   "cout": [
+    0,
+    500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Guide Auto : problèmes de boîte de la Jeep Renegade",
+     "url": "https://www.guideautoweb.com/en/articles/29626/transmission-problems-for-the-jeep-renegade"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "renegade-ddct",
+   "titre": "Boîte DDCT : à-coups et passages lents",
+   "modeles": [
+    "jeep-renegade"
+   ],
+   "boites": [
+    "ddct"
+   ],
+   "annees": [
+    2014,
+    2024
+   ],
+   "km": [
+    20000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "À-coups à haut régime, passages lents, patinage.",
+   "controle": "Essai boîte chaude, aucun message de boîte.",
+   "solution": "Diagnostic en atelier, reprogrammation ou réparation.",
+   "cout": [
+    500,
+    3000
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Car Verif : Jeep Renegade I 2014-2024",
+     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "volvo-vea-huile",
+   "titre": "Consommation d'huile (2.0 D4 Drive-E)",
+   "moteurs": [
+    "vead"
+   ],
+   "annees": [
+    2014,
+    2020
+   ],
+   "km": [
+    90000,
+    250000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Consommation d'huile qui augmente avec le kilométrage, environ 1 litre tous les 2 000 km à partir de 90 000 km, parfois bien plus.",
+   "controle": "Niveau d'huile et historique des appoints.",
+   "solution": "Réparation lourde selon le diagnostic, gestes commerciaux Volvo au cas par cas.",
+   "cout": [
+    300,
+    6000
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Car Verif : Volvo XC60 I D4 181",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Volvo V40",
+     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "volvo-collecteur-rappel",
+   "titre": "Collecteur d'admission qui peut fondre (diesels 4 cylindres Drive-E)",
+   "moteurs": [
+    "vead"
+   ],
+   "annees": [
+    2013,
+    2019
+   ],
+   "km": [
+    0,
+    300000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Le collecteur d'admission en plastique peut surchauffer et fondre, avec risque d'incendie.",
+   "controle": "Vérifier avec le VIN que le rappel Volvo (2019-2020) a été effectué.",
+   "solution": "Rappel officiel, intervention gratuite.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Car Verif : Volvo XC60 I D4 181",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Volvo V40",
+     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php"
+    }
+   ]
+  },
+  {
+   "id": "volvo-vea-egr",
+   "titre": "Vanne EGR et refroidisseur (2.0 D4 Drive-E)",
+   "moteurs": [
+    "vead"
+   ],
+   "annees": [
+    2014,
+    2020
+   ],
+   "km": [
+    30000,
+    180000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Perte de puissance, mode dégradé, voyant moteur, code P0401.",
+   "controle": "Aucun voyant, essai sur route, extension de garantie Volvo appliquée.",
+   "solution": "Remplacement de la vanne. Volvo France a étendu la garantie EGR en novembre 2020.",
+   "cout": [
+    600,
+    1500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Car Verif : Volvo XC60 I D4 181",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
     }
    ],
    "rappel": false

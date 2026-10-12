@@ -3532,6 +3532,541 @@
      "code": "dq381"
     }
    ]
+  },
+  {
+   "id": "renault-twingo-3",
+   "marque": "Renault",
+   "modele": "Twingo",
+   "generation": "III",
+   "annees": [
+    2014,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "0.9 TCe 90 / 95 / 110",
+     "code": "tce09",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 SCe",
+     "code": "sce10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "E-Tech électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EDC",
+     "code": "edc"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "renault-zoe",
+   "marque": "Renault",
+   "modele": "Zoé",
+   "generation": "I et II",
+   "annees": [
+    2012,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "dacia-spring",
+   "marque": "Dacia",
+   "modele": "Spring",
+   "generation": "I",
+   "annees": [
+    2021,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "nissan-micra-5",
+   "marque": "Nissan",
+   "modele": "Micra",
+   "generation": "V",
+   "annees": [
+    2017,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "0.9 IG-T 90",
+     "code": "tce09",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 IG-T 100",
+     "code": "tce10",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 dCi",
+     "code": "k9k",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "nissan-xtrail-3",
+   "marque": "Nissan",
+   "modele": "X-Trail",
+   "generation": "III (T32)",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 dCi",
+     "code": "r9m",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 DIG-T",
+     "code": "dig16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 dCi",
+     "code": "m9r",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.7 dCi",
+     "code": "r9n",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.3 DIG-T 160",
+     "code": "tce13",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT Xtronic",
+     "code": "xtronic"
+    },
+    {
+     "libelle": "Automatique double embrayage 7 rapports",
+     "code": "dct7n"
+    }
+   ]
+  },
+  {
+   "id": "citroen-berlingo-2",
+   "marque": "Citroën",
+   "modele": "Berlingo",
+   "generation": "II",
+   "annees": [
+    2008,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 VTi",
+     "code": "vti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée ETG6",
+     "code": "etg"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-partner-2",
+   "marque": "Peugeot",
+   "modele": "Partner Tepee",
+   "generation": "II",
+   "annees": [
+    2008,
+    2018
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.6 VTi",
+     "code": "vti",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 HDi",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 BlueHDi",
+     "code": "bluehdi16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée ETG6",
+     "code": "etg"
+    }
+   ]
+  },
+  {
+   "id": "citroen-berlingo-3",
+   "marque": "Citroën",
+   "modele": "Berlingo",
+   "generation": "III",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech 110 / 130",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "peugeot-rifter",
+   "marque": "Peugeot",
+   "modele": "Rifter / Partner",
+   "generation": "III",
+   "annees": [
+    2018,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 PureTech 110 / 130",
+     "code": "puretech-t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 BlueHDi",
+     "code": "bluehdi15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Électrique",
+     "code": "ev",
+     "carburant": "Électrique"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique EAT8",
+     "code": "eat"
+    },
+    {
+     "libelle": "Réducteur (électrique)",
+     "code": "ev"
+    }
+   ]
+  },
+  {
+   "id": "fiat-panda-3",
+   "marque": "Fiat",
+   "modele": "Panda",
+   "generation": "III",
+   "annees": [
+    2012,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 8V 69",
+     "code": "fire12",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "0.9 TwinAir",
+     "code": "twinair",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 Multijet",
+     "code": "mjt13",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Robotisée Dualogic",
+     "code": "dualogic"
+    }
+   ]
+  },
+  {
+   "id": "fiat-tipo-2",
+   "marque": "Fiat",
+   "modele": "Tipo",
+   "generation": "II",
+   "annees": [
+    2016,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 16V 95",
+     "code": "fire14",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 T-Jet 120",
+     "code": "multiair14",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 Multijet",
+     "code": "mjt13",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 Multijet",
+     "code": "mjt16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique double embrayage DDCT",
+     "code": "ddct"
+    }
+   ]
+  },
+  {
+   "id": "jeep-renegade",
+   "marque": "Jeep",
+   "modele": "Renegade",
+   "generation": "I",
+   "annees": [
+    2014,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 MultiAir 140 / 170",
+     "code": "multiair14",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.3 T-GDi (FireFly)",
+     "code": "firefly",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 Multijet",
+     "code": "mjt16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 Multijet",
+     "code": "mjt20",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "4xe hybride rechargeable",
+     "code": "phev",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique double embrayage DDCT",
+     "code": "ddct"
+    },
+    {
+     "libelle": "Automatique 9 rapports",
+     "code": "zf9"
+    }
+   ]
+  },
+  {
+   "id": "volvo-v40-2",
+   "marque": "Volvo",
+   "modele": "V40",
+   "generation": "II",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 D2 à D4 (Drive-E, 4 cylindres)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.6 D2 / 2.0 D3 / D4 (premières séries)",
+     "code": "d5",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T2 à T5 (Drive-E)",
+     "code": "veap",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    }
+   ]
+  },
+  {
+   "id": "volvo-xc60-1",
+   "marque": "Volvo",
+   "modele": "XC60",
+   "generation": "I",
+   "annees": [
+    2008,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 D2 à D4 (Drive-E, 4 cylindres)",
+     "code": "vead",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 / 2.4 D3 à D5 (5 cylindres)",
+     "code": "d5",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "T2 à T5 (Drive-E)",
+     "code": "veap",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique Geartronic",
+     "code": "aw"
+    }
+   ]
   }
  ]
 }

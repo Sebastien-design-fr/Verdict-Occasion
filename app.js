@@ -45,9 +45,24 @@ function zone(km,r){
 }
 const label=m=>`${m.marque} ${m.modele} ${m.generation}`;
 
-const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,maint:'partiel',treated:[],example:true};
-try{const s=JSON.parse(localStorage.getItem('vo-state2')||'null');if(s&&MODELS.some(m=>m.id===s.model))Object.assign(state,s);}catch(e){}
-function save(){try{localStorage.setItem('vo-state2',JSON.stringify(state));}catch(e){}}
+const state={model:'peugeot-308-2',eng:0,box:0,year:2017,km:98000,price:11500,cote:10800,maint:'partiel',treated:[],example:true};
+try{const s=JSON.parse(localStorage.getItem('vo-state3')||'null');if(s&&MODELS.some(m=>m.id===s.model))Object.assign(state,s);}catch(e){}
+function save(){try{localStorage.setItem('vo-state3',JSON.stringify(state));}catch(e){}}
+
+/* Analyse du prix : on compare le « prix réel » (prix demandé + coût de risque mécanique) à la cote.
+   Un prix délirant plafonne le score, quel que soit l'état mécanique. */
+function pricing(price,cote,exp){
+  if(!price||!cote)return null;
+  const real=price+exp, e=(real-cote)/cote, raw=(price-cote)/cote;
+  let p;
+  if(raw<-0.35)p={pts:-10,label:'Anormalement bas',cls:'c2',cap:55,note:`Prix inférieur de ${Math.round(-raw*100)} % à la cote : vérifier l'historique (sinistre, kilométrage, gage) et se méfier des arnaques au faux vendeur ou au faux acompte.`};
+  else if(e<=-0.10)p={pts:8,label:'Bonne affaire',cls:'cok'};
+  else if(e<=0.05)p={pts:0,label:'Prix cohérent',cls:'c1'};
+  else if(e<=0.15)p={pts:-10,label:'Un peu cher',cls:'c2'};
+  else if(e<=0.30)p={pts:-25,label:'Cher',cls:'c3'};
+  else p={pts:-40,label:'Prix délirant',cls:'c3',cap:25,note:`En comptant les frais à prévoir, ce véhicule revient ${Math.round(e*100)} % au-dessus de la cote. Même en parfait état, il ne vaut pas ce prix.`};
+  return {...p,real,e,raw};
+}
 
 function fillModel(){
   const sel=$('#f-model');sel.innerHTML='';
@@ -65,7 +80,7 @@ function fillDeps(){
   $('#f-eng').value=state.eng;$('#f-box').value=state.box;$('#f-year').value=state.year;
 }
 function syncInputs(){
-  $('#f-km').value=state.km;$('#f-price').value=state.price||'';
+  $('#f-km').value=state.km;$('#f-price').value=state.price||'';$('#f-cote').value=state.cote||'';
   document.querySelectorAll('#f-maint button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.v===state.maint));
   $('#ex-pill').hidden=!state.example;
 }
@@ -89,10 +104,16 @@ function evaluate(){
   if(state.maint==='aucun')notes.push('Aucun historique d\'entretien : les défauts liés à la qualité de l\'huile et aux intervalles de vidange deviennent bien plus probables.');
   const recalls=list.filter(d=>d.rappel&&!d.done);
   if(recalls.length)notes.push(`${recalls.length>1?recalls.length+' rappels officiels concernent':'Un rappel officiel concerne'} ce véhicule. Exiger la preuve qu'${recalls.length>1?'ils ont':'il a'} été fait${recalls.length>1?'s':''} : sinon, l'intervention est gratuite en concession.`);
-  score=Math.max(5,Math.min(100,Math.round(score)));
+  const mec=Math.max(5,Math.min(100,Math.round(score)));
   const exp=list.reduce((s,d)=>s+d.exp,0);
-  const v=score>=70?{l:'Bon achat',c:'v-ok'}:score>=45?{l:'À négocier',c:'v-warn'}:{l:'Risqué',c:'v-crit'};
-  return {m,e,b,km,year,list,score,exp,v,notes};
+  const pr=pricing(Number(state.price)||0,Number(state.cote)||0,exp);
+  let fin=mec;
+  if(pr){fin=Math.min(100,mec+pr.pts);if(pr.cap!=null)fin=Math.min(fin,pr.cap);if(pr.note)notes.unshift(pr.note);}
+  else if(state.price)notes.push('Indiquez la cote du marché pour que le prix entre dans le score.');
+  fin=Math.max(5,Math.round(fin));
+  let v=fin>=70?{l:'Bon achat',c:'v-ok'}:fin>=45?{l:'À négocier',c:'v-warn'}:{l:'Risqué',c:'v-crit'};
+  if(pr&&pr.label==='Prix délirant')v={l:'Trop cher',c:'v-crit'};
+  return {m,e,b,km,year,list,score:fin,mec,pr,exp,v,notes};
 }
 
 function costCell(d){
@@ -102,8 +123,10 @@ function costCell(d){
 }
 
 function render(){
-  const r=evaluate();const price=Number(state.price)||0;
-  const target=price?Math.max(0,Math.round((price-r.exp)/50)*50):0;
+  const r=evaluate();const price=Number(state.price)||0,cote=Number(state.cote)||0;
+  const base=cote?Math.min(price,cote):price;
+  const target=price?Math.max(0,Math.round((base-r.exp)/50)*50):0;
+  const pct=x=>(x>0?'+':'')+Math.round(x*100)+' %';
   const name=`${label(r.m)} · ${r.e.libelle} · ${r.b.libelle}`;
   const open=r.list.filter(d=>!d.done),done=r.list.filter(d=>d.done);
   const checks=[...new Set(open.map(d=>d.controle))];
@@ -112,7 +135,8 @@ function render(){
     <div style="min-width:0"><p class="eyebrow">Évaluation</p><p class="vehicle">${esc(name)}</p>
     <div style="color:var(--muted);font-size:.88rem;font-family:var(--f-mono)">${r.year} · ${nf.format(r.km)} km${price?' · '+eur(price):''}</div>
     <div class="meter" aria-hidden="true"><i style="left:${r.score}%"></i></div>
-    <div class="meter-scale"><span>0</span><span>45</span><span>70</span><span>100</span></div></div>
+    <div class="meter-scale"><span>0</span><span>45</span><span>70</span><span>100</span></div>
+    <div class="subscores"><span>Mécanique <b>${r.mec}/100</b></span><span>Prix <b>${r.pr?(r.pr.pts>0?'+':'')+r.pr.pts+' pts · '+r.pr.label:'non évalué'}</b></span></div></div>
   </div></div>
   <div class="figs">
     <div class="fig"><b>${open.length}</b><span>défaut${open.length>1?'s':''} connu${open.length>1?'s':''} à surveiller${done.length?` · ${done.length} traité${done.length>1?'s':''}`:''}</span></div>
@@ -120,6 +144,19 @@ function render(){
     <div class="fig"><b>${price?eur(target):'—'}</b><span>${price?'prix cible de négociation':'indiquez le prix pour un prix cible'}</span></div>
   </div>`;
   html+=r.notes.map(n=>`<div class="alert warn">${n}</div>`).join('');
+  if(r.pr){
+    const pos=Math.max(0,Math.min(100,(r.pr.e+0.3)/0.8*100));
+    html+=`<div class="panel price"><div class="head-row"><h2>Analyse du prix</h2><span class="chip ${r.pr.cls}">${r.pr.label}</span></div>
+      <div class="price-grid">
+        <div><span>Prix demandé</span><b>${eur(price)}</b></div>
+        <div><span>Cote du marché</span><b>${eur(cote)}</b></div>
+        <div><span>Frais à prévoir</span><b>${eur(r.exp)}</b></div>
+        <div><span>Prix réel vs cote</span><b>${eur(r.pr.real)} · ${pct(r.pr.e)}</b></div>
+      </div>
+      <div class="pscale" aria-hidden="true"><i style="left:${pos}%"></i></div>
+      <div class="pscale-l" style="position:relative;height:1em"><span style="position:absolute;left:0">−30 %</span><span style="position:absolute;left:37.5%;transform:translateX(-50%)">cote</span><span style="position:absolute;left:75%;transform:translateX(-50%)">+30 %</span><span style="position:absolute;right:0">+50 %</span></div>
+      <p class="hint" style="margin-top:10px">Le prix réel ajoute au prix demandé les frais à prévoir pour les défauts connus non traités. C'est lui qu'on compare à la cote.</p></div>`;
+  }
   html+=`<div class="panel"><div class="head-row"><h2>Défauts connus</h2><span class="eyebrow" style="margin:0">Gravité façon contrôle technique</span></div>`;
   if(!r.list.length)html+=`<div class="alert ok">Aucun défaut répertorié pour cette combinaison à ce stade de la base. Les contrôles génériques ci-dessous restent indispensables.</div>`;
   else html+=`<div class="list">${r.list.map(d=>`
@@ -140,8 +177,12 @@ function render(){
   html+=`<div class="panel"><div class="head-row"><h2>À vérifier pendant la visite</h2></div><ul class="checks">
     ${[...GENERIC,...checks].map((c,i)=>`<li><label><input type="checkbox" id="chk-${i}"> <span>${esc(c)}</span></label></li>`).join('')}</ul></div>`;
   const argDefs=open.filter(d=>d.cout[1]>0&&!(d.rappel&&d.preventif===0)).slice(0,4);
-  if(price&&argDefs.length&&target<price){
-    const arg=`Bonjour,\n\nLe véhicule (${label(r.m)} ${r.e.libelle}, ${r.year}, ${nf.format(r.km)} km) est concerné par des défauts connus sur ce modèle, sans facture de traitement à ce jour :\n${argDefs.map(d=>`– ${d.titre.replace(/\s*\(.*?\)\s*$/,'')} : ${d.preventif?'intervention préventive d\'environ '+nf.format(d.preventif)+' €':'réparation estimée entre '+nf.format(d.cout[0])+' et '+nf.format(d.cout[1])+' €'}`).join('\n')}\n\nCompte tenu de ces frais à prévoir, je vous propose ${eur(target)}.\n\nCordialement`;
+  const overCote=cote&&price>cote;
+  if(price&&(argDefs.length||overCote)&&target<price){
+    const parts=[];
+    if(overCote)parts.push(`La cote de ce véhicule pour cette version, cette année et ce kilométrage est d'environ ${eur(cote)}, soit ${pct((price-cote)/cote)} par rapport à votre prix.`);
+    if(argDefs.length)parts.push(`Il est aussi concerné par des défauts connus sur ce modèle, sans facture de traitement à ce jour :\n${argDefs.map(d=>`– ${d.titre.replace(/\s*\(.*?\)\s*$/,'')} : ${d.preventif?'intervention préventive d\'environ '+nf.format(d.preventif)+' €':'réparation estimée entre '+nf.format(d.cout[0])+' et '+nf.format(d.cout[1])+' €'}`).join('\n')}`);
+    const arg=`Bonjour,\n\nJe suis intéressé par votre ${label(r.m)} ${r.e.libelle} de ${r.year} (${nf.format(r.km)} km).\n\n${parts.join('\n\n')}\n\nCompte tenu de ces éléments, je vous propose ${eur(target)}.\n\nCordialement`;
     html+=`<div class="panel"><div class="head-row"><h2>Argumentaire de négociation</h2><button class="btn ghost" id="copy">Copier</button></div><pre class="argument" id="arg">${esc(arg)}</pre></div>`;
   }
   $('#report').innerHTML=html;
@@ -186,6 +227,7 @@ $('#f-box').onchange=e=>{state.box=+e.target.value;touch();render();};
 $('#f-year').onchange=e=>{state.year=+e.target.value;touch();render();};
 $('#f-km').oninput=e=>{state.km=+e.target.value||0;touch();render();};
 $('#f-price').oninput=e=>{state.price=+e.target.value||0;touch();render();};
+$('#f-cote').oninput=e=>{state.cote=+e.target.value||0;touch();render();};
 document.querySelectorAll('#f-maint button').forEach(b=>b.onclick=()=>{state.maint=b.dataset.v;touch();syncInputs();render();});
 $('#r-q').oninput=renderRep;$('#r-conf').onchange=renderRep;
 $('#r-brand').add(new Option('Toutes les marques',''));[...new Set(MODELS.map(m=>m.marque))].sort().forEach(b=>$('#r-brand').add(new Option(b,b)));

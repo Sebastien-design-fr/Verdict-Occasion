@@ -9,6 +9,13 @@
 - `page.html` + `app.js` : l'application.
 - `build.py` : vérifie la cohérence de la base, puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
 
+## Score
+
+Le score final combine deux parties :
+
+- **Mécanique** (sur 100) : défauts connus non traités, pondérés par leur gravité, leur fréquence, la position du kilométrage dans leur zone de risque et leur niveau de confiance ; historique d'entretien ; kilométrage annuel.
+- **Prix** : le « prix réel » (prix demandé + frais à prévoir pour les défauts non traités) est comparé à la cote saisie (La Centrale, L'argus). Bonne affaire (−10 % ou moins) : +8 points. Cohérent (−10 % à +5 %) : 0. Un peu cher (+5 à +15 %) : −10. Cher (+15 à +30 %) : −25. Délirant (au-delà de +30 %) : −40, score plafonné à 25 et verdict « Trop cher », quel que soit l'état mécanique. Un prix demandé inférieur de plus de 35 % à la cote plafonne le score à 55 et déclenche une alerte (sinistre, kilométrage, arnaque).
+
 ## Règle de confiance
 
 Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il est décrit par au moins deux sources indépendantes. Deux pages d'un même éditeur comptent pour une seule source. Un fil de forum où plusieurs propriétaires décrivent le même défaut compte pour une source ; chaque source porte un type (`article` ou `forum`). Sinon le défaut reste « à confirmer » et pèse moins dans le score. Un défaut contredit par les sources est retiré de la base.

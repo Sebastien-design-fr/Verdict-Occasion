@@ -1,12 +1,13 @@
-"""Construit les deux versions de l'app à partir de page.html, app.js et data/.
-- index.html : version du dépôt (GitHub Pages), qui charge data/*.json
+"""Construit les deux versions de l'app à partir de page.html, engine.js, ui.js et data/.
+- index.html : version du dépôt (GitHub Pages), qui charge engine.js, ui.js et data/*.json
 - dist/verdict-occasion.html : version autonome, données intégrées
 Usage : python3 build.py
 """
 import json, pathlib
 root = pathlib.Path(__file__).parent
 page = (root / 'page.html').read_text(encoding='utf-8')
-app = (root / 'app.js').read_text(encoding='utf-8')
+engine = (root / 'engine.js').read_text(encoding='utf-8')
+ui = (root / 'ui.js').read_text(encoding='utf-8')
 mod = json.loads((root / 'data/modeles.json').read_text(encoding='utf-8'))
 dfx = json.loads((root / 'data/defauts.json').read_text(encoding='utf-8'))
 prx = json.loads((root / 'data/prix_neufs.json').read_text(encoding='utf-8'))
@@ -43,8 +44,8 @@ if errors:
     raise SystemExit('Base invalide :\n- ' + '\n- '.join(errors))
 
 doc_head = '<!doctype html>\n<html lang="fr">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-(root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + '<script src="app.js"></script>\n</body>\n</html>\n', encoding='utf-8')
+(root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + '<script src="engine.js"></script>\n<script src="ui.js"></script>\n</body>\n</html>\n', encoding='utf-8')
 data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version'], 'prix': prx['prix'], 'decote': dec}
 (root / 'dist').mkdir(exist_ok=True)
-(root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n<script>\n' + app + '</script>\n', encoding='utf-8')
+(root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n<script>\n' + engine + '</script>\n<script>\n' + ui + '</script>\n', encoding='utf-8')
 print(f"OK : {len(mod['modeles'])} modèles, {len(dfx['defauts'])} défauts")

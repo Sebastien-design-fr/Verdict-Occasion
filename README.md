@@ -8,8 +8,10 @@
 - `data/defauts.json` : base des défauts. Chaque défaut est rattaché à des codes moteur, des codes boîte ou un carburant (et peut être limité à certains modèles, par exemple pour un rappel propre à un modèle), avec ses années, sa plage de kilométrage, sa gravité, sa fréquence, ses coûts, ses sources et son niveau de confiance.
 - `data/prix_neufs.json` : prix catalogue d'entrée de gamme de chaque modèle (sourcé ou estimé).
 - `data/decote.json` : paramètres de la cote estimée (courbe de décote, kilométrage, marques) et cotes de marché publiques servant de contrôle.
-- `page.html` + `app.js` : l'application.
+- `engine.js` : le moteur de calcul, sans interface (cote, défauts applicables, score, prix, argumentaire, recherche, lecture d'une annonce collée). Utilisable dans le navigateur et sous Node.
+- `page.html` + `ui.js` : l'interface. Parcours en trois étapes (trouver le véhicule, décrire l'annonce, verdict), puis détails, mode visite, comparaison de deux ou trois annonces et répertoire. Les données saisies restent dans le navigateur.
 - `tests/cote.test.js` et `tests/cote.cases.js` : vérifient que la cote estimée encadre les 36 cotes de contrôle (`node tests/cote.test.js`).
+- `tests/engine.test.js` : recherche, lecture d'annonce et évaluation (`node tests/engine.test.js`).
 - `build.py` : vérifie la cohérence de la base, puis génère `index.html` (version du dépôt) et `dist/verdict-occasion.html` (version autonome).
 
 ## Score
@@ -42,3 +44,4 @@ Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il es
 - Consolidation par marque (octobre 2026) : toutes les générations courantes depuis 2010 et leurs motorisations pour BMW et Mini, le groupe Volkswagen (VW, Audi, Skoda, Seat, Cupra), Stellantis (Peugeot, Citroën, DS, Opel, Fiat, Jeep), Renault, Dacia, Nissan, Mercedes, Ford, Toyota, Hyundai, Kia, Mazda, Volvo, Tesla, Suzuki et Honda. 28 défauts ajoutés (chaîne N20, rappels EGR BMW, dieselgate EA189, EA888, 3.0 TDI, S tronic DL501, Multitronic, AL4, turbo 1.6 HDi, E-Tech, 7G-Tronic, rappels 1.6 EcoBoost et Kuga PHEV…). Total : 264 générations, 105 défauts dont 87 confirmés.
 - Prochains lots : compléter 2010-2026 (Kia Niro, Hyundai Ioniq, Tesla Model 3, Peugeot 508, Citroën C4, Renault Austral et Arkana, Skoda Kodiaq, BMW X1 et Série 3 G20, Audi Q3 et A4), puis 2000-2010.
 - Correction de la cote (octobre 2026) : la cote des versions puissantes était sous-estimée (BMW 440i de 2017 estimée à 18 100 € contre environ 27 000 € sur autobiz). Ajout de la puissance par moteur, d'un champ Puissance, d'un maintien de cote pour les versions puissantes et sportives, de 25 cotes de contrôle et de corrections par modèle (X1 F48, Classe C W205, A4 B9, Classe A W176, Mini F56).
+- Première interface web (octobre 2026) : parcours issu de la maquette validée, recherche libre et par marque, lecture d'une annonce collée, verdict avec prix à proposer, mode visite avec score en direct, comparaison, thème clair et sombre. Les rappels pèsent désormais moins dans le score (réparation gratuite, à vérifier).

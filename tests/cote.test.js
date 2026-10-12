@@ -4,12 +4,11 @@ const fs = require('fs');
 const path = require('path');
 const root = path.join(__dirname, '..');
 const read = f => JSON.parse(fs.readFileSync(path.join(root, 'data', f)));
-const src = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
 const DC = read('decote.json');
 const PRIX = read('prix_neufs.json').prix;
 const DEFECTS = read('defauts.json').defauts;
 const MODELS = read('modeles.json').modeles;
-eval(src.slice(src.indexOf('function moteurFactor'), src.indexOf('const GENERIC')));
+const E = require('../engine.js')({ modeles: MODELS, defauts: DEFECTS, prix: PRIX, decote: DC });
 
 // Cas de contrôle (cotes autobiz listées dans data/decote.json) : [modèle, code moteur, index moteur ou null, boîte, année, km, cote, ch]
 const CAS = require('./cote.cases.js');
@@ -18,7 +17,7 @@ let ko = 0;
 for (const [id, ec, idx, bc, year, km, cote, ch] of CAS) {
   const m = MODELS.find(x => x.id === id);
   const e = idx != null ? m.moteurs[idx] : m.moteurs.find(x => x.code === ec);
-  const r = estimateCote(m, e, m.boites.find(x => x.code === bc), year, km, ch);
+  const r = E.estimateCote(m, e, m.boites.find(x => x.code === bc), year, km, ch);
   const ok = cote >= r.low && cote <= r.high;
   if (!ok) ko++;
   console.log(`${ok ? 'OK ' : 'KO '} ${id} ${ch} ch ${year} ${km} km : estimé ${r.mid} € (${r.low}-${r.high}), marché ${cote} €, écart ${Math.round((r.mid / cote - 1) * 100)} %`);

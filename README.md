@@ -21,7 +21,7 @@ Le score final combine deux parties :
 
 ## Cote estimée
 
-Sans cote saisie, Ausculto estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La fourchette affichée est de ±15 %. Sur 11 cotes de marché publiques, l'écart va de -9 % à +12 %. 18 prix neufs sur 101 sont sourcés ; les autres sont des estimations à vérifier. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
+Sans cote saisie, Ausculto estime la cote : prix neuf de référence × finition moyenne × motorisation × décote selon l'âge × ajustement au kilométrage × tenue de la marque × pénalité si le moteur a un défaut critique confirmé. La fourchette affichée est de ±15 %. Sur 11 cotes de marché publiques, l'écart va de -12 % à +12 %. 99 prix neufs sur 101 sont sourcés (presse auto, constructeurs) ; ceux du Peugeot Partner II et du Citroën Berlingo II restent estimés, faute de tarif 2008 retrouvé. Une cote officielle saisie par l'utilisateur remplace toujours l'estimation.
 
 ## Règle de confiance
 

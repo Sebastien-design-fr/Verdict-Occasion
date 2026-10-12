@@ -1,6 +1,6 @@
 {
  "version": "2026-10-12",
- "note": "Prix catalogue d'entrée de gamme TTC pendant la commercialisation du modèle. Les entrées sans source sont des estimations à vérifier.",
+ "note": "Prix catalogue d'entrée de gamme TTC, au lancement du modèle sauf mention contraire dans « note ». Les entrées marquées « estime » restent à confirmer.",
  "prix": {
   "peugeot-208-1": {
    "entree": 12550,
@@ -31,8 +31,8 @@
    "source": "https://www.largus.fr/actualite-automobile/tarifs-peugeot-5008-2017-prix-equipements-et-fiches-techniques-8276384.html"
   },
   "citroen-c3-2": {
-   "entree": 12900,
-   "estime": true
+   "entree": 12950,
+   "source": "https://www.largus.fr/mondial/prix-citroen-c3-2016-les-tarifs-de-la-nouvelle-c3-devoiles-8053391.html"
   },
   "citroen-c3-3": {
    "entree": 12950,
@@ -47,8 +47,8 @@
    "source": "https://www.largus.fr/geneve/2014/citroen-c4-cactus-2014-des-prix-a-partir-de-14500-e-3688379.html"
   },
   "citroen-c4-picasso-2": {
-   "entree": 22900,
-   "estime": true
+   "entree": 23050,
+   "source": "https://www.autotitre.com/g/prix_Citroen_C4_Picasso_2013"
   },
   "citroen-c5-aircross": {
    "entree": 24700,
@@ -59,28 +59,28 @@
    "source": "https://fr.motor1.com/news/268144/ds-3-crossback-prix-moteurs-tarif/"
   },
   "ds-7": {
-   "entree": 29900,
-   "estime": true
+   "entree": 31200,
+   "source": "https://www.autojournal.fr/ds/ds7/crossback/ds7-crossback-2018-tous-les-prix-177930.html"
   },
   "opel-corsa-f": {
    "entree": 14600,
    "source": "https://www.caradisiac.com/opel-corsa-2019-la-concurrence-le-bilan-global-tous-les-tarifs-180080.htm"
   },
   "opel-grandland-x": {
-   "entree": 24900,
-   "estime": true
+   "entree": 25600,
+   "source": "https://www.largus.fr/actualite-automobile/tarifs-opel-grandland-x-2017-moins-cher-que-le-peugeot-3008-8596393.html"
   },
   "opel-astra-k": {
-   "entree": 18800,
-   "estime": true
+   "entree": 20300,
+   "source": "https://www.largus.fr/actualite-automobile/prix-opel-astra-2015-tarifs-et-equipements-de-la-nouvelle-astra-6442387.html"
   },
   "opel-mokka-1": {
-   "entree": 19700,
-   "estime": true
+   "entree": 18990,
+   "source": "https://www.turbo.fr/opel/mokka/actualites-auto/opel-mokka-les-tarifs-96333"
   },
   "opel-corsa-e": {
-   "entree": 12900,
-   "estime": true
+   "entree": 11990,
+   "source": "https://www.caradisiac.com/Nouvelle-Opel-Corsa-a-partir-de-11990-EUR-97007.htm"
   },
   "renault-clio-4": {
    "entree": 13700,
@@ -95,32 +95,32 @@
    "source": "https://www.largus.fr/actualite-automobile/prix-renault-captur-2015-a-partir-de-16-300-e-6114390.html"
   },
   "renault-captur-2": {
-   "entree": 18900,
-   "estime": true
+   "entree": 18600,
+   "source": "https://www.largus.fr/actualite-automobile/renault-captur-2-2020-hausse-des-prix-sur-les-versions-a-essence-10276397.html"
   },
   "renault-megane-3": {
-   "entree": 17500,
-   "estime": true
+   "entree": 18400,
+   "source": "https://www.largus.fr/actualite-automobile/renault-megane-iii-des-tarifs-contenus-145293.html"
   },
   "renault-megane-4": {
    "entree": 18200,
    "source": "https://www.largus.fr/actualite-automobile/prix-renault-megane-4-les-tarifs-officiels-de-la-megane-2016-6731384.html"
   },
   "renault-scenic-3": {
-   "entree": 21500,
-   "estime": true
+   "entree": 23900,
+   "source": "https://www.fiches-auto.fr/essai-scenic-3/test-272-1240-et-le-prix-.php"
   },
   "renault-kadjar": {
-   "entree": 21800,
-   "estime": true
+   "entree": 22990,
+   "source": "https://www.largus.fr/actualite-automobile/prix-renault-kadjar-2015-tous-les-tarifs-devoiles-aujourdhui-6258384.html"
   },
   "renault-twingo-3": {
-   "entree": 10600,
-   "estime": true
+   "entree": 10800,
+   "source": "https://www.largus.fr/actualite-automobile/prix-renault-twingo-2014-les-tarifs-debutent-a-10-800-euros-4691380.html"
   },
   "renault-zoe": {
-   "entree": 25900,
-   "estime": true
+   "entree": 32600,
+   "source": "https://www.automobile-propre.com/articles/renault-zoe-disponible-achat-integral-france/"
   },
   "dacia-sandero-2": {
    "entree": 7900,
@@ -128,283 +128,296 @@
   },
   "dacia-duster-1": {
    "entree": 11900,
-   "estime": true
+   "source": "https://www.automoto.it/news/dacia-duster-my-2011-in-listino-da-11900-euro.html"
   },
   "dacia-duster-2": {
    "entree": 11990,
-   "estime": true
+   "source": "https://www.caradisiac.com/commentaires/nouveau-dacia-duster-voici-les-prix-a-partir-de-11-990-eur-164004.htm"
   },
   "dacia-lodgy": {
-   "entree": 10900,
-   "estime": true
+   "entree": 9990,
+   "source": "https://www.autoplenum.de/auto/tests/neuer-van-ab-9-990-euro-dacia-lodgy-id34372"
   },
   "dacia-spring": {
    "entree": 16990,
-   "estime": true
+   "source": "https://www.largus.fr/actualite-automobile/prix-dacia-spring-2021-la-citadine-electrique-des-16-990-e-10560407.html"
   },
   "nissan-qashqai-2": {
-   "entree": 20000,
-   "estime": true
+   "entree": 21490,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/6211-le-nouveau-crossover-nissan-qashqai-commercialise-a-partir-de-21-490-euros"
   },
   "nissan-juke-1": {
-   "entree": 15990,
-   "estime": true
+   "entree": 16490,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/2983-le-nouveau-petit-crossover-nissan-commercialise-a-partir-de-16-490-euros"
   },
   "nissan-micra-5": {
-   "entree": 14000,
-   "estime": true
+   "entree": 13590,
+   "source": "https://www.largus.fr/actualite-automobile/prix-nissan-micra-2017-les-tarifs-de-la-nouvelle-micra-5-devoiles-8293384.html"
   },
   "nissan-xtrail-3": {
-   "entree": 28000,
-   "estime": true
+   "entree": 27770,
+   "source": "https://www.largus.fr/actualite-automobile/essai-nissan-xtrail-2014-dci-130-4142383.html"
   },
   "vw-golf-6": {
-   "entree": 17500,
-   "estime": true
+   "entree": 19950,
+   "source": "https://www.tout-sur-lauto.fr/fiche-technique/volkswagen/golf/2009"
   },
   "vw-golf-7": {
-   "entree": 18900,
-   "estime": true
+   "entree": 19060,
+   "source": "https://www.fiches-auto.fr/essai-golf-vii/test-358-797-prix-du-neuf.php"
   },
   "vw-polo-5": {
-   "entree": 12900,
-   "estime": true
+   "entree": 13680,
+   "source": "https://www.fiches-auto.fr/essai-polo-v/test-247-1166-le-prix-.php"
   },
   "seat-ibiza-4": {
-   "entree": 12000,
-   "estime": true
+   "entree": 12600,
+   "source": "https://fr.wikipedia.org/wiki/Seat_Ibiza"
   },
   "seat-leon-3": {
-   "entree": 16800,
-   "estime": true
+   "entree": 15290,
+   "source": "https://www.autotitre.com/g/Seat_Leon_III"
   },
   "skoda-octavia-3": {
-   "entree": 19500,
-   "estime": true
+   "entree": 17850,
+   "source": "https://www.turbo.fr/skoda/octavia/actualites-auto/skoda-octavia-3-les-tarifs-99487"
   },
   "audi-a1-8x": {
-   "entree": 16900,
-   "estime": true
+   "entree": 16400,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/2951-audi-devoile-les-prix-de-la-nouvelle-a1"
   },
   "audi-a3-8v": {
    "entree": 23500,
-   "estime": true
+   "source": "https://fr.wikipedia.org/wiki/Audi_A3"
   },
   "vw-t-roc": {
-   "entree": 23900,
-   "estime": true
+   "entree": 21990,
+   "source": "https://www.fiches-auto.fr/essai-t-roc/test-605-1655-les-prix-du-t-roc.php"
   },
   "vw-tiguan-2": {
-   "entree": 28950,
-   "estime": true
+   "entree": 29470,
+   "source": "https://lesvoitures.fr/volkswagen-tiguan-il-debarque-en-concession-les-tarifs/",
+   "note": "Source : 32 150 € pour le 2.0 TDI 150 d'entrée au lancement, ramené à une version essence (coefficient diesel)."
   },
   "vw-golf-8": {
-   "entree": 25000,
-   "estime": true
+   "entree": 28200,
+   "source": "https://motorsactu.com/volkswagen-golf-8-finitions-et-tarifs/"
   },
   "skoda-fabia-3": {
-   "entree": 12500,
-   "estime": true
+   "entree": 12640,
+   "source": "https://www.largus.fr/actualite-automobile/prix-skoda-fabia-2014-des-tarifs-a-partir-de-12-640-e-5053380.html"
   },
   "seat-arona": {
-   "entree": 16500,
-   "estime": true
+   "entree": 16700,
+   "source": "https://www.fiches-auto.fr/essai-arona/test-628-1724-les-tarifs.php"
   },
   "ford-fiesta-7": {
-   "entree": 12900,
-   "estime": true
+   "entree": 11700,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/726-ford-devoile-les-tarifs-de-la-nouvelle-fiesta"
   },
   "ford-focus-3": {
-   "entree": 17900,
-   "estime": true
+   "entree": 18850,
+   "source": "https://journalauto.com/constructeurs/la-focus-de-la-maturite/"
   },
   "ford-cmax-2": {
-   "entree": 21000,
-   "estime": true
+   "entree": 20900,
+   "source": "https://www.fiches-auto.fr/essai-c-max/test-318-809-les-prix.php"
   },
   "ford-ecosport": {
-   "entree": 16500,
-   "estime": true
+   "entree": 17990,
+   "source": "https://www.largus.fr/actualite-automobile/ford-ecosport-une-finition-trend-plus-accessible-5865384.html"
   },
   "bmw-serie1-f20": {
-   "entree": 24000,
-   "estime": true
+   "entree": 25450,
+   "source": "https://www.motorlegend.com/actualite-automobile/tarifs-bmw-serie-1-2011/5466.html"
   },
   "bmw-serie3-f30": {
-   "entree": 32000,
-   "estime": true
+   "entree": 35600,
+   "source": "https://www.autoplus.fr/bmw/serie-3/bmw-serie-3-f30-a-partir-de-35-600-euros-249889.html"
   },
   "mini-r56": {
-   "entree": 17000,
-   "estime": true
+   "entree": 15450,
+   "source": "https://www.largus.fr/Mini_Mini_Ii-R56.html",
+   "note": "prix du neuf le plus bas de la gamme 2006-2014 selon L'argus"
   },
   "mini-f56": {
-   "entree": 19500,
-   "estime": true
+   "entree": 17400,
+   "source": "https://autocatalogarchive.com/wp-content/uploads/2017/05/Mini-2014-FR.pdf",
+   "note": "brochure Mini juillet 2014 (Mini One)"
   },
   "fiat-500": {
-   "entree": 10900,
-   "estime": true
+   "entree": 11700,
+   "source": "https://www.fiches-auto.fr/essai-500/test-188-825-details-des-tarifs.php"
   },
   "fiat-panda-3": {
    "entree": 9990,
-   "estime": true
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/4905-la-nouvelle-fiat-panda-commercialisee-a-partir-de-9-990-euros"
   },
   "fiat-tipo-2": {
-   "entree": 13990,
-   "estime": true
+   "entree": 12490,
+   "source": "https://www.largus.fr/geneve/prix-fiat-tipo-la-nouvelle-tipo-a-partir-de-12-490-e-7439384.html"
   },
   "toyota-yaris-3": {
-   "entree": 13500,
-   "estime": true
+   "entree": 12900,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/4497-toyota-lance-la-nouvelle-yaris-made-in-france"
   },
   "toyota-yaris-4": {
-   "entree": 17500,
-   "estime": true
+   "entree": 17250,
+   "source": "https://www.caradisiac.com/commentaires/nouvelle-toyota-yaris-une-entree-de-gamme-70-ch-prix-des-17-250-eur-184148.htm"
   },
   "toyota-chr-1": {
-   "entree": 23900,
-   "estime": true
+   "entree": 23400,
+   "source": "https://www.largus.fr/actualite-automobile/toyota-chr-prix-equipement-9105393.html"
   },
   "toyota-auris-2": {
-   "entree": 19000,
-   "estime": true
+   "entree": 17500,
+   "source": "https://www.largus.fr/actualite-automobile/nouvelles-toyota-auris-a-partir-de-17500-e-2217368.html"
   },
   "toyota-corolla-12": {
-   "entree": 25900,
-   "estime": true
+   "entree": 26950,
+   "source": "https://www.caradisiac.com/toyota-corolla-2019-a-partir-de-26-950-eur-172127.htm"
   },
   "hyundai-i20-2": {
-   "entree": 12900,
-   "estime": true
+   "entree": 12500,
+   "source": "https://www.largus.fr/actualite-automobile/hyundai-i20-2014-elle-revient-dans-la-course-5508380_p_5.html"
   },
   "hyundai-i30-2": {
-   "entree": 17500,
-   "estime": true
+   "entree": 16400,
+   "source": "https://www.fiches-auto.fr/essai-i30/test-399-911-et-le-prix-.php"
   },
   "hyundai-i30-3": {
-   "entree": 19500,
-   "estime": true
+   "entree": 22550,
+   "source": "https://www.largus.fr/actualite-automobile/prix-hyundai-i30-2017-les-tarifs-de-la-nouvelle-i30-devoiles-8319389.html"
   },
   "hyundai-tucson-3": {
-   "entree": 23900,
-   "estime": true
+   "entree": 22750,
+   "source": "https://www.largus.fr/actualite-automobile/essai-hyundai-tucson-2015-il-remplace-le-ix35-6408406.html"
   },
   "hyundai-kona-1": {
-   "entree": 18900,
-   "estime": true
+   "entree": 21400,
+   "source": "https://fr.motor1.com/news/180558/hyundai-tarifs-kona-suv-crossover/"
   },
   "kia-sportage-4": {
-   "entree": 23900,
-   "estime": true
+   "entree": 23000,
+   "source": "https://press.kia.com/content/dam/kiapress/FR/Modeles/Sportage/Le%20tout%20nouveau%20crossover%20Kia%20Sportage%20fait%20ses%20débuts%20sur%20les%20routes%20françaises.pdf"
   },
   "kia-ceed-2": {
-   "entree": 16500,
-   "estime": true
+   "entree": 17500,
+   "source": "https://www.caradisiac.com/Kia-Cee-d-96728.htm"
   },
   "kia-ceed-3": {
-   "entree": 20000,
-   "estime": true
+   "entree": 20990,
+   "source": "https://press.kia.com/content/dam/kiapress/FR/Modeles/ceedfamily/Download/Kia%20-%20La%20nouvelle%20Kia%20Ceed%20fait%20ses%20débuts%20en%20France%20-%20version%20actualisée%20au%204%20juillet%202018.pdf"
   },
   "kia-rio-4": {
-   "entree": 13900,
-   "estime": true
+   "entree": 15290,
+   "source": "https://press.kia.com/content/dam/kiapress/FR/Modeles/Rio2206/pdf/La_nouvelle_citadine_Kia_Rio_fait_ses_débuts_sur_les_routes_françaises.pdf"
   },
   "kia-stonic": {
-   "entree": 15990,
-   "estime": true
+   "entree": 17790,
+   "source": "https://www.fiches-auto.fr/essai-stonic/test-617-1692-les-tarifs.php"
   },
   "mercedes-classe-a-w176": {
-   "entree": 25800,
-   "estime": true
+   "entree": 24000,
+   "source": "https://www.largus.fr/geneve/2012/nouveau-depart-pour-la-classe-a-1467368.html",
+   "note": "Estimation publiée par L'argus avant le lancement."
   },
   "mercedes-classe-b-w246": {
-   "entree": 27500,
-   "estime": true
+   "entree": 25900,
+   "source": "https://www.latribuneauto.com/reportages/nouveautes/4528-la-nouvelle-mercedes-classe-b-commercialisee-a-partir-de-25-900-euros"
   },
   "mercedes-cla-c117": {
-   "entree": 31000,
-   "estime": true
+   "entree": 28700,
+   "source": "https://larevueautomobile.com/actualites/Les-prix-du-mercedes-cla-5018.html"
   },
   "mercedes-gla-x156": {
-   "entree": 30900,
-   "estime": true
+   "entree": 30400,
+   "source": "https://www.largus.fr/geneve/2014/tarifs-mercedes-gla-le-petit-suv-mercedes-devoile-ses-prix-3412380.html"
   },
   "mercedes-classe-c-w204": {
-   "entree": 33000,
-   "estime": true
+   "entree": 30000,
+   "source": "https://www.fiches-auto.fr/essai-classe-c/test-186-810-tarifs-en-vigueur.php"
   },
   "mercedes-classe-c-w205": {
-   "entree": 37000,
-   "estime": true
+   "entree": 33950,
+   "source": "https://www.largus.fr/actualite-automobile/prix-mercedes-classe-c-2014-des-tarifs-a-partir-de-33-950-e-3463382.html"
   },
   "honda-civic-10": {
-   "entree": 21900,
-   "estime": true
+   "entree": 22900,
+   "source": "https://www.largus.fr/actualite-automobile/les-prix-de-la-honda-civic-2017-la-civic-a-partir-de-22-900-euros-8173386.html"
   },
   "honda-jazz-3": {
-   "entree": 15990,
-   "estime": true
+   "entree": 16100,
+   "source": "https://www.largus.fr/actualite-automobile/prix-nouvelle-honda-jazz-2015-a-partir-de-16-100-e-6408404.html"
   },
   "honda-crv-5": {
-   "entree": 31000,
-   "estime": true
+   "entree": 29790,
+   "source": "https://www.largus.fr/mondial/prix-honda-cr-v-hybride-2019-les-tarifs-et-la-puissance-annonces-9391392.html",
+   "note": "Déduit de l'article : l'hybride à 34 600 € coûte 4 810 € de plus que le 1.5 Turbo."
   },
   "mazda-2-3": {
-   "entree": 13990,
-   "estime": true
+   "entree": 14450,
+   "source": "https://www.larevueautomobile.com/actualites/Nouvelle-mazda2-2015-prix-et-equipements-8248.html"
   },
   "mazda-3-3": {
-   "entree": 19990,
-   "estime": true
+   "entree": 22600,
+   "source": "https://www.turbo.fr/actualite-automobile/mazda3-2014-les-tarifs-101847"
   },
   "mazda-6-3": {
-   "entree": 27500,
-   "estime": true
+   "entree": 28500,
+   "source": "https://www.largus.fr/actualite-automobile/la-nouvelle-mazda-6-a-l-essai-2120375.html"
   },
   "mazda-cx5-1": {
-   "entree": 26900,
-   "estime": true
+   "entree": 29500,
+   "source": "https://www.fiches-auto.fr/essai-cx-5/test-571-1541-les-tarifs.php"
   },
   "mazda-cx5-2": {
-   "entree": 29500,
-   "estime": true
+   "entree": 30100,
+   "source": "https://www.fiches-auto.fr/essai-cx-5-ii/test-598-1633-les-tarifs.php",
+   "note": "tarif décembre 2017"
   },
   "suzuki-vitara-4": {
-   "entree": 17990,
-   "estime": true
+   "entree": 17490,
+   "source": "https://www.fiches-auto.fr/essai-vitara/test-533-1355-et-le-prix-.php",
+   "note": "tarif avril 2016"
   },
   "suzuki-swift-5": {
-   "entree": 12990,
-   "estime": true
+   "entree": 13190,
+   "source": "https://www.largus.fr/actualite-automobile/prix-suzuki-swift-2017-tarifs-gamme-date-de-sortie-de-la-swift-4-8506392.html"
   },
   "peugeot-partner-2": {
    "entree": 17500,
-   "estime": true
+   "estime": true,
+   "source": "https://www.largus.fr/actualite-automobile/prix-peugeot-partner-restyle-2015-des-tarifs-a-partir-de-19-050-e-6095390.html",
+   "note": "Tarif 2008 introuvable ; le restylage 2015 démarrait à 19050 €, le prix de lancement était plus bas"
   },
   "peugeot-rifter": {
-   "entree": 21500,
-   "estime": true
+   "entree": 23150,
+   "source": "https://fr.motor1.com/news/244151/prix-peugeot-rifter-2018/"
   },
   "citroen-berlingo-2": {
    "entree": 17000,
-   "estime": true
+   "estime": true,
+   "source": "https://www.largus.fr/actualite-automobile/prix-citroen-berlingo-restyle-2015-ca-demarre-a-21-300-euros-6099395.html",
+   "note": "Tarif 2008 introuvable ; le restylage 2015 démarrait à 21300 €, le prix de lancement était plus bas"
   },
   "citroen-berlingo-3": {
-   "entree": 20500,
-   "estime": true
+   "entree": 21850,
+   "source": "https://www.caradisiac.com/nouveau-citroen-berlingo-2018-prix-a-partir-de-21-850-eur-168569.htm"
   },
   "jeep-renegade": {
-   "entree": 19900,
-   "estime": true
+   "entree": 18950,
+   "source": "https://www.fiches-auto.fr/essai-renegade/test-506-1214-et-le-prix-.php"
   },
   "volvo-v40-2": {
-   "entree": 23900,
-   "estime": true
+   "entree": 22990,
+   "source": "https://www.fiches-auto.fr/essai-v40/test-359-808-les-prix-du-neuf.php",
+   "note": "tarif mars 2013 (T2)"
   },
   "volvo-xc60-1": {
-   "entree": 38000,
-   "estime": true
+   "entree": 35000,
+   "source": "https://www.largus.fr/actualite-automobile/volvo-xc-60-138852.html",
+   "note": "estimation L'argus avant lancement"
   }
  }
 }

@@ -1,5 +1,5 @@
-"""Construit les deux versions de l'app à partir de page.html, engine.js, ui.js et data/.
-- index.html : version du dépôt (GitHub Pages), qui charge engine.js, ui.js et data/*.json
+"""Construit les deux versions de l'app à partir de page.html, des scripts (engine, health, store, owner, ui) et de data/.
+- index.html : version du dépôt (GitHub Pages), qui charge les scripts et data/*.json
 - dist/verdict-occasion.html : version autonome, données intégrées
 Usage : python3 build.py
 """
@@ -7,11 +7,14 @@ import json, pathlib
 root = pathlib.Path(__file__).parent
 page = (root / 'page.html').read_text(encoding='utf-8')
 engine = (root / 'engine.js').read_text(encoding='utf-8')
-ui = (root / 'ui.js').read_text(encoding='utf-8')
+SCRIPTS = ['engine.js', 'health.js', 'store.js', 'owner.js', 'ui.js']
+code = {f: (root / f).read_text(encoding='utf-8') for f in SCRIPTS}
 mod = json.loads((root / 'data/modeles.json').read_text(encoding='utf-8'))
 dfx = json.loads((root / 'data/defauts.json').read_text(encoding='utf-8'))
 prx = json.loads((root / 'data/prix_neufs.json').read_text(encoding='utf-8'))
 dec = json.loads((root / 'data/decote.json').read_text(encoding='utf-8'))
+pol = json.loads((root / 'data/politiques.json').read_text(encoding='utf-8'))
+org = json.loads((root / 'data/organes.json').read_text(encoding='utf-8'))
 
 # Contrôles de cohérence de la base
 codes_m = {e['code'] for m in mod['modeles'] for e in m['moteurs']}
@@ -40,12 +43,30 @@ for mid in ids_mod:
     if mid not in prx['prix']: errors.append(f"{mid} : pas de prix neuf de référence")
 for mq in {m['marque'] for m in mod['modeles']}:
     if mq not in dec['marques']: errors.append(f"{mq} : pas de coefficient de marque")
+# Politiques constructeur et organes : rattachés à des défauts existants, jamais l'inverse
+ids_def = set(ids)
+NATURES = {'extension_garantie', 'garantie_contractuelle', 'geste_commercial', 'position_constructeur', 'hors_france'}
+pids = [p['id'] for p in pol['politiques']]
+if len(pids) != len(set(pids)): errors.append('identifiants de politiques en double')
+for p in pol['politiques']:
+    for k in ('constructeur', 'marques', 'defauts', 'nature', 'resume', 'sources', 'derniere_verification', 'age_max_ans', 'km_max', 'procedure'):
+        if k not in p: errors.append(f"politique {p['id']} : champ {k} absent")
+    for dd in p.get('defauts', []):
+        if dd not in ids_def: errors.append(f"politique {p['id']} : défaut inconnu {dd}")
+    for c in p.get('moteurs', []):
+        if c not in codes_m: errors.append(f"politique {p['id']} : moteur inconnu {c}")
+    if p.get('nature') not in NATURES: errors.append(f"politique {p['id']} : nature inconnue")
+    if not p.get('sources'): errors.append(f"politique {p['id']} : aucune source")
+for dd in ids_def:
+    if dd not in org['organes']: errors.append(f'{dd} : organe absent de organes.json')
+for dd in org['organes']:
+    if dd not in ids_def: errors.append(f'organes.json : défaut inconnu {dd}')
 if errors:
     raise SystemExit('Base invalide :\n- ' + '\n- '.join(errors))
 
 doc_head = '<!doctype html>\n<html lang="fr">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
-(root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + '<script src="engine.js"></script>\n<script src="ui.js"></script>\n</body>\n</html>\n', encoding='utf-8')
-data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version'], 'prix': prx['prix'], 'decote': dec}
+(root / 'index.html').write_text(doc_head + page.replace('<style>', '<style>\nbody{margin:0}', 1).replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + ''.join(f'<script src="{f}"></script>\n' for f in SCRIPTS) + '</body>\n</html>\n', encoding='utf-8')
+data = {'modeles': mod['modeles'], 'defauts': dfx['defauts'], 'version': dfx['version'], 'prix': prx['prix'], 'decote': dec, 'politiques': pol, 'organes': org}
 (root / 'dist').mkdir(exist_ok=True)
-(root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n<script>\n' + engine + '</script>\n<script>\n' + ui + '</script>\n', encoding='utf-8')
-print(f"OK : {len(mod['modeles'])} modèles, {len(dfx['defauts'])} défauts")
+(root / 'dist/verdict-occasion.html').write_text(page + '<script>window.VO_DATA=' + json.dumps(data, ensure_ascii=False).replace('</', '<\\/') + ';</script>\n' + ''.join(f'<script>\n{code[f]}</script>\n' for f in SCRIPTS), encoding='utf-8')
+print(f"OK : {len(mod['modeles'])} modèles, {len(dfx['defauts'])} défauts, {len(pol['politiques'])} politiques constructeur")

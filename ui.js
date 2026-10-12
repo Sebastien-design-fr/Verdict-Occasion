@@ -1,17 +1,21 @@
-/* Ausculto — interface. Parcours : accueil (trouver le véhicule) → annonce (décrire) → verdict,
-   puis détails, mode visite, comparaison et répertoire. Le calcul est dans engine.js. */
+/* Ausculto — interface. Cœur V2 : « Mon véhicule » et les modules Anticiper, Décider, Agir (owner.js).
+   Rubrique secondaire « Avant d'acheter » : accueil (trouver le véhicule) → annonce → verdict,
+   puis détails, mode visite, comparaison et répertoire. Le calcul est dans engine.js et health.js. */
 (async function(){
 const $=s=>document.querySelector(s);
 const app=$('#app');
 let DATA=window.VO_DATA;
 if(!DATA){
   try{
-    const [m,d,p,c]=await Promise.all(['modeles','defauts','prix_neufs','decote'].map(f=>fetch(`data/${f}.json`).then(r=>r.json())));
-    DATA={modeles:m.modeles,defauts:d.defauts,version:d.version,prix:p.prix,decote:c};
+    const [m,d,p,c,po,o]=await Promise.all(['modeles','defauts','prix_neufs','decote','politiques','organes'].map(f=>fetch(`data/${f}.json`).then(r=>{if(!r.ok)throw new Error(f);return r.json();})));
+    DATA={modeles:m.modeles,defauts:d.defauts,version:d.version,prix:p.prix,decote:c,politiques:po,organes:o};
   }catch(e){app.innerHTML='<div class="view"><div class="col"><div class="alert warn">La base de données n\'a pas pu être chargée (dossier data/). Rechargez la page.</div></div></div>';return;}
 }
 const E=createEngine(DATA);
 const {MODELS,DEFECTS,nf,eur,label,shortEngine,GL,NOW}=E;
+const HL=createHealth({E,politiques:DATA.politiques,organes:DATA.organes});
+let storage=null;try{storage=window.localStorage;}catch(e){}
+const STORE=createStore({storage,models:MODELS});
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmtDate=v=>{const [y,m,d]=String(v||'').split('-');return d?`${d}/${m}/${y}`:v;};
 const ICON={
@@ -53,9 +57,11 @@ const steps=n=>`<div class="steps" aria-hidden="true">${[1,2,3].map(i=>`<i class
 const carLine=(r)=>`${esc(r.m.modele)} ${esc(r.m.generation)} · ${esc(shortEngine(r.e))} · ${r.year} · ${nf.format(r.km)} km`;
 
 /* ---- Routage par ancre simple (#verdict, #visite…) ---- */
-const ROUTES=['accueil','annonce','verdict','details','visite','comparer','repertoire'];
-let last='';
-const route=()=>{const h=location.hash.replace('#','');return ROUTES.includes(h)?h:'accueil';};
+const OWNER_ROUTES=['vehicule','ajout','anticiper','decider','agir'];
+const BUYER_ROUTES=['accueil','annonce','verdict','details','visite','comparer','repertoire'];
+const ROUTES=[...OWNER_ROUTES,...BUYER_ROUTES];
+let last='',fresh=false;
+const route=()=>{const h=location.hash.replace('#','');return ROUTES.includes(h)?h:'vehicule';};
 function go(r){if(location.hash.replace('#','')===r)render();else location.hash=r;}
 addEventListener('hashchange',render);
 document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b){e.preventDefault();go(b.dataset.go);}});
@@ -63,12 +69,15 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(b
 function render(){
   let r=route();
   if(['annonce','verdict','details','visite'].includes(r)&&!S.cur)r='accueil';
-  document.querySelectorAll('.nav button').forEach(b=>b.removeAttribute('aria-current'));
-  const navId={accueil:'nav-eval',annonce:'nav-eval',verdict:'nav-eval',details:'nav-eval',visite:'nav-eval',comparer:'nav-cmp',repertoire:'nav-rep'}[r];
-  $('#'+navId).setAttribute('aria-current','page');
+  const buyer=BUYER_ROUTES.includes(r);
+  const key={vehicule:'vehicule',ajout:'vehicule',anticiper:'anticiper',decider:'decider',agir:'agir',
+    accueil:'achat',annonce:'achat',verdict:'achat',details:'achat',visite:'achat',comparer:'comparer',repertoire:'repertoire'}[r];
+  document.querySelectorAll('[data-nav]').forEach(b=>{if(b.dataset.nav===key||(buyer&&b.dataset.nav==='buyer'))b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
+  $('#subnav').hidden=!buyer;document.body.classList.toggle('in-buyer',buyer);
   const n=$('#cmp-n');n.textContent=S.compare.length;n.hidden=!S.compare.length;
+  fresh=r!==last;
   VIEWS[r]();
-  if(r!==last){scrollTo(0,0);last=r;}
+  if(fresh){scrollTo(0,0);last=r;}
 }
 
 /* =========================================================
@@ -128,7 +137,7 @@ function renderResults(){
     const res=E.search(H.q,12);
     box.innerHTML=res.length?`<div class="list">${res.map((x,k)=>{const n=E.defectCount(x.m,x.e);
       return `<button class="item" data-pick="${k}"><span class="grow"><span class="t">${esc(x.m.marque)} ${esc(x.m.modele)} ${esc(x.m.generation)} · ${esc(shortEngine(x.e))}</span>
-      <span class="s"><span>${x.m.annees[0]}–${x.m.annees[1]} · ${esc(x.e.carburant)}</span>${n?tagHtml(n>=3?'crit':'warn',n+' défaut'+(n>1?'s':'')+' connu'+(n>1?'s':'')):tagHtml('ok','Aucun défaut répertorié')}</span></span>${ICON.chev}</button>`;}).join('')}</div>`
+      <span class="s"><span>${x.m.annees[0]}–${x.m.annees[1]} · ${esc(x.e.carburant)}</span>${n?tagHtml('warn',n+' défaut'+(n>1?'s':'')+' documenté'+(n>1?'s':'')):tagHtml('muted','Aucun défaut dans la base')}</span></span>${ICON.chev}</button>`;}).join('')}</div>`
       :`<div class="alert warn">Aucun modèle ne correspond à « ${esc(H.q)} ». Essayez la marque et le modèle seuls (ex. « Clio »), ou parcourez par marque ci-dessous.</div>${brandsHtml()}`;
     res.forEach((x,k)=>{const b=box.querySelector(`[data-pick="${k}"]`);if(b)b.onclick=()=>pick(x.m,x.i,x.year);});
     bindBrands();return;
@@ -238,9 +247,10 @@ function viewVerdict(){
       <div>
         <section class="card verdict tone-${r.v.tone}">
           <div class="plate"><i aria-hidden="true"></i><b>${esc(r.v.l)}</b><i aria-hidden="true"></i></div>
-          <div class="score num">Score ${r.score} / 100</div>
+          <div class="score num">Indice éditorial ${r.score} / 100</div>
           <div class="gauge" aria-hidden="true"><i style="left:${r.score}%"></i></div>
-          <div class="subs"><span>Mécanique <b class="num">${r.mec}</b></span><span>Prix <b>${r.pr?(r.pr.pts>0?'+':r.pr.pts<0?'−':'')+Math.abs(r.pr.pts)+' pts · '+esc(r.pr.label):'non évalué'}</b></span></div>
+          <div class="subs"><span>Indice mécanique <b class="num">${r.mec}</b></span><span>Prix <b>${r.pr?(r.pr.pts>0?'+':r.pr.pts<0?'−':'')+Math.abs(r.pr.pts)+' pts · '+esc(r.pr.label):'non évalué'}</b></span></div>
+          <p class="hint" style="margin:0">Indicateur éditorial : gravité et fréquence estimées par la rédaction, kilométrage et prix. Ce n'est pas une probabilité de panne.</p>
         </section>
         ${offer}
         <button class="btn primary" data-go="visite">Préparer la visite</button>
@@ -254,7 +264,7 @@ function viewVerdict(){
       <div>
         <h2 class="h2">Pourquoi</h2>
         <div class="reasons">${why.map(w=>`<div class="reason">${tagHtml(w.tone,w.tag)}<span>${esc(w.t)}</span></div>`).join('')}</div>
-        <p class="hint">${r.list.length} défaut${r.list.length>1?'s':''} connu${r.list.length>1?'s':''} pour cette version${r.list.filter(d=>d.done).length?', dont '+r.list.filter(d=>d.done).length+' traité(s)':''}. Cote ${r.coteSrc==='estimée'?'estimée par Ausculto':'saisie'} : ${r.cote?eur(r.cote):'non disponible'}. Frais à prévoir : ${eur(r.exp)}.</p>
+        <p class="hint">${r.list.length} défaut${r.list.length>1?'s':''} connu${r.list.length>1?'s':''} pour cette version${r.list.filter(d=>d.done).length?', dont '+r.list.filter(d=>d.done).length+' traité(s)':''}. Cote ${r.coteSrc==='estimée'?'estimée par Ausculto':'saisie'} : ${r.cote?eur(r.cote):'non disponible'}. Frais à prévoir (estimation éditoriale) : ${eur(r.exp)}.</p>
       </div>
     </div>
   </div></section>`;
@@ -278,7 +288,7 @@ function viewDetails(){
   const tabs=[['defauts',`Défauts (${r.list.length})`],['prix','Prix'],['argument','Argumentaire']];
   let body='';
   if(D.tab==='defauts'){
-    if(!r.list.length)body=`<div class="alert ok">Aucun défaut répertorié pour cette version à ce stade de la base. Les contrôles du mode visite restent indispensables.</div>`;
+    if(!r.list.length)body=`<div class="alert info">Aucun défaut répertorié pour cette version à ce stade de la base, ce qui ne prouve pas sa fiabilité. Les contrôles du mode visite restent indispensables.</div>`;
     else body=r.list.map((d,k)=>{
       const max=Math.max(d.km[1]*1.15,r.km*1.08,1);const L=x=>Math.min(100,x/max*100);
       const tone=d.done?'ok':d.z.cls==='in'?'crit':d.z.cls==='near'?'warn':'muted';
@@ -287,7 +297,7 @@ function viewDetails(){
           <h3>${esc(d.titre)}</h3>
           <div class="meta">${tagHtml(tone,d.done?'Traité, preuve présentée':d.z.l)}</div></summary>
         <div class="body">
-          <div><div class="zone-l"><span>Zone de risque : ${nf.format(d.km[0])} → ${nf.format(d.km[1])} km</span><span>Ce véhicule : ${nf.format(r.km)} km</span></div>
+          <div><div class="zone-l"><span>Plage documentée : ${nf.format(d.km[0])} → ${nf.format(d.km[1])} km</span><span>Ce véhicule : ${nf.format(r.km)} km</span></div>
             <div class="zonebar" aria-hidden="true"><span class="risk" style="left:${L(d.km[0])}%;width:${L(d.km[1])-L(d.km[0])}%"></span><i class="me" style="left:${L(r.km)}%"></i></div></div>
           <dl>
             <div><dt>Symptômes</dt><dd>${esc(d.symptomes)}</dd></div>
@@ -322,7 +332,7 @@ function viewDetails(){
     <h1 class="h1">Détails</h1>
     <div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" data-tab="${k}" aria-selected="${D.tab===k}">${esc(l)}</button>`).join('')}</div>
     <div style="display:flex;flex-direction:column;gap:10px">${body}</div>
-    <p class="hint">Base du ${fmtDate(DATA.version)}. Une erreur dans un défaut ? Les sources de chaque fiche sont publiques : vérifiez-les et signalez-la sur le dépôt du projet.</p>
+    <p class="hint">Un défaut documenté ne signifie pas que tous les véhicules sont touchés ; une absence de défaut ne prouve pas la fiabilité. Base du ${fmtDate(DATA.version)}. Une erreur dans un défaut ? Les sources de chaque fiche sont publiques : vérifiez-les et signalez-la sur le dépôt du projet.</p>
   </div></section>`;
   document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{D.tab=b.dataset.tab;D.open=null;viewDetails();});
   document.querySelectorAll('[data-treat]').forEach(x=>x.onchange=()=>{toggleTreated(x.dataset.treat,x.checked);D.open=x.dataset.treat;viewDetails();});
@@ -379,10 +389,10 @@ function viewVisite(){
     <div class="bar">${backBtn('verdict','Verdict')}<span class="step-l num">${done} / ${total}</span></div>
     <h1 class="h1">Mode visite</h1>
     <div class="progress" aria-hidden="true"><i style="width:${total?done/total*100:0}%"></i></div>
-    <p class="lede">Cochez au fur et à mesure. Les factures et preuves de rappel présentées par le vendeur mettent le score à jour.</p>
+    <p class="lede">Cochez au fur et à mesure. Les factures et preuves de rappel présentées par le vendeur mettent l'indice à jour.</p>
     ${html}
     <div class="livebar"><div class="in">
-      <div><small>Score en direct</small><span class="n num">${r.score}</span> <span style="font-size:13px;color:var(--inv-muted)">/ 100${c.visitBase!==r.score?' · était '+c.visitBase:''}</span></div>
+      <div><small>Indice éditorial en direct</small><span class="n num">${r.score}</span> <span style="font-size:13px;color:var(--inv-muted)">/ 100${c.visitBase!==r.score?' · était '+c.visitBase:''}</span></div>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:6px">${tagHtml(r.v.tone,r.v.l)}<button class="linkbtn" data-go="verdict" style="color:var(--inv-fg)">Voir le verdict</button></div>
     </div></div>
   </div></section>`;
@@ -416,7 +426,7 @@ function viewComparer(){
   const pctv=x=>x.r.pr?Math.round(x.r.pr.e*100):null;
   const rows=[
     ['Verdict',x=>`${tagHtml(x.r.v.tone,x.r.v.l)}`,null],
-    ['Score',x=>x.r.score+' / 100',x=>-x.r.score],
+    ['Indice éditorial',x=>x.r.score+' / 100',x=>-x.r.score],
     ['Prix demandé',x=>x.r.price?eur(x.r.price):'—',x=>x.r.price||Infinity],
     ['Frais à prévoir',x=>eur(x.r.exp),x=>x.r.exp],
     ['Prix + frais',x=>x.r.price?eur(real(x)):'—',real],
@@ -430,11 +440,11 @@ function viewComparer(){
   const others=items.filter(x=>x!==best);
   const bi=items.indexOf(best);
   const o=others[0],oi=items.indexOf(o);
-  let verdictTxt=`L'annonce ${L[bi]} obtient le meilleur score (${best.r.score} contre ${others.map(x=>x.r.score).join(' et ')}).`;
+  let verdictTxt=`L'annonce ${L[bi]} obtient le meilleur indice éditorial (${best.r.score} contre ${others.map(x=>x.r.score).join(' et ')}).`;
   if(best.r.price&&o.r.price){
     const d=real(best)-real(o);
     verdictTxt+=d<=0?` Frais compris, elle revient ${eur(-d)} de moins que l'annonce ${L[oi]} (${eur(real(best))} contre ${eur(real(o))}).`
-      :` Elle revient ${eur(d)} de plus que l'annonce ${L[oi]} frais compris (${eur(real(best))} contre ${eur(real(o))}) : à vous de juger si l'écart de score le justifie.`;
+      :` Elle revient ${eur(d)} de plus que l'annonce ${L[oi]} frais compris (${eur(real(best))} contre ${eur(real(o))}) : à vous de juger si l'écart d'indice le justifie.`;
   }
   if(crit(best)===0&&others.some(x=>crit(x)>0))verdictTxt+=' Elle n\'a aucun défaut critique en attente.';
   app.innerHTML=`<section class="view"><div class="wide">
@@ -494,7 +504,8 @@ function renderRep(){
   document.querySelectorAll('[data-rep]').forEach(b=>b.onclick=()=>{const m=MODELS.find(x=>x.id===b.dataset.rep);S.cur=blank(m,0,defaultYear(m));save();go('annonce');});
 }
 
-const VIEWS={accueil:viewAccueil,annonce:viewAnnonce,verdict:viewVerdict,details:viewDetails,visite:viewVisite,comparer:viewComparer,repertoire:viewRepertoire};
+const OWNER=ownerViews({E,H:HL,store:STORE,app,$,esc,go,toast,copy,tagHtml,ICON,DATA,render,backBtn,isFresh:()=>fresh});
+const VIEWS={...OWNER.views,accueil:viewAccueil,annonce:viewAnnonce,verdict:viewVerdict,details:viewDetails,visite:viewVisite,comparer:viewComparer,repertoire:viewRepertoire};
 $('#stats').textContent=`${MODELS.length} générations · ${DEFECTS.length} défauts sourcés · base du ${fmtDate(DATA.version)}`;
 render();
 })();

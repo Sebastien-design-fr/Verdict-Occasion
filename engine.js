@@ -55,10 +55,10 @@ function applies(d,model,eng,box){
   return tech?(!!techOK&&modOK):(!!d.modeles&&modOK);
 }
 function zone(km,r){
-  if(km<r[0]*0.6) return {f:.35,cls:'later',l:'Risque à venir'};
-  if(km<r[0]) return {f:.7,cls:'near',l:'Approche de la zone de risque'};
-  if(km<=r[1]) return {f:1,cls:'in',l:'Dans la zone de risque'};
-  return {f:.6,cls:'past',l:'Au-delà de la zone : vérifier si déjà traité'};
+  if(km<r[0]*0.6) return {f:.35,cls:'later',l:'Avant la plage documentée'};
+  if(km<r[0]) return {f:.7,cls:'near',l:'Approche de la plage documentée'};
+  if(km<=r[1]) return {f:1,cls:'in',l:'Dans la plage documentée'};
+  return {f:.6,cls:'past',l:'Au-delà de la plage documentée : vérifier si déjà traité'};
 }
 /* Analyse du prix : on compare le « prix réel » (prix demandé + frais à prévoir) à la cote.
    Un prix délirant plafonne le score, quel que soit l'état mécanique. */
@@ -97,7 +97,7 @@ function evaluate(s){
   const notes=[];
   if(kmy>25000){score-=6;notes.push({tone:'warn',tag:'Kilométrage',t:`Kilométrage élevé pour l'âge : environ ${nf.format(Math.round(kmy/1000)*1000)} km par an. Usure générale (trains roulants, embrayage, amortisseurs) à surveiller.`});}
   if(km>0&&kmy<5000)notes.push({tone:'warn',tag:'Kilométrage',t:`Kilométrage très faible pour l'âge : environ ${nf.format(Math.round(kmy/100)*100)} km par an. Vérifiez la cohérence des relevés sur HistoVec et les contrôles techniques.`});
-  if(maint==='aucun')notes.push({tone:'warn',tag:'Entretien',t:'Aucun historique d\'entretien : les défauts liés à la qualité de l\'huile et aux intervalles de vidange deviennent bien plus probables.'});
+  if(maint==='aucun')notes.push({tone:'warn',tag:'Entretien',t:'Aucun historique d\'entretien : les défauts liés à la qualité de l\'huile et aux intervalles de vidange sont plus difficiles à écarter.'});
   const mec=Math.max(5,Math.min(100,Math.round(score)));
   const exp=list.reduce((t,d)=>t+d.exp,0);
   const ch=Number(s.ch)||0;
@@ -130,7 +130,7 @@ function reasons(r){
   const rap=open.filter(d=>d.rappel);
   if(rap.length)out.push({tone:'info',tag:'Rappel',t:`${rap.length>1?rap.length+' rappels officiels':'Rappel officiel'} : ${rap.map(d=>d.titre.replace(/\s*\((rappel|rappels).*?\)/i,'')).join(' ; ')}. À vérifier avec le numéro VIN, gratuit s'il n'a pas été fait.`});
   r.notes.forEach(n=>out.push(n));
-  if(!open.length)out.push({tone:'ok',tag:'Mécanique',t:r.list.length?'Les défauts connus de cette version sont traités, factures à l\'appui.':'Aucun défaut répertorié pour cette version à ce stade de la base. Les contrôles de la visite restent indispensables.'});
+  if(!open.length)out.push({tone:r.list.length?'ok':'info',tag:'Mécanique',t:r.list.length?'Les défauts connus de cette version sont traités, factures à l\'appui.':'Aucun défaut répertorié pour cette version à ce stade de la base, ce qui ne prouve pas sa fiabilité. Les contrôles de la visite restent indispensables.'});
   return out.slice(0,5);
 }
 

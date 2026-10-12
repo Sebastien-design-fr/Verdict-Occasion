@@ -1375,6 +1375,10 @@
     {
      "libelle": "DSG à bain d'huile",
      "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   },
@@ -1500,6 +1504,10 @@
     {
      "libelle": "DSG à bain d'huile",
      "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   },
@@ -1541,6 +1549,10 @@
     {
      "libelle": "DSG à bain d'huile",
      "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   },
@@ -1624,6 +1636,10 @@
     {
      "libelle": "DSG à bain d'huile",
      "code": "dsgw"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   },
@@ -2765,6 +2781,755 @@
     {
      "libelle": "Automatique CVT",
      "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "opel-astra-k",
+   "marque": "Opel",
+   "modele": "Astra",
+   "generation": "K",
+   "annees": [
+    2015,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 Turbo",
+     "code": "opel10t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 Turbo",
+     "code": "opel14t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CDTI",
+     "code": "cdti16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "opel-mokka-1",
+   "marque": "Opel",
+   "modele": "Mokka / Mokka X",
+   "generation": "I",
+   "annees": [
+    2012,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 Turbo",
+     "code": "opel14t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 essence",
+     "code": "opel16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 CDTI",
+     "code": "cdti16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "1.7 CDTI",
+     "code": "cdti17",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "opel-corsa-e",
+   "marque": "Opel",
+   "modele": "Corsa",
+   "generation": "E",
+   "annees": [
+    2014,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 Turbo",
+     "code": "opel10t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.2 / 1.4 essence",
+     "code": "opel1214",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.3 CDTI",
+     "code": "cdti13",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mini-r56",
+   "marque": "Mini",
+   "modele": "Mini 3 portes",
+   "generation": "R56",
+   "annees": [
+    2006,
+    2013
+   ],
+   "moteurs": [
+    {
+     "libelle": "Cooper / Cooper S 1.6 (moteur Prince)",
+     "code": "thp",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Cooper D / One D 1.6 (moteur PSA)",
+     "code": "hdi16",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "Cooper SD 2.0 (N47)",
+     "code": "n47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mini-f56",
+   "marque": "Mini",
+   "modele": "Mini 3 et 5 portes",
+   "generation": "F55 / F56",
+   "annees": [
+    2014,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "Cooper / Cooper S (B38, B48)",
+     "code": "b38",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "Cooper D / SD (B37, B47)",
+     "code": "b47",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "honda-civic-10",
+   "marque": "Honda",
+   "modele": "Civic",
+   "generation": "X",
+   "annees": [
+    2017,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 VTEC Turbo",
+     "code": "honda10t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 VTEC Turbo",
+     "code": "honda15t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 i-DTEC",
+     "code": "honda16d",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "honda-jazz-3",
+   "marque": "Honda",
+   "modele": "Jazz",
+   "generation": "III",
+   "annees": [
+    2015,
+    2020
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.3 i-VTEC",
+     "code": "honda13",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "honda-crv-5",
+   "marque": "Honda",
+   "modele": "CR-V",
+   "generation": "V",
+   "annees": [
+    2018,
+    2023
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 VTEC Turbo",
+     "code": "honda15t",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 Hybride i-MMD",
+     "code": "hondahyb",
+     "carburant": "Hybride"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    },
+    {
+     "libelle": "e-CVT (hybride)",
+     "code": "ecvt"
+    }
+   ]
+  },
+  {
+   "id": "mazda-2-3",
+   "marque": "Mazda",
+   "modele": "2",
+   "generation": "III",
+   "annees": [
+    2014,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 Skyactiv-G",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.8 Skyactiv-D",
+     "code": "skyd15",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mazda-3-3",
+   "marque": "Mazda",
+   "modele": "3",
+   "generation": "III",
+   "annees": [
+    2013,
+    2019
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.5 / 2.0 Skyactiv-G",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 / 1.8 Skyactiv-D",
+     "code": "skyd15",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.2 Skyactiv-D",
+     "code": "skyd22",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mazda-6-3",
+   "marque": "Mazda",
+   "modele": "6",
+   "generation": "III",
+   "annees": [
+    2012,
+    2022
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 / 2.5 Skyactiv-G",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.2 Skyactiv-D",
+     "code": "skyd22",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mazda-cx5-1",
+   "marque": "Mazda",
+   "modele": "CX-5",
+   "generation": "I",
+   "annees": [
+    2012,
+    2017
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 / 2.5 Skyactiv-G",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.2 Skyactiv-D",
+     "code": "skyd22",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "mazda-cx5-2",
+   "marque": "Mazda",
+   "modele": "CX-5",
+   "generation": "II",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "2.0 / 2.5 Skyactiv-G",
+     "code": "skyg",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.2 Skyactiv-D",
+     "code": "skyd22",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    }
+   ]
+  },
+  {
+   "id": "suzuki-vitara-4",
+   "marque": "Suzuki",
+   "modele": "Vitara",
+   "generation": "IV",
+   "annees": [
+    2015,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 Boosterjet",
+     "code": "k10c",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 Boosterjet",
+     "code": "k14c",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 Boosterjet hybride 48V",
+     "code": "k14d",
+     "carburant": "Hybride"
+    },
+    {
+     "libelle": "1.6 VVT",
+     "code": "m16",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 DDiS",
+     "code": "ddis16",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique double embrayage TCSS",
+     "code": "tcss"
+    }
+   ]
+  },
+  {
+   "id": "suzuki-swift-5",
+   "marque": "Suzuki",
+   "modele": "Swift",
+   "generation": "V",
+   "annees": [
+    2017,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.2 Dualjet / hybride",
+     "code": "dualjet",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 Boosterjet",
+     "code": "k10c",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 Boosterjet (Swift Sport)",
+     "code": "k14c",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "Automatique",
+     "code": "auto"
+    },
+    {
+     "libelle": "Automatique CVT",
+     "code": "cvt"
+    }
+   ]
+  },
+  {
+   "id": "skoda-fabia-3",
+   "marque": "Skoda",
+   "modele": "Fabia",
+   "generation": "III",
+   "annees": [
+    2014,
+    2021
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 MPI",
+     "code": "vwmpi",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.0 / 1.2 TSI",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.4 TDI",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "seat-arona",
+   "marque": "Seat",
+   "modele": "Arona",
+   "generation": "I",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 TDI",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    }
+   ]
+  },
+  {
+   "id": "vw-t-roc",
+   "marque": "Volkswagen",
+   "modele": "T-Roc",
+   "generation": "I",
+   "annees": [
+    2017,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TSI",
+     "code": "ea888",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    }
+   ]
+  },
+  {
+   "id": "vw-tiguan-2",
+   "marque": "Volkswagen",
+   "modele": "Tiguan",
+   "generation": "II",
+   "annees": [
+    2016,
+    2024
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.4 TSI ACT 150 ch",
+     "code": "ea211act",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.6 / 2.0 TDI (EA288)",
+     "code": "ea288",
+     "carburant": "Diesel"
+    },
+    {
+     "libelle": "2.0 TSI",
+     "code": "ea888",
+     "carburant": "Essence"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
+    },
+    {
+     "libelle": "DSG6 à bain d'huile",
+     "code": "dsgw"
+    }
+   ]
+  },
+  {
+   "id": "vw-golf-8",
+   "marque": "Volkswagen",
+   "modele": "Golf",
+   "generation": "VIII",
+   "annees": [
+    2020,
+    2026
+   ],
+   "moteurs": [
+    {
+     "libelle": "1.0 TSI / eTSI",
+     "code": "ea211",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "1.5 TSI evo",
+     "code": "ea211evo",
+     "carburant": "Essence"
+    },
+    {
+     "libelle": "2.0 TDI",
+     "code": "ea288",
+     "carburant": "Diesel"
+    }
+   ],
+   "boites": [
+    {
+     "libelle": "Manuelle",
+     "code": "man"
+    },
+    {
+     "libelle": "DSG7 à embrayage sec",
+     "code": "dq200"
+    },
+    {
+     "libelle": "DSG7 à bain d'huile (DQ381)",
+     "code": "dq381"
     }
    ]
   }

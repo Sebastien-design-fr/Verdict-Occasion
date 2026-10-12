@@ -1,6 +1,6 @@
 {
  "version": "2026-10-12",
- "perimetre": "Lots 1 et 2 : véhicules 2010 à 2026",
+ "perimetre": "Lots 1 à 3 : véhicules 2010 à 2026",
  "regles": {
   "gravite": "1 mineure, 2 majeure, 3 critique (vocabulaire du contrôle technique)",
   "frequence": "1 rare, 2 courante, 3 très répandue",
@@ -155,7 +155,7 @@
   },
   {
    "id": "thp-chaine",
-   "titre": "Chaîne de distribution et tendeur (1.6 THP)",
+   "titre": "Chaîne de distribution et tendeur (1.6 THP / Prince, aussi sur Mini)",
    "moteurs": [
     "thp"
    ],
@@ -186,12 +186,16 @@
     {
      "titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP",
      "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"
+    },
+    {
+     "titre": "AutoCopilot : 1.6 THP / Prince (EP6)",
+     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6"
     }
    ]
   },
   {
    "id": "thp-huile",
-   "titre": "Consommation d'huile (1.6 THP)",
+   "titre": "Consommation d'huile (1.6 THP / Prince, aussi sur Mini)",
    "moteurs": [
     "thp"
    ],
@@ -222,6 +226,10 @@
     {
      "titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP",
      "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"
+    },
+    {
+     "titre": "AutoCopilot : 1.6 THP / Prince (EP6)",
+     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6"
     }
    ]
   },
@@ -1755,6 +1763,393 @@
     {
      "titre": "Car Verif : Toyota C-HR I 2016-2023",
      "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "opel14t-chaine",
+   "titre": "Allongement de la chaîne de distribution (1.4 Turbo Opel)",
+   "moteurs": [
+    "opel14t"
+   ],
+   "annees": [
+    2013,
+    2019
+   ],
+   "km": [
+    60000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Claquement métallique au démarrage à froid, ralenti instable, perte de puissance, voyant moteur (codes de calage P0008, P0016, P0017).",
+   "controle": "Démarrage à froid pendant la visite, lecture des codes défaut.",
+   "solution": "Kit complet chaîne, tendeur, guides et pignons.",
+   "cout": [
+    600,
+    1800
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Au7o : problèmes connus de l'Opel Mokka",
+     "url": "https://au7o.io/known-issues/opel-mokka"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "opel14t-huile",
+   "titre": "Consommation d'huile, turbo et fuites (1.4 Turbo Opel)",
+   "moteurs": [
+    "opel14t"
+   ],
+   "annees": [
+    2012,
+    2019
+   ],
+   "km": [
+    60000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Consommation d'huile, fumée au démarrage à froid, bruit de turbo, fuites au support de filtre à huile et sur le circuit de refroidissement.",
+   "controle": "Niveau d'huile et fumée au démarrage à froid, bruit de turbo, traces de fuite.",
+   "solution": "Réparation selon le diagnostic ; entretien annuel conseillé.",
+   "cout": [
+    300,
+    1800
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Car Verif : Opel Mokka / Mokka X 2012-2019",
+     "url": "https://carverif.fr/pages/modele-occasion/opel-mokka-mokka-x-2012-2019"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "cdti17-pompe-eau",
+   "titre": "Pompe à eau et courroie de distribution (1.7 CDTI)",
+   "moteurs": [
+    "cdti17"
+   ],
+   "annees": [
+    2012,
+    2015
+   ],
+   "km": [
+    80000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Suintement de liquide, bruit côté courroie, calage brutal. Si la pompe grippe, la courroie saute et la culasse est endommagée.",
+   "controle": "Facture de remplacement de la courroie avec la pompe à eau, traces de liquide.",
+   "solution": "Remplacer pompe à eau et courroie ensemble.",
+   "cout": [
+    2500,
+    4000
+   ],
+   "preventif": 900,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Au7o : problèmes connus de l'Opel Mokka",
+     "url": "https://au7o.io/known-issues/opel-mokka"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "mini-r56-pompe-eau-rappel",
+   "titre": "Pompe à eau (Mini Cooper S et JCW R56)",
+   "modeles": [
+    "mini-r56"
+   ],
+   "moteurs": [
+    "thp"
+   ],
+   "annees": [
+    2006,
+    2011
+   ],
+   "km": [
+    0,
+    300000
+   ],
+   "gravite": 2,
+   "frequence": 1,
+   "symptomes": "Campagne de janvier 2012 sur environ 11 000 Cooper S et JCW produites de 2006 à 2011.",
+   "controle": "Vérifier avec le VIN que la campagne a été effectuée.",
+   "solution": "Rappel officiel, remplacement gratuit.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Car Verif : Mini Cooper R56 2006-2013",
+     "url": "https://carverif.fr/pages/modele-occasion/mini-cooper-r56-2006-2013"
+    }
+   ]
+  },
+  {
+   "id": "honda15t-dilution",
+   "titre": "Essence dans l'huile (1.5 VTEC Turbo)",
+   "moteurs": [
+    "honda15t"
+   ],
+   "annees": [
+    2016,
+    2018
+   ],
+   "km": [
+    0,
+    150000
+   ],
+   "gravite": 2,
+   "frequence": 1,
+   "symptomes": "Niveau d'huile au-dessus du maximum, odeur d'essence, perte de puissance, voyant moteur. Aggravé par le froid et les petits trajets.",
+   "controle": "Niveau d'huile sur la jauge, odeur d'essence, mise à jour logicielle effectuée.",
+   "solution": "Mise à jour des calculateurs moteur et boîte, vidange, extension de garantie en Amérique du Nord. Les modèles 2019 sont corrigés en usine ; se renseigner auprès de Honda France.",
+   "cout": [
+    100,
+    600
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "WardsAuto : Honda étend la garantie pour la dilution d'huile du 1.5L",
+     "url": "https://www.wardsauto.com/news/archive-wards-honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem/793295/"
+    },
+    {
+     "titre": "RPM Web : comment Honda a corrigé la dilution d'huile du 1.5T",
+     "url": "https://rpmweb.ca/actualites-et-chroniques/chroniques/question-du-jour/comment-honda-a-t-elle-corrige-le-probleme-de-dilution-dhuile-du-1-5t"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "skyd22-arbre-cames",
+   "titre": "Arbre à cames qui s'use et débris métalliques (2.2 Skyactiv-D)",
+   "moteurs": [
+    "skyd22"
+   ],
+   "annees": [
+    2012,
+    2014
+   ],
+   "km": [
+    40000,
+    200000
+   ],
+   "gravite": 3,
+   "frequence": 2,
+   "symptomes": "Des particules métalliques passent dans l'huile et endommagent la pompe à vide et les turbos : sifflement aigu des turbos.",
+   "controle": "Sifflement de turbo, vérifier avec le VIN les bulletins techniques Mazda appliqués.",
+   "solution": "Bulletins techniques Mazda (arbre à cames, turbos).",
+   "cout": [
+    2000,
+    5000
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Fiches-auto : fiabilité du 2.2 Skyactiv-D",
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php"
+    },
+    {
+     "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "skyd22-joints-injecteurs",
+   "titre": "Fuite des joints d'injecteurs (2.2 Skyactiv-D)",
+   "moteurs": [
+    "skyd22"
+   ],
+   "annees": [
+    2012,
+    2022
+   ],
+   "km": [
+    60000,
+    250000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Dépôts gras qui bouchent la crépine d'huile, pouvant provoquer une casse turbo ou moteur.",
+   "controle": "Dépôts autour des injecteurs, factures de remplacement des joints.",
+   "solution": "Remplacement des joints d'injecteurs, nettoyage de la crépine.",
+   "cout": [
+    500,
+    2500
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Fiches-auto : fiabilité du 2.2 Skyactiv-D",
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php"
+    },
+    {
+     "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "skyd22-dilution",
+   "titre": "Niveau d'huile qui monte (2.2 Skyactiv-D)",
+   "moteurs": [
+    "skyd22"
+   ],
+   "annees": [
+    2012,
+    2022
+   ],
+   "km": [
+    30000,
+    250000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Les régénérations fréquentes du FAP envoient du gazole dans l'huile : niveau au-dessus du repère « X », huile fluidifiée.",
+   "controle": "Niveau d'huile sous le repère « X », usage du véhicule (petits trajets).",
+   "solution": "Vidanges rapprochées, roulages réguliers sur voie rapide, nettoyage de l'admission vers 80 000 à 100 000 km.",
+   "cout": [
+    100,
+    500
+   ],
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "suzuki-pompe-vide-rappel",
+   "titre": "Clapet de pompe à vide : freinage plus dur (Vitara Boosterjet)",
+   "modeles": [
+    "suzuki-vitara-4"
+   ],
+   "moteurs": [
+    "k10c",
+    "k14c",
+    "k14d"
+   ],
+   "annees": [
+    2015,
+    2022
+   ],
+   "km": [
+    0,
+    300000
+   ],
+   "gravite": 3,
+   "frequence": 1,
+   "symptomes": "Effort accru à la pédale de frein. Rappel de décembre 2022 (RappelConso A12/01781/22).",
+   "controle": "Vérifier avec le VIN que le rappel a été effectué, pédale de frein souple.",
+   "solution": "Rappel officiel : remplacement du clapet ou de la pompe.",
+   "cout": [
+    0,
+    0
+   ],
+   "preventif": 0,
+   "rappel": true,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Car Verif : Suzuki Vitara IV 2015-2024",
+     "url": "https://carverif.fr/pages/modele-occasion/suzuki-vitara-iv-ly-2015-2024"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Suzuki Vitara",
+     "url": "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php"
+    }
+   ]
+  },
+  {
+   "id": "ea211evo-froid",
+   "titre": "À-coups à froid (1.5 TSI evo)",
+   "moteurs": [
+    "ea211evo"
+   ],
+   "annees": [
+    2017,
+    2020
+   ],
+   "km": [
+    0,
+    150000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "Hésitations et à-coups (« kangourou ») moteur froid, surtout en boîte manuelle, ralenti instable à basse vitesse.",
+   "controle": "Essai moteur froid, demander si la mise à jour logicielle a été faite.",
+   "solution": "Mise à jour logicielle diffusée à partir de février 2020, sans rappel officiel.",
+   "cout": [
+    0,
+    300
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Honest John : Volkswagen reconnaît un problème sur le 1.5 TSI Evo",
+     "url": "https://www.dev.honestjohn.co.uk/news/owning-1/2019-01/volkswagen-acknowledges-problem-with-15-tsi-evo-engine"
+    },
+    {
+     "titre": "Au7o : problèmes connus du VW T-Roc",
+     "url": "https://au7o.io/fr/known-issues/volkswagen-t-roc"
+    }
+   ],
+   "rappel": false
+  },
+  {
+   "id": "dq381-mecatronique",
+   "titre": "DSG7 à bain d'huile (DQ381) : mécatronique",
+   "boites": [
+    "dq381"
+   ],
+   "annees": [
+    2016,
+    2021
+   ],
+   "km": [
+    20000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Perte des rapports pairs ou impairs, marche arrière impossible, mode secours, voyant de boîte, souvent boîte chaude après un long trajet. Rétrogradages brutaux.",
+   "controle": "Essai long jusqu'à boîte chaude, lecture des codes défaut, factures de vidange de boîte (environ tous les 60 000 km).",
+   "solution": "Mise à jour logicielle, réparation ou remplacement de la mécatronique.",
+   "cout": [
+    1500,
+    3500
+   ],
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "ECU Testing : mécatronique DQ381",
+     "url": "https://ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems"
+    },
+    {
+     "titre": "Carwiki : problèmes des boîtes DSG",
+     "url": "https://carwiki.de/vw-DSG-probleme/"
     }
    ],
    "rappel": false

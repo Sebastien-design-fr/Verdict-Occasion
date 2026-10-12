@@ -132,7 +132,7 @@ function render(){
         <div><dt>Symptômes</dt><dd>${esc(d.symptomes)}</dd></div>
         <div><dt>À contrôler à la visite</dt><dd>${esc(d.controle)}</dd></div>
         <div><dt>Solution</dt><dd>${esc(d.solution)}</dd></div>
-        <div><dt>Sources</dt><dd><ul class="srcs">${d.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a></li>`).join('')}</ul></dd></div></dl>
+        <div><dt>Sources</dt><dd><ul class="srcs">${d.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titre)}</a>${s.type==='forum'?' <span class="conf">Forum</span>':''}</li>`).join('')}</ul></dd></div></dl>
         <label class="treat"><input type="checkbox" data-treat="${d.id}" ${d.done?'checked':''}> ${d.rappel?'Fait : preuve du rappel présentée':'Traité : le vendeur présente une facture'}</label>
       </div>
     </details>`).join('')}</div>`;

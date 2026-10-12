@@ -11,7 +11,7 @@
 
 ## Règle de confiance
 
-Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il est décrit par au moins deux sources indépendantes. Sinon il reste « à confirmer » et pèse moins dans le score.
+Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il est décrit par au moins deux sources indépendantes. Deux pages d'un même éditeur comptent pour une seule source. Un fil de forum où plusieurs propriétaires décrivent le même défaut compte pour une source ; chaque source porte un type (`article` ou `forum`). Sinon le défaut reste « à confirmer » et pèse moins dans le score. Un défaut contredit par les sources est retiré de la base.
 
 ## Ajouter un défaut ou un modèle
 
@@ -24,4 +24,5 @@ Un défaut est « confirmé » s'il fait l'objet d'un rappel officiel ou s'il es
 - Lot 2 (octobre 2026) : Hyundai, Kia, Mercedes, Toyota C-HR, Auris et Corolla ; recoupement de défauts du lot 1. Total : 67 modèles, 50 défauts dont 32 confirmés.
 - Lot 3 (octobre 2026) : Opel Astra K, Mokka, Corsa E, Mini, Honda, Mazda, Suzuki, Skoda Fabia, Seat Arona, VW T-Roc, Tiguan et Golf VIII ; boîte DSG DQ381. Total : 87 modèles, 61 défauts dont 39 confirmés.
 - Lot 4 (octobre 2026) : Renault Twingo III et Zoé, Dacia Spring, Nissan Micra et X-Trail, Citroën Berlingo, Peugeot Partner et Rifter, Fiat Panda et Tipo, Jeep Renegade, Volvo V40 et XC60. Total : 101 modèles, 76 défauts dont 47 confirmés.
+- Passe de confirmation (octobre 2026) : 29 défauts repris, forums inclus. 22 confirmés, 2 retirés car contredits ou non étayés, 1 reformulé. Total : 101 modèles, 77 défauts dont 63 confirmés.
 - Prochains lots : compléter 2010-2026 (Kia Niro, Hyundai Ioniq, Tesla Model 3, Peugeot 508, Citroën C4, Renault Austral et Arkana, Skoda Kodiaq, BMW X1 et Série 3 G20, Audi Q3 et A4), puis 2000-2010.

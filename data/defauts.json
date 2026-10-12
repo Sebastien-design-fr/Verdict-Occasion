@@ -7,7 +7,7 @@
   "km": "Plage de kilométrage où le défaut apparaît le plus souvent",
   "cout": "Coût de réparation si le défaut survient, en euros, pièces et main-d'œuvre",
   "preventif": "Coût d'une intervention préventive à prévoir sans facture (0 si prise en charge par un rappel)",
-  "confiance": "confirmé = rappel officiel ou au moins deux sources indépendantes ; à confirmer = une seule source ou sources de même origine"
+  "confiance": "confirmé = rappel officiel ou au moins deux sources indépendantes (deux pages d'un même éditeur comptent pour une) ; un fil de forum où plusieurs propriétaires décrivent le même défaut compte pour une source ; à confirmer sinon"
  },
  "defauts": [
   {
@@ -39,15 +39,18 @@
    "sources": [
     {
      "titre": "Aramisauto : les garanties Stellantis sur les moteurs PureTech",
-     "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/"
+     "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/",
+     "type": "article"
     },
     {
      "titre": "Caradisiac : le moteur PureTech profite d'une extension de garantie",
-     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm"
+     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+     "type": "article"
     },
     {
      "titre": "L'argus : plate-forme d'indemnisation PureTech et AdBlue",
-     "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"
+     "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html",
+     "type": "article"
     }
    ]
   },
@@ -79,11 +82,13 @@
    "sources": [
     {
      "titre": "Caradisiac : extension de garantie PureTech",
-     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm"
+     "url": "https://www.caradisiac.com/le-moteur-puretech-profite-d-une-extension-de-garantie-208069.htm",
+     "type": "article"
     },
     {
      "titre": "Aramisauto : garanties Stellantis PureTech",
-     "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/"
+     "url": "https://www.aramisauto.com/guide-pratique/moteurs-puretech/les-garanties-stellantis-concernant-les-moteurs-puretech/",
+     "type": "article"
     }
    ]
   },
@@ -116,40 +121,8 @@
    "sources": [
     {
      "titre": "Fiches-auto : rappel des 1.2 PureTech 110 et 130 ch",
-     "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-2398-rappel-des-12-puretech.php"
-    }
-   ]
-  },
-  {
-   "id": "puretech-courroie-atmo",
-   "titre": "Courroie de distribution humide (versions atmosphériques)",
-   "moteurs": [
-    "puretech-a"
-   ],
-   "annees": [
-    2012,
-    2022
-   ],
-   "km": [
-    60000,
-    180000
-   ],
-   "gravite": 3,
-   "frequence": 1,
-   "symptomes": "Même conception de courroie que les versions turbo, mais beaucoup moins de cas signalés.",
-   "controle": "Facture de remplacement de la courroie et huile à la norme constructeur.",
-   "solution": "Remplacement de la courroie à l'intervalle constructeur. Les versions atmosphériques ne sont pas éligibles à la plate-forme d'indemnisation Stellantis.",
-   "cout": [
-    3000,
-    6000
-   ],
-   "preventif": 900,
-   "rappel": false,
-   "confiance": "à confirmer",
-   "sources": [
-    {
-     "titre": "L'argus : plate-forme d'indemnisation PureTech",
-     "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"
+     "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-2398-rappel-des-12-puretech.php",
+     "type": "article"
     }
    ]
   },
@@ -181,15 +154,18 @@
    "sources": [
     {
      "titre": "Fiches-auto : essais et avis 1.6 THP",
-     "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php",
+     "type": "article"
     },
     {
      "titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : 1.6 THP / Prince (EP6)",
-     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6"
+     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6",
+     "type": "article"
     }
    ]
   },
@@ -221,15 +197,18 @@
    "sources": [
     {
      "titre": "Fiches-auto : essais et avis 1.6 THP",
-     "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l6-thp-165-ch.php",
+     "type": "article"
     },
     {
      "titre": "Car Verif : fiabilité Peugeot 3008 1.6 THP",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-peugeot-3008-1-6-thp",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : 1.6 THP / Prince (EP6)",
-     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6"
+     "url": "https://autocopilot.fr/motorisations/1-6-thp-ep6",
+     "type": "article"
     }
    ]
   },
@@ -263,11 +242,13 @@
    "sources": [
     {
      "titre": "L'argus : plate-forme d'indemnisation PureTech et AdBlue",
-     "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html"
+     "url": "https://www.largus.fr/actualite-automobile/moteur-1-2-puretech-stellantis-lancera-bientot-une-plate-forme-d-indemnisation-30037499.html",
+     "type": "article"
     },
     {
      "titre": "Car Verif : fiabilité Peugeot 308 II 1.6 BlueHDi 120",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120",
+     "type": "article"
     }
    ]
   },
@@ -300,7 +281,8 @@
    "sources": [
     {
      "titre": "Fiches-auto : rappel du 1.5 BlueHDi lié à la chaîne de distribution",
-     "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/rappels-constructeurs/s-3950-rappel-du-15-bluehdi-lie-a-la-chaine-de-distribution.php",
+     "type": "article"
     }
    ]
   },
@@ -332,11 +314,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 1.6 HDi",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : 1.6 HDi / BlueHDi (DV6)",
-     "url": "https://autocopilot.fr/motorisations/1-6-hdi"
+     "url": "https://autocopilot.fr/motorisations/1-6-hdi",
+     "type": "article"
     }
    ]
   },
@@ -362,15 +346,18 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 1.6 HDi",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2522-fiabilite-16-hdi.php",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : 1.6 HDi / BlueHDi (DV6)",
-     "url": "https://autocopilot.fr/motorisations/1-6-hdi"
+     "url": "https://autocopilot.fr/motorisations/1-6-hdi",
+     "type": "article"
     },
     {
      "titre": "Car Verif : fiabilité Peugeot 308 II 1.6 BlueHDi 120",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/peugeot-308-ii-1-6-bluehdi-120",
+     "type": "article"
     }
    ]
   },
@@ -402,47 +389,56 @@
    "sources": [
     {
      "titre": "Fiches-auto : problèmes en série sur les moteurs 1.2 TCe",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2187-problemes-en-serie-sur-les-moteurs-12-tce-renault.php",
+     "type": "article"
     },
     {
      "titre": "UFC-Que Choisir : moteur 1.2 Renault, 400 000 voitures en danger",
-     "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/"
+     "url": "https://www.quechoisir.org/actualite-moteur-1-2-renault-400-000-voitures-en-danger-n67215/",
+     "type": "article"
     },
     {
      "titre": "Au7o : problèmes connus du Renault Captur",
-     "url": "https://au7o.io/fr/known-issues/renault-captur"
+     "url": "https://au7o.io/fr/known-issues/renault-captur",
+     "type": "article"
     }
    ]
   },
   {
-   "id": "tce13-injection",
-   "titre": "Alerte « risque casse moteur » et injecteurs (1.3 TCe)",
+   "id": "tce13-dephaseur",
+   "titre": "Déphaseur d'arbre à cames et reprogrammation (1.3 TCe avant octobre 2019)",
    "moteurs": [
     "tce13"
    ],
    "annees": [
     2018,
-    2026
+    2019
    ],
    "km": [
-    20000,
+    0,
     150000
    ],
    "gravite": 2,
    "frequence": 2,
-   "symptomes": "Gestion de l'injection imparfaite : message « risque casse moteur », injecteurs remplacés, niveau d'huile qui monte par dilution d'essence.",
-   "controle": "Aucun message à l'essai, factures de reprogrammation ou d'injecteurs.",
-   "solution": "Reprogrammation du calculateur, remplacement des seuls injecteurs défaillants.",
+   "symptomes": "Perte de puissance et témoin d'injection (vanne de régulation du déphaseur), voyant diagnostic, parfois alerte moteur liée à la gestion de l'injection.",
+   "controle": "Aucun voyant à l'essai, factures de mise à jour du calculateur et du déphaseur.",
+   "solution": "Mises à jour faites lors des révisions sur les moteurs fabriqués avant octobre 2019, remplacement de la vanne si besoin.",
    "cout": [
     150,
-    1500
+    1000
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité des 1.3 TCe",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php",
+     "type": "article"
+    },
+    {
+     "titre": "Planète Renault (forum) : nouveau 1.3 TCe sous surveillance",
+     "url": "https://www.planeterenault.com/forum/kadjar-moteurs-renault-tce-essence-nouveau-1-3-l-surveillance-t52847.html?amp=1",
+     "type": "forum"
     }
    ]
   },
@@ -474,7 +470,8 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité des 1.3 TCe",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2906-fiabilite-des-13-tce.php",
+     "type": "article"
     }
    ]
   },
@@ -506,17 +503,19 @@
    "sources": [
     {
      "titre": "Planète Renault : le moteur 1.5 dCi",
-     "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/"
+     "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/",
+     "type": "article"
     },
     {
      "titre": "Autoscore : 1.5 dCi K9K",
-     "url": "https://autoscore.pro/engine/1.5-dci-k9k"
+     "url": "https://autoscore.pro/engine/1.5-dci-k9k",
+     "type": "article"
     }
    ]
   },
   {
    "id": "k9k-courroie",
-   "titre": "Courroie de distribution et galets (1.5 dCi 2009-2011)",
+   "titre": "Courroie de distribution mal alignée (1.5 dCi produits de sept. 2009 à début 2011)",
    "moteurs": [
     "k9k"
    ],
@@ -529,21 +528,32 @@
     160000
    ],
    "gravite": 3,
-   "frequence": 1,
-   "symptomes": "Casses de courroie ou de galets signalées sur cette période.",
+   "frequence": 2,
+   "symptomes": "Bruit anormal et usure prématurée de la courroie par mauvais alignement, casses signalées entre 40 000 et 80 000 km, bien avant l'intervalle constructeur.",
    "controle": "Facture de remplacement de la distribution (tous les 5 ans ou 120 000 km).",
-   "solution": "Remplacement préventif du kit de distribution.",
+   "solution": "Remplacement de la courroie, parfois de la pompe haute pression ou du moteur. Prise en charge Renault au cas par cas sous condition d'entretien.",
    "cout": [
     2500,
     5000
    ],
    "preventif": 600,
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Planète Renault : le moteur 1.5 dCi",
-     "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/"
+     "url": "https://www.planeterenault.com/1-gamme/45-moteurs/1597-actualite-automobile/11784--moteur-1-5-dci-bloc-diesel-fiable-a-longevite-record/amp/",
+     "type": "article"
+    },
+    {
+     "titre": "L'argus : courroie de distribution, des ennuis à la chaîne",
+     "url": "https://www.largus.fr/actualite-automobile/courroie-de-distribution-des-ennuis-a-la-chaine-3823379_p_2.html",
+     "type": "article"
+    },
+    {
+     "titre": "Planète Renault (forum) : casse prématurée de courroie 1.5 dCi",
+     "url": "https://www.planeterenault.com/forum/megane-iii-casse-prematuree-de-la-courroie-de-distribution-1-5-dci-regle-t42835.html?amp=1",
+     "type": "forum"
     }
    ]
   },
@@ -575,11 +585,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité de la boîte EDC",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2277-fiabilite-de-la-boite-edc-renault.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2277-fiabilite-de-la-boite-edc-renault.php",
+     "type": "article"
     },
     {
      "titre": "Au7o : problèmes connus du Renault Captur",
-     "url": "https://au7o.io/fr/known-issues/renault-captur"
+     "url": "https://au7o.io/fr/known-issues/renault-captur",
+     "type": "article"
     }
    ]
   },
@@ -612,11 +624,13 @@
    "sources": [
     {
      "titre": "Auto Bild : VW Steuerketten-Kulanz",
-     "url": "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html"
+     "url": "https://www.autobild.de/artikel/vw-steuerketten-kulanz-2892135.html",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : 1.4 TSI EA111",
-     "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111"
+     "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111",
+     "type": "article"
     }
    ]
   },
@@ -628,7 +642,7 @@
    ],
    "annees": [
     2006,
-    2014
+    2012
    ],
    "km": [
     60000,
@@ -644,11 +658,27 @@
     3500
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "AutoCopilot : 1.4 TSI EA111",
-     "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111"
+     "url": "https://autocopilot.fr/motorisations/1-4-tsi-ea111",
+     "type": "article"
+    },
+    {
+     "titre": "Autoscore : 1.4 TSI EA111",
+     "url": "https://autoscore.pro/engine/1.4-tsi-twincharged-ea111",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto : essais et avis 1.4 TSI",
+     "url": "https://www.fiches-auto.fr/articles-auto/essai-moteur/1l4-tsi-122-ch.php",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : fiabilité Volkswagen Golf 1.4 TSI",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-volkswagen-golf-1-4-tsi",
+     "type": "article"
     }
    ]
   },
@@ -681,11 +711,13 @@
    "sources": [
     {
      "titre": "AutoCopilot : 1.4 TFSI EA211",
-     "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211"
+     "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211",
+     "type": "article"
     },
     {
      "titre": "Autoscore : 1.4 TSI EA211",
-     "url": "https://autoscore.pro/engine/1.4-tsi-ea211"
+     "url": "https://autoscore.pro/engine/1.4-tsi-ea211",
+     "type": "article"
     }
    ]
   },
@@ -717,11 +749,13 @@
    "sources": [
     {
      "titre": "AutoCopilot : 1.4 TFSI EA211",
-     "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211"
+     "url": "https://autocopilot.fr/motorisations/1-4-tfsi-ea211",
+     "type": "article"
     },
     {
      "titre": "Autoscore : 1.4 TSI EA211",
-     "url": "https://autoscore.pro/engine/1.4-tsi-ea211"
+     "url": "https://autoscore.pro/engine/1.4-tsi-ea211",
+     "type": "article"
     }
    ]
   },
@@ -753,15 +787,18 @@
    "sources": [
     {
      "titre": "AutoCopilot : DSG7 DQ200",
-     "url": "https://autocopilot.fr/motorisations/dsg7-dq200"
+     "url": "https://autocopilot.fr/motorisations/dsg7-dq200",
+     "type": "article"
     },
     {
      "titre": "ECU Testing : défaut P0841 de la mécatronique DQ200",
-     "url": "https://www.ecutesting.com/common-faults/volkswagen/p0841-vw-dsg7-dq200/"
+     "url": "https://www.ecutesting.com/common-faults/volkswagen/p0841-vw-dsg7-dq200/",
+     "type": "article"
     },
     {
      "titre": "L'argus : campagne Volkswagen sur la DSG7 (2013)",
-     "url": "https://www.largus.fr/actualite-automobile/rappel-historique-chez-volkswagen-3326377.html"
+     "url": "https://www.largus.fr/actualite-automobile/rappel-historique-chez-volkswagen-3326377.html",
+     "type": "article"
     }
    ]
   },
@@ -789,11 +826,17 @@
     1800
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "AutoCopilot : DSG7 DQ200",
-     "url": "https://autocopilot.fr/motorisations/dsg7-dq200"
+     "url": "https://autocopilot.fr/motorisations/dsg7-dq200",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : fiabilité Volkswagen Golf 1.4 TSI",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiabilite-volkswagen-golf-1-4-tsi",
+     "type": "article"
     }
    ]
   },
@@ -825,11 +868,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 1.0 EcoBoost",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php",
+     "type": "article"
     },
     {
      "titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés",
-     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"
+     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes",
+     "type": "article"
     }
    ]
   },
@@ -862,11 +907,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 1.0 EcoBoost",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php",
+     "type": "article"
     },
     {
      "titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés",
-     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"
+     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes",
+     "type": "article"
     }
    ]
   },
@@ -899,11 +946,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 1.0 EcoBoost",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2306-fiabilite-du-10-ecoboost.php",
+     "type": "article"
     },
     {
      "titre": "Économie Matin : Ford 1.0 EcoBoost, les modèles touchés",
-     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes"
+     "url": "https://www.economiematin.fr/ford-1-litre-ecoboost-modeles-pannes",
+     "type": "article"
     }
    ]
   },
@@ -935,11 +984,13 @@
    "sources": [
     {
      "titre": "GoAuto : PowerShift DCT issues under control, says Ford",
-     "url": "https://www.goauto.com.au/news/ford/powershift-dct-issues-under-control-ford/2015-09-03/20501.html"
+     "url": "https://www.goauto.com.au/news/ford/powershift-dct-issues-under-control-ford/2015-09-03/20501.html",
+     "type": "article"
     },
     {
      "titre": "The Drive : Ford sued over PowerShift transmissions again",
-     "url": "https://www.thedrive.com/news/fords-getting-sued-over-powershift-transmissions-again"
+     "url": "https://www.thedrive.com/news/fords-getting-sued-over-powershift-transmissions-again",
+     "type": "article"
     }
    ]
   },
@@ -972,11 +1023,13 @@
    "sources": [
     {
      "titre": "L'argus : BMW/Mini 2.0d N47, le point sur les soucis de distribution",
-     "url": "https://www.largus.fr/actualite-automobile/bmwmini-20d-n47-le-point-sur-les-soucis-de-distribution-9330391.html"
+     "url": "https://www.largus.fr/actualite-automobile/bmwmini-20d-n47-le-point-sur-les-soucis-de-distribution-9330391.html",
+     "type": "article"
     },
     {
      "titre": "Car Verif : BMW Série 1 E87, fiabilité",
-     "url": "https://carverif.fr/pages/modele-occasion/bmw-serie-1-e87-2004-2011"
+     "url": "https://carverif.fr/pages/modele-occasion/bmw-serie-1-e87-2004-2011",
+     "type": "article"
     }
    ]
   },
@@ -1008,11 +1061,8 @@
    "sources": [
     {
      "titre": "Unixnerd : BMW N13 and N18 Prince engines",
-     "url": "https://www.unixnerd.co.uk/n13.html"
-    },
-    {
-     "titre": "Autoscore / CarChecker : BMW 118i F20",
-     "url": "https://www.carchecker.pro/reports/bmw_118i_f20.html"
+     "url": "https://www.unixnerd.co.uk/n13.html",
+     "type": "article"
     }
    ]
   },
@@ -1034,17 +1084,23 @@
    "frequence": 2,
    "symptomes": "La boîte passe au neutre ou refuse certains rapports. Roulements internes qui prennent du jeu, grondement.",
    "controle": "Passer tous les rapports à l'arrêt et en roulant, écouter les grondements.",
-   "solution": "Remplacement de la pompe, de l'actionneur ou des roulements selon le diagnostic.",
+   "solution": "Diagnostic avec un outil Fiat : l'embrayage usé est la cause la plus fréquente sans fuite ; une fuite indique l'actionneur. Pompe et accumulateur fatigués à remplacer ensemble.",
    "cout": [
     800,
     2000
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Fiat 500 (2007)",
-     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+     "type": "article"
+    },
+    {
+     "titre": "The FIAT Forum (forum) : fil des pannes Dualogic",
+     "url": "https://www.fiatforum.com/500/425006-one-only-dualogic-failure-thread-21.html",
+     "type": "forum"
     }
    ]
   },
@@ -1068,15 +1124,26 @@
    "controle": "Ralenti stable, accélérations franches, aucun voyant.",
    "solution": "Remplacement du module, huile à la norme constructeur.",
    "cout": [
-    600,
-    1200
+    800,
+    1500
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Fiat 500 (2007)",
-     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+     "type": "article"
+    },
+    {
+     "titre": "Autoscore : 0.9 TwinAir",
+     "url": "https://autoscore.pro/engine/0.9-twinair",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Fiat Panda",
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-351-pannes-fiat-panda.php",
+     "type": "article"
     }
    ]
   },
@@ -1108,7 +1175,8 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Fiat 500 (2007)",
-     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+     "type": "article"
     }
    ]
   },
@@ -1136,11 +1204,22 @@
     5000
    ],
    "rappel": false,
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Fiat 500 (2007)",
-     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-188-pannes-fiat-500.php",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : Fiat 500 1.3 Multijet",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/fiat-500-diesel-1-3-multijet",
+     "type": "article"
+    },
+    {
+     "titre": "The FIAT Forum (forum) : 1.3 Multijet, EGR, FAP et niveau d'huile",
+     "url": "https://fiatforum.com/threads/fiat-500-1-3-multijet-egr-dpf-oil-level.500987/latest",
+     "type": "forum"
     }
    ]
   },
@@ -1173,7 +1252,8 @@
    "sources": [
     {
      "titre": "L'argus : rappel Toyota Yaris 2020, systèmes hybrides à reprogrammer",
-     "url": "https://www.largus.fr/actualite-automobile/rappel-toyota-yaris-2020-des-systemes-hybrides-a-reprogrammer-30022925.html"
+     "url": "https://www.largus.fr/actualite-automobile/rappel-toyota-yaris-2020-des-systemes-hybrides-a-reprogrammer-30022925.html",
+     "type": "article"
     }
    ]
   },
@@ -1205,7 +1285,8 @@
    "sources": [
     {
      "titre": "CarChecker : BMW 118i F20",
-     "url": "https://www.carchecker.pro/reports/bmw_118i_f20.html"
+     "url": "https://www.carchecker.pro/reports/bmw_118i_f20.html",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1237,11 +1318,13 @@
    "sources": [
     {
      "titre": "L'argus : Kia, vibrations avec la boîte DCT-7",
-     "url": "https://www.largus.fr/actualite-automobile/kia-problemes-de-vibrations-avec-la-boite-double-embrayage-dct-7-10641403.html"
+     "url": "https://www.largus.fr/actualite-automobile/kia-problemes-de-vibrations-avec-la-boite-double-embrayage-dct-7-10641403.html",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Hyundai Tucson",
-     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1273,11 +1356,13 @@
    "sources": [
     {
      "titre": "AutoCopilot : 1.7 CRDi Hyundai-Kia",
-     "url": "https://autocopilot.fr/motorisations/1-7-crdi-hyundai-kia"
+     "url": "https://autocopilot.fr/motorisations/1-7-crdi-hyundai-kia",
+     "type": "article"
     },
     {
      "titre": "Car Verif : fiabilité du moteur 1.7 CRDi",
-     "url": "https://carverif.fr/pages/fiabilite-moteur-1-7-crdi"
+     "url": "https://carverif.fr/pages/fiabilite-moteur-1-7-crdi",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1294,23 +1379,29 @@
     2020
    ],
    "km": [
-    60000,
+    70000,
     200000
    ],
    "gravite": 2,
    "frequence": 2,
    "symptomes": "Segments ou guides de soupapes usés : consommation d'huile, fumée bleue.",
    "controle": "Niveau d'huile et historique des appoints.",
-   "solution": "Réfection de la segmentation selon l'état.",
+   "solution": "Kia considère jusqu'à 1 litre pour 1 000 km comme dans les tolérances : pas de prise en charge. Appoints, ou segmentation dans les cas graves.",
    "cout": [
-    300,
-    4000
+    200,
+    3500
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Hyundai Tucson",
-     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+     "type": "article"
+    },
+    {
+     "titre": "CarChecker : Kia Sportage QL 1.6 GDi",
+     "url": "https://www.carchecker.pro/reports/kia_sportage_ql_1.6_gdi.html",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1342,11 +1433,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité Hyundai Tucson",
-     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-hyundai/fiabilite-528-pannes-hyundai-tucson.php",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Kia Sportage",
-     "url": "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-702-pannes-kia-sportage.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-kia/fiabilite-702-pannes-kia-sportage.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1383,7 +1476,8 @@
    "sources": [
     {
      "titre": "Car-recalls.eu : rappel Hyundai i20 2015-2020, durite de dépression",
-     "url": "https://car-recalls.eu/recall/hyundai-i20-2015-2020-vacuum-hose/amp/"
+     "url": "https://car-recalls.eu/recall/hyundai-i20-2015-2020-vacuum-hose/amp/",
+     "type": "article"
     }
    ]
   },
@@ -1414,15 +1508,18 @@
    "sources": [
     {
      "titre": "Fiches-auto : boîte 7G-DCT de Mercedes",
-     "url": "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1034-7g-dct-de-mercedes.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/boites-automatiques/s-1034-7g-dct-de-mercedes.php",
+     "type": "article"
     },
     {
      "titre": "Caradisiac : fiabilité du Mercedes GLA",
-     "url": "https://www.caradisiac.com/fiabilite-du-mercedes-gla-la-maxi-fiche-occasion-de-caradisiac-187066.htm"
+     "url": "https://www.caradisiac.com/fiabilite-du-mercedes-gla-la-maxi-fiche-occasion-de-caradisiac-187066.htm",
+     "type": "article"
     },
     {
      "titre": "Car Verif : Classe A W176 A200 CDI",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/mercedes-classe-a-w176-a200-cdi-2-1-136-om651"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/mercedes-classe-a-w176-a200-cdi-2-1-136-om651",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1454,11 +1551,13 @@
    "sources": [
     {
      "titre": "L'argus : Classe C, Classe E et GLK, ratés à l'allumage",
-     "url": "https://www.largus.fr/actualite-automobile/mercedes-classe-c-classe-e-et-glk-rates-a-l-allumage-165454.html"
+     "url": "https://www.largus.fr/actualite-automobile/mercedes-classe-c-classe-e-et-glk-rates-a-l-allumage-165454.html",
+     "type": "article"
     },
     {
      "titre": "AutoCopilot : Mercedes OM651",
-     "url": "https://autocopilot.fr/motorisations/mercedes-om651"
+     "url": "https://autocopilot.fr/motorisations/mercedes-om651",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1475,7 +1574,7 @@
    ],
    "km": [
     120000,
-    180000
+    260000
    ],
    "gravite": 3,
    "frequence": 2,
@@ -1486,11 +1585,17 @@
     2000,
     3500
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "AutoCopilot : Mercedes OM651",
-     "url": "https://autocopilot.fr/motorisations/mercedes-om651"
+     "url": "https://autocopilot.fr/motorisations/mercedes-om651",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : Classe C W204 C220 CDI",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/mercedes-classe-c-w204-c220-cdi-2-1-170-om651",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1524,11 +1629,13 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota C-HR I 2016-2023",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023",
+     "type": "article"
     },
     {
      "titre": "Car Verif : Toyota Auris II 2013-2018",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018",
+     "type": "article"
     }
    ]
   },
@@ -1564,7 +1671,8 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota C-HR I 2016-2023",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023",
+     "type": "article"
     }
    ]
   },
@@ -1600,7 +1708,8 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota C-HR I 2016-2023",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023",
+     "type": "article"
     }
    ]
   },
@@ -1636,7 +1745,8 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota Auris II 2013-2018",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018",
+     "type": "article"
     }
    ]
   },
@@ -1658,16 +1768,22 @@
    "frequence": 2,
    "symptomes": "Consommation d'huile pouvant dépasser 0,5 litre pour 1 000 km, niveau d'huile qui monte, FAP qui s'encrasse, défauts d'injecteurs jusqu'en mai 2015.",
    "controle": "Niveau d'huile (ni trop bas ni au-dessus du maximum), fumées, campagne de 2015 effectuée (intercooler, logiciel, turbo, pompe à vide).",
-   "solution": "Campagne Toyota sur les moteurs produits jusqu'en novembre 2014 ; sinon réparation selon le diagnostic.",
+   "solution": "Toyota remplace le turbo et/ou la pompe à vide par des pièces modifiées (montées en usine depuis juillet et octobre 2010), généralement sur réclamation ; campagne 2015 sur les moteurs produits jusqu'en novembre 2014.",
    "cout": [
     300,
     3000
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Car Verif : Toyota Auris II 2013-2018",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018",
+     "type": "article"
+    },
+    {
+     "titre": "L'argus : Toyota 1.4 D-4D, gourmand en huile",
+     "url": "https://www.largus.fr/actualite-automobile/toyota-14-d-4d-gourmand-en-huile-1136366.html",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1701,7 +1817,8 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota Auris II 2013-2018",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018",
+     "type": "article"
     }
    ]
   },
@@ -1732,7 +1849,8 @@
    "sources": [
     {
      "titre": "Car Verif : Toyota Auris II 2013-2018",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-auris-ii-2013-2018",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1758,11 +1876,17 @@
     150,
     300
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Car Verif : Toyota C-HR I 2016-2023",
-     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023"
+     "url": "https://carverif.fr/pages/modele-occasion/toyota-c-hr-i-2016-2023",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Toyota C-HR",
+     "url": "https://www.fiches-auto.fr/fiabilite-toyota/fiabilite-568-pannes-toyota-c-hr.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1794,7 +1918,8 @@
    "sources": [
     {
      "titre": "Au7o : problèmes connus de l'Opel Mokka",
-     "url": "https://au7o.io/known-issues/opel-mokka"
+     "url": "https://au7o.io/known-issues/opel-mokka",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1826,40 +1951,8 @@
    "sources": [
     {
      "titre": "Car Verif : Opel Mokka / Mokka X 2012-2019",
-     "url": "https://carverif.fr/pages/modele-occasion/opel-mokka-mokka-x-2012-2019"
-    }
-   ],
-   "rappel": false
-  },
-  {
-   "id": "cdti17-pompe-eau",
-   "titre": "Pompe à eau et courroie de distribution (1.7 CDTI)",
-   "moteurs": [
-    "cdti17"
-   ],
-   "annees": [
-    2012,
-    2015
-   ],
-   "km": [
-    80000,
-    200000
-   ],
-   "gravite": 3,
-   "frequence": 2,
-   "symptomes": "Suintement de liquide, bruit côté courroie, calage brutal. Si la pompe grippe, la courroie saute et la culasse est endommagée.",
-   "controle": "Facture de remplacement de la courroie avec la pompe à eau, traces de liquide.",
-   "solution": "Remplacer pompe à eau et courroie ensemble.",
-   "cout": [
-    2500,
-    4000
-   ],
-   "preventif": 900,
-   "confiance": "à confirmer",
-   "sources": [
-    {
-     "titre": "Au7o : problèmes connus de l'Opel Mokka",
-     "url": "https://au7o.io/known-issues/opel-mokka"
+     "url": "https://carverif.fr/pages/modele-occasion/opel-mokka-mokka-x-2012-2019",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1896,7 +1989,8 @@
    "sources": [
     {
      "titre": "Car Verif : Mini Cooper R56 2006-2013",
-     "url": "https://carverif.fr/pages/modele-occasion/mini-cooper-r56-2006-2013"
+     "url": "https://carverif.fr/pages/modele-occasion/mini-cooper-r56-2006-2013",
+     "type": "article"
     }
    ]
   },
@@ -1927,11 +2021,13 @@
    "sources": [
     {
      "titre": "WardsAuto : Honda étend la garantie pour la dilution d'huile du 1.5L",
-     "url": "https://www.wardsauto.com/news/archive-wards-honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem/793295/"
+     "url": "https://www.wardsauto.com/news/archive-wards-honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem/793295/",
+     "type": "article"
     },
     {
      "titre": "RPM Web : comment Honda a corrigé la dilution d'huile du 1.5T",
-     "url": "https://rpmweb.ca/actualites-et-chroniques/chroniques/question-du-jour/comment-honda-a-t-elle-corrige-le-probleme-de-dilution-dhuile-du-1-5t"
+     "url": "https://rpmweb.ca/actualites-et-chroniques/chroniques/question-du-jour/comment-honda-a-t-elle-corrige-le-probleme-de-dilution-dhuile-du-1-5t",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1963,11 +2059,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 2.2 Skyactiv-D",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php",
+     "type": "article"
     },
     {
      "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
-     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -1999,11 +2097,13 @@
    "sources": [
     {
      "titre": "Fiches-auto : fiabilité du 2.2 Skyactiv-D",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-3016-fiabilite-du-22-skyactiv-d-de-mazda.php",
+     "type": "article"
     },
     {
      "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
-     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2023,7 +2123,7 @@
     250000
    ],
    "gravite": 2,
-   "frequence": 2,
+   "frequence": 1,
    "symptomes": "Les régénérations fréquentes du FAP envoient du gazole dans l'huile : niveau au-dessus du repère « X », huile fluidifiée.",
    "controle": "Niveau d'huile sous le repère « X », usage du véhicule (petits trajets).",
    "solution": "Vidanges rapprochées, roulages réguliers sur voie rapide, nettoyage de l'admission vers 80 000 à 100 000 km.",
@@ -2031,11 +2131,17 @@
     100,
     500
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Autoscore : fiabilité du 2.2 Skyactiv-D",
-     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues"
+     "url": "https://autoscore.pro/posts/mazda-2.2-skyactiv-d-reliability-diesel-issues",
+     "type": "article"
+    },
+    {
+     "titre": "Mazdas247 (forum) : Oil rising continued",
+     "url": "https://mazdas247.com/forum/t/oil-rising-continued.123823413/",
+     "type": "forum"
     }
    ],
    "rappel": false
@@ -2074,11 +2180,13 @@
    "sources": [
     {
      "titre": "Car Verif : Suzuki Vitara IV 2015-2024",
-     "url": "https://carverif.fr/pages/modele-occasion/suzuki-vitara-iv-ly-2015-2024"
+     "url": "https://carverif.fr/pages/modele-occasion/suzuki-vitara-iv-ly-2015-2024",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Suzuki Vitara",
-     "url": "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-suzuki/fiabilite-533-pannes-suzuki-vitara.php",
+     "type": "article"
     }
    ]
   },
@@ -2109,11 +2217,13 @@
    "sources": [
     {
      "titre": "Honest John : Volkswagen reconnaît un problème sur le 1.5 TSI Evo",
-     "url": "https://www.dev.honestjohn.co.uk/news/owning-1/2019-01/volkswagen-acknowledges-problem-with-15-tsi-evo-engine"
+     "url": "https://www.dev.honestjohn.co.uk/news/owning-1/2019-01/volkswagen-acknowledges-problem-with-15-tsi-evo-engine",
+     "type": "article"
     },
     {
      "titre": "Au7o : problèmes connus du VW T-Roc",
-     "url": "https://au7o.io/fr/known-issues/volkswagen-t-roc"
+     "url": "https://au7o.io/fr/known-issues/volkswagen-t-roc",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2145,11 +2255,13 @@
    "sources": [
     {
      "titre": "ECU Testing : mécatronique DQ381",
-     "url": "https://ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems"
+     "url": "https://ecutesting.com/common-faults/volkswagen/dq381-mechatronic-causing-tiguan-dsg-gearbox-problems",
+     "type": "article"
     },
     {
      "titre": "Carwiki : problèmes des boîtes DSG",
-     "url": "https://carwiki.de/vw-DSG-probleme/"
+     "url": "https://carwiki.de/vw-DSG-probleme/",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2184,11 +2296,13 @@
    "sources": [
     {
      "titre": "L'argus : avis et fiabilité Renault Twingo III",
-     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Renault Twingo 3",
-     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2225,11 +2339,13 @@
    "sources": [
     {
      "titre": "L'argus : avis et fiabilité Renault Twingo III",
-     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Renault Twingo 3",
-     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php",
+     "type": "article"
     }
    ]
   },
@@ -2263,11 +2379,13 @@
    "sources": [
     {
      "titre": "L'argus : avis et fiabilité Renault Twingo III",
-     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Renault Twingo 3",
-     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-491-pannes-renault-twingo-3.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2302,7 +2420,8 @@
    "sources": [
     {
      "titre": "L'argus : avis et fiabilité Renault Twingo III",
-     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html"
+     "url": "https://www.largus.fr/guide-achat-occasion/renault/twingo/avis-fiabilite-renault-twingo-iii-c07-30039496.html",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2337,11 +2456,13 @@
    "sources": [
     {
      "titre": "Presse-citron : la Renault Zoé a un grave problème de charge",
-     "url": "https://www.presse-citron.net/la-renault-zoe-a-un-grave-probleme-de-charge-coutant-8-000-euros-de-reparation/"
+     "url": "https://www.presse-citron.net/la-renault-zoe-a-un-grave-probleme-de-charge-coutant-8-000-euros-de-reparation/",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : les voitures électriques les moins fiables",
-     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-electrique/s-3378-les-voitures-electriques-les-moins-fiables.php"
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite-electrique/s-3378-les-voitures-electriques-les-moins-fiables.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2376,7 +2497,8 @@
    "sources": [
     {
      "titre": "L'argus : la Dacia Spring rencontre des problèmes de rouille",
-     "url": "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html"
+     "url": "https://www.largus.fr/actualite-automobile/dacia-spring-la-citadine-electrique-rencontre-des-problemes-de-rouille-30039282.html",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2413,7 +2535,8 @@
    "sources": [
     {
      "titre": "Automobile Propre : Dacia Spring d'occasion, ce qu'il faut savoir",
-     "url": "https://www.automobile-propre.com/articles/dacia-spring-doccasion-tout-ce-quil-faut-savoir-avant-dacheter/"
+     "url": "https://www.automobile-propre.com/articles/dacia-spring-doccasion-tout-ce-quil-faut-savoir-avant-dacheter/",
+     "type": "article"
     }
    ]
   },
@@ -2444,7 +2567,13 @@
    "sources": [
     {
      "titre": "Car Verif : Nissan X-Trail III T32",
-     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021"
+     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : Nissan Qashqai J11 1.6 dCi 130",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/nissan-qashqai-j11-1-6-dci-130-chic-econome",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2472,11 +2601,22 @@
     300,
     4500
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Car Verif : Nissan X-Trail III T32",
-     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021"
+     "url": "https://carverif.fr/pages/modele-occasion/nissan-x-trail-iii-t32-2014-2021",
+     "type": "article"
+    },
+    {
+     "titre": "Honest John : Nissan X-Trail Xtronic",
+     "url": "https://www.dev.honestjohn.co.uk/askhj/answer/65120/nissan-x-trail-xtronic",
+     "type": "article"
+    },
+    {
+     "titre": "Car Verif : Nissan Qashqai J11 1.6 dCi 130",
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/nissan-qashqai-j11-1-6-dci-130-chic-econome",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2508,11 +2648,13 @@
    "sources": [
     {
      "titre": "Car Verif : Jeep Renegade I 2014-2024",
-     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024"
+     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024",
+     "type": "article"
     },
     {
      "titre": "Au7o : problèmes connus de la Fiat 500",
-     "url": "https://au7o.io/fr/known-issues/fiat-500"
+     "url": "https://au7o.io/fr/known-issues/fiat-500",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2547,7 +2689,8 @@
    "sources": [
     {
      "titre": "Guide Auto : problèmes de boîte de la Jeep Renegade",
-     "url": "https://www.guideautoweb.com/en/articles/29626/transmission-problems-for-the-jeep-renegade"
+     "url": "https://www.guideautoweb.com/en/articles/29626/transmission-problems-for-the-jeep-renegade",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2582,7 +2725,8 @@
    "sources": [
     {
      "titre": "Car Verif : Jeep Renegade I 2014-2024",
-     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024"
+     "url": "https://carverif.fr/pages/modele-occasion/jeep-renegade-i-2014-2024",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2614,11 +2758,13 @@
    "sources": [
     {
      "titre": "Car Verif : Volvo XC60 I D4 181",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Volvo V40",
-     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php",
+     "type": "article"
     }
    ],
    "rappel": false
@@ -2652,11 +2798,13 @@
    "sources": [
     {
      "titre": "Car Verif : Volvo XC60 I D4 181",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181",
+     "type": "article"
     },
     {
      "titre": "Fiches-auto : fiabilité Volvo V40",
-     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php"
+     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php",
+     "type": "article"
     }
    ]
   },
@@ -2678,19 +2826,134 @@
    "frequence": 2,
    "symptomes": "Perte de puissance, mode dégradé, voyant moteur, code P0401.",
    "controle": "Aucun voyant, essai sur route, extension de garantie Volvo appliquée.",
-   "solution": "Remplacement de la vanne. Volvo France a étendu la garantie EGR en novembre 2020.",
+   "solution": "Remplacement de la vanne. Selon Car Verif, Volvo France a étendu la garantie EGR en novembre 2020 : à vérifier auprès du réseau.",
    "cout": [
     600,
     1500
    ],
-   "confiance": "à confirmer",
+   "confiance": "confirmé",
    "sources": [
     {
      "titre": "Car Verif : Volvo XC60 I D4 181",
-     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181"
+     "url": "https://carverif.fr/blogs/fiabilite-voitures/volvo-xc60-i-d4-181",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité Volvo V40",
+     "url": "https://www.fiches-auto.fr/fiabilite-volvo/fiabilite-359-pannes-volvo-v40.php",
+     "type": "article"
     }
    ],
    "rappel": false
+  },
+  {
+   "id": "puretech-atmo-huile",
+   "titre": "Consommation d'huile (1.0 et 1.2 PureTech atmosphériques)",
+   "moteurs": [
+    "puretech-a"
+   ],
+   "annees": [
+    2012,
+    2020
+   ],
+   "km": [
+    40000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Consommation d'huile excessive, liée selon les cas au jeu du vilebrequin. Un rappel a visé une buse de refroidissement pouvant provoquer une casse du bas moteur sur la 82 ch. La destruction de courroie des versions turbo ne concerne pas ces moteurs.",
+   "controle": "Niveau d'huile à froid, historique des appoints, rappels effectués (vérification par le VIN).",
+   "solution": "Selon la consommation : remplacement du boîtier de sortie d'eau, du couvre-culasse ou du moteur par le réseau.",
+   "cout": [
+    200,
+    4000
+   ],
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "L'argus : moteurs PSA 1.0 et 1.2 PureTech, quelques soucis de fiabilité",
+     "url": "https://www.largus.fr/actualite-automobile/moteurs-psa-10-et-12-puretech-quelques-soucis-de-fiabilite-9090390.html",
+     "type": "article"
+    },
+    {
+     "titre": "Fiches-auto : fiabilité des 1.2 PureTech",
+     "url": "https://www.fiches-auto.fr/articles-auto/fiabilite/s-2279-fiabilite-du-12-puretech.php",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "twinair-huile",
+   "titre": "Consommation d'huile (0.9 TwinAir)",
+   "moteurs": [
+    "twinair"
+   ],
+   "annees": [
+    2010,
+    2024
+   ],
+   "km": [
+    40000,
+    200000
+   ],
+   "gravite": 2,
+   "frequence": 2,
+   "symptomes": "Consommation d'huile, suintements autour des conduites d'huile du turbo, sifflement.",
+   "controle": "Niveau d'huile, traces d'huile côté turbo, huile à la norme Fiat.",
+   "solution": "Appoints réguliers, remplacement des joints ou du turbo selon le diagnostic.",
+   "cout": [
+    200,
+    1200
+   ],
+   "rappel": false,
+   "confiance": "confirmé",
+   "sources": [
+    {
+     "titre": "Fiches-auto : fiabilité Fiat Panda",
+     "url": "https://www.fiches-auto.fr/fiabilite-fiat/fiabilite-351-pannes-fiat-panda.php",
+     "type": "article"
+    },
+    {
+     "titre": "Autoscore : 0.9 TwinAir",
+     "url": "https://autoscore.pro/engine/0.9-twinair",
+     "type": "article"
+    }
+   ]
+  },
+  {
+   "id": "r9m-carter-fuite",
+   "titre": "Fuite d'huile au carter de distribution (1.6 dCi 130)",
+   "moteurs": [
+    "r9m"
+   ],
+   "annees": [
+    2015,
+    2019
+   ],
+   "km": [
+    5000,
+    80000
+   ],
+   "gravite": 1,
+   "frequence": 2,
+   "symptomes": "Fuite d'huile au joint périphérique du carter de distribution, parfois dès quelques milliers de kilomètres (Kadjar, Mégane IV, Scénic IV).",
+   "controle": "Traces d'huile sous le moteur côté distribution.",
+   "solution": "Remplacement de l'étanchéité du carter ; participation Renault de 60 à 90 % hors garantie selon les témoignages.",
+   "cout": [
+    1500,
+    2600
+   ],
+   "rappel": false,
+   "confiance": "à confirmer",
+   "sources": [
+    {
+     "titre": "Planète Renault (forum) : fuite d'huile carter de distribution",
+     "url": "https://www.planeterenault.com/forum/kadjar-fuite-d-huile-carter-de-distribution-t49895.html?amp=1",
+     "type": "forum"
+    }
+   ]
   }
  ]
 }
